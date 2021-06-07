@@ -5,6 +5,7 @@ export const MainSection = styled.div `
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 1000px;
-    background-color: white;
+    height: 100vh;
+    background-color: black;
+    color: white;
 `;

@@ -1,12 +1,11 @@
 import React from "react";
+import section1 from './pages/section1';
 import GlobalStyle from './Components/GlobalStyle/GlobalStyle';
-import { MainSection } from '../src/pages/Uno';
-
-const App = () =>  {
+function App() {
   return (
     <>
       <GlobalStyle/>
-      <MainSection/>
+      <section1/>
     </>
   );
 }
