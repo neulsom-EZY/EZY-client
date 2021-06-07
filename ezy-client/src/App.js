@@ -1,13 +1,21 @@
 import React from "react";
-import section1 from './pages/section1';
-import GlobalStyle from './Components/GlobalStyle/GlobalStyle';
-function App() {
+import { createGlobalStyle } from "styled-components";
+import Section1 from "./Components/Section1/Section1";
+
+const GlobalStyle = createGlobalStyle`
+    body {
+        margin: 0;
+        padding: 0;
+    }
+`;
+
+const App = () => {
   return (
     <>
-      <GlobalStyle/>
-      <section1/>
+      <GlobalStyle />
+      <Section1 />
     </>
   );
-}
+};
 
 export default App;
