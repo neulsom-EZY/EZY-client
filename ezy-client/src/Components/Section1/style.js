@@ -6,6 +6,6 @@ export const MainSection = styled.div `
     align-items: center;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    /* background-color: #6B40FF; */
     color: white;
 `;
