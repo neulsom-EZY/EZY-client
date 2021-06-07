@@ -1,10 +1,11 @@
 import React from "react";
+import GlobalStyle from './Components/GlobalStyle/GlobalStyle';
 
 function App() {
   return (
-    <div>
-        EZY-client
-    </div>
+    <>
+      <GlobalStyle/>
+    </>
   );
 }
 
