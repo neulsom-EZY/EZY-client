@@ -1,10 +1,12 @@
 import React from "react";
 import GlobalStyle from './Components/GlobalStyle/GlobalStyle';
+import { MainSection } from '../src/pages/Uno';
 
-function App() {
+const App = () =>  {
   return (
     <>
       <GlobalStyle/>
+      <MainSection/>
     </>
   );
 }
