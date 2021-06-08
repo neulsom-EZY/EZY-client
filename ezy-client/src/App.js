@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
         padding: 0;
         background-image: url(${bg01});
         background-repeat: no-repeat;
-        background-size: 100% 100vh;
         background-color: #ab92ff;
     }
 `;
