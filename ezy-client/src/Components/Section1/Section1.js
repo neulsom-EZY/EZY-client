@@ -8,7 +8,7 @@ const Section1 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.MainTitle>
-            EZY
+            EZY - Client
             <S.SubTitle>EZY는 자기 자신만의 라이프 스타일 역사를 쓰고 있습니다 😎</S.SubTitle>  
           </S.MainTitle>
         </S.TitleSection>
