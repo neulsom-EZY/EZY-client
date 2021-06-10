@@ -11,6 +11,45 @@ export const MainBg = styled.div `
         width: 110vh;
         height: 100vh;
     }
+    .Bg02 {
+        display: none;
+    }
+    .Bg03 {
+            display: none;
+    }
+
+    @media only screen and (max-width: 1600px) {
+        .Bg01 {
+            display: none;
+        }
+        .Bg02 {
+            display: block;
+            width: 85vh;
+            height: 100vh;
+        }
+    }
+
+    @media only screen and (max-width: 1400px) {
+        .Bg02 {
+            width: 85vh;
+            height: 100vh;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .Bg02 {
+            display: none;
+        }
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 80vh;
+            margin-top: 10vh;
+            margin-right: 3vh;
+        }
+    }
 `;
 
 export const TitleSection = styled.div `
@@ -19,6 +58,7 @@ export const TitleSection = styled.div `
     color: white;
     display:flex;
 `;
+
 export const MainTitle = styled.div `
     width: 100%;
     display: flex;
@@ -30,6 +70,10 @@ export const MainTitle = styled.div `
     font-weight: 500;
 
 .text-box{
+    @media only screen and (max-width: 1200px) {
+        font-size: 20px;
+        font-weight: bold;
+    }
     width: 100%;
 	display: flex;
     justify-content:center;
@@ -126,21 +170,6 @@ export const MainTitle = styled.div `
 		opacity: 0;
 	}
 }
-
-@keyframes slideColor{
-	0%{
-		background-color: #387780;
-	}
-	33%{
-		background-color: #3f88c5;
-	}
-	66%{
-		background-color: #588b8b;
-	}
-	100%{
-		background-color: #387780;
-	}
-}
 `;
 
 export const SubTitle = styled.div `
@@ -150,4 +179,5 @@ export const SubTitle = styled.div `
     align-items: center;
     justify-content: center;
     margin-top: 5vh;
+    font-weight: 400;
 `;
