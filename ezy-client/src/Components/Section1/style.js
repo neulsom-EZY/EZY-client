@@ -25,15 +25,15 @@ export const MainBg = styled.div `
         }
         .Bg02 {
             display: block;
-            width: 85vh;
-            height: 100vh;
+            width: 80vh;
+            margin-top: -40vh;
         }
     }
 
     @media only screen and (max-width: 1400px) {
         .Bg02 {
-            width: 85vh;
-            height: 100vh;
+            width: 80vh;
+            margin-top: -40vh;
             font-size: 20px;
             font-weight: bold;
         }
