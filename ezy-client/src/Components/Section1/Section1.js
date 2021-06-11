@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
-import Bg01 from '../../Assets/bg01.png';
-import Bg02 from '../../Assets/bg02.png';
+import Bg01 from '../../Assets/bg01-full.png';
+import Bg02 from '../../Assets/bg02-full.png';
 import Bg03 from '../../Assets/bg03.png';
 
 const Section1 = () => {

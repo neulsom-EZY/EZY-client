@@ -9,7 +9,6 @@ const GlobalStyle = createGlobalStyle`
         height: 100vh;
         background-color: #ab92ff;
       }
-
 `;
 
 const App = () => {

@@ -1,18 +1,16 @@
 import styled from 'styled-components';
 
 export const MainSection = styled.div `
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     z-index: 1;
 `;
 
 export const MainBg = styled.div `
     .Bg01 {
-        width: 110vh;
-        height: 100vh;
-        display: flex;
-        align-items:center;
-        justify-content:center;
+        width: 130vh;
+        margin-right: -18vh;
+        margin-top: -30vh;
     }
     .Bg02 {
         display: none;
