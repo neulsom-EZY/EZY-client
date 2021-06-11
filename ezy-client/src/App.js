@@ -10,7 +10,6 @@ const GlobalStyle = createGlobalStyle`
         background-color: #ab92ff;
       }
 `;
-
 const App = () => {
   return (
     <>

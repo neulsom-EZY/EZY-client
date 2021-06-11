@@ -3,6 +3,7 @@ import * as S from "./style";
 import Bg01 from '../../Assets/bg01-full.png';
 import Bg02 from '../../Assets/bg02-full.png';
 import Bg03 from '../../Assets/bg03.png';
+// import CR from '../../Assets/copyright.png';
 
 const Section1 = () => {
   return(
@@ -23,6 +24,7 @@ const Section1 = () => {
         <img className="Bg01" src={Bg01}/>
         <img className="Bg02" src={Bg02}/>
         <img className="Bg03" src={Bg03}/>
+        {/* <img className="CR" src={CR}/> */}
         </S.MainBg>
       </S.MainSection>
     </>

@@ -5,7 +5,6 @@ export const MainSection = styled.div `
     display: flex;
     z-index: 1;
 `;
-
 export const MainBg = styled.div `
     .Bg01 {
         width: 130vh;
@@ -16,9 +15,8 @@ export const MainBg = styled.div `
         display: none;
     }
     .Bg03 {
-            display: none;
+        display: none;
     }
-
     @media only screen and (max-width: 1600px) {
         .Bg01 {
             display: none;
@@ -29,7 +27,6 @@ export const MainBg = styled.div `
             margin-top: -40vh;
         }
     }
-
     @media only screen and (max-width: 1400px) {
         .Bg02 {
             width: 80vh;
@@ -38,7 +35,6 @@ export const MainBg = styled.div `
             font-weight: bold;
         }
     }
-
     @media only screen and (max-width: 1150px) {
         .Bg02 {
             display: none;
@@ -51,15 +47,36 @@ export const MainBg = styled.div `
             margin-right: 3vh;
         }
     }
+    @media only screen and (max-width: 800px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 70vh;
+            margin-top: 15vh;
+            margin-right: 3vh;
+        }
+    }
+    @media only screen and (max-width: 750px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 65vh;
+            margin-top: 20vh;
+            margin-right: 3vh;
+        }
+    }
+    @media only screen and (max-width: 680px) {
+        .Bg03 {
+            display: none;
+        }
+    }
 `;
-
 export const TitleSection = styled.div `
     width: 100%;
     height: 60vh;
     color: white;
     display:flex;
 `;
-
 export const MainTitle = styled.div `
     width: 100%;
     display: flex;
@@ -69,11 +86,16 @@ export const MainTitle = styled.div `
     font-size: 75px;
     margin-top: 40vh;
     font-weight: 500;
-
     .text-box{
-        @media only screen and (max-width: 1200px) {
+        @media only screen and (max-width: 890px) {
+            font-size: 23px;
+            font-weight: 600;
+        }
+        @media only screen and (max-width: 750px) {
             font-size: 20px;
-            font-weight: bold;
+        }
+        @media only screen and (max-width: 680px) {
+            font-weight: 600;
         }
         width: 100%;
         display: flex;
@@ -83,7 +105,6 @@ export const MainTitle = styled.div `
         margin-top:10vh;
         font-size: 25px;
     }
-
     .text-box div{
         display: inline-block;
         position: absolute;
@@ -93,19 +114,15 @@ export const MainTitle = styled.div `
         text-shadow: 0px 5px 5px rgba(0,0,0,.25);
         animation-timing-function: ease;
     }
-
     .text-box div:nth-child(1){
         animation: rollDown 10s forwards infinite;
     }
-
     .text-box div:nth-child(2){
         animation: rollDown2 10s forwards infinite;
     }
-
     .text-box div:nth-child(3){
         animation: rollDown3 10s forwards infinite;
     }
-
     @keyframes rollDown {
         0%{
             top: -200px;
@@ -127,7 +144,6 @@ export const MainTitle = styled.div `
             opacity: 0;
         }
     }
-
     @keyframes rollDown2 {
         33%{
             top: -200px;
@@ -149,7 +165,6 @@ export const MainTitle = styled.div `
             opacity: 0;
         }
     }
-
     @keyframes rollDown3 {
         66%{
             top: -200px;
@@ -172,13 +187,12 @@ export const MainTitle = styled.div `
         }
     }
 `;
-
 export const SubTitle = styled.div `
     width: 100%;
     display:flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
     margin-top: 5vh;
-    font-weight: 400;
+    font-weight: 500;
 `;
