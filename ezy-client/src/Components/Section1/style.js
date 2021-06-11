@@ -8,8 +8,8 @@ export const MainSection = styled.div `
 
 export const MainBg = styled.div `
     .Bg01 {
-        width: 100vh;
-        height: 90vh;
+        width: 110vh;
+        height: 100vh;
         display: flex;
         align-items:center;
         justify-content:center;
@@ -27,15 +27,15 @@ export const MainBg = styled.div `
         }
         .Bg02 {
             display: block;
-            width: 70vh;
-            height: 80vh;
+            width: 85vh;
+            height: 100vh;
         }
     }
 
     @media only screen and (max-width: 1400px) {
         .Bg02 {
-            width: 70vh;
-            height: 80vh;
+            width: 85vh;
+            height: 100vh;
             font-size: 20px;
             font-weight: bold;
         }
