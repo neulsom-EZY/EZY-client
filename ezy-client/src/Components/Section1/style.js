@@ -2,14 +2,16 @@ import styled from 'styled-components';
 
 export const MainSection = styled.div `
     width: 100%;
+    height: 100%;
     display: flex;
     z-index: 1;
+    position: fixed;
 `;
 export const MainBg = styled.div `
     .Bg01 {
         width: 130vh;
-        margin-right: -18vh;
         margin-top: -30vh;
+        margin-right: -18vh;
     }
     .Bg02 {
         display: none;
