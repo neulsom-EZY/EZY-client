@@ -4,6 +4,7 @@ import Bg01 from '../../Assets/bg01-full.png';
 import Bg02 from '../../Assets/bg02-full.png';
 import Bg03 from '../../Assets/bg03.png';
 import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
 
 const Section1 = () => {
   return(
@@ -22,9 +23,11 @@ const Section1 = () => {
           </S.MainTitle>
         </S.TitleSection>
         <S.MainBg>
+        <Fade right>
         <img className="Bg01" src={Bg01} alt="bg01"/>
         <img className="Bg02" src={Bg02} alt="bg02"/>
         <img className="Bg03" src={Bg03} alt="bg03"/>
+        </Fade>
         </S.MainBg>
       </S.MainSection>
     </>
