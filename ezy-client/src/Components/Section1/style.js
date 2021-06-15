@@ -35,7 +35,15 @@ export const MainBg = styled.div `
             font-weight: bold;
         }
     }
-    @media only screen and (max-width: 1150px) {
+    @media only screen and (max-width: 1200px) {
+        .Bg02 {
+            width: 75vh;
+            margin-top: -40vh;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    @media only screen and (max-width: 1180px) {
         .Bg02 {
             display: none;
         }
@@ -74,17 +82,16 @@ export const MainBg = styled.div `
 export const TitleSection = styled.div `
     width: 100%;
     height: 60vh;
-    color: white;
     display:flex;
 `;
 export const MainTitle = styled.div `
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: 75px;
+    align-items: center;
+    flex-direction: column;
     margin-top: 40vh;
+    font-size: 75px;
     font-weight: 500;
     .text-box{
         @media only screen and (max-width: 890px) {
