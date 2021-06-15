@@ -5,13 +5,11 @@ export const MainSection = styled.div `
     height: 100%;
     display: flex;
     z-index: 1;
-    position: fixed;
 `;
 export const MainBg = styled.div `
     .Bg01 {
-        width: 130vh;
+        width: 110vh;
         margin-top: -30vh;
-        margin-right: -18vh;
     }
     .Bg02 {
         display: none;
@@ -37,7 +35,15 @@ export const MainBg = styled.div `
             font-weight: bold;
         }
     }
-    @media only screen and (max-width: 1150px) {
+    @media only screen and (max-width: 1200px) {
+        .Bg02 {
+            width: 75vh;
+            margin-top: -40vh;
+            font-size: 20px;
+            font-weight: bold;
+        }
+    }
+    @media only screen and (max-width: 1180px) {
         .Bg02 {
             display: none;
         }
@@ -46,6 +52,15 @@ export const MainBg = styled.div `
             width: auto;
             height: 80vh;
             margin-top: 10vh;
+            margin-right: 3vh;
+        }
+    }
+    @media only screen and (max-width: 830px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 70vh;
+            margin-top: 17vh;
             margin-right: 3vh;
         }
     }
@@ -58,11 +73,20 @@ export const MainBg = styled.div `
             margin-right: 3vh;
         }
     }
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 770px) {
         .Bg03 {
             display: block;
             width: auto;
             height: 65vh;
+            margin-top: 20vh;
+            margin-right: 3vh;
+        }
+    }
+    @media only screen and (max-width: 760px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 64vh;
             margin-top: 20vh;
             margin-right: 3vh;
         }
@@ -76,25 +100,27 @@ export const MainBg = styled.div `
 export const TitleSection = styled.div `
     width: 100%;
     height: 60vh;
-    color: white;
     display:flex;
 `;
 export const MainTitle = styled.div `
     width: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    font-size: 75px;
+    align-items: center;
+    flex-direction: column;
     margin-top: 40vh;
+    font-size: 75px;
     font-weight: 500;
     .text-box{
         @media only screen and (max-width: 890px) {
             font-size: 23px;
             font-weight: 600;
         }
-        @media only screen and (max-width: 750px) {
-            font-size: 20px;
+        @media only screen and (max-width: 830px) {
+            font-size: 22px;
+        }
+        @media only screen and (max-width: 760px) {
+            font-size: 19px;
         }
         @media only screen and (max-width: 680px) {
             font-weight: 600;
