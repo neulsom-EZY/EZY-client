@@ -55,6 +55,15 @@ export const MainBg = styled.div `
             margin-right: 3vh;
         }
     }
+    @media only screen and (max-width: 830px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 70vh;
+            margin-top: 17vh;
+            margin-right: 3vh;
+        }
+    }
     @media only screen and (max-width: 800px) {
         .Bg03 {
             display: block;
@@ -64,11 +73,20 @@ export const MainBg = styled.div `
             margin-right: 3vh;
         }
     }
-    @media only screen and (max-width: 750px) {
+    @media only screen and (max-width: 770px) {
         .Bg03 {
             display: block;
             width: auto;
             height: 65vh;
+            margin-top: 20vh;
+            margin-right: 3vh;
+        }
+    }
+    @media only screen and (max-width: 760px) {
+        .Bg03 {
+            display: block;
+            width: auto;
+            height: 64vh;
             margin-top: 20vh;
             margin-right: 3vh;
         }
@@ -98,8 +116,11 @@ export const MainTitle = styled.div `
             font-size: 23px;
             font-weight: 600;
         }
-        @media only screen and (max-width: 750px) {
-            font-size: 20px;
+        @media only screen and (max-width: 830px) {
+            font-size: 22px;
+        }
+        @media only screen and (max-width: 760px) {
+            font-size: 19px;
         }
         @media only screen and (max-width: 680px) {
             font-weight: 600;
