@@ -125,6 +125,9 @@ export const MainTitle = styled.div `
         @media only screen and (max-width: 680px) {
             font-weight: 600;
         }
+        @media only screen and (max-width: 500px) {
+            font-size: 20px;
+        }
         width: 100%;
         display: flex;
         justify-content:center;
