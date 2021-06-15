@@ -5,13 +5,11 @@ export const MainSection = styled.div `
     height: 100%;
     display: flex;
     z-index: 1;
-    position: fixed;
 `;
 export const MainBg = styled.div `
     .Bg01 {
-        width: 130vh;
+        width: 110vh;
         margin-top: -30vh;
-        margin-right: -18vh;
     }
     .Bg02 {
         display: none;
