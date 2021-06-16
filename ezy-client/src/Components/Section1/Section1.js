@@ -5,8 +5,6 @@ import Bg02 from '../../Assets/bg02-full.png';
 import Bg03 from '../../Assets/bg03.png';
 import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
-import jquery from './Jquery';
-
 
 const Section1 = () => {
   return(
@@ -24,8 +22,7 @@ const Section1 = () => {
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
-        <jquery/>
-        <S.MainBg className="fade">
+        <S.MainBg>
         <Fade right>
           <img className="Bg01" src={Bg01} alt="bg01"/>
           <img className="Bg02" src={Bg02} alt="bg02"/>
@@ -36,5 +33,6 @@ const Section1 = () => {
     </>
   );
 };
+
 
 export default Section1;
