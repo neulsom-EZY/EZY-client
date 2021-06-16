@@ -220,9 +220,6 @@ export const MainTitle = styled.div `
 export const SubTitle = styled.div `
     width: 100%;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 6vh;
     font-weight: 500;
 `;
