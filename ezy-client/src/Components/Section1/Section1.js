@@ -3,13 +3,17 @@ import * as S from "./style";
 import Bg01 from '../../Assets/bg01-full.png';
 import Bg02 from '../../Assets/bg02-full.png';
 import Bg03 from '../../Assets/bg03.png';
+import Zoom from 'react-reveal/Zoom';
+import Fade from 'react-reveal/Fade';
+import jquery from './Jquery';
 
 const Section1 = () => {
   return(
     <>
       <S.MainSection>
         <S.TitleSection>
-          <S.MainTitle className="slider">EZY
+          <S.MainTitle className="slider">
+          <Zoom>EZY</Zoom>
             <S.SubTitle>
 		          <div className="text-box">
 			          <div>자신만의 라이프스타일 역사를 쓰고 있습니다.</div>
@@ -19,10 +23,13 @@ const Section1 = () => {
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
-        <S.MainBg>
-        <img className="Bg01" src={Bg01} alt="bg01"/>
-        <img className="Bg02" src={Bg02} alt="bg02"/>
-        <img className="Bg03" src={Bg03} alt="bg03"/>
+        <jquery/>
+        <S.MainBg className="fade">
+        <Fade right>
+          <img className="Bg01" src={Bg01} alt="bg01"/>
+          <img className="Bg02" src={Bg02} alt="bg02"/>
+          <img className="Bg03" src={Bg03} alt="bg03"/>
+        </Fade>
         </S.MainBg>
       </S.MainSection>
     </>

@@ -101,14 +101,13 @@ export const TitleSection = styled.div `
     width: 100%;
     height: 60vh;
     display:flex;
+    justify-content: center;
+    align-items: center;
 `;
 export const MainTitle = styled.div `
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin-top: 40vh;
+    text-align: center;
     font-size: 75px;
     font-weight: 500;
     .text-box{
@@ -124,6 +123,9 @@ export const MainTitle = styled.div `
         }
         @media only screen and (max-width: 680px) {
             font-weight: 600;
+        }
+        @media only screen and (max-width: 500px) {
+            font-size: 20px;
         }
         width: 100%;
         display: flex;
@@ -218,9 +220,6 @@ export const MainTitle = styled.div `
 export const SubTitle = styled.div `
     width: 100%;
     display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 5vh;
+    margin-top: 6vh;
     font-weight: 500;
 `;

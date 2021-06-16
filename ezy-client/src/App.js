@@ -15,7 +15,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <FullPage duration={1500}>
+      <FullPage duration={1200}>
         <Slide><Section1/></Slide>
         <Slide><Section2/></Slide>
       </FullPage>
