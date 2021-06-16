@@ -101,14 +101,13 @@ export const TitleSection = styled.div `
     width: 100%;
     height: 60vh;
     display:flex;
+    justify-content: center;
+    align-items: center;
 `;
 export const MainTitle = styled.div `
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     margin-top: 40vh;
+    text-align: center;
     font-size: 75px;
     font-weight: 500;
     .text-box{
