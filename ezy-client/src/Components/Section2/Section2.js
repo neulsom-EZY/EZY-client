@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from "./style";
 import Bg11 from '../../Assets/bg11.png'
-import jquery from './Jquery';
+import jquery from '../Section1/Jquery';
 
 const Section2 = () =>  {
   return (
