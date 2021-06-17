@@ -114,7 +114,6 @@ export const MainTitle = styled.div `
     .text-box{
         @media only screen and (max-width: 890px) {
             font-size: 23px;
-            font-weight: 600;
         }
         @media only screen and (max-width: 830px) {
             font-size: 22px;
@@ -123,10 +122,7 @@ export const MainTitle = styled.div `
             font-size: 19px;
         }
         @media only screen and (max-width: 680px) {
-            font-weight: 600;
-        }
-        @media only screen and (max-width: 500px) {
-            font-size: 20px;
+            font-size: 21px;
         }
         width: 100%;
         display: flex;

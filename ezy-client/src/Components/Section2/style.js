@@ -29,7 +29,7 @@ export const SubTitle = styled.div`
 `;
 export const MainBg = styled.div`
     .Bg11 {
-        width: 65%;
+        width: 60%;
         margin-left: 20vh;
     }
 `;

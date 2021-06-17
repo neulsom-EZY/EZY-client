@@ -13,7 +13,7 @@ const Section2 = () =>  {
         </S.MainBg>
         <S.TitleSection>
           <S.MainTitle>
-            여기에 무엇을 넣을까요
+            처음 뵙겠습니다
           </S.MainTitle>
         </S.TitleSection>
       </S.MainSection>
