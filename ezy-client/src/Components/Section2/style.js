@@ -14,12 +14,14 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    margin-top: 40vh;
-    font-size: 75px;
-    font-weight: 500;
+    text-align: center;
+    font-size: 35px;
+    font-weight: lighter;
+    text-shadow: 0px 5px 5px rgba(0,0,0,.25);
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -28,6 +30,7 @@ export const SubTitle = styled.div`
 `;
 export const MainBg = styled.div`
     .Bg11 {
-        width: 45%;
+        width: 60%;
+        margin-left: 20vh;
     }
 `;

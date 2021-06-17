@@ -103,17 +103,17 @@ export const TitleSection = styled.div `
     display:flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
 `;
 export const MainTitle = styled.div `
     width: 100%;
     margin-top: 40vh;
     text-align: center;
     font-size: 75px;
-    font-weight: 500;
+    font-weight: 400;
     .text-box{
         @media only screen and (max-width: 890px) {
             font-size: 23px;
-            font-weight: 600;
         }
         @media only screen and (max-width: 830px) {
             font-size: 22px;
@@ -122,10 +122,7 @@ export const MainTitle = styled.div `
             font-size: 19px;
         }
         @media only screen and (max-width: 680px) {
-            font-weight: 600;
-        }
-        @media only screen and (max-width: 500px) {
-            font-size: 20px;
+            font-size: 21px;
         }
         width: 100%;
         display: flex;
@@ -221,5 +218,5 @@ export const SubTitle = styled.div `
     width: 100%;
     display:flex;
     margin-top: 6vh;
-    font-weight: 500;
+    font-weight: lighter;
 `;

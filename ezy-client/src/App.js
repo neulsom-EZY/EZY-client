@@ -5,7 +5,9 @@ import Section2 from "./Components/Section2/Section2";
 import { FullPage, Slide } from 'react-full-page';
 
 const GlobalStyle = createGlobalStyle`
-  body { 
+  body {
+        margin: 0;
+        padding: 0;
         color: white;
         background-color: #ab92ff;
     }
