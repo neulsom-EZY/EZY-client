@@ -36,7 +36,7 @@ export const SubTitle = styled.div`
 `;
 export const MainBg = styled.div`
     .Bg11 {
-        width: 80vh;
+        width: 75vh;
         margin-left: 25vh;
     } 
     @media only screen and (max-width: 1400px) {
