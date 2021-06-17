@@ -22,6 +22,12 @@ export const MainTitle = styled.div`
     font-size: 30px;
     font-weight: lighter;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+    @media only screen and (max-width: 1100px) {
+        font-size: 27px;
+    }
+    @media only screen and (max-width: 920px) {
+        font-size: 25px;
+    } 
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -29,9 +35,28 @@ export const SubTitle = styled.div`
     justify-content: center;
 `;
 export const MainBg = styled.div`
-    width: 85%;
     .Bg11 {
-        width: 80%;
+        width: 80vh;
         margin-left: 25vh;
+    } 
+    @media only screen and (max-width: 1400px) {
+        .Bg11 {
+            width: 70vh;
+        }
     }
+    @media only screen and (max-width: 1300px) {
+        .Bg11 {
+            margin-left: -1px;
+        }
+    }
+    @media only screen and (max-width: 1100px) {
+        .Bg11 {
+            width: 60vh;
+        }
+    }
+    @media only screen and (max-width: 920px) {
+        .Bg11 {
+            width: 55vh;
+        }
+    } 
 `;
