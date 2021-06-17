@@ -19,7 +19,7 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: lighter;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
 `;
@@ -29,8 +29,9 @@ export const SubTitle = styled.div`
     justify-content: center;
 `;
 export const MainBg = styled.div`
+    width: 85%;
     .Bg11 {
-        width: 60%;
-        margin-left: 20vh;
+        width: 80%;
+        margin-left: 25vh;
     }
 `;
