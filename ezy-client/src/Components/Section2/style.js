@@ -14,6 +14,7 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Noto Sans KR', sans-serif;
 `;
 export const MainTitle = styled.div`
     width: 100%;
