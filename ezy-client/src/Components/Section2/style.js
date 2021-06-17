@@ -21,6 +21,7 @@ export const MainTitle = styled.div`
     text-align: center;
     font-size: 35px;
     font-weight: lighter;
+    text-shadow: 0px 5px 5px rgba(0,0,0,.25);
 `;
 export const SubTitle = styled.div`
     width: 100%;
