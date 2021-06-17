@@ -222,5 +222,5 @@ export const SubTitle = styled.div `
     width: 100%;
     display:flex;
     margin-top: 6vh;
-    font-weight: 500;
+    font-weight: lighter;
 `;

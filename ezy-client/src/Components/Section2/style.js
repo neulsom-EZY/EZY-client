@@ -20,7 +20,7 @@ export const MainTitle = styled.div`
     width: 100%;
     text-align: center;
     font-size: 35px;
-    font-weight: 500;
+    font-weight: lighter;
 `;
 export const SubTitle = styled.div`
     width: 100%;
