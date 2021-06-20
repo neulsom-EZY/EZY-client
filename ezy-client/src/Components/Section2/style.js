@@ -27,7 +27,10 @@ export const MainTitle = styled.div`
     }
     @media only screen and (max-width: 920px) {
         font-size: 25px;
-    } 
+    }
+    @media only screen and (max-width: 770px) {
+        font-size: 24px;
+    }
 `;
 export const MainBg = styled.div`
     .Bg11 {width: 75vh;margin-left: 25vh;}
@@ -66,6 +69,16 @@ export const MainBg = styled.div`
     @media only screen and (max-width: 770px) {
         .Bg12 {
             width: 33vh;
+        }
+    }
+    @media only screen and (max-width: 715px) {
+        .Bg12 {
+            margin-left: 5vh;
+        }
+    }
+    @media only screen and (max-width: 680px) {
+        .Bg12 {
+            display: none;
         }
     }
 `;
