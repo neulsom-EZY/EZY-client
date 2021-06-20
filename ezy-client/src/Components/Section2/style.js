@@ -29,16 +29,10 @@ export const MainTitle = styled.div`
         font-size: 25px;
     } 
 `;
-export const SubTitle = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-`;
 export const MainBg = styled.div`
-    .Bg11 {
-        width: 75vh;
-        margin-left: 25vh;
-    } 
+    .Bg11 {width: 75vh;margin-left: 25vh;}
+    .Bg12 {display: none;}
+
     @media only screen and (max-width: 1400px) {
         .Bg11 {
             width: 70vh;
@@ -58,5 +52,20 @@ export const MainBg = styled.div`
         .Bg11 {
             width: 55vh;
         }
-    } 
+    }
+    @media only screen and (max-width: 900px) {
+        .Bg11 {
+            display: none;
+        }
+        .Bg12 {
+            width: 35vh;
+            display: block;
+            margin-left: 11vh;
+        }
+    }
+    @media only screen and (max-width: 770px) {
+        .Bg12 {
+            width: 33vh;
+        }
+    }
 `;
