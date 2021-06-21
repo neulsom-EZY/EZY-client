@@ -57,7 +57,6 @@ export const MainBg = styled.div `
     }
     @media only screen and (max-width: 830px) {
         .Bg03 {
-            display: block;
             width: auto;
             height: 70vh;
             margin-top: 17vh;
@@ -66,7 +65,6 @@ export const MainBg = styled.div `
     }
     @media only screen and (max-width: 800px) {
         .Bg03 {
-            display: block;
             width: auto;
             height: 70vh;
             margin-top: 15vh;
@@ -75,7 +73,6 @@ export const MainBg = styled.div `
     }
     @media only screen and (max-width: 770px) {
         .Bg03 {
-            display: block;
             width: auto;
             height: 65vh;
             margin-top: 20vh;
@@ -84,7 +81,6 @@ export const MainBg = styled.div `
     }
     @media only screen and (max-width: 760px) {
         .Bg03 {
-            display: block;
             width: auto;
             height: 64vh;
             margin-top: 20vh;

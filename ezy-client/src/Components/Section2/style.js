@@ -22,11 +22,11 @@ export const MainTitle = styled.div`
     font-size: 30px;
     font-weight: lighter;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-    @media only screen and (max-width: 1100px) {
-        font-size: 27px;
+    @media only screen and (max-width: 1500px) {
+        margin-left: -9vh;
     }
-    @media only screen and (max-width: 950px) {
-        margin-left: -6vh;
+    @media only screen and (max-width: 1180px) {
+        margin-left: 5vh;
     }
     @media only screen and (max-width: 935px) {
         font-size: 25px;
@@ -42,59 +42,29 @@ export const MainBg = styled.div`
     .Bg11 {width: 75vh;margin-left: 25vh;}
     .Bg12 {display: none;}
 
-    @media only screen and (max-width: 1400px) {
+    @media only screen and (max-width: 1500px) {
         .Bg11 {
-            width: 70vh;
+            margin-left: 18vh;
         }
     }
     @media only screen and (max-width: 1300px) {
         .Bg11 {
-            margin-left: -1px;
+            margin-left: 9vh;
         }
     }
-    @media only screen and (max-width: 1100px) {
-        .Bg11 {
-            width: 60vh;
-        }
-    }
-    @media only screen and (max-width: 920px) {
-        .Bg11 {
-            width: 55vh;
-        }
-    }
-    @media only screen and (max-width: 900px) {
+    @media only screen and (max-width: 1180px) {
         .Bg11 {
             display: none;
         }
         .Bg12 {
-            width: 35vh;
             display: block;
-            margin-left: 11vh;
-        }
-    }
-    @media only screen and (max-width: 800px) {
-        .Bg12 {
+            width: 40vh;
             margin-left: 4vh;
         }
     }
-    @media only screen and (max-width: 770px) {
+    @media only screen and (max-width: 790px) {
         .Bg12 {
-            width: 33vh;
-        }
-    }
-    @media only screen and (max-width: 720px) {
-        .Bg12 {
-            margin-left: 3vh;
-        }
-    }
-    @media only screen and (max-width: 690px) {
-        .Bg12 {
-            width: 31vh;
-        }
-    }
-    @media only screen and (max-width: 680px) {
-        .Bg12 {
-            display: none;
+            width: 36vh;
         }
     }
 `;
