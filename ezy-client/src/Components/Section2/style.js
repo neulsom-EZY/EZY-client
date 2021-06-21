@@ -25,8 +25,14 @@ export const MainTitle = styled.div`
     @media only screen and (max-width: 1100px) {
         font-size: 27px;
     }
-    @media only screen and (max-width: 920px) {
+    @media only screen and (max-width: 950px) {
+        margin-left: -6vh;
+    }
+    @media only screen and (max-width: 935px) {
         font-size: 25px;
+    }
+    @media only screen and (max-width: 900px) {
+        margin-left: 1vh;
     }
     @media only screen and (max-width: 770px) {
         font-size: 24px;
@@ -66,14 +72,24 @@ export const MainBg = styled.div`
             margin-left: 11vh;
         }
     }
+    @media only screen and (max-width: 800px) {
+        .Bg12 {
+            margin-left: 4vh;
+        }
+    }
     @media only screen and (max-width: 770px) {
         .Bg12 {
             width: 33vh;
         }
     }
-    @media only screen and (max-width: 715px) {
+    @media only screen and (max-width: 720px) {
         .Bg12 {
-            margin-left: 5vh;
+            margin-left: 3vh;
+        }
+    }
+    @media only screen and (max-width: 690px) {
+        .Bg12 {
+            width: 31vh;
         }
     }
     @media only screen and (max-width: 680px) {

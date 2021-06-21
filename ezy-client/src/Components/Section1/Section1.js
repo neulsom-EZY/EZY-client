@@ -25,11 +25,11 @@ const Section1 = () => {
         </S.TitleSection>
         <jquery/>
         <S.MainBg className="fade">
-        <Fade right>
-          <img className="Bg01" src={Bg01} alt="bg01"/>
-          <img className="Bg02" src={Bg02} alt="bg02"/>
-          <img className="Bg03" src={Bg03} alt="bg03"/>
-        </Fade>
+          <Fade right>
+            <img className="Bg01" src={Bg01} alt="bg01"/>
+            <img className="Bg02" src={Bg02} alt="bg02"/>
+            <img className="Bg03" src={Bg03} alt="bg03"/>
+          </Fade>
         </S.MainBg>
       </S.MainSection>
     </>
