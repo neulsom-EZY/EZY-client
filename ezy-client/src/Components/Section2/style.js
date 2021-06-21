@@ -19,7 +19,8 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     text-align: center;
-    font-size: 30px;
+    margin-left: -10vh;
+    font-size: 32px;
     font-weight: lighter;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
     @media only screen and (max-width: 1500px) {
@@ -29,13 +30,16 @@ export const MainTitle = styled.div`
         margin-left: 5vh;
     }
     @media only screen and (max-width: 935px) {
-        font-size: 25px;
+        font-size: 28px;
     }
     @media only screen and (max-width: 900px) {
         margin-left: 1vh;
     }
     @media only screen and (max-width: 770px) {
         font-size: 24px;
+    }
+    @media only screen and (max-width: 680px) {
+        font-size: 28px;
     }
 `;
 export const MainBg = styled.div`
@@ -62,9 +66,29 @@ export const MainBg = styled.div`
             margin-left: 4vh;
         }
     }
+    @media only screen and (max-width: 935px) {
+        .Bg12 {
+            width: 37vh;
+        }
+    }
     @media only screen and (max-width: 790px) {
         .Bg12 {
-            width: 36vh;
+            width: 35vh;
+        }
+    }
+    @media only screen and (max-width: 770px) {
+        .Bg12 {
+            width: 33vh;
+        }
+    }
+    @media only screen and (max-width: 700px) {
+        .Bg12 {
+            width: 30vh;
+        }
+    }
+    @media only screen and (max-width: 680px) {
+        .Bg12 {
+            display: none;
         }
     }
 `;

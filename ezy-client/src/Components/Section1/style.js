@@ -31,16 +31,12 @@ export const MainBg = styled.div `
         .Bg02 {
             width: 80vh;
             margin-top: -40vh;
-            font-size: 20px;
-            font-weight: bold;
         }
     }
     @media only screen and (max-width: 1200px) {
         .Bg02 {
             width: 75vh;
             margin-top: -40vh;
-            font-size: 20px;
-            font-weight: bold;
         }
     }
     @media only screen and (max-width: 1180px) {
@@ -108,6 +104,9 @@ export const MainTitle = styled.div `
     font-size: 75px;
     font-weight: 400;
     .text-box{
+        @media only screen and (max-width: 1300px) {
+            font-size: 25px;
+        }
         @media only screen and (max-width: 890px) {
             font-size: 23px;
         }
@@ -126,7 +125,7 @@ export const MainTitle = styled.div `
         align-items:center;
         position: relative;
         margin-top:10vh;
-        font-size: 25px;
+        font-size: 28px;
     }
     .text-box div{
         display: inline-block;
