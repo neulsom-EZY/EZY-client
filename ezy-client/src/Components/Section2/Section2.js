@@ -12,7 +12,7 @@ const Section2 = () =>  {
       <S.MainSection>
         <jquery/>
         <S.MainBg className="fade">
-          <Fade right>
+          <Fade top>
             <img className="Bg11" src={Bg11} alt="bg11"/>
             <img className="Bg12" src={Bg12} alt="bg12"/>
           </Fade>
