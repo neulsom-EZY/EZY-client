@@ -19,9 +19,9 @@ const Section2 = () =>  {
         </S.MainBg>
         <S.TitleSection>
           <S.MainTitle>
-            <Zoom>"소중한 시간을 계획적으로 쓰고싶다면"</Zoom>
+            <Fade top>"소중한 시간을 계획적으로 쓰고싶다면"</Fade>
               <S.SubTitle>
-                가나다라마바사아자차카타파하
+                <Fade top>가나다라마바사아자차카타파하</Fade>
               </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
