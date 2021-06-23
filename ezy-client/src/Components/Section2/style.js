@@ -79,7 +79,8 @@ export const MainBg = styled.div`
     }
     @media only screen and (max-width: 770px) {
         .Bg12 {
-            width: 33vh;
+            width: 31vh;
+            height: 58vh;
         }
     }
     @media only screen and (max-width: 700px) {
