@@ -2,7 +2,6 @@ import React from 'react';
 import * as S from "./style";
 import Bg11 from '../../Assets/bg11.png';
 import Bg12 from '../../Assets/bg12.png';
-import Zoom from 'react-reveal/Zoom';
 import Fade from 'react-reveal/Fade';
 import jquery from '../Section1/Jquery';
 
@@ -19,9 +18,9 @@ const Section2 = () =>  {
         </S.MainBg>
         <S.TitleSection>
           <S.MainTitle>
-            <Fade top>"소중한 시간을 계획적으로 쓰고싶다면"</Fade>
+            "소중한 시간을 계획적으로 쓰고싶다면"
               <S.SubTitle>
-                <Fade top>
+                <Fade right>
                   우리는 EZY입니다 🙋‍♀️<br/>
                   오직 여러분만을 위한 개인 맞춤형 일정관리 서비스로<br/>
                   효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
