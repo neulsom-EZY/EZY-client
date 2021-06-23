@@ -62,7 +62,8 @@ export const MainBg = styled.div`
         }
         .Bg12 {
             display: block;
-            width: 40vh;
+            width: 39vh;
+            height: 74vh;
             margin-left: 4vh;
         }
     }
