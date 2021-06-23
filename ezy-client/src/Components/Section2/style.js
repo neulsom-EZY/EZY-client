@@ -18,11 +18,13 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
+    color: black;
     text-align: center;
     margin-left: -10vh;
     font-size: 32px;
-    font-weight: lighter;
+    font-weight: bolder;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+
     @media only screen and (max-width: 1500px) {
         margin-left: -9vh;
     }
@@ -44,7 +46,11 @@ export const MainTitle = styled.div`
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 6vh;
+    margin-top: 11vh;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    text-shadow: 0px 5px 5px rgba(0,0,0,.25);
 `;
 export const MainBg = styled.div`
     .Bg11 {width: 75vh;margin-left: 25vh;}
@@ -97,4 +103,7 @@ export const MainBg = styled.div`
             display: none;
         }
     }
+`;
+export const SelectText = styled.div`
+    color: black;
 `;

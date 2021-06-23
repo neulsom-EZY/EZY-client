@@ -21,7 +21,11 @@ const Section2 = () =>  {
           <S.MainTitle>
             <Fade top>"소중한 시간을 계획적으로 쓰고싶다면"</Fade>
               <S.SubTitle>
-                <Fade top>가나다라마바사아자차카타파하</Fade>
+                <Fade top>
+                  우리는 EZY입니다 🙋‍♀️<br/>
+                  오직 여러분만을 위한 개인 맞춤형 일정관리 서비스로<br/>
+                  효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
+                </Fade>
               </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
