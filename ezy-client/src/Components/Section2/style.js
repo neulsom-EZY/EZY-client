@@ -42,6 +42,10 @@ export const MainTitle = styled.div`
         font-size: 28px;
     }
 `;
+export const SubTitle = styled.div`
+    width: 100%;
+    margin-top: 6vh;
+`;
 export const MainBg = styled.div`
     .Bg11 {width: 75vh;margin-left: 25vh;}
     .Bg12 {display: none;}

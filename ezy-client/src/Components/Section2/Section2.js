@@ -19,7 +19,10 @@ const Section2 = () =>  {
         </S.MainBg>
         <S.TitleSection>
           <S.MainTitle>
-            <Zoom>소중한 시간을 계획적으로 쓰고싶다면</Zoom>
+            <Zoom>"소중한 시간을 계획적으로 쓰고싶다면"</Zoom>
+              <S.SubTitle>
+                가나다라마바사아자차카타파하
+              </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
       </S.MainSection>
