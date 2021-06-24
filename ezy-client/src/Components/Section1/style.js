@@ -103,6 +103,7 @@ export const MainTitle = styled.div `
     text-align: center;
     font-size: 75px;
     font-weight: 400;
+
     .text-box{
         @media only screen and (max-width: 1300px) {
             font-size: 25px;

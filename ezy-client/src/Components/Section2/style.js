@@ -18,13 +18,12 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    color: black;
+    color: #EBEB57;
     text-align: center;
     margin-left: -10vh;
-    font-size: 34px;
+    font-size: 35px;
     font-weight: bolder;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-
     @media only screen and (max-width: 1500px) {
         margin-left: -9vh;
     }
@@ -53,9 +52,8 @@ export const SubTitle = styled.div`
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
 `;
 export const MainBg = styled.div`
-    .Bg11 {width: 75vh;margin-left: 25vh;}
+    .Bg11 {width: 75vh;margin-left: 22vh;}
     .Bg12 {display: none;}
-
     @media only screen and (max-width: 1500px) {
         .Bg11 {
             margin-left: 18vh;
