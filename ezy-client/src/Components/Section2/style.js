@@ -22,7 +22,7 @@ export const MainTitle = styled.div`
     text-align: center;
     margin-left: -10vh;
     font-size: 35px;
-    font-weight: bolder;
+    font-weight: bold;
     text-shadow: 0px 5px 5px rgba(0,0,0,.25);
     @media only screen and (max-width: 1500px) {
         margin-left: -9vh;
