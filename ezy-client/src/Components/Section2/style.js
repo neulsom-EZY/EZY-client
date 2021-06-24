@@ -18,7 +18,7 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    color: #EBEB57;
+    color: #FFFF5E;
     text-align: center;
     margin-left: -10vh;
     font-size: 35px;
