@@ -1,12 +1,11 @@
 import React from 'react';
-import { MainSection } from '../style';
+import * as S from './style';
 
 const Section1 = () => {
   return (
     <>
-      <MainSection>
-        hello
-      </MainSection>
+      <S.MainSection>
+      </S.MainSection>
     </>
   );
 };
