@@ -18,10 +18,11 @@ export const MainSection = styled.div`
 `;
 export const TitleSection = styled.div`
     width: 100%;
-    margin-left: 25vh;
+    margin-left: 20vh;
 `;
 export const MainTitle = styled.div`
-    font-size: 42px;
+    font-weight: 400;
+    font-size: 40px;
 `;
 export const SubTitle = styled.div`
     margin-top: 4vh;
