@@ -1,8 +1,5 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Section1 from "./Components/Section1/Section1";
-import Section2 from "./Components/Section2/Section2";
-import { FullPage, Slide } from 'react-full-page';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -17,10 +14,6 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <FullPage duration={1200}>
-        <Slide><Section1/></Slide>
-        <Slide><Section2/></Slide>
-      </FullPage>
     </>
   );
 };
