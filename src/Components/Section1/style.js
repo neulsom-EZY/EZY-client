@@ -1,9 +1,10 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import Bg01 from '../../Assets/Bg01.png';
 
 export const MainSection = styled.div`
     width: 100%;
-    height: 100%;
-    background-image: url('../Assets/Bg01.png');
+    height: 100vh;
+    background-image: url(${Bg01});
 `;
 export const MainBg = styled.div`
     width: 50%;
