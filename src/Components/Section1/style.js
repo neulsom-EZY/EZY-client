@@ -29,13 +29,10 @@ export const SubTitle = styled.div`
     font-weight: 400;
 `;
 export const WLogo = styled.div`
-    position: fixed;
-    top: 5vh;
-    left: 16vh;
     width: 100%;
-    height:11vh;
-    background-repeat: no-repeat;
-    background-size: 11vh;
+    height: 11vh;
+    margin-top: -40vh;
+    margin-left: 3vh;
 `;
 export const Img1 = styled.div`
     width: 100%;
