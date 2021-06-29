@@ -50,7 +50,9 @@ export const WLogo = styled.div`
     position: absolute;
     top: 0;
     margin-top: 5vh;
-    width:31.3vh;
+    width:32vh;
     height:11vh;
     background-image: url(${Logo});
+    background-repeat: no-repeat;
+    background-size : cover;
 `;
