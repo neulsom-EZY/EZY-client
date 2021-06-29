@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
-import Img01 from "../../Assets/Img01.png";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -36,9 +35,7 @@ export const WLogo = styled.div`
 `;
 export const Img1 = styled.div`
     width: 100%;
-    height: 130vh;
-    margin-top: -20vh;
-    margin-right: -2vh;
+    height: 100vh;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
