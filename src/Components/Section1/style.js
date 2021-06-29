@@ -46,11 +46,10 @@ export const SubTitle = styled.div`
     font-size: 20px;
     line-height: 5vh;
 `;
-
 export const WLogo = styled.div`
     position: fixed;
     top: 5vh;
-    left: 20vh;
+    left: 24vh;
     width: 100%;
     height:11vh;
     background-image: url(${Logo});
