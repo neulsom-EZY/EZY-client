@@ -31,10 +31,9 @@ export const SubTitle = styled.div`
 export const WLogo = styled.div`
     position: fixed;
     top: 5vh;
-    left: 24vh;
+    left: 16vh;
     width: 100%;
     height:11vh;
-    background-image: url(${Logo});
     background-repeat: no-repeat;
     background-size: 11vh;
 `;

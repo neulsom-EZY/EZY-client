@@ -1,12 +1,15 @@
 import React from 'react';
 import * as S from './style';
+import * as I from '../../Assets/index';
 
 const Section1 = () => {
   return (
     <>
       <S.MainSection>
         <S.TitleSection>
-          <S.WLogo/>
+          <S.WLogo>
+            <I.Logo/>
+          </S.WLogo>
           <S.MainTitle>
             " 소중한 시간을 계획적으로 쓰고 싶다면 "
           </S.MainTitle>
