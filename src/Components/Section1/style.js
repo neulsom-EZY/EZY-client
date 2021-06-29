@@ -24,7 +24,8 @@ export const SubTitle = styled.div`
     margin-top: 3vh;
     margin-bottom: 3vh;
     font-size: 20px;
-    line-height: 3vh;
+    line-height: 5vh;
+    font-weight: 400;
 `;
 export const WLogo = styled.div`
     position: fixed;
