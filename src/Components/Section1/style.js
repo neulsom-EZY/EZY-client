@@ -1,7 +1,5 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
-import Logo from "../../Assets/W-Logo.png";
-import Img02 from "../../Assets/Img02.png";
 import Img01 from "../../Assets/Img01.png";
 
 export const MainSection = styled.div`
@@ -52,9 +50,7 @@ export const Img1 = styled.div`
     background-repeat: no-repeat;
     background-size: 100%;
 `;
-export const Img2 = styled.div`
-    width: 100%;
-    height: 5.1vh;
+export const Img2 = styled.div`    
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -62,7 +58,4 @@ export const Img2 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    background-image:url(${Img02});
-    background-repeat: no-repeat;
-    background-size: 15vh;
 `;
