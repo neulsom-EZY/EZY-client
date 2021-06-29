@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
-import Img01 from "../../Assets/Img01.png";
 
 export const MainSection = styled.div`
     width: 100%;
