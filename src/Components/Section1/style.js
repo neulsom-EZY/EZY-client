@@ -36,6 +36,8 @@ export const WLogo = styled.div`
 export const Img1 = styled.div`
     width: 100%;
     height: 100vh;
+    margin-top: -50vh;
+    margin-right: -2vh;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
