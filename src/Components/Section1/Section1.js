@@ -22,7 +22,9 @@ const Section1 = () => {
           <I.Img2/>
         </S.Img2>
         </S.TitleSection>
-        <S.Img1/>
+        <S.Img1>
+          <I.Img1/>
+        </S.Img1>
       </S.MainSection>
     </>
   );
