@@ -2,14 +2,13 @@ import React from 'react';
 import * as S from './style';
 import Img01 from '../../Assets/Img01.png';
 import Img02 from '../../Assets/Img02.png';
-import Logo from '../../Assets/W-Logo.png';
 
 const Section1 = () => {
   return (
     <>
       <S.MainSection>
         <S.TitleSection>
-          {/* <img className="Logo" src={Logo} alt="Logo" /> */}
+          <S.WLogo/>
           <S.MainTitle>
             " 소중한 시간을 계획적으로 쓰고 싶다면 "
           </S.MainTitle>

@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
+import Logo from "../../Assets/W-Logo.png";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -42,4 +43,14 @@ export const SubTitle = styled.div`
     margin-top: 4vh;
     font-size: 20px;
     line-height: 5vh;
+`;
+
+export const WLogo = styled.div`
+    display: flex;
+    position: absolute;
+    top: 0;
+    margin-top: 5vh;
+    width:31.3vh;
+    height:11vh;
+    background-image: url(${Logo});
 `;
