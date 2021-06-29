@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
+import Img01 from "../../Assets/Img01.png";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -20,12 +21,12 @@ export const MainTitle = styled.div`
     font-size: 40px;
 `;
 export const SubTitle = styled.div`
+    margin-left: 3vh;
     margin-top: 3vh;
     margin-bottom: 3vh;
-    margin-left: 3vh;
     font-size: 20px;
-    line-height: 5vh;
     font-weight: 400;
+    line-height: 5vh;
 `;
 export const WLogo = styled.div`
     width: 100%;
@@ -36,7 +37,8 @@ export const WLogo = styled.div`
 export const Img1 = styled.div`
     width: 100%;
     height: 130vh;
-    margin-top: -10vh;
+    margin-top: -20vh;
+    margin-right: -2vh;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
