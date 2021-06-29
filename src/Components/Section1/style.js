@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import Bg01 from '../../Assets/Bg01.png';
-import Img01 from "../../Assets/Img01.png";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -45,9 +44,6 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    background-image:url(${Img01});
-    background-repeat: no-repeat;
-    background-size: 100%;
 `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
