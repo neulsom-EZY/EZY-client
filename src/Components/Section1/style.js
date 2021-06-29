@@ -33,7 +33,9 @@ export const MainSection = styled.div`
 `;
 export const TitleSection = styled.div`
     width: 100%;
-    margin-left: 20vh;
+    display:grid;
+    justify-content:center;
+    align-items:center;
 `;
 export const MainTitle = styled.div`
     font-weight: 500;
@@ -46,13 +48,12 @@ export const SubTitle = styled.div`
 `;
 
 export const WLogo = styled.div`
-    display: flex;
-    position: absolute;
-    top: 0;
-    margin-top: 5vh;
+    position: fixed;
+    top: 5vh;
+    left: 20vh;
     width: 100%;
     height:11vh;
     background-image: url(${Logo});
     background-repeat: no-repeat;
-    background-size: 15vh;
+    background-size: 11vh;
 `;
