@@ -2,7 +2,7 @@ import * as React from "react";
 
 function Img02(props) {
   return (
-    <svg width="15vh" height="10vh" viewBox="0 0 206 70" fill="none" {...props}>
+    <svg width="22vh" height="10vh" viewBox="0 0 206 70" fill="none" {...props}>
       <rect
         x={1.5}
         y={1.5}
