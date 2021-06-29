@@ -1,8 +1,8 @@
 import * as React from "react";
 
-function Img2(props) {
+function Img02(props) {
   return (
-    <svg width={206} height={70} fill="none" {...props}>
+    <svg width="15vh" height="10vh" viewBox="0 0 206 70" fill="none" {...props}>
       <rect
         x={1.5}
         y={1.5}
@@ -24,5 +24,5 @@ function Img2(props) {
   );
 }
 
-const MemoImg2 = React.memo(Img2);
-export default MemoImg2;
+const MemoImg02 = React.memo(Img02);
+export default MemoImg02;

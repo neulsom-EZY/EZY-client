@@ -52,7 +52,7 @@ export const Img1 = styled.div`
     background-repeat: no-repeat;
     background-size: 100%;
 `;
-export const Img2 = styled.div`    
+export const Img2 = styled.div`
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -60,4 +60,5 @@ export const Img2 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    margin-left: 3vh;
 `;
