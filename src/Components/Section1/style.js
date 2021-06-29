@@ -23,6 +23,7 @@ export const MainTitle = styled.div`
 export const SubTitle = styled.div`
     margin-top: 3vh;
     margin-bottom: 3vh;
+    margin-left: 3vh;
     font-size: 20px;
     line-height: 5vh;
     font-weight: 400;
