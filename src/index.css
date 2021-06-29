@@ -9,8 +9,8 @@
     font-family: "Apple SD Gothic Neo", sans-serif;
     font-style: normal;
     font-weight: normal;
-    src: url("fonts/AppleSDGothicNeoM.woff2") format('woff2'),
-    url("fonts/AppleSDGothicNeoM.woff") format('woff'),
+    src: url("fonts/AppleSDGothicNeoR.woff2") format('woff2'),
+    url("fonts/AppleSDGothicNeoR.woff") format('woff'),
 }
 @font-face {
     font-family: "Apple SD Gothic Neo", sans-serif;
