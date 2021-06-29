@@ -29,6 +29,9 @@ export const SubTitle = styled.div`
     line-height: 3vh;
 `;
 export const WLogo = styled.div`
+    position: fixed;
+    top: 5vh;
+    left: 24vh;
     width: 100%;
     height:11vh;
     background-image: url(${Logo});
