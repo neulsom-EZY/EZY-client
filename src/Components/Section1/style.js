@@ -21,7 +21,7 @@ export const TitleSection = styled.div`
     margin-left: 20vh;
 `;
 export const MainTitle = styled.div`
-    font-weight: 400;
+    font-weight: 500;
     font-size: 40px;
 `;
 export const SubTitle = styled.div`
