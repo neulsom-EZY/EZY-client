@@ -28,3 +28,11 @@ export const SubTitle = styled.div`
     font-size: 20px;
     line-height: 5vh;
 `;
+
+export const Logo = styled.div`
+  svg {
+    width: 346px;
+    height: 80px;
+    overflow: visible;
+  }
+`;

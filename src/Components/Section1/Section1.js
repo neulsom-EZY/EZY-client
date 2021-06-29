@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from './style';
 import Img01 from '../../Assets/Img01.png';
 import Img02 from '../../Assets/Img02.png';
+import * as I from "../../Assets/index";
 
 const Section1 = () => {
   return (
@@ -9,6 +10,9 @@ const Section1 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.MainTitle>
+            <S.Logo>
+              <I.Logo/>
+            </S.Logo>
             " 소중한 시간을 계획적으로 쓰고 싶다면 "
           </S.MainTitle>
           <S.SubTitle>
