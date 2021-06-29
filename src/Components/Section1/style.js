@@ -34,7 +34,6 @@ export const WLogo = styled.div`
     left: 16vh;
     width: 100%;
     height:11vh;
-    /* background-image: url(${Logo}); */
     background-repeat: no-repeat;
     background-size: 11vh;
 `;
