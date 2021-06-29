@@ -10,10 +10,24 @@ export const MainSection = styled.div`
     .Img01 {
         width: 45%;
         margin-top: -5vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     .Img02 {
         width: 22%;
         margin-top: 4vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
 `;
 export const TitleSection = styled.div`
