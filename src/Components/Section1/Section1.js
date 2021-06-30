@@ -18,9 +18,12 @@ const Section1 = () => {
                 효율적으로, 효과적으로 계획한 일정을 진행해보세요 ! 
               </S.SubTitle>
             <S.Img2><I.Img2/></S.Img2>
+            {/* App Store button */}
           </S.TitleSection>
           <Fade right>
-            <S.Img1><I.Img1/></S.Img1>
+            {/* Main Phone image */}
+            <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
+            <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
           </Fade>
       </S.MainSection>
     </>

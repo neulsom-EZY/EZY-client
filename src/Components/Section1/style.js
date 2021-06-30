@@ -8,7 +8,6 @@ export const MainSection = styled.div`
     align-items: center;
     background-image: url(${Bg01});
 `;
-
 export const TitleSection = styled.div`
     width: 100%;
     display:grid;
@@ -45,6 +44,11 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    @media screen and (max-width: 1800px) {
+        .MainPhone {
+            display: none;
+        }
+    }
 `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
@@ -55,4 +59,7 @@ export const Img2 = styled.div`
     user-select: none;
     -webkit-user-drag: none;
     margin-left: 3vh;
+`;
+export const Img3 = styled.div`
+    display: none;
 `;
