@@ -20,11 +20,14 @@ const Section1 = () => {
             <S.Img2><I.Img2/></S.Img2>
             {/* App Store button */}
           </S.TitleSection>
-          <Fade right>
-            {/* Main Phone image */}
-            <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
-            <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
-          </Fade>
+          <S.Bg>
+            <Fade right>
+              {/* Main Phone image */}
+              <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
+              {/* Sub Phone image */}
+              <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
+            </Fade>
+          </S.Bg>
       </S.MainSection>
     </>
   );

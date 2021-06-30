@@ -36,7 +36,6 @@ export const Img1 = styled.div`
     width: 100%;
     height: 100vh;
     margin-top: -50vh;
-    margin-right: -2vh;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -44,11 +43,6 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    @media screen and (max-width: 1800px) {
-        .MainPhone {
-            display: none;
-        }
-    }
 `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
