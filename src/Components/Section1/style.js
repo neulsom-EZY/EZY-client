@@ -67,5 +67,5 @@ export const Img2 = styled.div`
     margin-left: 3vh;
 `;
 export const Img3 = styled.div`
-    
+    width: 100%;
 `;
