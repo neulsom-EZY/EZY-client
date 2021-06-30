@@ -1,7 +1,7 @@
 import * as React from "react";
-function Img01(props) {
+function Img03(props) {
   return (
-    <svg width={750} height={636} fill="none" {...props}>
+    <svg width={535} height={636} fill="none" {...props}>
       <path fill="url(#prefix__pattern0)" d="M0 0h535v636H0z" />
       <defs>
         <pattern
@@ -22,5 +22,5 @@ function Img01(props) {
     </svg>
   );
 }
-const MemoImg01 = React.memo(Img01);
-export default MemoImg01;
+const MemoImg03 = React.memo(Img03);
+export default MemoImg03;
