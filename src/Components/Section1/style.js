@@ -32,6 +32,16 @@ export const WLogo = styled.div`
     margin-top: -40vh;
     margin-left: 3vh;
 `;
+// export const Bg =styled.div`
+//     @media screen and (max-width: 1920px) {
+//         .MainPhone {
+//             display: none;
+//         }
+//         .SubPhone {
+//             display: block;
+//         }
+//     }
+// `;
 export const Img1 = styled.div`
     width: 100%;
     height: 100vh;
@@ -43,6 +53,12 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    .MainPhone {
+        display: block;
+    }
+    .SubPhone {
+        
+    }
 `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
@@ -55,5 +71,4 @@ export const Img2 = styled.div`
     margin-left: 3vh;
 `;
 export const Img3 = styled.div`
-    display: none;
 `;
