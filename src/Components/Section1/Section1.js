@@ -23,12 +23,11 @@ const Section1 = () => {
           {/* <S.Bg> */}
             <Fade right>
               {/* Main Phone image */}
-              <S.Img1>
-                <I.Img1 className="MainPhone"/>
+              <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
               {/* Sub Phone image */}
-              <I.Img3 className="SubPhone"/>
-              </S.Img1>
+              <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
             </Fade>
+            
           {/* </S.Bg> */}
       </S.MainSection>
     </>

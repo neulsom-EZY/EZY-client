@@ -7,6 +7,7 @@ export const MainSection = styled.div`
     display: flex;
     align-items: center;
     background-image: url(${Bg01});
+    z-index:1;
 `;
 export const TitleSection = styled.div`
     width: 100%;
@@ -53,12 +54,7 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .MainPhone {
-        display: block;
-    }
-    .SubPhone {
-        
-    }
+    display:none;
 `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
@@ -71,4 +67,5 @@ export const Img2 = styled.div`
     margin-left: 3vh;
 `;
 export const Img3 = styled.div`
+    
 `;
