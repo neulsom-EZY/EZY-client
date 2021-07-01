@@ -45,7 +45,6 @@ export const MainBg = styled.div`
     .SubPhone {
         display: none;
         margin-right: -50vh;
-        /* margin-top: 20vh; */
     }
     @media screen and (max-width: 1700px) {
         .MainPhone {
@@ -54,6 +53,12 @@ export const MainBg = styled.div`
         .SubPhone {
             display: block;
         }
+    }
+    @media screen and (max-width: 1430px) {
+        margin-right: 5vh;
+    }
+    @media screen and (max-width: 1380px) {
+        
     }
 `;
 // export const Img1 = styled.div`
