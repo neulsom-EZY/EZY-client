@@ -67,7 +67,7 @@ export const MainBg = styled.div`
     }
     @media screen and (max-width: 1680px) {
         .MainPhone {
-            margin-left: -15vh;
+            /* margin-left: -10vh; */
         }
     }
     @media screen and (max-width: 1500px) {
