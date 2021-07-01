@@ -33,10 +33,8 @@ export const WLogo = styled.div`
     margin-top: -40vh;
     margin-left: 3vh;
 `;
-export const Img1 = styled.div`
+export const MainBg = styled.div`
     width: 100%;
-    height: 100vh;
-    margin-top: -50vh;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -44,11 +42,27 @@ export const Img1 = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    display:block;
-    @media screen and (max-width: 1700px) {
+    .SubPhone {
         display: none;
     }
+    @media screen and (max-width: 1700px) {
+        .MainPhone {
+            display: none;
+        }
+    }
 `;
+// export const Img1 = styled.div`
+//     width: 100%;
+//     height: 100vh;
+//     margin-top: -50vh;
+//     -webkit-touch-callout: none;
+//     -webkit-user-select: none;
+//     -khtml-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+//     -webkit-user-drag: none;
+// `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -59,11 +73,11 @@ export const Img2 = styled.div`
     -webkit-user-drag: none;
     margin-left: 3vh;
 `;
-export const Img3 = styled.div`
-    width: 100%;
-    display: none;
-    margin-top: 15vh;
-    @media screen and (max-width: 1700px) {
-        display: block;
-    }
-`;
+// export const Img3 = styled.div`
+//     width: 100%;
+//     display: none;
+//     margin-top: 15vh;
+//     @media screen and (max-width: 1700px) {
+//         display: block;
+//     }
+// `;
