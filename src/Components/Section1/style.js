@@ -65,6 +65,11 @@ export const MainBg = styled.div`
     .SubSubPhone {
         display: none;
     }
+    @media screen and (max-width: 1680px) {
+        .MainPhone {
+            margin-left: -15vh;
+        }
+    }
     @media screen and (max-width: 1500px) {
         .MainPhone {
             display: none;
