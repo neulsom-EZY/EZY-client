@@ -3,7 +3,7 @@ import * as React from "react";
 function Img04(props) {
   return (
     <svg width={319} height={624} fill="none" {...props}>
-      <path fill="url(#prefix__pattern0)" d="M0 0h319v624H0z" />
+      <path fill="url(#prefix__pattern2)" d="M0 0h319v624H0z" />
       <defs>
         <pattern
           id="prefix__pattern2"

@@ -14,12 +14,20 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    @media screen and (max-width: 1380px) {
+        margin-left: 10vh;
+    }
 `;
 export const MainTitle = styled.div`
+    width: 100%;
     font-weight: 500;
     font-size: 40px;
+    @media screen and (max-width: 1380px) {
+        width: 70vh;
+    }
 `;
 export const SubTitle = styled.div`
+    width: 100%;
     margin-left: 3vh;
     margin-top: 3vh;
     margin-bottom: 3vh;
@@ -46,6 +54,9 @@ export const MainBg = styled.div`
         display: none;
         margin-right: -50vh;
     }
+    .SubSubPhone {
+        display: none;
+    }
     @media screen and (max-width: 1700px) {
         .MainPhone {
             display: none;
@@ -58,21 +69,15 @@ export const MainBg = styled.div`
         margin-right: 5vh;
     }
     @media screen and (max-width: 1380px) {
-        margin-right: 7vh;
+        .SubPhone {
+            display: none;
+        }
+        .SubSubPhone {
+            display: block;
+            margin-left: 7vh;
+        }
     }
 `;
-// export const Img1 = styled.div`
-//     width: 100%;
-//     height: 100vh;
-//     margin-top: -50vh;
-//     -webkit-touch-callout: none;
-//     -webkit-user-select: none;
-//     -khtml-user-select: none;
-//     -moz-user-select: none;
-//     -ms-user-select: none;
-//     user-select: none;
-//     -webkit-user-drag: none;
-// `;
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -83,11 +88,3 @@ export const Img2 = styled.div`
     -webkit-user-drag: none;
     margin-left: 3vh;
 `;
-// export const Img3 = styled.div`
-//     width: 100%;
-//     display: none;
-//     margin-top: 15vh;
-//     @media screen and (max-width: 1700px) {
-//         display: block;
-//     }
-// `;
