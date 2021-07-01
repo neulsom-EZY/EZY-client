@@ -58,7 +58,7 @@ export const MainBg = styled.div`
         margin-right: 5vh;
     }
     @media screen and (max-width: 1380px) {
-        
+        margin-right: 7vh;
     }
 `;
 // export const Img1 = styled.div`
