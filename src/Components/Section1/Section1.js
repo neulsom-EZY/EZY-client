@@ -20,7 +20,7 @@ const Section1 = () => {
             <S.Img2><I.Img2/></S.Img2>
             {/* App Store button */}
           </S.TitleSection>
-          <S.MainBg>
+          <S.MainBg className="fade">
             <Fade right>
               <I.Img1 className="MainPhone"/>
               <I.Img3 className="SubPhone"/>

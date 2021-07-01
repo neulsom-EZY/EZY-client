@@ -44,10 +44,15 @@ export const MainBg = styled.div`
     -webkit-user-drag: none;
     .SubPhone {
         display: none;
+        margin-right: -50vh;
+        margin-top: 20vh;
     }
     @media screen and (max-width: 1700px) {
         .MainPhone {
             display: none;
+        }
+        .SubPhone {
+            display: block;
         }
     }
 `;
