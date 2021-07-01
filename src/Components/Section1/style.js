@@ -45,7 +45,7 @@ export const MainBg = styled.div`
     .SubPhone {
         display: none;
         margin-right: -50vh;
-        margin-top: 20vh;
+        /* margin-top: 20vh; */
     }
     @media screen and (max-width: 1700px) {
         .MainPhone {
