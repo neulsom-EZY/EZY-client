@@ -14,6 +14,10 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    /* 13inch Display */
+    @media screen and (max-width: 1680px) {
+        margin-left: 13vh;
+    }
     @media screen and (max-width: 1380px) {
         margin-left: 10vh;
     }
@@ -22,6 +26,10 @@ export const MainTitle = styled.div`
     width: 100%;
     font-weight: 500;
     font-size: 40px;
+    /* 13inch Display */
+    @media screen and (max-width: 1680px) {
+        width: 80vh;
+    }
     @media screen and (max-width: 1380px) {
         width: 70vh;
     }
@@ -57,7 +65,7 @@ export const MainBg = styled.div`
     .SubSubPhone {
         display: none;
     }
-    @media screen and (max-width: 1700px) {
+    @media screen and (max-width: 1500px) {
         .MainPhone {
             display: none;
         }
