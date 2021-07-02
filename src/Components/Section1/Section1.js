@@ -25,6 +25,7 @@ const Section1 = () => {
               <I.Img1 className="MainPhone"/>
               <I.Img3 className="SubPhone"/>
               <I.Img4 className="SubSubPhone"/>
+              <I.Img5 className="ResponsivePhone"/>
             </Fade>
           </S.MainBg>
       </S.MainSection>

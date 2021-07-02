@@ -65,6 +65,9 @@ export const MainBg = styled.div`
     .SubSubPhone {
         display: none;
     }
+    .ResponsivePhone {
+        display: none;
+    }
     @media screen and (max-width: 1680px) {
         .MainPhone {
             /* margin-left: -10vh; */
