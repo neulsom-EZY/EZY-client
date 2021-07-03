@@ -41,6 +41,9 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1230px) {
         width: 100%;
     }
+    @media screen and (max-width: 1160px) {
+        width: 80%;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -100,13 +103,17 @@ export const MainBg = styled.div`
         }
     }
     @media screen and (max-width: 1230px) {
-        margin-left: 10vh;
         .SubPhone {
             display: none;
         }
         .SubSubPhone {
             display: block;
-            margin-left: 7vh;
+            margin-left: 20vh;
+        }
+    }
+    @media screen and (max-width: 1160px) {
+        .SubSubPhone {
+            margin-left: 10vh;
         }
     }
 `;
