@@ -8,6 +8,12 @@ export const MainSection = styled.div`
     align-items: center;
     background-image: url(${Bg01});
     z-index:1;
+    @media screen and (max-width: 900px) {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
 `;
 export const TitleSection = styled.div`
     width: 100%;
@@ -52,12 +58,10 @@ export const TitleSection = styled.div`
         width: 73%;
     }
     @media screen and (max-width: 900px) {
-        width: 3000vh;
+        width: 100%;
         margin: 0;
-        text-align: center;
     }
     @media screen and (max-width: 700px) {
-        width: auto;
     }
 `;
 export const MainTitle = styled.div`
@@ -73,6 +77,18 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 900px) {
         margin-bottom: 4vh;
+        margin-top: 10vh;
+        font-size: 40px;
+    }
+    @media screen and (max-width: 760px) {
+        font-size: 35px;
+        font-weight: bold;
+    }
+    @media screen and (max-width: 670px) {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    @media screen and (max-width: 500px) {
     }
 `;
 export const SubTitle = styled.div`
@@ -89,6 +105,13 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 900px) {
         margin: 0;
         margin-bottom: 4vh;
+        margin-top: 3vh;
+        font-size: 20px;
+    }
+    @media screen and (max-width: 670px) {
+        font-size: 17px;
+        font-weight: 500;
+        margin-top: 3vh;
     }
 `;
 export const WLogo = styled.div`
@@ -98,6 +121,7 @@ export const WLogo = styled.div`
     margin-left: 3vh;
     @media screen and (max-width: 900px) {
         margin-left: -3vh;
+        margin-top: 12vh;
     }
 `;
 export const MainBg = styled.div`
