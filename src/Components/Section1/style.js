@@ -18,6 +18,9 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1680px) {
         margin-left: 13vh;
     }
+    @media screen and (max-width: 1500px) {
+        width: 70vh;
+    }
     @media screen and (max-width: 1380px) {
         margin-left: 10vh;
     }
@@ -79,6 +82,7 @@ export const MainBg = styled.div`
         }
         .SubPhone {
             display: block;
+            margin-right: 20vh;
         }
     }
     @media screen and (max-width: 1430px) {
