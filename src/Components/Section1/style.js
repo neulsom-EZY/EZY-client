@@ -21,8 +21,12 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1500px) {
         width: 70vh;
     }
+    @media screen and (max-width: 1430px) {
+        width: 65vh;
+    }
     @media screen and (max-width: 1380px) {
-        margin-left: 10vh;
+        width: 60vh;
+        margin-left: 15vh;
     }
 `;
 export const MainTitle = styled.div`
@@ -32,9 +36,6 @@ export const MainTitle = styled.div`
     /* 13inch Display */
     @media screen and (max-width: 1680px) {
         width: 80vh;
-    }
-    @media screen and (max-width: 1380px) {
-        width: 70vh;
     }
 `;
 export const SubTitle = styled.div`
@@ -88,7 +89,7 @@ export const MainBg = styled.div`
     @media screen and (max-width: 1430px) {
         margin-right: 5vh;
     }
-    @media screen and (max-width: 1380px) {
+    @media screen and (max-width: 1300px) {
         .SubPhone {
             display: none;
         }
