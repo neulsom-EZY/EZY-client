@@ -15,28 +15,30 @@ export const TitleSection = styled.div`
     justify-content:center;
     align-items:center;
     /* 13inch Display */
+    /* 70vh -> 40% */
+    /* 65vh -> 39% */
     @media screen and (max-width: 1680px) {
         margin-left: 13vh;
     }
     @media screen and (max-width: 1500px) {
-        width: 70vh;
+        width: 40%;
     }
     @media screen and (max-width: 1430px) {
-        width: 65vh;
+        width: 39%;
     }
     @media screen and (max-width: 1400px) {
-        width: 70vh;
+        width: 43%;
         margin-right: -10vh;
     }
     @media screen and (max-width: 1340px) {
-        width: 65vh;
+        width: 43%;
     }
     @media screen and (max-width: 1300px) {
-        width: 63vh;
+        width: 43%;
         margin-right: -13vh;
     }
     @media screen and (max-width: 1260px) {
-        margin-left: 10vh;
+        margin-left: 8%;
     }
     @media screen and (max-width: 1230px) {
         width: 100%;
