@@ -22,11 +22,14 @@ const Section1 = () => {
           </S.TitleSection>
           <S.MainBg className="fade">
             <Fade right>
+              {/* Img01 - 1 */}
               <I.Img1 className="MainPhone"/>
+              {/* Img02 - 2 */}
               <I.Img3 className="SubPhone"/>
+              {/* Img03 - 3 */}
               <I.Img4 className="SubSubPhone"/>
               {/* 13-inch Display */}
-              <I.Img5 className="ResponsivePhone"/>
+              {/* <I.Img5 className="ResponsivePhone"/> */}
             </Fade>
           </S.MainBg>
       </S.MainSection>
