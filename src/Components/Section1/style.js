@@ -16,46 +16,49 @@ export const MainSection = styled.div`
     }
 `;
 export const TitleSection = styled.div`
+    margin: 0 0 20vh 0;
     width: 100%;
     display:grid;
     justify-content:center;
     align-items:center;
     /* 13inch Display */
-    @media screen and (max-width: 1680px) {
-        margin-left: 13vh;
-    }
-    @media screen and (max-width: 1500px) {
-        width: 70vh;
+    @media screen and (max-width: 1770px) {
+        margin-left:3%;
     }
     @media screen and (max-width: 1430px) {
-        width: 65vh;
+        margin-left: 3%;
     }
     @media screen and (max-width: 1400px) {
-        width: 70vh;
         margin-right: -10vh;
     }
-    @media screen and (max-width: 1340px) {
-        width: 65vh;
-    }
     @media screen and (max-width: 1300px) {
-        width: 63vh;
         margin-right: -13vh;
     }
     @media screen and (max-width: 1260px) {
-        margin-left: 10vh;
+        margin-left: 3%;
     }
     @media screen and (max-width: 1230px) {
-        width: 100%;
+        margin-left:3%;
     }
     @media screen and (max-width: 1160px) {
-        width: 80%;
+        margin-left:3%;
     }
+    @media screen and (max-width: 1078px) {
+        margin-left:1%;
+    }
+
     @media screen and (max-width: 1070px) {
-        width: 100%;
-        margin-left: 5vh;
+        margin-left:0.2%;
     }
+    @media screen and (max-width: 1066px) {
+        margin-left:0.1%;
+    }
+    @media screen and (max-width: 1055px) {
+        margin-left:0.1%;
+    }
+
     @media screen and (max-width: 940px) {
-        width: 73%;
+
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -116,9 +119,7 @@ export const SubTitle = styled.div`
 `;
 export const WLogo = styled.div`
     width: 100%;
-    height: 11vh;
-    margin-top: -40vh;
-    margin-left: 3vh;
+    height: 26vh;
     @media screen and (max-width: 900px) {
         margin-left: -3vh;
         margin-top: 12vh;
@@ -202,6 +203,12 @@ export const MainBg = styled.div`
         }
     }
 `;
+export const Img1 = styled.div`
+    svg{
+        max-width:100%;
+    }
+`;
+
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -213,5 +220,17 @@ export const Img2 = styled.div`
     margin-left: 3vh;
     @media screen and (max-width: 900px) {
         margin: 0;
+    }
+`;
+
+export const Img3 = styled.div`
+    svg{
+        max-width:100%;
+    }
+`;
+
+export const Img4 = styled.div`
+    svg{
+        max-width:100%;
     }
 `;

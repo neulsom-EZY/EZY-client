@@ -24,11 +24,11 @@ const Section1 = () => {
           <S.MainBg className="fade">
             <Fade right>
               {/* Img01 - 1 */}
-              <I.Img1 className="MainPhone"/>
+              <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
               {/* Img03 - 2 */}
-              <I.Img3 className="SubPhone"/>
+              <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
               {/* Img04 - 3 */}
-              <I.Img4 className="SubSubPhone"/>
+              <S.Img4><I.Img4 className="SubSubPhone"/></S.Img4>
               {/* 13-inch Display */}
               {/* <I.Img5 className="ResponsivePhone"/> */}
             </Fade>
