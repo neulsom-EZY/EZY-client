@@ -119,7 +119,8 @@ export const SubTitle = styled.div`
 `;
 export const WLogo = styled.div`
     width: 100%;
-    height: 26vh;
+    height: 23vh;
+    margin-left: 3vh;
     @media screen and (max-width: 900px) {
         margin-left: -3vh;
         margin-top: 12vh;
