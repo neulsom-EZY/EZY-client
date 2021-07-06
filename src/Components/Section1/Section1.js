@@ -9,7 +9,7 @@ const Section1 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.WLogo><I.Logo/></S.WLogo>
-            <S.MainTitle>
+            <S.MainTitle>   
               " 소중한 시간을 계획적으로 쓰고 싶다면 "
             </S.MainTitle>
               <S.SubTitle>

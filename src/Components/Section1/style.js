@@ -35,9 +35,8 @@ export const TitleSection = styled.div`
     }
     @media screen and (max-width: 1350px) {
         /* Reset */
-        width: 100%; margin: 0%; margin-bottom: 20vh;
-        margin-left: 10vh;
-        margin-right: -10vh;
+        width: 100%;
+        margin-left: 5%;
     }
     @media screen and (max-width: 1300px) {
         margin-right: -13vh;
@@ -132,7 +131,6 @@ export const MainBg = styled.div`
     -webkit-user-drag: none;
     .SubPhone {
         display: none;
-        margin-right: -50vh;
     }
     .SubSubPhone {
         display: none;
@@ -147,7 +145,7 @@ export const MainBg = styled.div`
         }
         .SubPhone {
             display: block;
-            margin-left: 10vh;
+            margin-left: -20vh;
         }
     }
     @media screen and (max-width: 1260px) {
