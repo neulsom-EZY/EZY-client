@@ -22,31 +22,26 @@ export const TitleSection = styled.div`
     justify-content:center;
     align-items:center;
     /* 13inch Display */
-    @media screen and (max-width: 1770px) {
+    /* @media screen and (max-width: 1770px) {
         margin-left:3%;
-    }
-    @media screen and (max-width: 1430px) {
-        margin-left: 3%;
+    } */
+    @media screen and (max-width: 1550px) {
+        width: 40%;
+        margin-left: 8%;
     }
     @media screen and (max-width: 1400px) {
+        width: 37%;
+        margin-left: 10%;
+    }
+    @media screen and (max-width: 1350px) {
+        /* Reset */
+        width: 100%; margin: 0%; margin-bottom: 20vh;
+        margin-left: 10vh;
         margin-right: -10vh;
     }
     @media screen and (max-width: 1300px) {
         margin-right: -13vh;
     }
-    @media screen and (max-width: 1260px) {
-        margin-left: 3%;
-    }
-    @media screen and (max-width: 1230px) {
-        margin-left:3%;
-    }
-    @media screen and (max-width: 1160px) {
-        margin-left:3%;
-    }
-    @media screen and (max-width: 1078px) {
-        margin-left:1%;
-    }
-
     @media screen and (max-width: 1070px) {
         margin-left:0.2%;
     }
@@ -145,18 +140,19 @@ export const MainBg = styled.div`
     .ResponsivePhone {
         display: none;
     }
-    @media screen and (max-width: 1680px) {
-        .MainPhone {
-            /* margin-left: -10vh; */
-        }
-    }
-    @media screen and (max-width: 1500px) {
+    /* @media screen and (max-width: 1680px) {} */
+    @media screen and (max-width: 1350px) {
         .MainPhone {
             display: none;
         }
         .SubPhone {
             display: block;
-            margin-right: 20vh;
+            margin-left: 10vh;
+        }
+    }
+    @media screen and (max-width: 1260px) {
+        .SubPhone {
+            margin-right: 5vh;
         }
     }
     @media screen and (max-width: 1230px) {
