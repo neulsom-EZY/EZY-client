@@ -17,7 +17,7 @@ export const MainSection = styled.div`
 `;
 export const TitleSection = styled.div`
     margin: 0 0 20vh 0;
-    width: 100%;
+    width: 80%;
     display:grid;
     justify-content:center;
     align-items:center;
@@ -39,7 +39,7 @@ export const TitleSection = styled.div`
         margin-left: 5%;
     }
     @media screen and (max-width: 1300px) {
-        margin-right: -13vh;
+        /* margin-right: -13vh; */
     }
     @media screen and (max-width: 1070px) {
         margin-left:0.2%;
@@ -69,6 +69,9 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 1680px) {
         width: 80vh;
     }
+    @media screen and (max-width: 1350px) {
+        width:120%;
+    }
     @media screen and (max-width: 1050px) {
         font-size: 35px;
     }
@@ -96,6 +99,9 @@ export const SubTitle = styled.div`
     font-size: 20px;
     font-weight: 400;
     line-height: 5vh;
+    @media screen and (max-width: 1350px) {
+        width:80%;
+    }
     @media screen and (max-width: 1050px) {
         font-size: 19px;
     }
@@ -145,7 +151,6 @@ export const MainBg = styled.div`
         }
         .SubPhone {
             display: block;
-            margin-left: -20vh;
         }
     }
     @media screen and (max-width: 1260px) {
