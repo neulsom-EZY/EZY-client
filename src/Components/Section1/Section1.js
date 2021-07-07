@@ -10,7 +10,8 @@ const Section1 = () => {
         <S.TitleSection>
           <S.WLogo><I.Logo/></S.WLogo>
             <S.MainTitle>   
-              " 소중한 시간을 계획적으로 쓰고 싶다면 "
+              " 시간, 그 이상의 가치를 만들고 있습니다. "
+              
             </S.MainTitle>
               <S.SubTitle>
                 우리는 EZY입니다 💡<br/>
