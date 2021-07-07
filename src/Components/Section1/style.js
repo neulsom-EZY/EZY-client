@@ -17,7 +17,7 @@ export const MainSection = styled.div`
 `;
 export const TitleSection = styled.div`
     margin: 0 0 20vh 0;
-    width: 80%;
+    width: 100%;
     display:grid;
     justify-content:center;
     align-items:center;
@@ -40,6 +40,9 @@ export const TitleSection = styled.div`
     }
     @media screen and (max-width: 1300px) {
         /* margin-right: -13vh; */
+    }
+    @media screen and (max-width: 1280px) {
+        margin-left: 1%;
     }
     @media screen and (max-width: 1070px) {
         margin-left:0.2%;
