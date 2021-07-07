@@ -45,6 +45,7 @@ export const TitleSection = styled.div`
         margin-left: 1%;
     }
     @media screen and (max-width: 1230px) {
+        width: 100%;
         margin: 0 0 20vh 5vh;
     }
     @media screen and (max-width: 1070px) {
@@ -55,10 +56,6 @@ export const TitleSection = styled.div`
     }
     @media screen and (max-width: 1055px) {
         margin-left:0.1%;
-    }
-
-    @media screen and (max-width: 940px) {
-
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -107,6 +104,9 @@ export const SubTitle = styled.div`
     line-height: 5vh;
     @media screen and (max-width: 1350px) {
         width:80%;
+    }
+    @media screen and (max-width: 1230px) {
+        width: 100%;
     }
     @media screen and (max-width: 1050px) {
         font-size: 19px;
@@ -170,7 +170,7 @@ export const MainBg = styled.div`
         }
         .SubSubPhone {
             display: block;
-            margin-left: 20vh;
+            margin-left: 15vh;
         }
     }
     @media screen and (max-width: 1160px) {
