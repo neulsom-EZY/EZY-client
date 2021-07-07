@@ -44,6 +44,9 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1280px) {
         margin-left: 1%;
     }
+    @media screen and (max-width: 1230px) {
+        margin: 0 0 20vh 5vh;
+    }
     @media screen and (max-width: 1070px) {
         margin-left:0.2%;
     }
