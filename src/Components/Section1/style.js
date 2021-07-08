@@ -224,7 +224,10 @@ export const Img1 = styled.div`
         max-width:100%;
     }
 `;
-export const Img2 = styled.div`
+export const Img2 = styled.button`
+    display:flex;
+    justify-content:center;
+    align-items:center;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -233,6 +236,11 @@ export const Img2 = styled.div`
     user-select: none;
     -webkit-user-drag: none;
     margin-left: 3vh;
+    width: 21vh;
+    height: 7vh;
+    background: none;
+    border: none;
+    cursor: pointer;
     @media screen and (max-width: 900px) {
         margin: 0;
     }
