@@ -78,9 +78,6 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 1350px) {
         width:120%;
     }
-    @media screen and (max-width: 1050px) {
-        font-size: 35px;
-    }
     @media screen and (max-width: 900px) {
         margin-bottom: 4vh;
         margin-top: 10vh;
@@ -114,9 +111,6 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 1130px) {
         width: 200%;
         margin-right: 40vh;
-    }
-    @media screen and (max-width: 1050px) {
-        font-size: 19px;
     }
     @media screen and (max-width: 900px) {
         margin: 0;
