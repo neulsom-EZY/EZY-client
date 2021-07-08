@@ -21,10 +21,6 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
-    /* 13inch Display */
-    /* @media screen and (max-width: 1770px) {
-        margin-left:3%;
-    } */
     @media screen and (max-width: 1550px) {
         width: 40%;
         margin-left: 8%;
@@ -160,7 +156,6 @@ export const MainBg = styled.div`
     .ResponsivePhone {
         display: none;
     }
-    /* @media screen and (max-width: 1680px) {} */
     @media screen and (max-width: 1350px) {
         .MainPhone {
             display: none;
@@ -229,7 +224,6 @@ export const Img1 = styled.div`
         max-width:100%;
     }
 `;
-
 export const Img2 = styled.div`
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -243,13 +237,11 @@ export const Img2 = styled.div`
         margin: 0;
     }
 `;
-
 export const Img3 = styled.div`
     svg{
         max-width:100%;
     }
 `;
-
 export const Img4 = styled.div`
     svg{
         max-width:100%;
