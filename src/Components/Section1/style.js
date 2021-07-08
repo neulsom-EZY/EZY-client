@@ -60,6 +60,9 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1055px) {
         margin-left:0.1%;
     }
+    @media screen and (max-width: 1040px) {
+        margin-left: 1%;
+    }
     @media screen and (max-width: 900px) {
         width: 100%;
         margin: 0;
@@ -77,6 +80,12 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 1350px) {
         width:120%;
+    }
+    @media screen and (max-width: 1010px) {
+        width: 130%;
+    }
+    @media screen and (max-width: 980px) {
+        font-size: 35px;
     }
     @media screen and (max-width: 900px) {
         margin-bottom: 4vh;
@@ -189,19 +198,24 @@ export const MainBg = styled.div`
             margin-left: 8vh;
         }
     }
+    @media screen and (max-width: 1040px) {
+        .SubSubPhone {
+            margin-left: 15vh;
+        }
+    }
     @media screen and (max-width: 1010px) {
         .SubSubPhone {
-            margin-left: 5vh;
+            margin-left: 20vh;
         }
     }
     @media screen and (max-width: 980px) {
         .SubSubPhone {
-            margin-left: 3vh;
+            margin-left: 17vh;
         }
     }
-    @media screen and (max-width: 960px) {
+    @media screen and (max-width: 940px) {
         .SubSubPhone {
-            margin-left: 0vh;
+            margin-left: 15vh;
         }
     }
     @media screen and (max-width: 900px) {
