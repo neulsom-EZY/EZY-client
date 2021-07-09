@@ -63,8 +63,6 @@ export const TitleSection = styled.div`
         width: 100%;
         margin: 0;
     }
-    @media screen and (max-width: 700px) {
-    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -87,6 +85,7 @@ export const MainTitle = styled.div`
         margin-bottom: 4vh;
         margin-top: 10vh;
         font-size: 40px;
+        width: 100%;
     }
     @media screen and (max-width: 760px) {
         font-size: 35px;
@@ -95,8 +94,6 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 670px) {
         font-size: 30px;
         font-weight: bold;
-    }
-    @media screen and (max-width: 500px) {
     }
 `;
 export const SubTitle = styled.div`
@@ -118,6 +115,7 @@ export const SubTitle = styled.div`
         margin-right: 40vh;
     }
     @media screen and (max-width: 900px) {
+        width: 100%;
         margin: 0;
         margin-bottom: 4vh;
         margin-top: 3vh;
@@ -134,8 +132,9 @@ export const WLogo = styled.div`
     height: 23vh;
     margin-left: 3vh;
     @media screen and (max-width: 900px) {
-        margin-left: -3vh;
+        margin-left: -1vh;
         margin-top: 12vh;
+        height: 15vh;
     }
 `;
 export const MainBg = styled.div`
