@@ -19,7 +19,7 @@ const Section1 = () => {
               </S.SubTitle>
               {/* Img02 */}
             {/* App Store button */}
-            <S.Img2><I.Img2/></S.Img2>
+            <S.Img2><I.Img2 className="StoreBtn"/></S.Img2>
           </S.TitleSection>
           <S.MainBg className="fade">
             <Fade right>

@@ -241,7 +241,7 @@ export const Img2 = styled.button`
     border: none;
     cursor: pointer;
     @media screen and (max-width: 900px) {
-        margin: 0;
+        //width, height, margin Reset -> text-align: center
     }
 `;
 export const Img3 = styled.div`
