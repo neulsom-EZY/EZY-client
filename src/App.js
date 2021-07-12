@@ -4,11 +4,11 @@ import Section1 from './Components/Section1/Section1'
 
 const GlobalStyle = createGlobalStyle`
   body {
-        margin: 0;
-        padding: 0;
-        color: white;
-        font-family: 'Apple SD Gothic Neo', sans-serif;
-    }
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Apple SD Gothic Neo', sans-serif;
+  }
 `;
 
 const App = () => {
