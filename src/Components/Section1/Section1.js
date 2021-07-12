@@ -11,7 +11,7 @@ const Section1 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.WLogo><I.Logo/></S.WLogo>
-          <img src={ Mobile } className="Mobile"/>
+          <img src={ Mobile } className="Mobile" alt="Mobile"/>
             <S.MainTitle>   
               " 시간, 그 이상의 가치를 바라봅니다. "
             </S.MainTitle>
@@ -22,7 +22,7 @@ const Section1 = () => {
               </S.SubTitle>
               {/* Img02 */}{/* App Store button */}
             <S.Img2><I.Img2/></S.Img2>
-          <img src={ StoreBtn } className="StoreBtn"/>
+          <img src={ StoreBtn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
           <S.MainBg className="fade">
             <Fade right>
