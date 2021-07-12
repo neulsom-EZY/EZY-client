@@ -78,8 +78,13 @@ export const TitleSection = styled.div`
         }
         .StoreBtn {
             display: block;
-            width: 30%;
+            width: 18vh;
             margin-top: 4vh;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .StoreBtn {
+            width: 15vh;
         }
     }
 `;
