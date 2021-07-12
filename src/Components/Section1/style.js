@@ -22,6 +22,9 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    .Mobile {
+        display: none;
+    }
     @media screen and (max-width: 1550px) {
         width: 40%;
         margin-left: 8%;
@@ -90,12 +93,10 @@ export const MainTitle = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 760px) {
-        font-size: 35px;
-        font-weight: bold;
+
     }
     @media screen and (max-width: 670px) {
-        font-size: 30px;
-        font-weight: bold;
+
     }
 `;
 export const SubTitle = styled.div`
@@ -125,8 +126,6 @@ export const SubTitle = styled.div`
         font-weight: lighter;
     }
     @media screen and (max-width: 670px) {
-        font-size: 17px;
-        font-weight: 500;
         margin-top: 3vh;
     }
 `;
