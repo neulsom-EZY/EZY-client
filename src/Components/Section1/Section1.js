@@ -3,6 +3,7 @@ import * as S from './style';
 import * as I from '../../Assets/index';
 import Fade from 'react-reveal/Fade';
 import Mobile from '../../Assets/Mobile.png';
+import StoreBtn from '../../Assets/StoreBtn.png';
 
 const Section1 = () => {
   return (
@@ -10,7 +11,7 @@ const Section1 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.WLogo><I.Logo/></S.WLogo>
-          <img src={ Mobile } className="Mobile" />
+          <img src={ Mobile } className="Mobile"/>
             <S.MainTitle>   
               " 시간, 그 이상의 가치를 바라봅니다. "
             </S.MainTitle>
@@ -19,9 +20,9 @@ const Section1 = () => {
                 오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
                 효율적으로, 효과적으로 계획한 일정을 진행해보세요 ! 
               </S.SubTitle>
-              {/* Img02 */}
-            {/* App Store button */}
+              {/* Img02 */}{/* App Store button */}
             <S.Img2><I.Img2/></S.Img2>
+          <img src={ StoreBtn } className="StoreBtn"/>
           </S.TitleSection>
           <S.MainBg className="fade">
             <Fade right>
