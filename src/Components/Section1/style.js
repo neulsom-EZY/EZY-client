@@ -24,9 +24,23 @@ export const TitleSection = styled.div`
     .Mobile {
         display: none;
         width: 31vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     .StoreBtn {
         display: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     @media screen and (max-width: 1550px) {
         width: 40%;
