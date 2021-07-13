@@ -148,8 +148,14 @@ export const SubTitle = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1130px) {
-        width: 200%;
+        width: 95%;
         margin-right: 40vh;
+    }
+    @media screen and (max-width: 1070px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 985px) {
+        width: 110%;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
