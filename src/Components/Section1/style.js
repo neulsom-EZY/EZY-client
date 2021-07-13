@@ -13,7 +13,6 @@ export const MainSection = styled.div`
         justify-items: center;
         flex-direction: column;
         text-align: center;
-        /* background: none; */
     }
 `;
 export const TitleSection = styled.div`
@@ -155,6 +154,7 @@ export const WLogo = styled.div`
     height: 23vh;
     margin-left: 3vh;
     @media screen and (max-width: 900px) {
+        width: 66vh;
         margin: 0;
         margin-left: -1vh;
         margin-top: 6vh;
