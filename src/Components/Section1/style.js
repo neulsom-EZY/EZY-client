@@ -159,6 +159,9 @@ export const WLogo = styled.div`
         margin-left: -1vh;
         margin-top: 6vh;
     }
+    @media screen and (max-width: 500px) {
+        width: 45vh;
+    }
 `;
 export const MainBg = styled.div`
     width: 100%;
