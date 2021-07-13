@@ -42,13 +42,18 @@ export const TitleSection = styled.div`
         user-select: none;
         -webkit-user-drag: none;
     }
+    /* @media screen and (max-width: 1680px) {
+        display:grid;
+        justify-content:center;
+        align-items:center;
+    } */
     @media screen and (max-width: 1550px) {
-        width: 40%;
-        margin-left: 8%;
+        width: 100%;
+        /* margin-left: 8%; */
     }
     @media screen and (max-width: 1400px) {
-        width: 37%;
-        margin-left: 10%;
+        width: 100%;
+        /* margin-left: 8%; */
     }
     @media screen and (max-width: 1350px) {
         /* Reset */
@@ -59,7 +64,7 @@ export const TitleSection = styled.div`
         /* margin-right: -13vh; */
     }
     @media screen and (max-width: 1280px) {
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
     @media screen and (max-width: 1230px) {
         width: 100%;
@@ -69,16 +74,16 @@ export const TitleSection = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1070px) {
-        margin-left:0.2%;
+        /* margin-left:5%; */
     }
     @media screen and (max-width: 1066px) {
-        margin-left:0.1%;
+        /* margin-left:0.1%; */
     }
     @media screen and (max-width: 1055px) {
-        margin-left:0.1%;
+        /* margin-left:0.1%; */
     }
     @media screen and (max-width: 1040px) {
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -108,11 +113,11 @@ export const MainTitle = styled.div`
     font-weight: 500;
     font-size: 40px;
     /* 13inch Display */
-    @media screen and (max-width: 1680px) {
-        width: 80vh;
-    }
     @media screen and (max-width: 1350px) {
         width:120%;
+    }
+    @media screen and (max-width: 1040px) {
+        width: 130%;
     }
     @media screen and (max-width: 1010px) {
         width: 130%;
@@ -151,11 +156,23 @@ export const SubTitle = styled.div`
         width: 95%;
         margin-right: 40vh;
     }
+    @media screen and (max-width: 1071px) {
+        width: 100%;
+    }
     @media screen and (max-width: 1070px) {
         width: 100%;
     }
+    @media screen and (max-width: 1020px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 1016px) {
+        width: 110%;
+    }
     @media screen and (max-width: 985px) {
         width: 110%;
+    }
+    @media screen and (max-width: 930px) {
+        width: 120%;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -213,7 +230,7 @@ export const MainBg = styled.div`
     }
     @media screen and (max-width: 1260px) {
         .SubPhone {
-            margin-right: 5vh;
+            margin-right: 4vh;
         }
     }
     @media screen and (max-width: 1230px) {
@@ -222,42 +239,67 @@ export const MainBg = styled.div`
         }
         .SubSubPhone {
             display: block;
-            margin-left: 15vh;
+            margin-left: 26%;
         }
     }
     @media screen and (max-width: 1130px) {
         .SubSubPhone {
-            /* margin-left: 5vh; */
+            /* margin-left: 26%; */
+        }
+    }
+    @media screen and (max-width: 1072px) {
+        .SubSubPhone {
+            /* margin-left: 26%; */
         }
     }
     @media screen and (max-width: 1070px) {
         .SubSubPhone {
-            margin-left: 12vh;
+            /* margin-left: 26%; */
+        }
+    }
+    @media screen and (max-width: 1066px) {
+        .SubSubPhone {
+            /* margin-left: 26%; */
         }
     }
     @media screen and (max-width: 1050px) {
         .SubSubPhone {
-            margin-left: 8vh;
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 1040px) {
         .SubSubPhone {
-            margin-left: 15vh;
+            /* margin-left: 25%; */
+        }
+    }
+    @media screen and (max-width: 1026px) {
+        .SubSubPhone {
+            /* margin-left: 25%; */
+        }
+    }
+    @media screen and (max-width: 1014px) {
+        .SubSubPhone {
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 1010px) {
         .SubSubPhone {
-            margin-left: 20vh;
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 980px) {
         .SubSubPhone {
-            margin-left: 17vh;
+            /* margin-left: 23%; */
         }
     }
-    @media screen and (max-width: 940px) {
+    @media screen and (max-width: 970px) {
         .SubSubPhone {
-            margin-left: 15vh;
+            /* margin-left: 23%; */
+        }
+    }
+    @media screen and (max-width: 903px) {
+        .SubSubPhone {
+            /* margin-left: 20%; */
         }
     }
     @media screen and (max-width: 900px) {
