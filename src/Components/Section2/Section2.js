@@ -5,7 +5,6 @@ const Section2 = () => {
   return (
     <>
       <S.MainSection>
-        <p>Hello</p>
       </S.MainSection>
     </>
   );
