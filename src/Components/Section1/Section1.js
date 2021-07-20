@@ -4,6 +4,7 @@ import * as I from '../../Assets/index';
 import Fade from 'react-reveal/Fade';
 import Mobile from '../../Assets/Mobile.png';
 import StoreBtn from '../../Assets/StoreBtn.png';
+import fadeout from "../../Hooks/Fadeout";
 
 const Section1 = () => {
   return (
@@ -23,6 +24,7 @@ const Section1 = () => {
             <S.Img2><I.Img2/></S.Img2>
           <img src={ StoreBtn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
+          <fadeout />
           <S.MainBg className="fade">
             <Fade right>
               <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
