@@ -1,6 +1,7 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Section1 from './Components/Section1/Section1'
+import Section1 from './Components/Section1/Section1';
+import Section2 from './Components/Section2/Section2';
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -16,6 +17,7 @@ const App = () => {
     <>
       <GlobalStyle />
       <Section1 />
+      <Section2 />
     </>
   );
 };

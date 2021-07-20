@@ -211,6 +211,9 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
+    .MainPhone {
+        z-index: 100;
+    }
     .SubPhone {
         display: none;
     }
