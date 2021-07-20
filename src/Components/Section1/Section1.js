@@ -21,21 +21,15 @@ const Section1 = () => {
                 오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
                 효율적으로, 효과적으로 계획한 일정을 진행해보세요 ! 
               </S.SubTitle>
-              {/* Img02 */}{/* App Store button */}
             <S.Img2><I.Img2/></S.Img2>
           <img src={ StoreBtn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
           <fadeout/>
           <S.MainBg className="fade">
             <Fade right>
-              {/* Img01 - 1 */}
               <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
-              {/* Img03 - 2 */}
               <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
-              {/* Img04 - 3 */}
               <S.Img4><I.Img4 className="SubSubPhone"/></S.Img4>
-              {/* 13-inch Display */}
-              {/* <I.Img5 className="ResponsivePhone"/> */}
             </Fade>
           </S.MainBg>
       </S.MainSection>
