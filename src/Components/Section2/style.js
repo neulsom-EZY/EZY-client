@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import Bg01 from '../../Assets/Bg01.png';
+import Bg02 from '../../Assets/Bg02.png';
 
 export const MainSection = styled.div`
     width: 100%;
@@ -8,7 +8,9 @@ export const MainSection = styled.div`
     align-items: center;
     position: absolute;
     z-index: -100;
-    background-image: url(${Bg01});
+    background-position: center;
+    background-size: cover;
+    background-image: url(${Bg02});
     @media screen and (max-width: 900px) {
         display: flex;
         justify-items: center;

@@ -6,6 +6,8 @@ export const MainSection = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
+    background-size: cover;
+    background-position: center;
     background-image: url(${Bg01});
     z-index:1;
     @media screen and (max-width: 900px) {
