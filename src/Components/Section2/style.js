@@ -6,7 +6,6 @@ export const MainSection = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    transform: scaleY(-1);
     position: absolute;
     z-index: -100;
     background-image: url(${Bg01});
@@ -16,4 +15,14 @@ export const MainSection = styled.div`
         flex-direction: column;
         text-align: center;
     }
+`;
+export const TitleSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`;
+export const MainTitle = styled.div`
+    width: 100%;
 `;
