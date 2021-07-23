@@ -1,15 +1,16 @@
 import styled from 'styled-components';
-import Bg01 from '../../Assets/Bg01.png';
+import Bg02 from '../../Assets/Bg02.png';
 
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
-    transform: scaleY(-1);
     position: absolute;
     z-index: -100;
-    background-image: url(${Bg01});
+    background-position: center;
+    background-size: cover;
+    background-image: url(${Bg02});
     @media screen and (max-width: 900px) {
         display: flex;
         justify-items: center;
@@ -17,3 +18,19 @@ export const MainSection = styled.div`
         text-align: center;
     }
 `;
+export const TitleSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+`;
+export const MainTitle = styled.div`
+    width: 100%;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 8vh;
+    text-align: right;
+    margin-right: 10vh;
+`;
+export const SubTitle = styled.div``;

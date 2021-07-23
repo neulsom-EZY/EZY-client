@@ -6,6 +6,8 @@ export const MainSection = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
+    background-size: cover;
+    background-position: center;
     background-image: url(${Bg01});
     z-index:1;
     @media screen and (max-width: 900px) {
@@ -21,13 +23,39 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    .Mobile {
+        display: none;
+        width: 31vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+    .StoreBtn {
+        display: none;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+    /* @media screen and (max-width: 1680px) {
+        display:grid;
+        justify-content:center;
+        align-items:center;
+    } */
     @media screen and (max-width: 1550px) {
-        width: 40%;
-        margin-left: 8%;
+        width: 100%;
+        /* margin-left: 8%; */
     }
     @media screen and (max-width: 1400px) {
-        width: 37%;
-        margin-left: 10%;
+        width: 100%;
+        /* margin-left: 8%; */
     }
     @media screen and (max-width: 1350px) {
         /* Reset */
@@ -38,7 +66,7 @@ export const TitleSection = styled.div`
         /* margin-right: -13vh; */
     }
     @media screen and (max-width: 1280px) {
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
     @media screen and (max-width: 1230px) {
         width: 100%;
@@ -48,20 +76,38 @@ export const TitleSection = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1070px) {
-        margin-left:0.2%;
+        /* margin-left:5%; */
     }
     @media screen and (max-width: 1066px) {
-        margin-left:0.1%;
+        /* margin-left:0.1%; */
     }
     @media screen and (max-width: 1055px) {
-        margin-left:0.1%;
+        /* margin-left:0.1%; */
     }
     @media screen and (max-width: 1040px) {
-        margin-left: 1%;
+        /* margin-left: 1%; */
     }
     @media screen and (max-width: 900px) {
         width: 100%;
         margin: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .Mobile {
+            display: block;
+            margin-top: -15vh;
+        }
+        .StoreBtn {
+            display: block;
+            width: 18vh;
+            margin-top: 2vh;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .StoreBtn {
+            width: 21vh;
+            margin-top: 3vh;
+        }
     }
 `;
 export const MainTitle = styled.div`
@@ -69,11 +115,11 @@ export const MainTitle = styled.div`
     font-weight: 500;
     font-size: 40px;
     /* 13inch Display */
-    @media screen and (max-width: 1680px) {
-        width: 80vh;
-    }
     @media screen and (max-width: 1350px) {
         width:120%;
+    }
+    @media screen and (max-width: 1040px) {
+        width: 130%;
     }
     @media screen and (max-width: 1010px) {
         width: 130%;
@@ -83,17 +129,15 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 900px) {
         margin-bottom: 4vh;
-        margin-top: 10vh;
-        font-size: 40px;
+        margin-top: 5vh;
+        font-size: 33px;
+        font-weight: 400;
         width: 100%;
     }
-    @media screen and (max-width: 760px) {
-        font-size: 35px;
-        font-weight: bold;
-    }
-    @media screen and (max-width: 670px) {
-        font-size: 30px;
-        font-weight: bold;
+    @media screen and (max-width: 500px) {
+        font-size: 17px;
+        font-weight: 400;
+        margin-top: 30px;
     }
 `;
 export const SubTitle = styled.div`
@@ -111,20 +155,39 @@ export const SubTitle = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1130px) {
-        width: 200%;
+        width: 95%;
         margin-right: 40vh;
+    }
+    @media screen and (max-width: 1071px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 1070px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 1020px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 1016px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 985px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 930px) {
+        width: 120%;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
         margin: 0;
         margin-bottom: 4vh;
-        margin-top: 3vh;
+        margin-top: 2vh;
         font-size: 20px;
+        font-weight: lighter;
     }
-    @media screen and (max-width: 670px) {
-        font-size: 17px;
-        font-weight: 500;
-        margin-top: 3vh;
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+        line-height: 4vh;
+        margin-bottom: 4vh;
     }
 `;
 export const WLogo = styled.div`
@@ -132,9 +195,13 @@ export const WLogo = styled.div`
     height: 23vh;
     margin-left: 3vh;
     @media screen and (max-width: 900px) {
+        width: 66vh;
+        margin: 0;
         margin-left: -1vh;
-        margin-top: 12vh;
-        height: 15vh;
+        margin-top: 6vh;
+    }
+    @media screen and (max-width: 500px) {
+        width: 67vh;
     }
 `;
 export const MainBg = styled.div`
@@ -168,7 +235,7 @@ export const MainBg = styled.div`
     }
     @media screen and (max-width: 1260px) {
         .SubPhone {
-            margin-right: 5vh;
+            margin-right: 4vh;
         }
     }
     @media screen and (max-width: 1230px) {
@@ -177,42 +244,67 @@ export const MainBg = styled.div`
         }
         .SubSubPhone {
             display: block;
-            margin-left: 15vh;
+            margin-left: 26%;
         }
     }
     @media screen and (max-width: 1130px) {
         .SubSubPhone {
-            /* margin-left: 5vh; */
+            /* margin-left: 26%; */
+        }
+    }
+    @media screen and (max-width: 1072px) {
+        .SubSubPhone {
+            /* margin-left: 26%; */
         }
     }
     @media screen and (max-width: 1070px) {
         .SubSubPhone {
-            margin-left: 12vh;
+            /* margin-left: 26%; */
+        }
+    }
+    @media screen and (max-width: 1066px) {
+        .SubSubPhone {
+            /* margin-left: 26%; */
         }
     }
     @media screen and (max-width: 1050px) {
         .SubSubPhone {
-            margin-left: 8vh;
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 1040px) {
         .SubSubPhone {
-            margin-left: 15vh;
+            /* margin-left: 25%; */
+        }
+    }
+    @media screen and (max-width: 1026px) {
+        .SubSubPhone {
+            /* margin-left: 25%; */
+        }
+    }
+    @media screen and (max-width: 1014px) {
+        .SubSubPhone {
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 1010px) {
         .SubSubPhone {
-            margin-left: 20vh;
+            /* margin-left: 25%; */
         }
     }
     @media screen and (max-width: 980px) {
         .SubSubPhone {
-            margin-left: 17vh;
+            /* margin-left: 23%; */
         }
     }
-    @media screen and (max-width: 940px) {
+    @media screen and (max-width: 970px) {
         .SubSubPhone {
-            margin-left: 15vh;
+            /* margin-left: 23%; */
+        }
+    }
+    @media screen and (max-width: 903px) {
+        .SubSubPhone {
+            /* margin-left: 20%; */
         }
     }
     @media screen and (max-width: 900px) {
@@ -244,7 +336,7 @@ export const Img2 = styled.button`
     border: none;
     cursor: pointer;
     @media screen and (max-width: 900px) {
-        //width, height, margin Reset -> text-align: center
+        display: none;
     }
 `;
 export const Img3 = styled.div`
