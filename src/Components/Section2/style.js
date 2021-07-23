@@ -27,4 +27,10 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 8vh;
+    text-align: right;
+    margin-right: 10vh;
 `;
+export const SubTitle = styled.div``;
