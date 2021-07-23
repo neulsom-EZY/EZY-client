@@ -23,11 +23,11 @@ const Section1 = () => {
           <img src={ StoreBtn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
           <fadeout />
-          <S.MainBg className="fade">
+          <S.MainBg>
             <Fade right>
-              <S.Img1><I.Img1 className="MainPhone"/></S.Img1>
-              <S.Img3><I.Img3 className="SubPhone"/></S.Img3>
-              <S.Img4><I.Img4 className="SubSubPhone"/></S.Img4>
+              <S.Img1><I.Img1 className="MainPhone fade"/></S.Img1>
+              <S.Img3><I.Img3 className="SubPhone fade"/></S.Img3>
+              <S.Img4><I.Img4 className="SubSubPhone fade"/></S.Img4>
             </Fade>
           </S.MainBg>
       </S.MainSection>
