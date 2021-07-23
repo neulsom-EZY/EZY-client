@@ -6,7 +6,6 @@ export const MainSection = styled.div`
     height: 100vh;
     display: flex;
     align-items: center;
-    position: absolute;
     z-index: -100;
     background-position: center;
     background-size: cover;
@@ -27,7 +26,6 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
     font-size: 40px;
     line-height: 8vh;
     text-align: right;
