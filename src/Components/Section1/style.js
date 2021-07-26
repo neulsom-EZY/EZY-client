@@ -240,7 +240,7 @@ export const Img2 = styled.button`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    margin-left: 3vh;
+    margin-left: 2.4vh;
     width: 21vh;
     height: 7vh;
     background: none;
