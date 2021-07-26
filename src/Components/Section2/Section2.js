@@ -6,7 +6,7 @@ const Section2 = () => {
     <>
       <S.MainSection>
         <S.TitleSection>
-          <S.MainTitle>일정 관리의 처음과 끝<br/>EZY와 함께</S.MainTitle>
+          <S.MainTitle>당신의 일정관리의<br/>처음과 끝</S.MainTitle>
         </S.TitleSection>
       </S.MainSection>
     </>

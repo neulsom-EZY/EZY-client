@@ -28,7 +28,7 @@ export const MainTitle = styled.div`
     width: 100%;
     font-size: 40px;
     line-height: 8vh;
-    text-align: right;
-    margin-right: 10vh;
+    text-align: left;
+    margin-left: 16vh;
 `;
 export const SubTitle = styled.div``;
