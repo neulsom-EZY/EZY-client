@@ -250,13 +250,3 @@ export const Img2 = styled.button`
         display: none;
     }
 `;
-export const Img3 = styled.div`
-    svg{
-        max-width:100%;
-    }
-`;
-export const Img4 = styled.div`
-    svg{
-        max-width:100%;
-    }
-`;

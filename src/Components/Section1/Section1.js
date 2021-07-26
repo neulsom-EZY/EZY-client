@@ -25,9 +25,11 @@ const Section1 = () => {
           <fadeout />
           <S.MainBg>
             <Fade right>
-              <S.Img1><I.Img1 className="MainPhone fade"/></S.Img1>
-              <S.Img3><I.Img3 className="SubPhone fade"/></S.Img3>
-              <S.Img4><I.Img4 className="SubSubPhone fade"/></S.Img4>
+              <S.Img1 className="fade">
+                <I.Img1 className="MainPhone"/>
+                <I.Img3 className="SubPhone"/>
+                <I.Img4 className="SubSubPhone"/>
+              </S.Img1>
             </Fade>
           </S.MainBg>
       </S.MainSection>
