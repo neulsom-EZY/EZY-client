@@ -13,7 +13,7 @@ const Section1 = () => {
         <S.TitleSection>
           <S.WLogo><I.Logo/></S.WLogo>
           <img src={ Mobile } className="Mobile" alt="Mobile"/>
-            <S.MainTitle>" 시간, 그 이상의 가치를 바라봅니다. "</S.MainTitle>
+            <S.MainTitle>시간, 그 이상의 가치를 바라봅니다.</S.MainTitle>
               <S.SubTitle>
                 우리는 EZY입니다 💡<br/>
                 오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>

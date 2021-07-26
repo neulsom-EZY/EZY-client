@@ -85,6 +85,7 @@ export const MainTitle = styled.div`
     width: 100%;
     font-weight: 500;
     font-size: 40px;
+    margin-left: 1vh;
     @media screen and (max-width: 1350px) {
         width:120%;
     }
