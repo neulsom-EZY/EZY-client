@@ -45,7 +45,13 @@ export const ImgSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
-    .Todo {
+    .SomeDay {
+        width: 379px;
+        height: 729px;
+    }
+    .Alert {
+        width: 330px;
+        height: 655px;
         margin-right: -3vh;
         margin-top: 10vh;
     }

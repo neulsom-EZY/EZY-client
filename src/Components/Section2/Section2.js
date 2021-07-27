@@ -1,7 +1,7 @@
 import React from 'react';
 import * as S from './style';
-import SomeDay from '../../Assets/SomeDay.png';
-import Todo from '../../Assets/Todo.png';
+import SomeDay from '../../Assets/Someday.png';
+import Alert from '../../Assets/Alert.png';
 
 const Section2 = () => {
   return (
@@ -17,7 +17,7 @@ const Section2 = () => {
           </S.MainTitle>
         </S.TitleSection>
         <S.ImgSection>
-          <img src={Todo} className="Todo" alt="Todo-image"></img>
+          <img src={Alert} className="Alert" alt="Alert-image"></img>
           <img src={SomeDay} className="SomeDay" alt="Someday-image"></img>
         </S.ImgSection>
       </S.MainSection>
