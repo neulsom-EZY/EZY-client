@@ -45,15 +45,15 @@ export const ImgSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
-    margin-right: 10vh;
+    margin-right: 15vh;
     .SomeDay {
-        width: 350px;
-        height: 700px;
+        width: 330px;
+        height: 680px;
     }
     .Alert {
         width: 300px;
-        height: 630px;
+        height: 610px;
         margin-right: -3vh;
-        margin-top: 10vh;
+        margin-top: 15vh;
     }
 `;
