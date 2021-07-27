@@ -45,13 +45,14 @@ export const ImgSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-bottom: 3vh;
+    margin-right: 10vh;
     .SomeDay {
-        width: 379px;
-        height: 729px;
+        width: 350px;
+        height: 700px;
     }
     .Alert {
-        width: 330px;
-        height: 655px;
+        width: 300px;
+        height: 630px;
         margin-right: -3vh;
         margin-top: 10vh;
     }
