@@ -41,4 +41,12 @@ export const SubTitle = styled.div`
 `;
 export const ImgSection = styled.div`
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    .Todo {
+        margin-right: -3vh;
+        margin-top: 10vh;
+    }
 `;

@@ -1,6 +1,7 @@
 import React from 'react';
 import * as S from './style';
 import SomeDay from '../../Assets/SomeDay.png';
+import Todo from '../../Assets/Todo.png';
 
 const Section2 = () => {
   return (
@@ -15,6 +16,10 @@ const Section2 = () => {
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
+        <S.ImgSection>
+          <img src={Todo} className="Todo" alt="Todo-image"></img>
+          <img src={SomeDay} className="SomeDay" alt="Someday-image"></img>
+        </S.ImgSection>
       </S.MainSection>
     </>
   );
