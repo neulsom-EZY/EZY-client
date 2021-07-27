@@ -39,3 +39,6 @@ export const SubTitle = styled.div`
     font-weight: 400;
     line-height: 5vh;
 `;
+export const ImgSection = styled.div`
+    width: 100%;
+`;

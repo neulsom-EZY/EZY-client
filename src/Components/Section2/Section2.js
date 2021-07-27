@@ -1,5 +1,6 @@
 import React from 'react';
 import * as S from './style';
+import SomeDay from '../../Assets/SomeDay.png';
 
 const Section2 = () => {
   return (
