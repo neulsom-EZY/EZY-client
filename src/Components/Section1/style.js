@@ -118,7 +118,7 @@ export const SubTitle = styled.div`
     margin-bottom: 3vh;
     font-size: 20px;
     font-weight: 400;
-    line-height: 5vh;
+    line-height: 4vh;
     @media screen and (max-width: 1350px) {
         width: 100%;
     }
