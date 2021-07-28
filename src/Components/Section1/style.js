@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Bg01 from '../../Assets/Bg01.png';
 
 export const MainSection = styled.div`
     width: 100%;
@@ -8,7 +7,6 @@ export const MainSection = styled.div`
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-image: url(${Bg01});
     z-index:1;
     @media screen and (max-width: 900px) {
         display: flex;
@@ -184,8 +182,9 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .MainPhone {
+    .P1 {
         z-index: 100;
+        width: 90vh;
     }
     .SubPhone {
         display: none;
@@ -197,7 +196,7 @@ export const MainBg = styled.div`
         display: none;
     }
     @media screen and (max-width: 1350px) {
-        .MainPhone {
+        .P1 {
             display: none;
         }
         .SubPhone {
