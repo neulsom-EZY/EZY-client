@@ -16,11 +16,15 @@ export const MainSection = styled.div`
     }
 `;
 export const TitleSection = styled.div`
-    margin: 0 0 20vh 0;
     width: 100%;
     display:grid;
     justify-content:center;
     align-items:center;
+    /* 이거 임시 컬러 */
+    /* color: black; */
+    .Logo {
+        margin-bottom: 5vh;
+    }
     .Mobile {
         display: none;
         width: 31vh;
@@ -33,7 +37,6 @@ export const TitleSection = styled.div`
         -webkit-user-drag: none;
     }
     .StoreBtn {
-        display: none;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -41,6 +44,7 @@ export const TitleSection = styled.div`
         -ms-user-select: none;
         user-select: none;
         -webkit-user-drag: none;
+        margin-bottom: 3vh;
     }
     @media screen and (max-width: 1550px) {
         width: 100%;
@@ -81,9 +85,16 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
-    font-size: 40px;
-    margin-left: 1vh;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 7.5vh;
+    background: #6B40FF;
+    background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    opacity: 70%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @media screen and (max-width: 1350px) {
         width:120%;
     }
@@ -111,12 +122,12 @@ export const MainTitle = styled.div`
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-left: 3vh;
     margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: 20px;
+    margin-bottom: 5vh;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 5vh;
+    line-height: 3.9vh;
+    color: #6A6A6A;
     @media screen and (max-width: 1350px) {
         width: 100%;
     }
@@ -185,7 +196,13 @@ export const MainBg = styled.div`
     .P1 {
         z-index: 100;
         width: 90vh;
-        height: 120vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     .SubPhone {
         display: none;

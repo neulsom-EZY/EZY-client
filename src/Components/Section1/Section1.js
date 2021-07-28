@@ -2,26 +2,29 @@ import React from 'react';
 import * as S from './style';
 import * as I from '../../Assets/index';
 import Mobile from '../../Assets/Mobile.png';
-import StoreBtn from '../../Assets/StoreBtn.png';
+import Btn from '../../Assets/Btn.svg';
 import Fade from 'react-reveal/Fade';
 import fadeout from "../../Hooks/Fadeout";
 import P1 from "../../Assets/Phone.svg";
+import Logo from "../../Assets/PageLogo.svg";
 
 const Section1 = () => {
   return (
     <>
       <S.MainSection>
         <S.TitleSection>
-          <S.WLogo><I.Logo/></S.WLogo>
+        {/* <S.WLogo><I.Logo/></S.WLogo> EZY 글자 들어간 로고 */}
           <img src={ Mobile } className="Mobile" alt="Mobile"/>
-            <S.MainTitle>시간, 그 이상의 가치를 바라봅니다.</S.MainTitle>
+          <img src={ Logo } className="Logo" alt="Logo"/>
+            <S.MainTitle>라이프스타일,<br/>
+              그 이상의 역사를 만들고 있습니다</S.MainTitle>
               <S.SubTitle>
-                우리는 EZY입니다 💡<br/>
+                우리는 EZY입니다<br/>
                 오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
                 효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
               </S.SubTitle>
-            <S.Img2><I.Img2/></S.Img2>
-          <img src={ StoreBtn } className="StoreBtn" alt="StoreBtn"/>
+            {/* <S.Img2><I.Img2/></S.Img2> 앱 스토어 버튼 */}
+          <img src={ Btn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
           <fadeout />
           <S.MainBg>
