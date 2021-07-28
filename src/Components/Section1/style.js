@@ -185,6 +185,7 @@ export const MainBg = styled.div`
     .P1 {
         z-index: 100;
         width: 90vh;
+        height: 120vh;
     }
     .SubPhone {
         display: none;
