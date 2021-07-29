@@ -18,10 +18,11 @@ const Section2 = () => {
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
+        <fadeout />
         <S.ImgSection className="fade">
           <Fade right>
-            <img src={Alert} className="Alert" alt="Alert-image"></img>
-            <img src={SomeDay} className="SomeDay" alt="Someday-image"></img>
+            <img src={Alert} className="Alert" alt="Alert-img"></img>
+            <img src={SomeDay} className="SomeDay" alt="Someday-img"></img>
           </Fade>
         </S.ImgSection>
       </S.MainSection>

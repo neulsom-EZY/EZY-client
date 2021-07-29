@@ -98,9 +98,9 @@ export const MainTitle = styled.div`
     background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
     background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
     background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
-    opacity: 70%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    opacity: 70%;
     @media screen and (max-width: 1350px) {
         width:120%;
     }
