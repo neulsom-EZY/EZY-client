@@ -2,7 +2,7 @@ const $  = require('jquery');
 
 function fade(pageLoad) {
     const windowTop = $(window).scrollTop(), windowBottom = windowTop + $(window).innerHeight();
-    const min = -0.1, max = 1 , threshold = 0.01;
+    const min = -0.5, max = 1.5 , threshold = 0.01;
 
     $(".fade").each(function () {
         const objectHeight = $(this).outerHeight(), objectTop = $(this).offset().top, objectBottom = $(this).offset().top + objectHeight;
