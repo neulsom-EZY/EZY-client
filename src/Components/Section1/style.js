@@ -109,21 +109,10 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 1010px) {
         width: 130%;
+        font-size: 42px;
     }
     @media screen and (max-width: 980px) {
-        font-size: 35px;
-    }
-    @media screen and (max-width: 900px) {
-        margin-bottom: 4vh;
-        margin-top: 5vh;
-        font-size: 33px;
-        font-weight: 400;
-        width: 100%;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 17px;
-        font-weight: 400;
-        margin-top: 30px;
+        font-size: 40px;
     }
 `;
 export const SubTitle = styled.div`
@@ -233,6 +222,16 @@ export const MainBg = styled.div`
             display: block;
             margin: 0;
             margin-left: 13vh;
+        }
+    }
+    @media screen and (max-width: 1050px) {
+        .P2 {
+            margin-left: 3vh;
+        }
+    }
+    @media screen and (max-width: 940px) {
+        .P2 {
+            margin-left: -1vh;
         }
     }
     @media screen and (max-width: 900px) {
