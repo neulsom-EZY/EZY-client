@@ -1,7 +1,6 @@
 import React from 'react';
 import * as S from './style';
 import * as I from '../../Assets/index';
-import Mobile from '../../Assets/Mobile.png';
 import Btn from '../../Assets/Btn.svg';
 import Fade from 'react-reveal/Fade';
 import fadeout from "../../Hooks/Fadeout";
@@ -14,8 +13,6 @@ const Section1 = () => {
     <>
       <S.MainSection>
         <S.TitleSection>
-        {/* <S.WLogo><I.Logo/></S.WLogo> EZY 글자 들어간 로고 */}
-          <img src={ Mobile } className="Mobile" alt="Mobile"/>
           <img src={ Logo } className="Logo" alt="Logo"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다</S.MainTitle>
