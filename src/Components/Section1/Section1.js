@@ -19,23 +19,21 @@ const Section1 = () => {
           <img src={ Logo } className="Logo" alt="Logo"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다</S.MainTitle>
-              <S.SubTitle>
-                우리는 EZY입니다<br/>
-                오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
-                효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
-              </S.SubTitle>
+            <S.SubTitle>
+              우리는 EZY입니다<br/>
+              오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
+              효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
+            </S.SubTitle>
           <img src={ Btn } className="StoreBtn" alt="StoreBtn"/>
           </S.TitleSection>
           <fadeout />
-          <S.MainBg>
+          <S.MainBg className="fade">
             <Fade right>
-            <S.Img1 className="fade">
-                <img src={ P1 } className="P1 fade" alt="Phone"/>
-                <I.Img3 className="SubPhone"/>
-                <img src={ P2 } className="P2 fade" alt="Phone2"/>
-              </S.Img1>
-            </Fade>
-          </S.MainBg>
+              <img src={ P1 } className="P1" alt="Phone"/>
+              <I.Img3 className="SubPhone"/>
+              <img src={ P2 } className="P2" alt="Phone2"/>
+          </Fade>
+        </S.MainBg>
       </S.MainSection>
     </>
   );
