@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Bg01 from '../../Assets/Bg01.png';
 
 export const MainSection = styled.div`
     width: 100%;
@@ -8,7 +7,6 @@ export const MainSection = styled.div`
     align-items: center;
     background-size: cover;
     background-position: center;
-    background-image: url(${Bg01});
     z-index:1;
     @media screen and (max-width: 900px) {
         display: flex;
@@ -18,11 +16,14 @@ export const MainSection = styled.div`
     }
 `;
 export const TitleSection = styled.div`
-    margin: 0 0 20vh 0;
     width: 100%;
     display:grid;
     justify-content:center;
     align-items:center;
+    .Logo {
+        margin-bottom: 5vh;
+        margin-left: -1vh;
+    }
     .Mobile {
         display: none;
         width: 31vh;
@@ -35,7 +36,7 @@ export const TitleSection = styled.div`
         -webkit-user-drag: none;
     }
     .StoreBtn {
-        display: none;
+        width: 22vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -43,20 +44,27 @@ export const TitleSection = styled.div`
         -ms-user-select: none;
         user-select: none;
         -webkit-user-drag: none;
+        margin-bottom: 3vh;
     }
     @media screen and (max-width: 1550px) {
         width: 100%;
     }
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1450px) {
         width: 100%;
         margin-left: 5%;
     }
-    @media screen and (max-width: 1230px) {
-        width: 100%;
-        margin: 0 0 20vh 5vh;
+    @media screen and (max-width: 1280px) {
+        margin-left: 1%;
     }
-    @media screen and (max-width: 1130px) {
-        width: 100%;
+    @media screen and (max-width: 1230px) {
+        margin: 10vh;
+    }
+    @media screen and (max-width: 1150px) {
+        word-break: keep-all;
+        margin-left: 5%;
+    }
+    @media screen and (max-width: 1115px) {
+        word-break: keep-all;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -83,9 +91,16 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
-    font-size: 40px;
-    margin-left: 1vh;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 7.5vh;
+    background: #6B40FF;
+    background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    opacity: 70%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     @media screen and (max-width: 1350px) {
         width:120%;
     }
@@ -94,31 +109,20 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 1010px) {
         width: 130%;
+        font-size: 42px;
     }
     @media screen and (max-width: 980px) {
-        font-size: 35px;
-    }
-    @media screen and (max-width: 900px) {
-        margin-bottom: 4vh;
-        margin-top: 5vh;
-        font-size: 33px;
-        font-weight: 400;
-        width: 100%;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 17px;
-        font-weight: 400;
-        margin-top: 30px;
+        font-size: 40px;
     }
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-left: 3vh;
     margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: 20px;
+    margin-bottom: 5vh;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 4vh;
+    line-height: 3.9vh;
+    color: #6A6A6A;
     @media screen and (max-width: 1350px) {
         width: 100%;
     }
@@ -184,42 +188,54 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .MainPhone {
+    .P1 {
         z-index: 100;
+        width: 90vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     .SubPhone {
         display: none;
     }
-    .SubSubPhone {
+    .P2 {
         display: none;
     }
-    .ResponsivePhone {
-        display: none;
-    }
-    @media screen and (max-width: 1350px) {
-        .MainPhone {
+    @media screen and (max-width: 1450px) {
+        .P1 {
             display: none;
         }
         .SubPhone {
             display: block;
-        }
-    }
-    @media screen and (max-width: 1260px) {
-        .SubPhone {
-            margin-right: 4vh;
+            margin-right: -40vh;
         }
     }
     @media screen and (max-width: 1230px) {
         .SubPhone {
             display: none;
         }
-        .SubSubPhone {
+        .P2 {
             display: block;
-            margin-left: 26%;
+            margin: 0;
+            margin-left: 13vh;
+        }
+    }
+    @media screen and (max-width: 1050px) {
+        .P2 {
+            margin-left: 3vh;
+        }
+    }
+    @media screen and (max-width: 940px) {
+        .P2 {
+            margin-left: -1vh;
         }
     }
     @media screen and (max-width: 900px) {
-        .SubSubPhone {
+        .P2 {
             display: none;
         }
     }
@@ -248,15 +264,5 @@ export const Img2 = styled.button`
     cursor: pointer;
     @media screen and (max-width: 900px) {
         display: none;
-    }
-`;
-export const Img3 = styled.div`
-    svg{
-        max-width:100%;
-    }
-`;
-export const Img4 = styled.div`
-    svg{
-        max-width:100%;
     }
 `;
