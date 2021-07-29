@@ -20,10 +20,9 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
-    /* 이거 임시 컬러 */
-    /* color: black; */
     .Logo {
         margin-bottom: 5vh;
+        margin-left: -1vh;
     }
     .Mobile {
         display: none;
@@ -37,6 +36,7 @@ export const TitleSection = styled.div`
         -webkit-user-drag: none;
     }
     .StoreBtn {
+        width: 20vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
