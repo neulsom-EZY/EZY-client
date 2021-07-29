@@ -24,16 +24,8 @@ export const TitleSection = styled.div`
         margin-bottom: 5vh;
         margin-left: -1vh;
     }
-    .Mobile {
-        display: none;
-        width: 31vh;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        -webkit-user-drag: none;
+    .M-Logo {
+        width: 100vh;
     }
     .StoreBtn {
         width: 22vh;

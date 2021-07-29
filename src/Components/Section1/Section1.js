@@ -7,13 +7,17 @@ import fadeout from "../../Hooks/Fadeout";
 import P1 from "../../Assets/Phone.svg";
 import P2 from "../../Assets/Phone2.svg";
 import Logo from "../../Assets/PageLogo.svg";
+import M_Logo from "../../Assets/MobileLogo.svg";
+import M_Bg from "../../Assets/MobileBg.svg";
 
 const Section1 = () => {
   return (
     <>
       <S.MainSection>
+      <img src={ M_Bg } className="M-Bg" alt="Mobile-Background-Image"/>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
+          <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다</S.MainTitle>
             <S.SubTitle>
