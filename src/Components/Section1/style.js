@@ -53,8 +53,18 @@ export const TitleSection = styled.div`
         width: 100%;
         margin-left: 5%;
     }
-    @media screen and (max-width: 1130px) {
-        width: 100%;
+    @media screen and (max-width: 1280px) {
+        margin-left: 1%;
+    }
+    @media screen and (max-width: 1230px) {
+        margin: 10vh;
+    }
+    @media screen and (max-width: 1150px) {
+        word-break: keep-all;
+        margin-left: 5%;
+    }
+    @media screen and (max-width: 1115px) {
+        word-break: keep-all;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
@@ -212,11 +222,7 @@ export const MainBg = styled.div`
         }
         .SubPhone {
             display: block;
-        }
-    }
-    @media screen and (max-width: 1260px) {
-        .SubPhone {
-            margin-right: 4vh;
+            margin-right: -40vh;
         }
     }
     @media screen and (max-width: 1230px) {
@@ -225,7 +231,8 @@ export const MainBg = styled.div`
         }
         .P2 {
             display: block;
-            margin-left: 26%;
+            margin: 0;
+            margin-left: 13vh;
         }
     }
     @media screen and (max-width: 900px) {
