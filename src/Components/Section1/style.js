@@ -36,7 +36,7 @@ export const TitleSection = styled.div`
         -webkit-user-drag: none;
     }
     .StoreBtn {
-        width: 20vh;
+        width: 22vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -49,13 +49,9 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1550px) {
         width: 100%;
     }
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1450px) {
         width: 100%;
         margin-left: 5%;
-    }
-    @media screen and (max-width: 1230px) {
-        width: 100%;
-        margin: 0 0 20vh 5vh;
     }
     @media screen and (max-width: 1130px) {
         width: 100%;
@@ -207,13 +203,10 @@ export const MainBg = styled.div`
     .SubPhone {
         display: none;
     }
-    .SubSubPhone {
+    .P2 {
         display: none;
     }
-    .ResponsivePhone {
-        display: none;
-    }
-    @media screen and (max-width: 1350px) {
+    @media screen and (max-width: 1450px) {
         .P1 {
             display: none;
         }
@@ -230,13 +223,13 @@ export const MainBg = styled.div`
         .SubPhone {
             display: none;
         }
-        .SubSubPhone {
+        .P2 {
             display: block;
             margin-left: 26%;
         }
     }
     @media screen and (max-width: 900px) {
-        .SubSubPhone {
+        .P2 {
             display: none;
         }
     }
