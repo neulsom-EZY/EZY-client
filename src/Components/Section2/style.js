@@ -39,3 +39,21 @@ export const SubTitle = styled.div`
     font-weight: 400;
     line-height: 5vh;
 `;
+export const ImgSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+    margin-right: 15vh;
+    .SomeDay {
+        width: 330px;
+        height: 680px;
+    }
+    .Alert {
+        width: 300px;
+        height: 610px;
+        margin-right: -3vh;
+        margin-top: 15vh;
+    }
+`;
