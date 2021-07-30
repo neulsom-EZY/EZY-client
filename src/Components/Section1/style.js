@@ -1,18 +1,22 @@
 import styled from 'styled-components';
+import M_Bg from "../../Assets/MobileBg.svg";
 
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
     z-index:1;
     @media screen and (max-width: 900px) {
         display: flex;
         justify-items: center;
         flex-direction: column;
         text-align: center;
+        background-image: url(${M_Bg});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 `;
 export const TitleSection = styled.div`
@@ -23,9 +27,16 @@ export const TitleSection = styled.div`
     .Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
     .M-Logo {
-        width: 100vh;
+
     }
     .StoreBtn {
         width: 22vh;
