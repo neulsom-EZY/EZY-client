@@ -1,7 +1,8 @@
 import React from 'react';
 import * as S from './style';
-import SomeDay from '../../Assets/SomeDay.png';
-import Alert from '../../Assets/Alert.png';
+import * as I from '../../Assets/index';
+import SomeDay from '../../Assets/SomeDay.svg';
+import Alert from '../../Assets/Alert.svg';
 import fadeout from "../../Hooks/Fadeout";
 import Fade from 'react-reveal/Fade';
 
