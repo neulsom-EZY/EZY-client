@@ -29,6 +29,9 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    .M-Phone{
+        display: none;
+    }
     .Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
@@ -72,7 +75,7 @@ export const TitleSection = styled.div`
         word-break: keep-all;
     }
     @media screen and (max-width: 900px) {
-        width: 100%;
+        width: 50%;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -90,11 +93,11 @@ export const TitleSection = styled.div`
             display: none;
         }
         .M-Phone {
-            width: 20vh;
+            width: 30vh;
         }
     }
     @media screen and (max-width: 500px) {
-        margin-bottom: -100vh;
+        /* margin-bottom: -100vh; */
         .StoreBtn {
             width: 14vh;
             margin-top: 3vh;
