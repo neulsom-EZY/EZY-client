@@ -8,14 +8,16 @@ import P1 from "../../Assets/Phone.svg";
 import P2 from "../../Assets/Phone2.svg";
 import Logo from "../../Assets/PageLogo.svg";
 import M_Logo from "../../Assets/MobileLogo.svg";
+import M_Phone from "../../Assets/MobilePhone.svg";
 
 const Section1 = () => {
   return (
     <>
       <S.MainSection>
+      <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
+      <img src={ M_Phone } className="M-Phone" alt="Phone"/>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
-          <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다</S.MainTitle>
             <S.SubTitle>
@@ -29,8 +31,8 @@ const Section1 = () => {
           <fadeout />
           <S.MainBg className="fade">
             <Fade right>
-              {/* <img src={ P1 } className="P1" alt="Phone"/> */}
-              <I.P1 className="P1"/>
+              <img src={ P1 } className="P1" alt="Phone"/>
+              {/* <I.P1 className="P1"/> */}
               <I.Img3 className="SubPhone"/>
               {/* <img src={ P2 } className="P2" alt="Phone2"/> */}
               <I.P2 className="P2"/>

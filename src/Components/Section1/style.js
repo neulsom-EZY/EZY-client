@@ -17,6 +17,11 @@ export const MainSection = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        .M-Logo {
+            display: block;
+            width: 10vh;
+            margin-top: -13vh;
+        }
     }
 `;
 export const TitleSection = styled.div`
@@ -35,8 +40,10 @@ export const TitleSection = styled.div`
         user-select: none;
         -webkit-user-drag: none;
     }
-    .M-Logo {
-
+    @media screen and (max-width: 900px) {
+        .Logo {
+            display: none;
+        }
     }
     .StoreBtn {
         width: 22vh;
@@ -117,6 +124,9 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 980px) {
         font-size: 40px;
     }
+    @media screen and (max-width: 900px) {
+        font-size: 17px;
+    }
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -159,7 +169,7 @@ export const SubTitle = styled.div`
         margin: 0;
         margin-bottom: 4vh;
         margin-top: 2vh;
-        font-size: 20px;
+        font-size: 12px;
         font-weight: lighter;
     }
     @media screen and (max-width: 500px) {
