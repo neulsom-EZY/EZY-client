@@ -79,7 +79,7 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 7vh;
+        margin-bottom: 3vh;
         .StoreBtn {
             display: block;
             width: 18vh;
@@ -92,8 +92,7 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 500px) {
         width: 100%;
         .StoreBtn {
-            width: 110px;
-            height: 45px;
+            width: 20vh;
         }
     }
 `;
@@ -167,8 +166,8 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 900px) {
         width: 80%;
         margin: 0;
-        margin-top: 5vh;
-        margin-bottom: 5vh;
+        margin-top: 5.5vh;
+        margin-bottom: 2.5vh;
         font-size: 12px;
         font-weight: lighter;
         background: #6B40FF;
