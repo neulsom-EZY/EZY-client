@@ -125,7 +125,8 @@ export const MainTitle = styled.div`
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 6vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
     font-size: 22px;
     font-weight: 400;
     line-height: 3.9vh;
