@@ -17,7 +17,6 @@ export const MainSection = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        /* margin-top: 50vh; */
         .M-Logo {
             display: block;
             width: 10vh;
@@ -294,6 +293,10 @@ export const MobileSection = styled.div`
     flex-direction: column;
     text-align: center;
     margin-top: 15vh;
+    display: none;
+    @media screen and (max-width: 900px) {
+        display: block;
+    }
 `;
 export const MobileLogoSection = styled.div`
     display: flex;
@@ -301,6 +304,7 @@ export const MobileLogoSection = styled.div`
     align-items: center;
     margin-top: -7vh;
     margin-bottom: 4vh;
+
 `;
 export const MobileImgSection = styled.div`
     display: flex;
