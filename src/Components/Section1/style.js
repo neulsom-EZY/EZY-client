@@ -32,10 +32,6 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
-
-    .M-Phone{
-        display: none;
-    }
     .Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
@@ -84,10 +80,7 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        .Mobile {
-            display: block;
-            margin-top: -15vh;
-        }
+        margin-bottom: 5vh;
         .StoreBtn {
             display: block;
             width: 18vh;
@@ -96,15 +89,12 @@ export const TitleSection = styled.div`
         .Logo {
             display: none;
         }
-        .M-Phone {
-            width: 30vh;
-        }
     }
     @media screen and (max-width: 500px) {
         width: 100%;
         .StoreBtn {
-            width: 12.5vh;
-            margin-top: 3vh;
+            width: 110px;
+            height: 45px;
         }
     }
 `;
@@ -134,7 +124,7 @@ export const MainTitle = styled.div`
         font-size: 40px;
     }
     @media screen and (max-width: 900px) {
-        width: 50%;
+        width: 100%;
         font-size: 17px;
         line-height: 3vh;
     }
@@ -178,8 +168,8 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 900px) {
         width: 80%;
         margin: 0;
-        margin-bottom: 4vh;
-        margin-top: 2vh;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
         font-size: 12px;
         font-weight: lighter;
         background: #6B40FF;
@@ -193,8 +183,6 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 500px) {
         font-size: 12px;
         line-height: 3vh;
-        margin-top: 5vh;
-        margin-bottom: -1vh;
     }
 `;
 export const WLogo = styled.div`
@@ -302,23 +290,25 @@ export const MobileSection = styled.div`
     width: 100%;
     height: 60vh;
     display: flex;
-    justify-content: center;
+    justify-content: top;
     flex-direction: column;
     text-align: center;
+    margin-top: 15vh;
 `;
 export const MobileLogoSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: black;
+    margin-top: -7vh;
+    margin-bottom: 4vh;
 `;
 export const MobileImgSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: black;
     .M-Phone {
-        width: 23vh;
+        width: 31vh;
     }
 `;
