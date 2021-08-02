@@ -306,3 +306,8 @@ export const LogoSection = styled.div`
     height: 15vh;
     background-color: black;
 `;
+export const MobileImgSection = styled.div`
+    display: flex;
+    justify-items: center;
+    align-items: center;
+`;

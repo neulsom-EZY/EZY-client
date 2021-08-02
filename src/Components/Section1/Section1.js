@@ -16,6 +16,7 @@ const Section1 = () => {
   return (
     <>
       <S.LogoSection>Hello</S.LogoSection>
+      <S.MobileImgSection></S.MobileImgSection>
       <S.MainSection>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
