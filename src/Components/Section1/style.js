@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import M_Bg from "../../Assets/MobileBg1.svg";
+import M_Bg from "../../Assets/MobileBg.svg";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -13,9 +13,10 @@ export const MainSection = styled.div`
         justify-items: center;
         flex-direction: column;
         text-align: center;
+        /* background-image: url(${M_Bg}); */
         background-size: cover;
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: top;
         margin-top: 50vh;
         .M-Logo {
             display: block;
@@ -79,7 +80,7 @@ export const TitleSection = styled.div`
         word-break: keep-all;
     }
     @media screen and (max-width: 900px) {
-        width: 50%;
+        width: 100%;
         margin: 0;
         display: flex;
         justify-content: center;
@@ -101,7 +102,7 @@ export const TitleSection = styled.div`
         }
     }
     @media screen and (max-width: 500px) {
-        /* margin-bottom: -100vh; */
+        width: 100%;
         .StoreBtn {
             width: 14vh;
             margin-top: 3vh;
@@ -134,6 +135,7 @@ export const MainTitle = styled.div`
         font-size: 40px;
     }
     @media screen and (max-width: 900px) {
+        width: 50%;
         font-size: 17px;
         line-height: 3vh;
     }
