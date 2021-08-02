@@ -12,7 +12,8 @@ const Section2 = () => {
       <S.MainSection>
         <S.TitleSection>
           <S.MainTitle>
-            나를 위한 일정관리,<br/>그 처음과 끝
+            나를 위한 일정관리,<br/>
+            그 처음과 끝
             <S.SubTitle>
               EZY로 계획하는 오늘 하루의 시작<br/>
               EZY로 마무리하는 오늘 하루
