@@ -22,14 +22,12 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
 `;
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: 600;
     font-size: 44px;
     line-height: 8vh;
-    text-align: left;
     margin-left: 16vh;
 `;
 export const SubTitle = styled.div`
