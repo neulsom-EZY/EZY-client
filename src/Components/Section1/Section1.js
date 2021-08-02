@@ -14,10 +14,10 @@ const Section1 = () => {
   return (
     <>
       <S.MainSection>
-      <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
-      <img src={ M_Phone } className="M-Phone" alt="Phone"/>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
+          <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
+          <img src={ M_Phone } className="M-Phone" alt="Phone"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다</S.MainTitle>
             <S.SubTitle>

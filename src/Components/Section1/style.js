@@ -20,7 +20,7 @@ export const MainSection = styled.div`
         .M-Logo {
             display: block;
             width: 10vh;
-            margin-top: -13vh;
+            margin-top: -100vh;
         }
     }
 `;
@@ -39,14 +39,6 @@ export const TitleSection = styled.div`
         -ms-user-select: none;
         user-select: none;
         -webkit-user-drag: none;
-    }
-    @media screen and (max-width: 900px) {
-        .Logo {
-            display: none;
-        }
-        .StoreBtn {
-            /* opacity: 50%; */
-        }
     }
     .StoreBtn {
         width: 22vh;
@@ -94,10 +86,17 @@ export const TitleSection = styled.div`
             width: 18vh;
             margin-top: 2vh;
         }
+        .Logo {
+            display: none;
+        }
+        .M-Phone {
+            width: 20vh;
+        }
     }
     @media screen and (max-width: 500px) {
+        margin-bottom: -100vh;
         .StoreBtn {
-            width: 21vh;
+            width: 14vh;
             margin-top: 3vh;
         }
     }
@@ -186,7 +185,8 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 500px) {
         font-size: 12px;
         line-height: 3vh;
-        margin-bottom: 4vh;
+        margin-top: 5vh;
+        margin-bottom: -1vh;
     }
 `;
 export const WLogo = styled.div`
