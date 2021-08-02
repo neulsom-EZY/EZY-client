@@ -44,6 +44,9 @@ export const TitleSection = styled.div`
         .Logo {
             display: none;
         }
+        .StoreBtn {
+            /* opacity: 50%; */
+        }
     }
     .StoreBtn {
         width: 22vh;
@@ -171,6 +174,13 @@ export const SubTitle = styled.div`
         margin-top: 2vh;
         font-size: 12px;
         font-weight: lighter;
+        background: #6B40FF;
+        background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 80%;
     }
     @media screen and (max-width: 500px) {
         font-size: 12px;
