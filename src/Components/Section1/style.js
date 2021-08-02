@@ -103,7 +103,7 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 500px) {
         width: 100%;
         .StoreBtn {
-            width: 14vh;
+            width: 12.5vh;
             margin-top: 3vh;
         }
     }
@@ -188,7 +188,7 @@ export const SubTitle = styled.div`
         background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        opacity: 80%;
+        opacity: 100%;
     }
     @media screen and (max-width: 500px) {
         font-size: 12px;

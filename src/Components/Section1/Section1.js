@@ -17,15 +17,17 @@ const Section1 = () => {
     <>
       <S.MainSection>
         <S.MobileSection>
-        <S.MobileLogoSection>Hello</S.MobileLogoSection>
-        <S.MobileImgSection>Hello</S.MobileImgSection>
-      </S.MobileSection>
+          <S.MobileLogoSection>
+            <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
+          </S.MobileLogoSection>
+          <S.MobileImgSection>Hello</S.MobileImgSection>
+        </S.MobileSection>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
-          <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
           <img src={ M_Phone } className="M-Phone" alt="Phone"/>
             <S.MainTitle>라이프스타일,<br/>
-              그 이상의 역사를 만들고 있습니다</S.MainTitle>
+              그 이상의 역사를 만들고 있습니다
+            </S.MainTitle>
             <S.SubTitle>
               우리는 EZY입니다<br/>
               오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
@@ -36,12 +38,12 @@ const Section1 = () => {
           </S.TitleSection>
           <fadeout />
           <S.MainBg className="fade">
-            <Fade right>
-              <img src={ P1 } className="P1" alt="Phone"/>
-              {/* <I.P1 className="P1"/> */}
-              <I.Img3 className="SubPhone"/>
-              {/* <img src={ P2 } className="P2" alt="Phone2"/> */}
-              <I.P2 className="P2"/>
+          <Fade right>
+            <img src={ P1 } className="P1" alt="Phone"/>
+            {/* <I.P1 className="P1"/> */}
+            <I.Img3 className="SubPhone"/>
+            {/* <img src={ P2 } className="P2" alt="Phone2"/> */}
+            <I.P2 className="P2"/>
           </Fade>
         </S.MainBg>
       </S.MainSection>
