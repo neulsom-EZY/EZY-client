@@ -27,7 +27,7 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
-    .Logo {
+    .W-Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
         -webkit-touch-callout: none;
@@ -81,7 +81,7 @@ export const TitleSection = styled.div`
             width: 18vh;
             margin-top: 2vh;
         }
-        .Logo {
+        .W-Logo {
             display: none;
         }
     }
@@ -202,7 +202,7 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .P1 {
+    .W-Phone {
         z-index: 100;
         width: 90vh;
         -webkit-touch-callout: none;
@@ -220,7 +220,7 @@ export const MainBg = styled.div`
         display: none;
     }
     @media screen and (max-width: 1450px) {
-        .P1 {
+        .W-Phone {
             display: none;
         }
         .SubPhone {
