@@ -5,9 +5,9 @@ import Fade from "react-reveal/Fade";
 import fadeout from "../../Hooks/Fadeout";
 import W_Logo from "../../Assets/WebLogo.svg";
 import W_Phone from "../../Assets/WebPhone.svg";
+import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
 import M_Logo from "../../Assets/MobileLogo.svg";
 import M_Phone from "../../Assets/MobilePhone.png";
-import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
 import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
 
 const Section1 = () => {
