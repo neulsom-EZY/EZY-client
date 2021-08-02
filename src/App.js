@@ -17,10 +17,10 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-      <FullPage duration={1000}>
+      {/* <FullPage duration={1000}> */}
         <Slide><Section1/></Slide>
-        <Slide><Section2/></Slide>
-      </FullPage>
+        {/* <Slide><Section2/></Slide> */}
+      {/* </FullPage> */}
     </>
   );
 };

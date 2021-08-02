@@ -1,18 +1,25 @@
 import styled from 'styled-components';
+import M_Bg from "../../Assets/MobileBg.svg";
 
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-size: cover;
-    background-position: center;
     z-index:1;
     @media screen and (max-width: 900px) {
         display: flex;
         justify-items: center;
         flex-direction: column;
         text-align: center;
+        background-image: url(${M_Bg});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        .M-Bg {
+            margin-top: -10vh;
+        }
     }
 `;
 export const TitleSection = styled.div`
@@ -20,23 +27,22 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
-    .Logo {
+    .W-Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
-    .Mobile {
+    .M-StoreBtn {
         display: none;
-        width: 31vh;
-        -webkit-touch-callout: none;
-        -webkit-user-select: none;
-        -khtml-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        -webkit-user-drag: none;
     }
-    .StoreBtn {
-        width: 22vh;
+    .W-StoreBtn {
+        width: 22.6vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
@@ -44,7 +50,7 @@ export const TitleSection = styled.div`
         -ms-user-select: none;
         user-select: none;
         -webkit-user-drag: none;
-        margin-bottom: 3vh;
+        margin-bottom: 3.5vh;
     }
     @media screen and (max-width: 1550px) {
         width: 100%;
@@ -72,20 +78,26 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        .Mobile {
-            display: block;
-            margin-top: -15vh;
+        margin-bottom: 8.5vh;
+        .W-StoreBtn {
+            display: none;
+            width: 18vh;
+            margin-top: 5.5vh;
         }
-        .StoreBtn {
+        .M-StoreBtn {
             display: block;
             width: 18vh;
-            margin-top: 2vh;
+            margin-top: 5.5vh;
+        }
+        .W-Logo {
+            display: none;
         }
     }
     @media screen and (max-width: 500px) {
-        .StoreBtn {
-            width: 21vh;
-            margin-top: 3vh;
+        width: 100%;
+        .M-StoreBtn {
+            width: 133px;
+            height: 45px;
         }
     }
 `;
@@ -114,10 +126,22 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 980px) {
         font-size: 40px;
     }
+    /* 여기야 여기 */
+    @media screen and (max-width: 900px) {
+        font-size: 25px;
+        line-height: 5vh;
+        margin-bottom: -3vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-bottom: 0;
+        width: 100%;
+        font-size: 17px;
+        line-height: 3vh;
+    }
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 3vh;
+    margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 22px;
     font-weight: 400;
@@ -152,17 +176,23 @@ export const SubTitle = styled.div`
         width: 120%;
     }
     @media screen and (max-width: 900px) {
-        width: 100%;
+        width: 80%;
         margin: 0;
-        margin-bottom: 4vh;
-        margin-top: 2vh;
-        font-size: 20px;
+        margin-top: 7vh;
+        margin-bottom: 2.2vh;
+        font-size: 15px;
         font-weight: lighter;
+        background: #6B40FF;
+        background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 100%;
     }
     @media screen and (max-width: 500px) {
         font-size: 12px;
-        line-height: 4vh;
-        margin-bottom: 4vh;
+        line-height: 3vh;
     }
 `;
 export const WLogo = styled.div`
@@ -188,7 +218,7 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .P1 {
+    .W-Phone {
         z-index: 100;
         width: 90vh;
         -webkit-touch-callout: none;
@@ -206,7 +236,7 @@ export const MainBg = styled.div`
         display: none;
     }
     @media screen and (max-width: 1450px) {
-        .P1 {
+        .W-Phone {
             display: none;
         }
         .SubPhone {
@@ -264,5 +294,52 @@ export const Img2 = styled.button`
     cursor: pointer;
     @media screen and (max-width: 900px) {
         display: none;
+    }
+`;
+export const MobileSection = styled.div`
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+    display: none;
+    @media screen and (max-width: 900px) {
+        display: block;
+    }
+`;
+export const MobileLogoSection = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8vh;
+    margin-bottom: 3vh;
+    .M-Logo {
+        display: block;
+        width: 11.5vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+`;
+export const MobileImgSection = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .M-Phone {
+        width: 31vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
 `;
