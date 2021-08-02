@@ -38,7 +38,10 @@ export const TitleSection = styled.div`
         user-select: none;
         -webkit-user-drag: none;
     }
-    .StoreBtn {
+    .M-StoreBtn {
+        display: none;
+    }
+    .W-StoreBtn {
         width: 22vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
@@ -75,8 +78,13 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 5vh;
-        .StoreBtn {
+        margin-bottom: 8.5vh;
+        .W-StoreBtn {
+            display: none;
+            width: 18vh;
+            margin-top: 5.5vh;
+        }
+        .M-StoreBtn {
             display: block;
             width: 18vh;
             margin-top: 5.5vh;
@@ -87,8 +95,9 @@ export const TitleSection = styled.div`
     }
     @media screen and (max-width: 500px) {
         width: 100%;
-        .StoreBtn {
-            width: 21vh;
+        .M-StoreBtn {
+            width: 133px;
+            height: 45px;
         }
     }
 `;

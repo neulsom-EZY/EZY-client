@@ -7,7 +7,8 @@ import W_Logo from "../../Assets/WebLogo.svg";
 import W_Phone from "../../Assets/WebPhone.svg";
 import M_Logo from "../../Assets/MobileLogo.svg";
 import M_Phone from "../../Assets/MobilePhone.png";
-import StoreBtn from "../../Assets/StoreBtn.svg";
+import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
+import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
 
 const Section1 = () => {
   return (
@@ -32,7 +33,8 @@ const Section1 = () => {
             오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
             효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
           </S.SubTitle>
-          <img src={StoreBtn} className="StoreBtn" alt="Web-Phone" />
+          <img src={W_StoreBtn} className="W-StoreBtn" alt="Web-Store-Button" />
+          <img src={M_StoreBtn} className="M-StoreBtn" alt="Mobile-Store-Button" />
         </S.TitleSection>
         <fadeout />
         <S.MainBg className="fade">
