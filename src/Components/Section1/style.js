@@ -17,11 +17,10 @@ export const MainSection = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        margin-top: 50vh;
+        /* margin-top: 50vh; */
         .M-Logo {
             display: block;
             width: 10vh;
-            margin-top: -100vh;
         }
         .M-Bg {
             margin-top: -10vh;
@@ -177,7 +176,7 @@ export const SubTitle = styled.div`
         width: 120%;
     }
     @media screen and (max-width: 900px) {
-        width: 100%;
+        width: 80%;
         margin: 0;
         margin-bottom: 4vh;
         margin-top: 2vh;
