@@ -300,7 +300,7 @@ export const MobileLogoSection = styled.div`
     margin-bottom: 3vh;
     .M-Logo {
         display: block;
-        width: 10vh;
+        width: 11.5vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
