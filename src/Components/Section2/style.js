@@ -26,8 +26,8 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: 600;
+    font-size: 44px;
     line-height: 8vh;
     text-align: left;
     margin-left: 16vh;
@@ -35,7 +35,7 @@ export const MainTitle = styled.div`
 export const SubTitle = styled.div`
     width: 100%;
     margin-top: 3vh;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
 `;
