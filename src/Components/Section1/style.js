@@ -13,7 +13,7 @@ export const MainSection = styled.div`
         justify-items: center;
         flex-direction: column;
         text-align: center;
-        /* background-image: url(${M_Bg}); */
+        background-image: url(${M_Bg});
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
@@ -299,7 +299,6 @@ export const MobileLogoSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
     margin-top: -7vh;
     margin-bottom: 4vh;
 `;
