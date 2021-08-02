@@ -126,7 +126,14 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 980px) {
         font-size: 40px;
     }
+    /* 여기야 여기 */
     @media screen and (max-width: 900px) {
+        font-size: 25px;
+        line-height: 5vh;
+        margin-bottom: -3vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-bottom: 0;
         width: 100%;
         font-size: 17px;
         line-height: 3vh;
@@ -172,8 +179,8 @@ export const SubTitle = styled.div`
         width: 80%;
         margin: 0;
         margin-top: 7vh;
-        margin-bottom: 2.5vh;
-        font-size: 12px;
+        margin-bottom: 2.2vh;
+        font-size: 15px;
         font-weight: lighter;
         background: #6B40FF;
         background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
