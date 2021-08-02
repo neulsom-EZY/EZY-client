@@ -17,10 +17,6 @@ export const MainSection = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        .M-Logo {
-            display: block;
-            width: 10vh;
-        }
         .M-Bg {
             margin-top: -10vh;
         }
@@ -303,7 +299,17 @@ export const MobileLogoSection = styled.div`
     align-items: center;
     margin-top: -8vh;
     margin-bottom: 3vh;
-
+    .M-Logo {
+        display: block;
+        width: 10vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
 `;
 export const MobileImgSection = styled.div`
     display: flex;
@@ -312,5 +318,12 @@ export const MobileImgSection = styled.div`
     text-align: center;
     .M-Phone {
         width: 31vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
 `;
