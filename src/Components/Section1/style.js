@@ -318,4 +318,7 @@ export const MobileImgSection = styled.div`
     align-items: center;
     text-align: center;
     background-color: black;
+    .M-Phone {
+        width: 23vh;
+    }
 `;

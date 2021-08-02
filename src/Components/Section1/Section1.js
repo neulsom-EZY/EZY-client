@@ -20,11 +20,12 @@ const Section1 = () => {
           <S.MobileLogoSection>
             <img src={ M_Logo } className="M-Logo" alt="Mobile-Logo"/>
           </S.MobileLogoSection>
-          <S.MobileImgSection>Hello</S.MobileImgSection>
+          <S.MobileImgSection>
+            <img src={ M_Phone } className="M-Phone" alt="Phone"/>
+          </S.MobileImgSection>
         </S.MobileSection>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
-          <img src={ M_Phone } className="M-Phone" alt="Phone"/>
             <S.MainTitle>라이프스타일,<br/>
               그 이상의 역사를 만들고 있습니다
             </S.MainTitle>
