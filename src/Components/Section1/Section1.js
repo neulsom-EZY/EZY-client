@@ -9,6 +9,8 @@ import P2 from "../../Assets/Phone2.svg";
 import Logo from "../../Assets/PageLogo.svg";
 import M_Logo from "../../Assets/MobileLogo.svg";
 import M_Phone from "../../Assets/MobilePhone.png";
+import M_Bg from "../../Assets/MobileBg1.svg";
+
 
 const Section1 = () => {
   return (

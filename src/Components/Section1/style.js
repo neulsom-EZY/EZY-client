@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import M_Bg from "../../Assets/MobileBg.svg";
+import M_Bg from "../../Assets/MobileBg1.svg";
 
 export const MainSection = styled.div`
     width: 100%;
@@ -13,14 +13,17 @@ export const MainSection = styled.div`
         justify-items: center;
         flex-direction: column;
         text-align: center;
-        background-image: url(${M_Bg});
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
+        margin-top: 50vh;
         .M-Logo {
             display: block;
             width: 10vh;
             margin-top: -100vh;
+        }
+        .M-Bg {
+            margin-top: -10vh;
         }
     }
 `;
@@ -29,6 +32,7 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+
     .M-Phone{
         display: none;
     }
