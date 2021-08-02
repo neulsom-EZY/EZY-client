@@ -42,7 +42,7 @@ export const TitleSection = styled.div`
         display: none;
     }
     .W-StoreBtn {
-        width: 22vh;
+        width: 22.6vh;
         -webkit-touch-callout: none;
         -webkit-user-select: none;
         -khtml-user-select: none;
