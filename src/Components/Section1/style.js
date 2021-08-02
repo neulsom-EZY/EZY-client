@@ -298,16 +298,24 @@ export const Img2 = styled.button`
         display: none;
     }
 `;
-export const LogoSection = styled.div`
-    display: flex;
-    justify-items: center;
-    align-items: center;
+export const MobileSection = styled.div`
     width: 100%;
-    height: 15vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+`;
+export const MobileLogoSection = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: black;
 `;
 export const MobileImgSection = styled.div`
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    background-color: black;
 `;
