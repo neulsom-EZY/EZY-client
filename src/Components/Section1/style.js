@@ -79,7 +79,7 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 5vh;
+        margin-bottom: 7vh;
         .StoreBtn {
             display: block;
             width: 18vh;
@@ -302,8 +302,8 @@ export const MobileLogoSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -7vh;
-    margin-bottom: 4vh;
+    margin-top: -8vh;
+    margin-bottom: 3vh;
 
 `;
 export const MobileImgSection = styled.div`
