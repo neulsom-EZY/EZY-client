@@ -298,3 +298,11 @@ export const Img2 = styled.button`
         display: none;
     }
 `;
+export const LogoSection = styled.div`
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+`;

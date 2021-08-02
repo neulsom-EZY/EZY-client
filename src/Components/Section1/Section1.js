@@ -15,6 +15,7 @@ import M_Bg from "../../Assets/MobileBg1.svg";
 const Section1 = () => {
   return (
     <>
+      <S.LogoSection>Hello</S.LogoSection>
       <S.MainSection>
         <S.TitleSection>
           <img src={ Logo } className="Logo" alt="Logo"/>
