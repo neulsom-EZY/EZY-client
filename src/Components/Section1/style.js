@@ -47,7 +47,7 @@ export const TitleSection = styled.div`
         -ms-user-select: none;
         user-select: none;
         -webkit-user-drag: none;
-        margin-bottom: 3vh;
+        margin-bottom: 3.5vh;
     }
     @media screen and (max-width: 1550px) {
         width: 100%;
@@ -75,11 +75,11 @@ export const TitleSection = styled.div`
         display: flex;
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 3vh;
+        margin-bottom: 5vh;
         .StoreBtn {
             display: block;
             width: 18vh;
-            margin-top: 2vh;
+            margin-top: 5.5vh;
         }
         .W-Logo {
             display: none;
@@ -88,7 +88,7 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 500px) {
         width: 100%;
         .StoreBtn {
-            width: 20vh;
+            width: 21vh;
         }
     }
 `;
@@ -125,8 +125,7 @@ export const MainTitle = styled.div`
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 3vh;
-    margin-bottom: 5vh;
+    margin-top: 6vh;
     font-size: 22px;
     font-weight: 400;
     line-height: 3.9vh;
@@ -162,7 +161,7 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 900px) {
         width: 80%;
         margin: 0;
-        margin-top: 5.5vh;
+        margin-top: 7vh;
         margin-bottom: 2.5vh;
         font-size: 12px;
         font-weight: lighter;
