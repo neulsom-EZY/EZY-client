@@ -129,6 +129,7 @@ export const MainTitle = styled.div`
     }
     @media screen and (max-width: 900px) {
         font-size: 17px;
+        line-height: 3vh;
     }
 `;
 export const SubTitle = styled.div`
@@ -184,7 +185,7 @@ export const SubTitle = styled.div`
     }
     @media screen and (max-width: 500px) {
         font-size: 12px;
-        line-height: 4vh;
+        line-height: 3vh;
         margin-bottom: 4vh;
     }
 `;
