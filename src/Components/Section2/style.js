@@ -33,6 +33,9 @@ export const MainTitle = styled.div`
     font-weight: 600;
     font-size: 44px;
     line-height: 8vh;
+    @media screen and (max-width: 500px) {
+        font-size: 28px;
+    }
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -40,6 +43,9 @@ export const SubTitle = styled.div`
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
+    @media screen and (max-width: 500px) {
+        font-size: 17px;
+    }
 `;
 export const ImgSection = styled.div`
     width: 100%;
