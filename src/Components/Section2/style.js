@@ -44,11 +44,14 @@ export const ImgSection = styled.div`
     align-items: center;
     margin-bottom: 3vh;
     margin-right: 15vh;
-    .SomeDay {
+    @media screen and (max-width: 1300px) {
+        margin-right: 10vh;
+    }
+    .W-SomeDay {
         width: 330px;
         height: 680px;
     }
-    .Alert {
+    .W-Alert {
         width: 300px;
         height: 610px;
         margin-right: -3vh;

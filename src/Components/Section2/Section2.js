@@ -1,8 +1,8 @@
 import React from 'react';
 import * as S from './style';
 import * as I from '../../Assets/index';
-import SomeDay from '../../Assets/SomeDay.svg';
-import Alert from '../../Assets/Alert.svg';
+import W_SomeDay from '../../Assets/WebSomeDay.svg';
+import W_Alert from '../../Assets/WebAlert.svg';
 import fadeout from "../../Hooks/Fadeout";
 import Fade from 'react-reveal/Fade';
 
@@ -23,12 +23,11 @@ const Section2 = () => {
         <fadeout />
         <S.ImgSection className="fade">
           <Fade right>
-            <img src={Alert} className="Alert" alt="Alert-img"></img>
-            <img src={SomeDay} className="SomeDay" alt="Someday-img"></img>
+            <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
+            <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
           </Fade>
         </S.ImgSection>
       </S.MainSection>
-
     </>
   );
 }
