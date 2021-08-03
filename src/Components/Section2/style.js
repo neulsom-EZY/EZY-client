@@ -22,13 +22,17 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 16vh;
+    word-break: keep-all;
+    @media screen and (max-width: 1200px) {
+        margin-left: 5vh;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: 600;
     font-size: 44px;
     line-height: 8vh;
-    margin-left: 16vh;
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -46,6 +50,9 @@ export const ImgSection = styled.div`
     margin-right: 15vh;
     @media screen and (max-width: 1300px) {
         margin-right: 10vh;
+    }
+    @media screen and (max-width: 1200px) {
+        margin-right: 1vh;
     }
     .W-SomeDay {
         width: 330px;

@@ -27,6 +27,7 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    word-break: break-all;
     .W-Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
