@@ -128,6 +128,7 @@ export const MainTitle = styled.div`
     }
     /* 여기야 여기 */
     @media screen and (max-width: 900px) {
+        width: 80%;
         font-size: 25px;
         line-height: 5vh;
         margin-bottom: -3vh;
