@@ -12,7 +12,7 @@ export const MainSection = styled.div`
     background-image: url(${Bg02});
     @media screen and (max-width: 900px) {
         display: flex;
-        justify-items: center;
+        justify-content: center;
         flex-direction: column;
         text-align: center;
     }
@@ -23,9 +23,14 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-left: 16vh;
+    margin-top: 20vh;
     word-break: keep-all;
     @media screen and (max-width: 1200px) {
-        margin-left: 5vh;
+        margin-left: 3vh;
+    }
+    @media screen and (max-width: 900px) {
+        margin-top: -7vh;
+        margin-left: 0;
     }
 `;
 export const MainTitle = styled.div`
@@ -33,7 +38,7 @@ export const MainTitle = styled.div`
     font-weight: 600;
     font-size: 44px;
     line-height: 8vh;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 900px) {
         font-size: 28px;
     }
 `;
@@ -43,7 +48,7 @@ export const SubTitle = styled.div`
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 900px) {
         font-size: 17px;
     }
 `;
@@ -76,6 +81,18 @@ export const ImgSection = styled.div`
         }
         .W-Alert {
             width: 250px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .W-SomeDay {
+            width: 283px;
+            height: 337px;
+        }
+        .W-Alert {
+            width: 253px;
+            height: 307px;
+            margin-right: -13vh;
+            margin-bottom: 7vh;
         }
     }
 `;
