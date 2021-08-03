@@ -48,12 +48,6 @@ export const ImgSection = styled.div`
     align-items: center;
     margin-bottom: 3vh;
     margin-right: 15vh;
-    @media screen and (max-width: 1300px) {
-        margin-right: 10vh;
-    }
-    @media screen and (max-width: 1200px) {
-        margin-right: 1vh;
-    }
     .W-SomeDay {
         width: 330px;
         height: 680px;
@@ -63,5 +57,19 @@ export const ImgSection = styled.div`
         height: 610px;
         margin-right: -3vh;
         margin-top: 15vh;
+    }
+    @media screen and (max-width: 1300px) {
+        margin-right: 10vh;
+    }
+    @media screen and (max-width: 1200px) {
+        margin-right: 1vh;
+    }
+    @media screen and (max-width: 980px) {
+        .W-SomeDay {
+            width: 280px;
+        }
+        .W-Alert {
+            width: 250px;
+        }
     }
 `;
