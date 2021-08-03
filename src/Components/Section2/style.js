@@ -12,6 +12,8 @@ export const MainSection = styled.div`
     background-size: cover;
     background-image: url(${Bg02});
     @media screen and (max-width: 900px) {
+        width: 100%;
+        height: 120vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -105,5 +107,12 @@ export const ImgSection = styled.div`
     @media screen and (max-width: 900px) {
         margin-top: 2vh;
         margin-bottom: -10vh;
+    }
+    @media screen and (max-width: 500px) {
+        .W-Alert {
+            display: none;
+            margin-left: 1.5vh;
+            margin-right: -7vh;
+        }
     }
 `;
