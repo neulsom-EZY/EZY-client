@@ -26,6 +26,9 @@ export const TitleSection = styled.div`
     flex-direction: column;
     margin-left: 16vh;
     word-break: keep-all;
+    @media screen and (max-width: 1500px) {
+        width: 60%;
+    }
     @media screen and (max-width: 1200px) {
         margin-left: 3vh;
     }
@@ -89,9 +92,7 @@ export const ImgSection = styled.div`
     @media screen and (max-width: 1200px) {
         margin-right: 1vh;
     }
-    @media screen and (max-width: 980px) {
-        margin-top: 2vh;
-        margin-bottom: -10vh;
+    @media screen and (max-width: 1000px) {
         .W-SomeDay {
             width: 280px;
             height: 520px;
@@ -101,6 +102,8 @@ export const ImgSection = styled.div`
             height: 450px;
         }
     }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 900px) {
+        margin-top: 2vh;
+        margin-bottom: -10vh;
     }
 `;
