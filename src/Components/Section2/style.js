@@ -5,6 +5,7 @@ export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
     z-index: -100;
     background-position: center;
@@ -23,13 +24,13 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-left: 16vh;
-    margin-top: 20vh;
     word-break: keep-all;
     @media screen and (max-width: 1200px) {
         margin-left: 3vh;
     }
     @media screen and (max-width: 900px) {
-        margin-top: -7vh;
+        margin-top: 10vh;
+        margin-bottom: -5vh;
         margin-left: 0;
     }
 `;
@@ -49,6 +50,7 @@ export const SubTitle = styled.div`
     font-weight: 400;
     line-height: 5vh;
     @media screen and (max-width: 900px) {
+        display: none;
         font-size: 17px;
     }
 `;
@@ -84,15 +86,5 @@ export const ImgSection = styled.div`
         }
     }
     @media screen and (max-width: 500px) {
-        .W-SomeDay {
-            width: 283px;
-            height: 337px;
-        }
-        .W-Alert {
-            width: 253px;
-            height: 307px;
-            margin-right: -13vh;
-            margin-bottom: 7vh;
-        }
     }
 `;
