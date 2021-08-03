@@ -26,6 +26,10 @@ const Section2 = () => {
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
           </Fade>
+            <S.SubTitle2>
+              EZY로 계획하는 오늘 하루의 시작<br/>
+              EZY로 마무리하는 오늘 하루
+            </S.SubTitle2>
         </S.ImgSection>
       </S.MainSection>
     </>

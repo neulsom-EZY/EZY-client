@@ -4,13 +4,15 @@ import Bg02 from '../../Assets/Bg02.png';
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: -100;
     background-position: center;
     background-size: cover;
     background-image: url(${Bg02});
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
     @media screen and (max-width: 900px) {
         display: flex;
         justify-content: center;
@@ -23,13 +25,14 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     margin-left: 16vh;
     word-break: keep-all;
     @media screen and (max-width: 1200px) {
         margin-left: 3vh;
     }
     @media screen and (max-width: 900px) {
-        margin-top: 10vh;
+        margin-top: -4vh;
         margin-bottom: -5vh;
         margin-left: 0;
     }
@@ -51,14 +54,22 @@ export const SubTitle = styled.div`
     line-height: 5vh;
     @media screen and (max-width: 900px) {
         display: none;
+    }
+`;
+export const SubTitle2 = styled.div`
+    width: 100%;
+    height: 10vh;
+    display: none;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 5vh;
+    @media screen and (max-width: 900px) {
+        display: block;
         font-size: 17px;
     }
 `;
 export const ImgSection = styled.div`
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-bottom: 3vh;
     margin-right: 15vh;
     .W-SomeDay {
