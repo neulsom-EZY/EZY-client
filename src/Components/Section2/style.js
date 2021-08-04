@@ -13,7 +13,7 @@ export const MainSection = styled.div`
     background-image: url(${Bg02});
     @media screen and (max-width: 900px) {
         width: 100%;
-        height: 120vh;
+        height: 140vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
