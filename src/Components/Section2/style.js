@@ -116,6 +116,9 @@ export const ImgSection = styled.div`
         }
     }
     @media screen and (max-width: 900px) {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
         margin-top: 2vh;
         margin-bottom: 10vh;
     }

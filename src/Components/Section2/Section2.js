@@ -5,6 +5,9 @@ import W_Alert from '../../Assets/WebAlert.svg';
 import W_AlertPhone from '../../Assets/AlertPhoneImg.svg';
 import fadeout from "../../Hooks/Fadeout";
 import Fade from 'react-reveal/Fade';
+import One from '../../Assets/Alert-1.svg';
+import Two from '../../Assets/Alert-1.svg';
+import Three from '../../Assets/Alert-3.svg';
 
 const Section2 = () => {
   return (
@@ -25,6 +28,11 @@ const Section2 = () => {
           <Fade right>
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
+
+            <img src={One} className="One" alt="Alert-Phone-Img"></img>
+            <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
+            <img src={Three} className="" alt="Alert-Phone-Img"></img>
+
             <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
           </Fade>
         </S.ImgSection>
