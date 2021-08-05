@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from './style';
 import W_SomeDay from '../../Assets/WebSomeDay.svg';
 import W_Alert from '../../Assets/WebAlert.svg';
+import W_AlertPhone from '../../Assets/AlertPhoneImg.svg';
 import fadeout from "../../Hooks/Fadeout";
 import Fade from 'react-reveal/Fade';
 
@@ -24,6 +25,7 @@ const Section2 = () => {
           <Fade right>
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
+            <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
           </Fade>
         </S.ImgSection>
             <S.SubTitle2>

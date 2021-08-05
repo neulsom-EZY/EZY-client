@@ -48,6 +48,7 @@ export const MainTitle = styled.div`
         font-size: 28px;
         line-height: 5vh;
         margin-bottom: 20vh;
+        text-align: center;
     }
 `;
 export const SubTitle = styled.div`
@@ -66,10 +67,11 @@ export const SubTitle2 = styled.div`
     height: 10vh;
     display: none;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 5vh;
     color: black;
     @media screen and (max-width: 900px) {
+        text-align: center;
         display: block;
         font-size: 17px;
         margin-top: 5.5vh;
@@ -90,6 +92,9 @@ export const ImgSection = styled.div`
         margin-right: -3vh;
         margin-top: 15vh;
     }
+    .W-Alert-Phone {
+        display: none;
+    }
     @media screen and (max-width: 1300px) {
         margin-right: 10vh;
     }
@@ -105,6 +110,10 @@ export const ImgSection = styled.div`
             width: 250px;
             height: 450px;
         }
+        .W-Alert-Phone {
+            width: 280px;
+            height: 520px;
+        }
     }
     @media screen and (max-width: 900px) {
         margin-top: 2vh;
@@ -116,12 +125,14 @@ export const ImgSection = styled.div`
         align-items: center;
         margin: 0;
         .W-SomeDay {
-            margin-right: 0vh;
+            display: none;
         }
         .W-Alert {
             display: none;
-            margin-left: 1.5vh;
-            margin-right: -7vh;
+        }
+        .W-Alert-Phone {
+            display: block;
+            margin-bottom: 10vh;
         }
     }
 `;
