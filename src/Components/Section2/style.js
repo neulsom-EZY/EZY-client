@@ -10,7 +10,7 @@ export const MainSection = styled.div`
     align-items: center;
     background-position: center;
     background-size: cover;
-    background-image: url(${Bg02});
+    /* background-image: url(${Bg02}); */
     @media screen and (max-width: 900px) {
         width: 100%;
         height: 140vh;
