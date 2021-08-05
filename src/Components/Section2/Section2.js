@@ -9,7 +9,7 @@ import Fade from 'react-reveal/Fade';
 const Section2 = () => {
   return (
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
         <S.TitleSection>
           <S.MainTitle>
             나를 위한 일정관리,<br/>
