@@ -10,7 +10,6 @@ export const MainSection = styled.div`
     align-items: center;
     background-position: center;
     background-size: cover;
-    /* background-image: url(${Bg02}); */
     @media screen and (max-width: 900px) {
         width: 100%;
         height: 140vh;
@@ -49,6 +48,7 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 900px) {
         font-size: 28px;
         line-height: 5vh;
+        margin-bottom: 20vh;
     }
 `;
 export const SubTitle = styled.div`
@@ -109,9 +109,16 @@ export const ImgSection = styled.div`
     }
     @media screen and (max-width: 900px) {
         margin-top: 2vh;
-        margin-bottom: -10vh;
+        margin-bottom: 10vh;
     }
     @media screen and (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        .W-SomeDay {
+            margin-right: 0vh;
+        }
         .W-Alert {
             display: none;
             margin-left: 1.5vh;
