@@ -45,6 +45,7 @@ export const MainTitle = styled.div`
     font-weight: 600;
     font-size: 44px;
     line-height: 8vh;
+    color: black;
     @media screen and (max-width: 900px) {
         font-size: 28px;
         line-height: 5vh;
@@ -56,6 +57,7 @@ export const SubTitle = styled.div`
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
+    color: black;
     @media screen and (max-width: 900px) {
         display: none;
     }
@@ -67,6 +69,7 @@ export const SubTitle2 = styled.div`
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
+    color: black;
     @media screen and (max-width: 900px) {
         display: block;
         font-size: 17px;
