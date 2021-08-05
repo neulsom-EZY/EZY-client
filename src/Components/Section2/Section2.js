@@ -28,11 +28,11 @@ const Section2 = () => {
           <Fade right>
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
-
-            <img src={One} className="One" alt="Alert-Phone-Img"></img>
-            <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
-            <img src={Three} className="" alt="Alert-Phone-Img"></img>
-
+          <S.AlertImgSection>
+              <img src={One} className="One" alt="Alert-Phone-Img"></img>
+              <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
+              <img src={Three} className="" alt="Alert-Phone-Img"></img>
+          </S.AlertImgSection>
             <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
           </Fade>
         </S.ImgSection>

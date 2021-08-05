@@ -139,3 +139,7 @@ export const ImgSection = styled.div`
         }
     }
 `;
+export const AlertImgSection = styled.div`
+    display: flex;
+    justify-items: center;
+`;
