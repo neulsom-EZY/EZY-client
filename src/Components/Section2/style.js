@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import Bg02 from '../../Assets/Bg02.png';
 
 export const MainSection = styled.div`
     width: 100%;

@@ -1,6 +1,5 @@
 import React from 'react';
 import * as S from './style';
-import * as I from '../../Assets/index';
 import W_SomeDay from '../../Assets/WebSomeDay.svg';
 import W_Alert from '../../Assets/WebAlert.svg';
 import fadeout from "../../Hooks/Fadeout";
