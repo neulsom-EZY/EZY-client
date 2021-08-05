@@ -13,7 +13,7 @@ import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
 const Section1 = () => {
   return (
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
         <S.MobileSection>
           <S.MobileLogoSection>
             <img src={M_Logo} className="M-Logo" alt="Mobile-Logo" />
