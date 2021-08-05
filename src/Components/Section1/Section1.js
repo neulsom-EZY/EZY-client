@@ -19,7 +19,7 @@ const Section1 = () => {
             <img src={M_Logo} className="M-Logo" alt="Mobile-Logo" />
           </S.MobileLogoSection>
           <S.MobileImgSection>
-            <img src={M_Phone} className="M-Phone" alt="Mobile-Phone" />
+            <img src={M_Phone} className="M-Phone fade" alt="Mobile-Phone" />
           </S.MobileImgSection>
         </S.MobileSection>
         <S.TitleSection>
