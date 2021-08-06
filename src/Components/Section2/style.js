@@ -142,4 +142,6 @@ export const ImgSection = styled.div`
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
+    margin-top: -5vh;
+    margin-bottom: 7vh;
 `;
