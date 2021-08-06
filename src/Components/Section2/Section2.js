@@ -29,19 +29,9 @@ const Section2 = () => {
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
           <S.AlertImgSection>
-            <div class="external">
-              <div class="horizontal-scroll-wrapper">
-                <div class="img-wrapper slower">
-                  <img src={One} className="One" alt="Alert-Phone-Img"></img>
-                </div>
-                <div class="img-wrapper faster">
-                  <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
-                </div>
-                <div class="img-wrapper slower vertical">
-                  <img src={Three} className="Three" alt="Alert-Phone-Img"></img>
-                </div>
-              </div>
-            </div>
+            <img src={One} className="One" alt="Alert-Phone-Img"></img>
+            <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
+            <img src={Three} className="Three" alt="Alert-Phone-Img"></img>
           </S.AlertImgSection>
             <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
           </Fade>
