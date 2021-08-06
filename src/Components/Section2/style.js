@@ -47,7 +47,7 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 900px) {
         font-size: 28px;
         line-height: 5vh;
-        margin-bottom: 20vh;
+        margin-bottom: 27vh;
         text-align: center;
     }
 `;
@@ -75,6 +75,7 @@ export const SubTitle2 = styled.div`
         display: block;
         font-size: 17px;
         margin-top: 5.5vh;
+        margin-bottom: -15vh;
         line-height: 3vh;
     }
 `;
@@ -127,6 +128,7 @@ export const ImgSection = styled.div`
         justify-content: center;
         align-items: center;
         margin: 0;
+        margin-right: -0,8vh;
         .W-SomeDay {
             display: none;
         }
@@ -135,13 +137,84 @@ export const ImgSection = styled.div`
         }
         .W-Alert-Phone {
             display: block;
-            margin-bottom: 10vh;
+            margin-bottom: 5vh;
         }
     }
 `;
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
-    margin-top: -5vh;
+    margin-top: -7vh;
     margin-bottom: 7vh;
+  * {
+    box-sizing: border-box;
+  }
+  ::-webkit-scrollbar {
+    width: 1px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+  }
+  .external {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    overflow: hidden;
+    margin-bottom: -60vh;
+    margin-top: -20vh;
+  }
+  .horizontal-scroll-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vh;
+    transform: rotate(-90deg) translate3d(0,-100vh,0);
+    transform-origin: right top;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0;
+    margin-top: -30vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+  }
+  .img-wrapper {
+    transform: rotate(90deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40vh;
+  }
+  .img-wrapper:hover {
+    /* 요건 나중에 ~ */
+  }
+  .slower {
+    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%);
+  }
+  .slower1 {
+    transform: rotate(90deg) translateZ(-.25px) scale(1.05) translateX(0%);
+  }
+  .slower2 {
+    transform: rotate(90deg) translateZ(-.3px) scale(1.3) translateX(0%);
+  }
+  .slower-down {
+    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(0%);
+  }
+  .faster {
+    transform: rotate(90deg) translateZ(.15px) scale(0.8) translateX(0%);
+  }
+  .faster1 {
+    transform: rotate(90deg) translateZ(.05px) scale(0.8) translateX(0%);
+  }
+  .fastest {
+    transform: rotate(90deg) translateZ(.22px) scale(0.7) translateX(-10vh);
+  }
+  .vertical {
+    transform: rotate(90deg) translateZ(-.15px) scale(1.15) translateX(0%);
+  }
+  .last {
+    transform: rotate(90deg) translateZ(-.2px) scale(1.1) translateX(25vh);
+  }
 `;
