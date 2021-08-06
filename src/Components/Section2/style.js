@@ -146,4 +146,29 @@ export const AlertImgSection = styled.div`
     justify-items: center;
     margin-top: -7vh;
     margin-bottom: 7vh;
+    #box {
+    overflow-y: visible;
+    overflow-x: auto;
+    white-space: nowrap;
+    vertical-align: text-top;
+    margin: 0;
+    padding: 0;
+    clear: both;
+    border-spacing: 5px;
+}
+.item {
+    display: table-cell;
+    min-width: 240px;
+    width: 240px;
+    font-size: 140px;
+    border: 2px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    white-space: normal;
+    line-height: 1.6;
+    vertical-align: top;
+    text-align: center;
+}
+
 `;

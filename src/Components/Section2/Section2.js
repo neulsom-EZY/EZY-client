@@ -3,7 +3,8 @@ import * as S from './style';
 import W_SomeDay from '../../Assets/WebSomeDay.svg';
 import W_Alert from '../../Assets/WebAlert.svg';
 import W_AlertPhone from '../../Assets/AlertPhoneImg.svg';
-// import fadeout from "../../Hooks/Fadeout";
+import fadeout from "../../Hooks/Fadeout";
+import Scroll from "../../Hooks/Scroll";
 import Fade from 'react-reveal/Fade';
 import One from '../../Assets/Alert-1.svg';
 import Two from '../../Assets/Alert-1.svg';
@@ -29,9 +30,14 @@ const Section2 = () => {
             <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
             <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
           <S.AlertImgSection>
-            <img src={One} className="One" alt="Alert-Phone-Img"></img>
-            <img src={Two} className="Two" alt="Alert-Phone-Img"></img>
-            <img src={Three} className="Three" alt="Alert-Phone-Img"></img>
+          <img src={One} className="One" alt="Alert-Phone-Img"></img>
+            <div id="box">
+              <div class="item">1</div>
+              <div class="item">2</div>
+              <div class="item">3</div>
+              <div class="item">4</div>
+              <div class="item">5</div>
+            </div>
           </S.AlertImgSection>
             <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
           </Fade>
