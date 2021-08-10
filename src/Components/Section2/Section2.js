@@ -9,8 +9,7 @@ const Section2 = () => {
       <S.MainSection className="fade">
         <S.TitleSection>
           <S.MainTitle>
-            나를 위한 일정관리,<br/>
-            그 처음과 끝
+            나를 위한 일정관리, 그 처음과 끝
             <S.SubTitle>
               EZY로 계획하는 오늘 하루의 시작<br/>
               EZY로 마무리하는 오늘 하루
@@ -20,7 +19,7 @@ const Section2 = () => {
         <S.ImgSection className="fade">
           <Fade right>
             <I.WebAlert className="W-Alert"/>
-            <I.WebSomeDay className="W-SomeDay"/>
+            <S.WebSomeDay><I.WebSomeDay className="W-SomeDay"/></S.WebSomeDay>
             <S.AlertImgSection>
               <I.Content1 />
               <I.Content2 />

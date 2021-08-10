@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     color: white;
+    background-color: #f9fafb;
     font-family: 'Apple SD Gothic Neo', sans-serif;
   }
 `;

@@ -81,16 +81,13 @@ export const SubTitle2 = styled.div`
 `;
 export const ImgSection = styled.div`
     display:flex;
+    align-items:center;
+    justify-content:center;
     width: 100%;
-    margin-bottom: 3vh;
-    
-    .W-SomeDay {
-        width: 330px;
-        height: 680px;
-    }
+    height:100%;
+    margin-bottom: -5vh;
+    margin-right: 10vh;
     .W-Alert {
-        width: 300px;
-        height: 610px;
         margin-right: -3vh;
     }
     .W-Alert-Phone {
@@ -141,8 +138,14 @@ export const ImgSection = styled.div`
         }
     }
 `;
+export const WebSomeDay = styled.div`
+    margin-left: -3vh;
+    margin-bottom: 10vh;
+`;
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
     align-items:center;
+    margin-bottom:35vh;
+    margin-left: -27vh;
 `;
