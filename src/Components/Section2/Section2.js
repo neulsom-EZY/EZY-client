@@ -1,14 +1,7 @@
 import React from 'react';
+import * as I from "../../Assets/index"
 import * as S from './style';
-import W_SomeDay from '../../Assets/WebSomeDay.svg';
-import W_Alert from '../../Assets/WebAlert.svg';
-import W_AlertPhone from '../../Assets/AlertPhoneImg.svg';
-import fadeout from "../../Hooks/Fadeout";
-import Scroll from "../../Hooks/Scroll";
 import Fade from 'react-reveal/Fade';
-import One from '../../Assets/Alert-1.svg';
-import Two from '../../Assets/Alert-1.svg';
-import Three from '../../Assets/Alert-3.svg';
 
 const Section2 = () => {
   return (
@@ -24,22 +17,17 @@ const Section2 = () => {
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
-        <fadeout />
         <S.ImgSection className="fade">
           <Fade right>
-            <img src={W_Alert} className="W-Alert" alt="Alert-img"></img>
-            <img src={W_SomeDay} className="W-SomeDay" alt="Someday-img"></img>
-          <S.AlertImgSection>
-          <img src={One} className="One" alt="Alert-Phone-Img"></img>
-            <div id="box">
-              <div class="item">1</div>
-              <div class="item">2</div>
-              <div class="item">3</div>
-              <div class="item">4</div>
-              <div class="item">5</div>
-            </div>
-          </S.AlertImgSection>
-            <img src={W_AlertPhone} className="W-Alert-Phone" alt="Alert-Phone-Img"></img>
+            <I.WebAlert className="W-Alert"/>
+            <I.WebSomeDay className="W-SomeDay"/>
+            <S.AlertImgSection>
+              <I.Content1 />
+              <I.Content2 />
+              <I.Content3 />
+              <I.Content4 />
+            </S.AlertImgSection>
+            <I.WebAlertPhone className="W-Alert-Phone" />
           </Fade>
         </S.ImgSection>
             <S.SubTitle2>

@@ -6,3 +6,10 @@ export {default as WebLogo} from "./WebLogo";
 export {default as WebStoreBtn} from "./WebStoreBtn";
 export {default as Img3} from "./Img03";
 export {default as P2} from "./Phone2";
+export {default as WebAlert} from "./WebAlert";
+export {default as WebSomeDay} from "./WebSomeDay";
+export {default as Content1} from "./Content1";
+export {default as Content2} from "./Content2";
+export {default as Content3} from "./Content3";
+export {default as Content4} from "./Content4";
+export {default as WebAlertPhone} from "./AlertPhoneImg"

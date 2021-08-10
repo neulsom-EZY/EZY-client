@@ -1,8 +1,8 @@
 import React from "react";
+import '../../Hooks/Fadeout';
 import * as S from "./style";
 import * as I from "../../Assets/index";
 import Fade from "react-reveal/Fade";
-import fadeout from "../../Hooks/Fadeout";
 
 const Section1 = () => {
   return (
@@ -30,7 +30,6 @@ const Section1 = () => {
           <I.WebStoreBtn className="W-StoreBtn" />
           <I.MobileStoreBtn className="M-StoreBtn" />
         </S.TitleSection>
-        <fadeout />
         <S.MainBg className="fade">
           <Fade right>            
             <I.WebPhone className="W-Phone" />
