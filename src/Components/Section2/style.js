@@ -80,18 +80,15 @@ export const SubTitle2 = styled.div`
     }
 `;
 export const ImgSection = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:center;
     width: 100%;
-    margin-bottom: 3vh;
-    margin-right: 15vh;
-    .W-SomeDay {
-        width: 330px;
-        height: 680px;
-    }
+    height:100%;
+    margin-bottom: -5vh;
+    margin-right: 10vh;
     .W-Alert {
-        width: 300px;
-        height: 610px;
         margin-right: -3vh;
-        margin-top: 15vh;
     }
     .W-Alert-Phone {
         display: none;
@@ -141,34 +138,14 @@ export const ImgSection = styled.div`
         }
     }
 `;
+export const WebSomeDay = styled.div`
+    margin-left: -3vh;
+    margin-bottom: 10vh;
+`;
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
-    margin-top: -7vh;
-    margin-bottom: 7vh;
-    #box {
-    overflow-y: visible;
-    overflow-x: auto;
-    white-space: nowrap;
-    vertical-align: text-top;
-    margin: 0;
-    padding: 0;
-    clear: both;
-    border-spacing: 5px;
-}
-.item {
-    display: table-cell;
-    min-width: 240px;
-    width: 240px;
-    font-size: 140px;
-    border: 2px solid #d1d1d1;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
-    white-space: normal;
-    line-height: 1.6;
-    vertical-align: top;
-    text-align: center;
-}
-
+    align-items:center;
+    margin-bottom:35vh;
+    margin-left: -27vh;
 `;
