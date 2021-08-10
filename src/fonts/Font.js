@@ -1,4 +1,7 @@
-@font-face {
+import styled from 'styled-components';
+
+export const Font = styled.div`
+  @font-face {
     font-family: "Apple SD Gothic Neo", sans-serif;
     font-style: normal;
     font-weight: 100;
@@ -33,3 +36,4 @@
     src: url("fonts/AppleSDGothicNeoB.woff2") format('woff2'),
     url("fonts/AppleSDGothicNeoB.woff") format('woff'),
 }
+`;
