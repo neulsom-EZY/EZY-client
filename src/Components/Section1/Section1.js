@@ -40,7 +40,7 @@ const Section1 = () => {
         <S.MainBg className="fade">
           <Fade right>
             <img src={W_Phone} className="W-Phone" alt="Web-Phone" />
-            <I.Img3 className="SubPhone" />
+            {/* <I.Img3 className="SubPhone" /> */}
             <I.P2 className="P2" />
           </Fade>
         </S.MainBg>
