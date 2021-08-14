@@ -231,43 +231,43 @@ export const MainBg = styled.div`
         user-select: none;
         -webkit-user-drag: none;
     }
-    .SubPhone {
+    .W-Phone-2 {
         display: none;
     }
-    .P2 {
+    .W-Phone-3 {
         display: none;
     }
     @media screen and (max-width: 1450px) {
         .W-Phone {
             display: none;
         }
-        .SubPhone {
+        .W-Phone-2 {
             display: block;
             margin-right: -40vh;
         }
     }
     @media screen and (max-width: 1230px) {
-        .SubPhone {
+        .W-Phone-2 {
             display: none;
         }
-        .P2 {
+        .W-Phone-3 {
             display: block;
             margin: 0;
             margin-left: 13vh;
         }
     }
     @media screen and (max-width: 1050px) {
-        .P2 {
+        .W-Phone-3 {
             margin-left: 3vh;
         }
     }
     @media screen and (max-width: 940px) {
-        .P2 {
+        .W-Phone-3 {
             margin-left: -1vh;
         }
     }
     @media screen and (max-width: 900px) {
-        .P2 {
+        .W-Phone-3 {
             display: none;
         }
     }
