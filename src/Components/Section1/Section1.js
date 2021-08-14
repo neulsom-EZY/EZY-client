@@ -41,7 +41,7 @@ const Section1 = () => {
         <fadeout />
         <S.MainBg className="fade">
           <Fade right>
-            <img src={W_Phone} className="W-Phone " alt="Web-Phone" />
+            <img src={W_Phone} className="W-Phone" alt="Web-Phone" />
             <img src={W_Phone_2} className="W-Phone-2" alt="Web-Phone" />
             <img src={W_Phone_3} className="W-Phone-3" alt="Web-Phone" />
           </Fade>
