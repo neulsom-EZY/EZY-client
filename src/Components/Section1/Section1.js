@@ -3,6 +3,7 @@ import * as S from "./style";
 import * as I from "../../Assets/index";
 import Fade from "react-reveal/Fade";
 import fadeout from "../../Hooks/Fadeout";
+//W-OOO (Web View Image), M-OOO (Mobile View Image)
 import W_Logo from "../../Assets/WebLogo.svg";
 import W_Phone from "../../Assets/WebPhone.svg";
 import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
