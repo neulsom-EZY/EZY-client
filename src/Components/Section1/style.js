@@ -17,9 +17,6 @@ export const MainSection = styled.div`
         background-size: cover;
         background-repeat: no-repeat;
         background-position: top;
-        .M-Bg {
-            margin-top: -10vh;
-        }
     }
 `;
 export const TitleSection = styled.div`
