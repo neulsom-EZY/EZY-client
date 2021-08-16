@@ -23,13 +23,13 @@ const Section2 = () => {
           <Fade right>
             <PhoneImgSection>
               <I.WebAlert className="W-Alert"/>
-              <S.WebSomeDay><I.WebSomeDay className="W-SomeDay"/></S.WebSomeDay>
+              <I.WebSomeDay className="W-SomeDay"/>
                <S.AlertImgSection>
                  <I.Content1 />
                  <I.Content2 />
                  <I.Content3 />
                  <I.Content4 />
-              </S.AlertImgSection>
+               </S.AlertImgSection>
             </PhoneImgSection>
             <I.WebAlertPhone className="W-Alert-Phone" />
           </Fade>
