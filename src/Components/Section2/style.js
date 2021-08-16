@@ -147,8 +147,8 @@ export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
     align-items:center;
-    margin-bottom:30vh;
-    margin-left: -33vh;
+    margin-bottom:28vh;
+    margin-left: -35vh;
 `;
 export const PhoneImgSection = styled.div`
   width: 100%;
