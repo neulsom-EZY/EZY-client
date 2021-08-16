@@ -25,6 +25,9 @@ export const ImgSection = styled.div`
     justify-content:center;
     width: 100%;
     height:100%;
+    margin-top: 12vh;
+    margin-right: -20vh;
+    margin-left: 20vh;
 `;
 
 export const TitleSection = styled.div`
@@ -43,6 +46,7 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
+    font-weight:bold;
 `;
 
 export const SubTitle = styled.div`
@@ -52,6 +56,7 @@ export const SubTitle = styled.div`
     font-weight: 400;
     line-height: 5vh;
     color: #656565;
+    margin-bottom: 10vh;
 `;
 
 export const IconSection = styled.div`
@@ -63,4 +68,8 @@ export const IconSection = styled.div`
 
 export const IconWrapper = styled.div`
     display: flex;
+    margin-left: -1vh;
+    svg{
+        margin-right: 2vh;
+    }
 `;
