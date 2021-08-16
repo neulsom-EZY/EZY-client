@@ -12,4 +12,8 @@ export {default as Content1} from "./Content1";
 export {default as Content2} from "./Content2";
 export {default as Content3} from "./Content3";
 export {default as Content4} from "./Content4";
-export {default as WebAlertPhone} from "./AlertPhoneImg"
+export {default as WebAlertPhone} from "./AlertPhoneImg";
+export {default as S3Phone} from "./Section3Phone";
+export {default as S3Icon1} from "./S3Icon";
+export {default as S3Icon2} from "./S3Icon2";
+export {default as S3Icon3} from "./S3Icon3";
