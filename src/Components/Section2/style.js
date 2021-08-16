@@ -57,7 +57,7 @@ export const SubTitle = styled.div`
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
-    color: black;
+    color: #656565;
     @media screen and (max-width: 900px) {
         display: none;
     }
@@ -69,7 +69,7 @@ export const SubTitle2 = styled.div`
     font-size: 22px;
     font-weight: 600;
     line-height: 5vh;
-    color: black;
+    color: #656565;
     @media screen and (max-width: 900px) {
         text-align: center;
         display: block;
@@ -89,6 +89,7 @@ export const ImgSection = styled.div`
     margin-right: 10vh;
     .W-Alert {
         margin-right: -3vh;
+        margin-bottom: -8vh;
     }
     .W-Alert-Phone {
         display: none;
@@ -125,7 +126,7 @@ export const ImgSection = styled.div`
         justify-content: center;
         align-items: center;
         margin: 0;
-        margin-right: -0,8vh;
+        margin-right: -0.8vh;
         .W-SomeDay {
             display: none;
         }
@@ -139,13 +140,21 @@ export const ImgSection = styled.div`
     }
 `;
 export const WebSomeDay = styled.div`
-    margin-left: -3vh;
-    margin-bottom: 10vh;
+    //margin-left: -3vh;
+    //margin-bottom: 10vh;
 `;
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
     align-items:center;
-    margin-bottom:35vh;
-    margin-left: -27vh;
+    margin-bottom:30vh;
+    margin-left: -33vh;
+`;
+export const PhoneImgSection = styled.div`
+  width: 100%;
+  height: 100vh;
+  margin-left: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
