@@ -5,7 +5,7 @@ import * as S from './style';
 const Section4 = () => {
     return(
         <>
-            <S.MainSection>
+            <S.MainSection className="fade">
                 <S.TitleSection>
                     <S.MainTitle>
                         오직 당신만을 위한 <br/>
