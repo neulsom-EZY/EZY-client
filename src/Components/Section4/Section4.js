@@ -41,9 +41,9 @@ const Section4 = () => {
                                 <S.Emoji>
                                     👀
                                 </S.Emoji>
-                                <S.SubTitle2>
+                                <S.SubTitle3>
                                     이제 눈 떠요!
-                                </S.SubTitle2>
+                                </S.SubTitle3>
                             </S.SubSection4>
                         </S.SubSection2>
                     </S.SecondSection>

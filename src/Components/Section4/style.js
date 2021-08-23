@@ -40,7 +40,7 @@ export const ImgSection = styled.div`
     justify-content:center;
     width: 100%;
     height:100%;
-    margin-top: -20vh;
+    margin-top: -15vh;
 `;
 
 export const FirstSection = styled.div`
@@ -59,6 +59,7 @@ export const SecondSection = styled.div`
     justify-content:center;
     width: 100vh;
     height: 47vh;
+    margin-top: -5vh;
 `;
 
 export const SubSection = styled.div`
@@ -96,7 +97,17 @@ export const SubTitle2 = styled.div`
     line-height: 4vh;
     color: black;
     float: left;
-    margin-left: 4vh;
+    margin-left: 3vh;
+    margin-top: 3vh;
+`;
+
+export const SubTitle3 = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
 `;
 
 export const SubSection4 = styled.div`
