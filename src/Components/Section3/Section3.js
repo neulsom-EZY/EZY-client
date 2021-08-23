@@ -5,7 +5,7 @@ import * as S from './style';
 const Section3 = () => {
   return(
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
         <S.ImgSection>
           <I.S3Phone />
         </S.ImgSection>
