@@ -1,32 +1,45 @@
 import React from 'react';
+import * as I from "../../Assets/index"
 import * as S from './style';
-import SomeDay from '../../Assets/SomeDay.png';
-import Alert from '../../Assets/Alert.png';
-import fadeout from "../../Hooks/Fadeout";
 import Fade from 'react-reveal/Fade';
+import {PhoneImgSection} from "./style";
 
 const Section2 = () => {
   return (
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
         <S.TitleSection>
           <S.MainTitle>
-            나를 위한 일정관리, 그 처음과 끝
+            나를 위한 일정관리<br />
+            그 처음과 끝
             <S.SubTitle>
-              EZY로 계획하는 오늘 하루의 시작<br/>
-              EZY로 마무리하는 오늘 하루
+              밝은 하루를 계획<br />
+              수고한 오늘 하루의 끝을<br />
+              EZY와 함께
             </S.SubTitle>
           </S.MainTitle>
         </S.TitleSection>
-        <fadeout />
         <S.ImgSection className="fade">
           <Fade right>
-            <img src={Alert} className="Alert" alt="Alert-img"></img>
-            <img src={SomeDay} className="SomeDay" alt="Someday-img"></img>
+            <PhoneImgSection>
+              <I.WebAlert className="W-Alert"/>
+              <I.WebSomeDay className="W-SomeDay"/>
+               <S.AlertImgSection>
+                 <I.Content1 />
+                 <I.Content2 />
+                 <I.Content3 />
+                 <I.Content4 />
+               </S.AlertImgSection>
+            </PhoneImgSection>
+            <I.WebAlertPhone className="W-Alert-Phone" />
           </Fade>
         </S.ImgSection>
+          <S.SubTitle2>
+            밝은 하루를 계획,<br />
+            수고한 오늘 하루의 끝,<br />
+            EZY와 함께.
+          </S.SubTitle2>
       </S.MainSection>
-
     </>
   );
 }

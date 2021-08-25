@@ -1,6 +1,6 @@
 const $  = require('jquery');
 
-function fade(pageLoad) {
+function FadeOut(pageLoad) {
     const windowTop = $(window).scrollTop(), windowBottom = windowTop + $(window).innerHeight();
     const min = -0.5, max = 1.5 , threshold = 0.01;
 
@@ -15,5 +15,8 @@ function fade(pageLoad) {
             else if ($(this).css("opacity") >= min + threshold || pageLoad) { $(this).fadeTo(1, min); }
         } else if ($(this).css("opacity") <= max - threshold || pageLoad) { $(this).fadeTo(1, max); }
     });
-} fade(true);
-$(window).scroll(function () { fade(false); });
+} FadeOut(true);
+$(window).scroll(function () { FadeOut(false); });
+
+
+export default FadeOut;
