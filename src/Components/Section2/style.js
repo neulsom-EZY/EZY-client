@@ -87,9 +87,13 @@ export const ImgSection = styled.div`
     height:100%;
     margin-bottom: -5vh;
     margin-right: 10vh;
-    .W-Alert {
-        margin-right: -3vh;
-        margin-bottom: -8vh;
+    .Alert {
+      margin-right: -3vh;
+      margin-bottom: -8vh;
+      width: 30vh;
+    }
+    .SomeDay {
+      width: 30vh;
     }
     .W-Alert-Phone {
         display: none;
