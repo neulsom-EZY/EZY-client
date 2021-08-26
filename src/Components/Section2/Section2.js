@@ -16,12 +16,12 @@ const Section2 = () => {
           <S.MainTitle>
             나를 위한 일정관리<br />
             그 처음과 끝
-            <S.SubTitle>
-              밝은 하루를 계획<br />
-              수고한 오늘 하루의 끝을<br />
-              EZY와 함께
-            </S.SubTitle>
           </S.MainTitle>
+          <S.SubTitle>
+            밝은 하루를 계획<br />
+            수고한 오늘 하루의 끝을<br />
+            EZY와 함께
+          </S.SubTitle>
         </S.TitleSection>
         <S.ImgSection className="fade">
           <Fade right>
