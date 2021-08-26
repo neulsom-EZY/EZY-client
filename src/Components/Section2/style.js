@@ -28,10 +28,10 @@ export const TitleSection = styled.div`
     word-break: keep-all;
   //1920*1080 모니터
     @media screen and (max-width: 1920px) {
-      margin-left: 20vh;
+      margin-left: 30vh;
     }
     @media screen and (max-width: 1800px) {
-      margin-left: 15vh;
+      margin-left: 20vh;
     }
     @media screen and (max-width: 1500px) {
         width: 60%;
