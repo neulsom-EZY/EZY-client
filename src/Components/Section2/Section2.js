@@ -7,6 +7,7 @@ import Block1 from '../../Assets/Section2/Block-1.png';
 import Block2 from '../../Assets/Section2/Block-2.png';
 import Block3 from '../../Assets/Section2/Block-3.png';
 import Block4 from '../../Assets/Section2/Block-4.png';
+import {AlertImgSection} from "./style";
 
 const Section2 = () => {
   return (
@@ -27,12 +28,12 @@ const Section2 = () => {
           <Fade right>
             <img src={Alert} className="Alert" alt="Alert-Phone-Image" />
             <img src={SomeDay} className="SomeDay" alt="SomeDay-PHone-Image" />
-              <S.AlertImgSection>
+              <AlertImgSection>
                 <img src={Block1} className="Block-1" alt="Block-Image" />
                 <img src={Block2} className="Block-2" alt="Block-Image" />
                 <img src={Block3} className="Block-3" alt="Block-Image" />
                 <img src={Block4} className="Block-4" alt="Block-Image" />
-              </S.AlertImgSection>
+              </AlertImgSection>
           </Fade>
         </S.ImgSection>
         <S.SubTitle2>

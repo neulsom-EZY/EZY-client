@@ -90,13 +90,10 @@ export const ImgSection = styled.div`
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
-      width: 30vh;
+      width: 36vh;
     }
     .SomeDay {
-      width: 30vh;
-    }
-    .W-Alert-Phone {
-        display: none;
+      width: 39vh;
     }
     @media screen and (max-width: 1300px) {
         margin-right: 10vh;
@@ -143,22 +140,23 @@ export const ImgSection = styled.div`
         }
     }
 `;
-export const WebSomeDay = styled.div`
-    //margin-left: -3vh;
-    //margin-bottom: 10vh;
-`;
 export const AlertImgSection = styled.div`
+    width: 100%;
     display: flex;
     justify-items: center;
     align-items:center;
-    margin-bottom:28vh;
+    margin-bottom:27vh;
     margin-left: -35vh;
+    .Block-1 {width: 15vh;} 
+    .Block-2 {width: 15vh;}
+    .Block-3 {width: 15vh;}
+    .Block-4 {width: 15vh;}
 `;
 export const PhoneImgSection = styled.div`
-  width: 100%;
-  height: 100vh;
-  margin-left: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 100vh;
+    margin-left: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 `;
