@@ -26,6 +26,13 @@ export const TitleSection = styled.div`
     flex-direction: column;
     margin-left: 15vh;
     word-break: keep-all;
+  //1920*1080 모니터
+    @media screen and (max-width: 1920px) {
+      margin-left: 20vh;
+    }
+    @media screen and (max-width: 1800px) {
+      margin-left: 15vh;
+    }
     @media screen and (max-width: 1500px) {
         width: 60%;
     }
@@ -108,6 +115,12 @@ export const ImgSection = styled.div`
       -ms-user-select: none;
       user-select: none;
       -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1920px) {
+        margin-right: 15vh;
+    }
+    @media screen and (max-width: 1800px) {
+        margin-right: 6vh;  
     }
     @media screen and (max-width: 1300px) {
         margin-right: 10vh;
