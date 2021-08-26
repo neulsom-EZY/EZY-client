@@ -80,20 +80,34 @@ export const SubTitle2 = styled.div`
     }
 `;
 export const ImgSection = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
     width: 100%;
     height:100%;
     margin-bottom: -5vh;
-    margin-right: 10vh;
+    margin-right: 5vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
       width: 36vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
     }
     .SomeDay {
       width: 39vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
     }
     @media screen and (max-width: 1300px) {
         margin-right: 10vh;
@@ -146,11 +160,47 @@ export const AlertImgSection = styled.div`
     justify-items: center;
     align-items:center;
     margin-bottom:27vh;
-    margin-left: -35vh;
-    .Block-1 {width: 15vh;} 
-    .Block-2 {width: 15vh;}
-    .Block-3 {width: 15vh;}
-    .Block-4 {width: 15vh;}
+    margin-left: -33vh;
+    .Block-1 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    } 
+    .Block-2 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .Block-3 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .Block-4 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
 `;
 export const PhoneImgSection = styled.div`
     width: 100%;
