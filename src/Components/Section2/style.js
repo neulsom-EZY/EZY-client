@@ -43,6 +43,10 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
+    @media screen and (max-width: 700px) {
+      margin-bottom: -50vh;
+      line-height: 5vh;
+    }
     @media screen and (max-width: 500px)
     { font-size: 25px }
 `;
@@ -115,8 +119,11 @@ export const ImgSection = styled.div`
     @media screen and (max-width: 1140px) {
       .Alert {  display: none  }
     }
-    @media screen and (max-width: 700px) 
-    {  margin: 0;  }
+    @media screen and (max-width: 700px) {
+      margin: 0;
+      margin-bottom: -20vh;
+      .SomeDay { width: 28vh; }
+    }
 `;
 export const AlertImgSection = styled.div`
     width: 100%;
