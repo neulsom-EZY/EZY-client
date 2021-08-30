@@ -34,6 +34,8 @@ export const TitleSection = styled.div`
     {  margin-left: 12vh;  }
     @media screen and (max-width: 1450px) 
     {  margin-left: 6vh;  }
+    @media screen and (max-width: 700px)
+    { margin: 0 }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -41,6 +43,8 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
+    @media screen and (max-width: 500px)
+    { font-size: 25px }
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -63,7 +67,7 @@ export const SubTitle2 = styled.div`
     @media screen and (max-width: 700px) {
         text-align: center;
         display: block;
-        font-size: 17px;
+        font-size: 15px;
         line-height: 3vh;
     }
 `;
@@ -109,8 +113,10 @@ export const ImgSection = styled.div`
     @media screen and (max-width: 1040px) 
     {  margin-right: 3vh;  }
     @media screen and (max-width: 1140px) {
-        .Alert {  display: none  }
+      .Alert {  display: none  }
     }
+    @media screen and (max-width: 700px) 
+    {  margin: 0;  }
 `;
 export const AlertImgSection = styled.div`
     width: 100%;
