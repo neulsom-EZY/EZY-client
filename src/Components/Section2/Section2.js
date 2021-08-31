@@ -25,14 +25,14 @@ const Section2 = () => {
         </S.TitleSection>
         <S.ImgSection className="fade">
           <Fade right>
-            <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
-            <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
             <S.AlertImgSection>
               <img src={Block1} className="Block-1" alt="Block-Img" />
               <img src={Block2} className="Block-2" alt="Block-Img" />
               <img src={Block3} className="Block-3" alt="Block-Img" />
               <img src={Block4} className="Block-4" alt="Block-Img" />
             </S.AlertImgSection>
+              <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
+              <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
           </Fade>
         </S.ImgSection>
         <S.SubTitle2>
