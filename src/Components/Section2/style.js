@@ -104,7 +104,6 @@ export const ImgSection = styled.div`
       -ms-user-select: none;
       user-select: none;
       -webkit-user-drag: none;
-      z-index: -1;
     }
     @media screen and (max-width: 1920px) 
     {  margin-right: 15vh;  }
