@@ -28,6 +28,7 @@ export const ImgSection = styled.div`
     margin-top: 12vh;
     margin-right: -20vh;
     margin-left: 20vh;
+    .Schedule {  width: 39vh;  }
 `;
 
 export const TitleSection = styled.div`
@@ -60,7 +61,7 @@ export const SubTitle = styled.div`
 `;
 
 export const IconSection = styled.div`
-    display:grid;
+    display: grid;
     color: #656565;
     font-size: 22px;
     font-weight: 400;
@@ -68,8 +69,5 @@ export const IconSection = styled.div`
 
 export const IconWrapper = styled.div`
     display: flex;
-    margin-left: -1vh;
-    svg{
-        margin-right: 2vh;
-    }
+    svg {  margin-right: 2vh;  }
 `;
