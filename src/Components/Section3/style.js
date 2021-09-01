@@ -52,12 +52,12 @@ export const MainTitle = styled.div`
 
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 3vh;
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
     color: #656565;
-    margin-bottom: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 12vh;
 `;
 
 export const IconSection = styled.div`
@@ -65,6 +65,7 @@ export const IconSection = styled.div`
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    margin-bottom: -11vh;
 `;
 
 export const IconTextSection = styled.div`
