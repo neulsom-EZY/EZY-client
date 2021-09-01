@@ -17,13 +17,13 @@ const Section3 = () => {
               우리의 일정을 완성해봐요
             </S.SubTitle>
               <S.IconSection>
-                <S.IconTextSection><I.S3Icon1 className="Hello"/>
+                <S.IconTextSection><I.S3Icon1 className="Icon1"/>
                   2021. 05. 09 화요일
                 </S.IconTextSection>
-                <S.IconTextSection><I.S3Icon2 className="Hello"/>
+                <S.IconTextSection><I.S3Icon2 className="Icon2"/>
                   11:00 AM - 1:00 PM
                 </S.IconTextSection>
-                <S.IconTextSection><I.S3Icon3 className="Hello"/>
+                <S.IconTextSection><I.S3Icon3 className="Icon3"/>
                   송정역 이디야 카페
                 </S.IconTextSection>
               </S.IconSection>

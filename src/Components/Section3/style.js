@@ -68,11 +68,13 @@ export const IconSection = styled.div`
 `;
 
 export const IconTextSection = styled.div`
-    width: 30vh;
+    width: 100%;
     color: #656565;
     display: flex;
     justify-content: left;
     align-items: center;
+    .Icon1, .Icon2, .Icon3
+    { margin-right: 1vh; }
 `;
 
 export const IconWrapper = styled.div`
