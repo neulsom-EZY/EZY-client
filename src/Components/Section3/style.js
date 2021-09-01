@@ -61,13 +61,19 @@ export const SubTitle = styled.div`
 `;
 
 export const IconSection = styled.div`
-    display: grid;
-    color: #656565;
-    font-size: 22px;
-    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+`;
+
+export const IconTextSection = styled.div`
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  color: #656565;
 `;
 
 export const IconWrapper = styled.div`
-    display: flex;
     svg {  margin-right: 2vh;  }
 `;
