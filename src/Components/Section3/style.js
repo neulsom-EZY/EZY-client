@@ -37,7 +37,6 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 16vh;
     word-break: keep-all;
 `;
 
