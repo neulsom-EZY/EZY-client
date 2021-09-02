@@ -28,17 +28,17 @@ const Section2 = () => {
                  <I.Content1 />
                  <I.Content2 />
                  <I.Content3 />
-                 <I.Content4 />
+                 <S.Content4><I.Content4 /></S.Content4>
                </S.AlertImgSection>
             </PhoneImgSection>
             <I.WebAlertPhone className="W-Alert-Phone" />
           </Fade>
-        </S.ImgSection>
           <S.SubTitle2>
             밝은 하루를 계획,<br />
             수고한 오늘 하루의 끝,<br />
             EZY와 함께.
           </S.SubTitle2>
+        </S.ImgSection>
       </S.MainSection>
     </>
   );
