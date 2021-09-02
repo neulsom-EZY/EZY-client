@@ -17,6 +17,17 @@ export const MainSection = styled.div`
         flex-direction: column;
         text-align: center;
     }
+    @media screen and (max-width: 700px) {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+        text-align: center;
+        height: 1100px;
+    }
+    @media screen and (max-width: 500px) {
+        height: 770px;
+        margin-top: 5vh;
+    }
 `;
 export const TitleSection = styled.div`
     width: 100%;
@@ -32,10 +43,11 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1200px) {
         margin-left: 3vh;
     }
-    @media screen and (max-width: 900px) {
-        margin-top: -7vh;
-        margin-bottom: -4vh;
-        margin-left: 0;
+    @media screen and (max-width: 700px) {
+        margin: -20vh 0 0 0;
+    }
+    @media screen and (max-width: 500px) {
+        margin: 5vh 0 5vh 0;
     }
 `;
 export const MainTitle = styled.div`
@@ -47,7 +59,11 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 900px) {
         font-size: 28px;
         line-height: 5vh;
-        margin-bottom: 27vh;
+        text-align: center;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 20px;
+        line-height: 5vh;
         text-align: center;
     }
 `;
@@ -76,6 +92,18 @@ export const SubTitle2 = styled.div`
         font-size: 17px;
         margin-top: 5.5vh;
         margin-bottom: -15vh;
+        line-height: 3vh;
+    }
+    @media screen and (max-width: 700px) {
+        text-align: center;
+        display: block;
+        font-size: 22px;
+        margin: 0 0 0 0;
+        line-height: 3vh;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 15px;
+        margin: 0 0 10vh 0;
         line-height: 3vh;
     }
 `;
@@ -121,22 +149,24 @@ export const ImgSection = styled.div`
         margin-top: 2vh;
         margin-bottom: 10vh;
     }
-    @media screen and (max-width: 500px) {
+    @media screen and (max-width: 700px) {
+        height: 700px;
         display: flex;
         justify-content: center;
-        align-items: center;
-        margin: 0;
-        margin-right: -0.8vh;
-        .W-SomeDay {
-            display: none;
+        align-items:center;
+        margin: 0 0 0 0;
+        .W-SomeDay{
+            display:none;
         }
         .W-Alert {
-            display: none;
+            display:none;
         }
-        .W-Alert-Phone {
-            display: block;
-            margin-bottom: 5vh;
-        }
+    }
+    @media screen and (max-width: 500px) {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 0 0 0 0;
     }
 `;
 export const WebSomeDay = styled.div`
@@ -149,6 +179,10 @@ export const AlertImgSection = styled.div`
     align-items:center;
     margin-bottom:28vh;
     margin-left: -35vh;
+    @media screen and (max-width: 700px) {
+        display:none;
+    }
+
 `;
 export const PhoneImgSection = styled.div`
   width: 100%;
@@ -157,4 +191,40 @@ export const PhoneImgSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  @media screen and (max-width: 700px) {
+        display: grid;
+        justify-content: center;
+        align-items:center;
+        margin: 0 0 0 0;
+        height:100%;
+    }
+`;
+
+export const Content4 = styled.div`
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+`;
+
+export const MobileImgSection = styled.div`
+    @media screen and (max-width: 3000px) {
+        display: none;
+    }
+    @media screen and (max-width: 700px) {
+        display: inline;
+        .M_Phone2{
+            margin-top: 20vh;
+            margin-bottom: 5vh;
+            width: 500px;
+            height: 600px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .M_Phone2{
+            margin-top:0;
+            margin-bottom: 0;
+            width: 350px;
+            height: 430px;
+        }
+    }
 `;
