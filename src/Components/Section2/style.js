@@ -22,7 +22,11 @@ export const MainSection = styled.div`
         justify-items: center;
         flex-direction: column;
         text-align: center;
-        height: 1300px;
+        height: 1100px;
+    }
+    @media screen and (max-width: 500px) {
+        height: 770px;
+        margin-top: 5vh;
     }
 `;
 export const TitleSection = styled.div`
@@ -40,7 +44,10 @@ export const TitleSection = styled.div`
         margin-left: 3vh;
     }
     @media screen and (max-width: 700px) {
-        margin: -30vh 0 0 0;
+        margin: -20vh 0 0 0;
+    }
+    @media screen and (max-width: 500px) {
+        margin: 5vh 0 5vh 0;
     }
 `;
 export const MainTitle = styled.div`
@@ -51,6 +58,11 @@ export const MainTitle = styled.div`
     color: black;
     @media screen and (max-width: 900px) {
         font-size: 28px;
+        line-height: 5vh;
+        text-align: center;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 20px;
         line-height: 5vh;
         text-align: center;
     }
@@ -87,6 +99,11 @@ export const SubTitle2 = styled.div`
         display: block;
         font-size: 22px;
         margin: 0 0 0 0;
+        line-height: 3vh;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 15px;
+        margin: 0 0 10vh 0;
         line-height: 3vh;
     }
 `;
@@ -133,39 +150,23 @@ export const ImgSection = styled.div`
         margin-bottom: 10vh;
     }
     @media screen and (max-width: 700px) {
+        height: 700px;
         display: flex;
         justify-content: center;
         align-items:center;
-        height: 700px;
+        margin: 0 0 0 0;
         .W-SomeDay{
-            width: 700px;
-            height: 710px;
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            margin-top: 30vh;
-            margin-left: 30vh;
+            display:none;
         }
         .W-Alert {
             display:none;
         }
-        margin: 0 0 0 0;
     }
     @media screen and (max-width: 500px) {
         display: grid;
         justify-content: center;
         align-items: center;
         margin: 0 0 0 0;
-        .W-SomeDay {
-            /* display: none; */
-            margin-top: -5vh;
-        }
-        .W-Alert {
-            display: none;
-        }
-        .W-Alert-Phone {
-            display: none;
-        }
     }
 `;
 export const WebSomeDay = styled.div`
@@ -179,13 +180,7 @@ export const AlertImgSection = styled.div`
     margin-bottom:28vh;
     margin-left: -35vh;
     @media screen and (max-width: 700px) {
-        margin-left: 30vh;
-        margin-right: 0;
-        margin-bottom: 0;
-        margin-top: -92vh;
-    }
-    @media screen and (max-width: 500px) {
-        /* margin: -127vh 0 0 30vh; */
+        display:none;
     }
 
 `;
@@ -201,11 +196,35 @@ export const PhoneImgSection = styled.div`
         justify-content: center;
         align-items:center;
         margin: 0 0 0 0;
+        height:100%;
     }
 `;
 
 export const Content4 = styled.div`
-      @media screen and (max-width: 700px) {
+    @media screen and (max-width: 700px) {
         display: none;
+    }
+`;
+
+export const MobileImgSection = styled.div`
+    @media screen and (max-width: 3000px) {
+        display: none;
+    }
+    @media screen and (max-width: 700px) {
+        display: inline;
+        .M_Phone2{
+            margin-top: 20vh;
+            margin-bottom: 5vh;
+            width: 500px;
+            height: 600px;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        .M_Phone2{
+            margin-top:0;
+            margin-bottom: 0;
+            width: 350px;
+            height: 430px;
+        }
     }
 `;

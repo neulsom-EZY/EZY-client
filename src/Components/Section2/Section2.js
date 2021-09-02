@@ -3,6 +3,7 @@ import * as I from "../../Assets/index"
 import * as S from './style';
 import Fade from 'react-reveal/Fade';
 import {PhoneImgSection} from "./style";
+import M_Phone2 from "../../Assets/MobilePhone2.png";
 
 const Section2 = () => {
   return (
@@ -24,6 +25,9 @@ const Section2 = () => {
             <PhoneImgSection>
               <I.WebAlert className="W-Alert"/>
               <I.WebSomeDay className="W-SomeDay"/>
+              <S.MobileImgSection>
+                <img src={M_Phone2} className="M_Phone2" alt={M_Phone2}></img>
+              </S.MobileImgSection>
                <S.AlertImgSection>
                  <I.Content1 />
                  <I.Content2 />
