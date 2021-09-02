@@ -38,6 +38,8 @@ export const TitleSection = styled.div`
     align-items: center;
     flex-direction: column;
     word-break: keep-all;
+    @media screen and (max-width: 1680px) 
+    {  margin-left: 5vh; }
 `;
 
 export const MainTitle = styled.div`
