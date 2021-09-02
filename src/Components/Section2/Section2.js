@@ -1,12 +1,9 @@
 import React from 'react';
-import Fade from 'react-reveal/Fade';
+import * as I from "../../Assets/index"
 import * as S from './style';
-import Alert from '../../Assets/Section2/Alert.png';
-import SomeDay from '../../Assets/Section2/SomeDay.png';
-import Block1 from '../../Assets/Section2/Block-1.png';
-import Block2 from '../../Assets/Section2/Block-2.png';
-import Block3 from '../../Assets/Section2/Block-3.png';
-import Block4 from '../../Assets/Section2/Block-4.png';
+import Fade from 'react-reveal/Fade';
+import {PhoneImgSection} from "./style";
+import M_Phone2 from "../../Assets/MobilePhone2.png";
 
 const Section2 = () => {
   return (
@@ -16,30 +13,36 @@ const Section2 = () => {
             <S.MainTitle>
               나를 위한 일정관리<br />
               그 처음과 끝
+              <S.SubTitle>
+                밝은 하루를 계획<br />
+                수고한 오늘 하루의 끝을<br />
+                EZY와 함께
+              </S.SubTitle>
             </S.MainTitle>
-            <S.SubTitle>
-              밝은 하루를 계획<br />
-              수고한 오늘 하루의 끝을<br />
-              EZY와 함께
-            </S.SubTitle>
           </S.TitleSection>
           <S.ImgSection className="fade">
             <Fade right>
-              <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
-              <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
-              <S.AlertImgSection>
-                <img src={Block1} className="Block-1" alt="Block-Img" />
-                <img src={Block2} className="Block-2" alt="Block-Img" />
-                <img src={Block3} className="Block-3" alt="Block-Img" />
-                <img src={Block4} className="Block-4" alt="Block-Img" />
-              </S.AlertImgSection>
+              <PhoneImgSection>
+                <I.WebAlert className="W-Alert"/>
+                <I.WebSomeDay className="W-SomeDay"/>
+                <S.MobileImgSection>
+                  <img src={M_Phone2} className="M_Phone2" alt={M_Phone2}></img>
+                </S.MobileImgSection>
+                <S.AlertImgSection>
+                  <I.Content1 />
+                  <I.Content2 />
+                  <I.Content3 />
+                  <S.Content4><I.Content4 /></S.Content4>
+                </S.AlertImgSection>
+              </PhoneImgSection>
+              <I.WebAlertPhone className="W-Alert-Phone" />
             </Fade>
+            <S.SubTitle2>
+              밝은 하루를 계획,<br />
+              수고한 오늘 하루의 끝,<br />
+              EZY와 함께.
+            </S.SubTitle2>
           </S.ImgSection>
-          <S.SubTitle2>
-            밝은 하루를 계획<br />
-            수고한 오늘 하루의 끝을<br />
-            EZY와 함께
-          </S.SubTitle2>
         </S.MainSection>
       </>
   );
