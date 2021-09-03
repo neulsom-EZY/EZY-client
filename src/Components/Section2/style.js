@@ -43,7 +43,7 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 700px){
       margin-bottom: -50vh;
       line-height: 5vh;
     }
@@ -81,8 +81,8 @@ export const ImgSection = styled.div`
     margin-bottom: -5vh;
     margin-right: 5vh;
     display:flex;
-    align-items:center;
     justify-content:center;
+    flex-direction: column;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
@@ -104,6 +104,7 @@ export const ImgSection = styled.div`
       -ms-user-select: none;
       user-select: none;
       -webkit-user-drag: none;
+      z-index: -1000;
     }
     @media screen and (max-width: 1920px) 
     {  margin-right: 15vh;  }
@@ -126,12 +127,10 @@ export const ImgSection = styled.div`
     }
 `;
 export const AlertImgSection = styled.div`
-    width: 100%;
     display: flex;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
-    margin-bottom:27vh;
-    margin-left: -33vh;
+    z-index: 1000;
     .Block-1, .Block-2, .Block-3, .Block-4 {
       width: 15vh;
       -webkit-touch-callout: none;
@@ -142,30 +141,22 @@ export const AlertImgSection = styled.div`
       user-select: none;
       -webkit-user-drag: none;
     }
-    @media screen and (max-width: 1400px) {
-      margin-bottom: 23vh;
-      margin-left: -29vh;
-      .Block-1, .Block-2, .Block-3, .Block-4 
-      {  width: 13vh  }
-    }
-    @media screen and (max-width: 1300px) {
-      .Block-4 {  display: none  }
-    }
-    @media screen and (max-width: 1050px) {
-      .Block-3 {  display: none  }
-    }
-    @media screen and (max-width: 700px) {
-      width: 100%;
-      .Block-3, .Block-4 { 
-          display: block;
-      }
-    }
-`;
-export const PhoneImgSection = styled.div`
-    width: 100%;
-    height: 100vh;
-    margin-left: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    //@media screen and (max-width: 1400px) {
+    //  margin-bottom: 23vh;
+    //  margin-left: -29vh;
+    //  .Block-1, .Block-2, .Block-3, .Block-4 
+    //  {  width: 13vh  }
+    //}
+    //@media screen and (max-width: 1300px) {
+    //  .Block-4 {  display: none  }
+    //}
+    //@media screen and (max-width: 1050px) {
+    //  .Block-3 {  display: none  }
+    //}
+    //@media screen and (max-width: 700px) {
+    //  width: 100%;
+    //  .Block-3, .Block-4 { 
+    //      display: block;
+    //  }
+    //}
 `;
