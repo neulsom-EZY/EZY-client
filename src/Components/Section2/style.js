@@ -34,8 +34,10 @@ export const TitleSection = styled.div`
     {  margin-left: 12vh;  }
     @media screen and (max-width: 1450px) 
     {  margin-left: 6vh;  }
-    @media screen and (max-width: 700px)
-    { margin: 0 }
+    @media screen and (max-width: 700px) { 
+      margin-top: 10vh;
+      margin-left: 0;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -43,10 +45,8 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 700px){
-      margin-bottom: -50vh;
-      line-height: 5vh;
-    }
+    @media screen and (max-width: 700px)
+    {  line-height: 5vh;  }
     @media screen and (max-width: 500px)
     { font-size: 25px }
 `;
@@ -119,7 +119,8 @@ export const ImgSection = styled.div`
       .Alert {  display: none  }
     }
     @media screen and (max-width: 700px) {
-      margin-top: 40vh;      
+      margin-right: 0;
+      margin-top: 30vh;
       .SomeDay { width: 28vh; }
     }
 `;
