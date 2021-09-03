@@ -80,9 +80,6 @@ export const ImgSection = styled.div`
     height:100%;
     margin-bottom: -5vh;
     margin-right: 5vh;
-    display:flex;
-    justify-content:center;
-    flex-direction: column;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
