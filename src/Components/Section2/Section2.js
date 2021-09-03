@@ -11,7 +11,7 @@ import Block4 from '../../Assets/Section2/Block-4.png';
 const Section2 = () => {
   return (
       <>
-        <S.MainSection className="fade">
+        <S.MainSection className="#">
           <S.TitleSection>
             <S.MainTitle>
               나를 위한 일정관리<br />
@@ -23,7 +23,7 @@ const Section2 = () => {
               EZY와 함께
             </S.SubTitle>
           </S.TitleSection>
-          <S.ImgSection className="fade">
+          <S.ImgSection className="#">
             <Fade right>
               <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
               <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
