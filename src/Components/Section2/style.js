@@ -74,6 +74,7 @@ export const SubTitle2 = styled.div`
         display: block;
         font-size: 15px;
         line-height: 3vh;
+        margin: 10vh 0 0 0;
     }
 `;
 export const ImgSection = styled.div`
@@ -119,8 +120,10 @@ export const ImgSection = styled.div`
       .Alert {  display: none  }
     }
     @media screen and (max-width: 700px) {
-      margin-right: 0;
-      margin-top: 30vh;
+      /* margin-right: 0;
+      margin-top: 30vh; */
+      height: 40%;
+      margin: 15vh 0 0 0;
       .SomeDay { width: 28vh; }
     }
 `;
