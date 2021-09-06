@@ -107,7 +107,7 @@ export const ImgSection = styled.div`
     {  margin-right: 15vh;  }
     @media screen and (max-width: 1800px) 
     {  margin-right: 6vh;  }
-    @media screen and (max-width: 1400px) {
+    @media screen and (max-width: 1700px) {
         .Alert {  width: 30vh;  }
         .SomeDay {  width: 33vh;  }
         margin-bottom: 2vh;
