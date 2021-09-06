@@ -128,7 +128,7 @@ export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
     align-items: center;
-    margin-bottom:27vh;
+    margin-bottom:25vh;
     margin-left: -33vh;
     .Block-1, .Block-2, .Block-3, .Block-4 {
       width: 15vh;
