@@ -78,60 +78,59 @@ export const SubTitle2 = styled.div`
     }
 `;
 export const ImgSection = styled.div`
-    width: 100%;
-    height:100%;
-    margin-bottom: -5vh;
-    margin-right: 5vh;
-    .Alert {
-      margin-right: -3vh;
-      margin-bottom: -8vh;
-      width: 36vh;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-user-drag: none;
-    }
-    .SomeDay {
-      width: 39vh;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-user-drag: none;
-      z-index: -1000;
-    }
-    @media screen and (max-width: 1920px) 
-    {  margin-right: 15vh;  }
-    @media screen and (max-width: 1800px) 
-    {  margin-right: 6vh;  }
-    @media screen and (max-width: 1400px) {
-        .Alert {  width: 30vh;  }
-        .SomeDay {  width: 33vh;  }
-        margin-bottom: 2vh;
-    }
-    @media screen and (max-width: 1040px) 
-    {  margin-right: 3vh;  }
-    @media screen and (max-width: 1140px) {
-      .Alert {  display: none  }
-    }
-    @media screen and (max-width: 700px) {
-      /* margin-right: 0;
-      margin-top: 30vh; */
-      height: 40%;
-      margin: 15vh 0 0 0;
-      .SomeDay { width: 28vh; }
-    }
+  width: 100%;
+  height:100%;
+  margin-bottom: -5vh;
+  margin-right: 5vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  .Alert {
+    margin-right: -3vh;
+    margin-bottom: -8vh;
+    width: 36vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .SomeDay {
+    width: 39vh;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  @media screen and (max-width: 1920px)
+  {  margin-right: 15vh;  }
+  @media screen and (max-width: 1800px)
+  {  margin-right: 6vh;  }
+  @media screen and (max-width: 1400px) {
+    .Alert {  width: 30vh;  }
+    .SomeDay {  width: 33vh;  }
+    margin-bottom: 2vh;
+  }
+  @media screen and (max-width: 1040px)
+  {  margin-right: 3vh;  }
+  @media screen and (max-width: 1140px) {
+    .Alert {  display: none  }
+  }
+  @media screen and (max-width: 700px) {
+    margin: 0;
+    margin-bottom: -20vh;
+    .SomeDay { width: 28vh; }
+  }
 `;
 export const AlertImgSection = styled.div`
     display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
+    margin-top: -22vh;
+    margin-left: -35vh;
     .Block-1, .Block-2, .Block-3, .Block-4 {
       width: 15vh;
       -webkit-touch-callout: none;
