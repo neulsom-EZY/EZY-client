@@ -41,14 +41,14 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 44px;
     line-height: 8vh;
     color: black;
     @media screen and (max-width: 700px)
     {  line-height: 5rem;  }
     @media screen and (max-width: 500px) { 
-      line-height: 3rem;
+      line-height: 2.5rem;
       font-size: 25px 
     }
 `;
@@ -75,7 +75,7 @@ export const SubTitle2 = styled.div`
         display: block;
         font-size: 15px;
         line-height: 3vh;
-        margin: 10vh 0 0 0;
+        margin: 7vh 0 0 0;
     }
 `;
 export const ImgSection = styled.div`
@@ -121,7 +121,7 @@ export const ImgSection = styled.div`
     }
     @media screen and (max-width: 700px) {
       height: 40%;
-      margin: 15vh 0 0 0;
+      margin: 5vh 0 0 0;
       flex-direction: column;
       .SomeDay { width: 28vh; }
     }
