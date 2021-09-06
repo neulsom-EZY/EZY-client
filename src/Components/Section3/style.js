@@ -28,6 +28,7 @@ export const ImgSection = styled.div`
     margin-top: 12vh;
     margin-right: -20vh;
     margin-left: 20vh;
+    .Schedule {  width: 39vh;  }
 `;
 
 export const TitleSection = styled.div`
@@ -36,7 +37,6 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 16vh;
     word-break: keep-all;
 `;
 
@@ -51,25 +51,32 @@ export const MainTitle = styled.div`
 
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 3vh;
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
     color: #656565;
-    margin-bottom: 10vh;
+    margin-top: 3vh;
+    margin-bottom: 12vh;
 `;
 
 export const IconSection = styled.div`
-    display:grid;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: -11vh;
+`;
+
+export const IconTextSection = styled.div`
+    width: 100%;
     color: #656565;
-    font-size: 22px;
-    font-weight: 400;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    .Icon1, .Icon2, .Icon3
+    { margin-right: 1vh; }
 `;
 
 export const IconWrapper = styled.div`
-    display: flex;
-    margin-left: -1vh;
-    svg{
-        margin-right: 2vh;
-    }
+    svg {  margin-right: 2vh;  }
 `;
