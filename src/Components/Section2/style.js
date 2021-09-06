@@ -149,18 +149,16 @@ export const AlertImgSection = styled.div`
       .Block-1, .Block-2, .Block-3, .Block-4 
       {  width: 13vh  }
     }
-    @media screen and (max-width: 1300px) {
-      .Block-4 {  display: none  }
-    }
-    @media screen and (max-width: 1050px) {
-      .Block-3 {  display: none  }
-    }
+    @media screen and (max-width: 1300px)
+    {.Block-4 {  display: none  }}
+    @media screen and (max-width: 1050px) 
+    {.Block-3 {  display: none  }}
     @media screen and (max-width: 700px) {
       width: 100%;
       margin: 0;
       margin-top: -45vh;
-      .Block-3, .Block-4 { 
-          display: block;
-      }
+      .Block-3, .Block-4 {display: block;}
     }
+    @media screen and (max-width: 400px)
+    {.Block-4 {display: none}}
 `;
