@@ -20,14 +20,12 @@ export const MainSection = styled.div`
 `;
 export const TitleSection = styled.div`
     width: 100%;
+    margin-left: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 15vh;
     word-break: keep-all;
-    @media screen and (max-width: 1920px) 
-    {  margin-left: 30vh;  }
     @media screen and (max-width: 1800px) 
     {  margin-left: 20vh;  }
     @media screen and (max-width: 1570px) 
