@@ -9,24 +9,13 @@ export const MainSection = styled.div`
     align-items: center;
     background-position: center;
     background-size: cover;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         width: 100%;
         height: 140vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
         text-align: center;
-    }
-    @media screen and (max-width: 700px) {
-        display: flex;
-        justify-items: center;
-        flex-direction: column;
-        text-align: center;
-        height: 1100px;
-    }
-    @media screen and (max-width: 500px) {
-        height: 770px;
-        margin-top: 5vh;
     }
 `;
 export const TitleSection = styled.div`
@@ -44,7 +33,6 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 700px) {
       margin-top: 10vh;
       margin-left: 0;
-
     }
 `;
 export const MainTitle = styled.div`
@@ -58,7 +46,6 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 500px) { 
       line-height: 2.5rem;
       font-size: 25px 
-
     }
 `;
 export const SubTitle = styled.div`
@@ -68,9 +55,8 @@ export const SubTitle = styled.div`
     font-weight: 400;
     line-height: 5vh;
     color: #656565;
-    @media screen and (max-width: 900px) {
-        display: none;
-    }
+    @media screen and (max-width: 700px) 
+    {  display: none;  }
 `;
 export const SubTitle2 = styled.div`
     width: 100%;
@@ -137,11 +123,8 @@ export const ImgSection = styled.div`
       .SomeDay { width: 28vh; }
     }
 `;
-export const WebSomeDay = styled.div`
-    //margin-left: -3vh;
-    //margin-bottom: 10vh;
-`;
 export const AlertImgSection = styled.div`
+    width: 100%;
     display: flex;
     justify-items: center;
     align-items: center;
