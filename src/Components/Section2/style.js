@@ -81,7 +81,7 @@ export const ImgSection = styled.div`
     align-items: center;
     margin-right: 6vh;
     .Alert {
-      margin-right: -3vh;
+      margin-right: -15vh;
       margin-bottom: -8vh;
       width: 33vh;
       -webkit-touch-callout: none;
