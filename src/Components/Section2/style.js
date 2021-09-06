@@ -34,10 +34,8 @@ export const TitleSection = styled.div`
     {  margin-left: 12vh;  }
     @media screen and (max-width: 1450px) 
     {  margin-left: 6vh;  }
-    @media screen and (max-width: 700px) { 
-      margin-top: 10vh;
-      margin-left: 0;
-    }
+    @media screen and (max-width: 700px)
+    { margin: 0 }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -45,8 +43,10 @@ export const MainTitle = styled.div`
     font-size: 44px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 700px)
-    {  line-height: 5vh;  }
+    @media screen and (max-width: 700px) {
+      margin-bottom: -50vh;
+      line-height: 5vh;
+    }
     @media screen and (max-width: 500px)
     { font-size: 25px }
 `;
@@ -68,69 +68,70 @@ export const SubTitle2 = styled.div`
     font-weight: 600;
     line-height: 5vh;
     color: #656565;
-    margin-top: -60vh;
     @media screen and (max-width: 700px) {
         text-align: center;
         display: block;
         font-size: 15px;
         line-height: 3vh;
-        margin: 10vh 0 0 0;
     }
 `;
 export const ImgSection = styled.div`
-  width: 100%;
-  height:100%;
-  margin-bottom: -5vh;
-  margin-right: 5vh;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  .Alert {
-    margin-right: -3vh;
-    margin-bottom: -8vh;
-    width: 36vh;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-user-drag: none;
-  }
-  .SomeDay {
-    width: 39vh;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    -webkit-user-drag: none;
-  }
-  @media screen and (max-width: 1920px)
-  {  margin-right: 15vh;  }
-  @media screen and (max-width: 1800px)
-  {  margin-right: 6vh;  }
-  @media screen and (max-width: 1400px) {
-    .Alert {  width: 30vh;  }
-    .SomeDay {  width: 33vh;  }
-    margin-bottom: 2vh;
-  }
-  @media screen and (max-width: 1040px)
-  {  margin-right: 3vh;  }
-  @media screen and (max-width: 1140px) {
-    .Alert {  display: none  }
-  }
-  @media screen and (max-width: 700px) {
-    margin: 0;
-    margin-bottom: -20vh;
-    .SomeDay { width: 28vh; }
-  }
+    width: 100%;
+    height:100%;
+    margin-bottom: -5vh;
+    margin-right: 5vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    .Alert {
+      margin-right: -3vh;
+      margin-bottom: -8vh;
+      width: 36vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .SomeDay {
+      width: 39vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1920px) 
+    {  margin-right: 15vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 6vh;  }
+    @media screen and (max-width: 1400px) {
+        .Alert {  width: 30vh;  }
+        .SomeDay {  width: 33vh;  }
+        margin-bottom: 2vh;
+    }
+    @media screen and (max-width: 1040px) 
+    {  margin-right: 3vh;  }
+    @media screen and (max-width: 1140px) {
+      .Alert {  display: none  }
+    }
+    @media screen and (max-width: 700px) {
+      margin: 0;
+      margin-bottom: -20vh;
+      .SomeDay { width: 28vh; }
+    }
 `;
 export const AlertImgSection = styled.div`
+    width: 100%;
     display: flex;
-    margin-top: -22vh;
-    margin-left: -35vh;
+    justify-items: center;
+    align-items: center;
+    margin-bottom:27vh;
+    margin-left: -33vh;
     .Block-1, .Block-2, .Block-3, .Block-4 {
       width: 15vh;
       -webkit-touch-callout: none;
@@ -142,6 +143,8 @@ export const AlertImgSection = styled.div`
       -webkit-user-drag: none;
     }
     @media screen and (max-width: 1400px) {
+      margin-bottom: 23vh;
+      margin-left: -29vh;
       .Block-1, .Block-2, .Block-3, .Block-4 
       {  width: 13vh  }
     }
@@ -153,9 +156,16 @@ export const AlertImgSection = styled.div`
     }
     @media screen and (max-width: 700px) {
       width: 100%;
-      margin-top: -45vh;
       .Block-3, .Block-4 { 
           display: block;
       }
     }
+`;
+export const PhoneImgSection = styled.div`
+    width: 100%;
+    height: 100vh;
+    margin-left: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
 `;
