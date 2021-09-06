@@ -8,7 +8,7 @@ import M_Phone2 from "../../Assets/MobilePhone2.png";
 const Section2 = () => {
   return (
       <>
-        <S.MainSection className="fade">
+        <S.MainSection className="#">
           <S.TitleSection>
             <S.MainTitle>
               나를 위한 일정관리<br />
@@ -20,7 +20,7 @@ const Section2 = () => {
               </S.SubTitle>
             </S.MainTitle>
           </S.TitleSection>
-          <S.ImgSection className="fade">
+          <S.ImgSection className="#">
             <Fade right>
               <PhoneImgSection>
                 <I.WebAlert className="W-Alert"/>

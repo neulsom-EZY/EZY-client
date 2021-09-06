@@ -35,36 +35,30 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 16vh;
+    margin-left: 20vh;
     word-break: keep-all;
-    @media screen and (max-width: 1500px) {
-        width: 60%;
-    }
-    @media screen and (max-width: 1200px) {
-        margin-left: 3vh;
-    }
+    @media screen and (max-width: 1570px) 
+    {  margin-left: 12vh;  }
+    @media screen and (max-width: 1450px) 
+    {  margin-left: 6vh;  }
     @media screen and (max-width: 700px) {
-        margin: -20vh 0 0 0;
-    }
-    @media screen and (max-width: 500px) {
-        margin: 5vh 0 5vh 0;
+      margin-top: 10vh;
+      margin-left: 0;
+
     }
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 44px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 900px) {
-        font-size: 28px;
-        line-height: 5vh;
-        text-align: center;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 20px;
-        line-height: 5vh;
-        text-align: center;
+    @media screen and (max-width: 700px)
+    {  line-height: 5rem;  }
+    @media screen and (max-width: 500px) { 
+      line-height: 2.5rem;
+      font-size: 25px 
+
     }
 `;
 export const SubTitle = styled.div`
@@ -85,88 +79,62 @@ export const SubTitle2 = styled.div`
     font-size: 22px;
     font-weight: 600;
     line-height: 5vh;
-    color: #656565;
-    @media screen and (max-width: 900px) {
-        text-align: center;
+    color: black;
+    @media screen and (max-width: 700px) {
         display: block;
         font-size: 17px;
-        margin-top: 5.5vh;
-        margin-bottom: -15vh;
-        line-height: 3vh;
-    }
-    @media screen and (max-width: 700px) {
-        text-align: center;
-        display: block;
-        font-size: 22px;
-        margin: 0 0 0 0;
-        line-height: 3vh;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 15px;
-        margin: 0 0 10vh 0;
-        line-height: 3vh;
+        font-weight: 600;
+        line-height: 2rem;
+        margin: 7vh 0 0 0;
     }
 `;
 export const ImgSection = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
     width: 100%;
-    height:100%;
-    margin-bottom: -5vh;
-    margin-right: 10vh;
-    .W-Alert {
-        margin-right: -3vh;
-        margin-bottom: -8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6vh;
+    .Alert {
+      margin-right: -15vh;
+      margin-bottom: -8vh;
+      width: 33vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
     }
-    .W-Alert-Phone {
-        display: none;
+    .SomeDay {
+      width: 36vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
     }
-    @media screen and (max-width: 1300px) {
-        margin-right: 10vh;
+    @media screen and (max-width: 1920px) 
+    {  margin-right: 6vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 4vh;  }
+    @media screen and (max-width: 1400px) {
+        .Alert {  width: 30vh;  }
+        .SomeDay {  width: 33vh;  }
+        margin-bottom: 2vh;
     }
-    @media screen and (max-width: 1200px) {
-        margin-right: 1vh;
-    }
-    @media screen and (max-width: 1000px) {
-        .W-SomeDay {
-            width: 280px;
-            height: 520px;
-        }
-        .W-Alert {
-            width: 250px;
-            height: 450px;
-        }
-        .W-Alert-Phone {
-            width: 280px;
-            height: 520px;
-        }
-    }
-    @media screen and (max-width: 900px) {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        margin-top: 2vh;
-        margin-bottom: 10vh;
+    @media screen and (max-width: 1040px) 
+    {  margin-right: 3vh;  }
+    @media screen and (max-width: 1140px) {
+      .Alert {  display: none  }
     }
     @media screen and (max-width: 700px) {
-        height: 700px;
-        display: flex;
-        justify-content: center;
-        align-items:center;
-        margin: 0 0 0 0;
-        .W-SomeDay{
-            display:none;
-        }
-        .W-Alert {
-            display:none;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        margin: 0 0 0 0;
+      height: 40%;
+      margin: 5vh 0 0 0;
+      flex-direction: column;
+      .SomeDay { width: 28vh; }
     }
 `;
 export const WebSomeDay = styled.div`
@@ -176,54 +144,35 @@ export const WebSomeDay = styled.div`
 export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
-    align-items:center;
-    margin-bottom:28vh;
-    margin-left: -35vh;
+    align-items: center;
+    margin-bottom:25vh;
+    margin-left: -33vh;
+    .Block-1, .Block-2, .Block-3, .Block-4 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1400px) {
+      margin-bottom: 23vh;
+      margin-left: -29vh;
+      .Block-1, .Block-2, .Block-3, .Block-4 
+      {  width: 13vh  }
+    }
+    @media screen and (max-width: 1300px)
+    {.Block-4 {  display: none  }}
+    @media screen and (max-width: 1050px) 
+    {.Block-3 {  display: none  }}
     @media screen and (max-width: 700px) {
-        display:none;
+      width: 100%;
+      margin: 0;
+      margin-top: -45vh;
+      .Block-3, .Block-4 {display: block;}
     }
-`;
-export const PhoneImgSection = styled.div`
-  width: 100%;
-  height: 100vh;
-  margin-left: 10vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  @media screen and (max-width: 700px) {
-        display: grid;
-        justify-content: center;
-        align-items:center;
-        margin: 0 0 0 0;
-        height:100%;
-    }
-`;
-
-export const Content4 = styled.div`
-    @media screen and (max-width: 700px) {
-        display: none;
-    }
-`;
-
-export const MobileImgSection = styled.div`
-    @media screen and (max-width: 3000px) {
-        display: none;
-    }
-    @media screen and (max-width: 700px) {
-        display: inline;
-        .M_Phone2{
-            margin-top: 20vh;
-            margin-bottom: 5vh;
-            width: 500px;
-            height: 600px;
-        }
-    }
-    @media screen and (max-width: 500px) {
-        .M_Phone2{
-            margin-top:0;
-            margin-bottom: 0;
-            width: 350px;
-            height: 430px;
-        }
-    }
+    @media screen and (max-width: 400px)
+    {.Block-4 {display: none}}
 `;
