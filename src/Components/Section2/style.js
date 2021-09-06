@@ -79,11 +79,11 @@ export const ImgSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 12vh;
+    margin-right: 6vh;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
-      width: 36vh;
+      width: 33vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -93,7 +93,7 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     .SomeDay {
-      width: 39vh;
+      width: 36vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -103,9 +103,9 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     @media screen and (max-width: 1920px) 
-    {  margin-right: 8vh;  }
-    @media screen and (max-width: 1800px) 
     {  margin-right: 6vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 4vh;  }
     @media screen and (max-width: 1400px) {
         .Alert {  width: 30vh;  }
         .SomeDay {  width: 33vh;  }
