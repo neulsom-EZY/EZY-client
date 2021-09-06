@@ -26,8 +26,6 @@ export const TitleSection = styled.div`
     flex-direction: column;
     margin-left: 15vh;
     word-break: keep-all;
-    @media screen and (max-width: 2048px)
-    { margin-left: 13vh }
     @media screen and (max-width: 1800px) 
     {  margin-left: 20vh;  }
     @media screen and (max-width: 1570px) 
@@ -105,10 +103,6 @@ export const ImgSection = styled.div`
       user-select: none;
       -webkit-user-drag: none;
     }
-    @media screen and (max-width: 2048px) {
-      .Alert { width: 28vh }
-      .SomeDay { width: 31vh}
-    }
     @media screen and (max-width: 1920px) 
     {  margin-right: 15vh;  }
     @media screen and (max-width: 1800px) 
@@ -146,12 +140,6 @@ export const AlertImgSection = styled.div`
       -ms-user-select: none;
       user-select: none;
       -webkit-user-drag: none;
-    }
-    @media screen and (max-width: 2048px) {
-      margin-bottom: 21vh;
-      margin-left: -28vh;
-      .Block-1, .Block-2, .Block-3, .Block-4 
-      {  width: 13vh;  }
     }
     @media screen and (max-width: 1400px) {
       margin-bottom: 23vh;
