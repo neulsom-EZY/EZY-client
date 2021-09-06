@@ -71,10 +71,10 @@ export const SubTitle2 = styled.div`
     line-height: 5vh;
     color: black;
     @media screen and (max-width: 700px) {
-        text-align: center;
         display: block;
-        font-size: 15px;
-        line-height: 3vh;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2rem;
         margin: 7vh 0 0 0;
     }
 `;
