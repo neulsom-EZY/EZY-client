@@ -24,7 +24,7 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 15vh;
+    margin-left: 20vh;
     word-break: keep-all;
     @media screen and (max-width: 1570px) 
     {  margin-left: 12vh;  }
