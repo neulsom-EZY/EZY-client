@@ -26,8 +26,6 @@ export const TitleSection = styled.div`
     flex-direction: column;
     margin-left: 15vh;
     word-break: keep-all;
-    @media screen and (max-width: 1800px) 
-    {  margin-left: 20vh;  }
     @media screen and (max-width: 1570px) 
     {  margin-left: 12vh;  }
     @media screen and (max-width: 1450px) 
@@ -81,6 +79,7 @@ export const ImgSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 12vh;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
@@ -104,7 +103,7 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     @media screen and (max-width: 1920px) 
-    {  margin-right: 15vh;  }
+    {  margin-right: 8vh;  }
     @media screen and (max-width: 1800px) 
     {  margin-right: 6vh;  }
     @media screen and (max-width: 1400px) {
