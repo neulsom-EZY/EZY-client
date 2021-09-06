@@ -46,9 +46,11 @@ export const MainTitle = styled.div`
     line-height: 8vh;
     color: black;
     @media screen and (max-width: 700px)
-    {  line-height: 5vh;  }
-    @media screen and (max-width: 500px)
-    { font-size: 25px }
+    {  line-height: 5rem;  }
+    @media screen and (max-width: 500px) { 
+      line-height: 3rem;
+      font-size: 25px 
+    }
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -67,7 +69,7 @@ export const SubTitle2 = styled.div`
     font-size: 22px;
     font-weight: 600;
     line-height: 5vh;
-    color: #656565;
+    color: black;
     @media screen and (max-width: 700px) {
         text-align: center;
         display: block;
@@ -78,12 +80,9 @@ export const SubTitle2 = styled.div`
 `;
 export const ImgSection = styled.div`
     width: 100%;
-    height:100%;
-    margin-bottom: -5vh;
-    margin-right: 5vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
@@ -123,6 +122,7 @@ export const ImgSection = styled.div`
     @media screen and (max-width: 700px) {
       height: 40%;
       margin: 15vh 0 0 0;
+      flex-direction: column;
       .SomeDay { width: 28vh; }
     }
 `;
@@ -157,16 +157,10 @@ export const AlertImgSection = styled.div`
     }
     @media screen and (max-width: 700px) {
       width: 100%;
+      margin: 0;
+      margin-top: -45vh;
       .Block-3, .Block-4 { 
           display: block;
       }
     }
-`;
-export const PhoneImgSection = styled.div`
-    width: 100%;
-    height: 100vh;
-    margin-left: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
 `;
