@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const MainSection = styled.div`
-    width: 100%;
+    width: 99vw;
     height: 100vh;
     z-index: -100;
     display: flex;
@@ -21,6 +21,7 @@ export const MainSection = styled.div`
 export const TitleSection = styled.div`
     width: 100%;
     margin-left: 20vh;
+    margin-right: 5vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,10 +82,11 @@ export const ImgSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 10vh;
     .Alert {
       margin-right: -3vh;
       margin-bottom: -8vh;
-      width: 36vh;
+      width: 33vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -94,7 +96,7 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     .SomeDay {
-      width: 39vh;
+      width: 36vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -104,7 +106,7 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     @media screen and (max-width: 1920px) 
-    {  margin-right: 15vh;  }
+    {  margin-right: 8vh;  }
     @media screen and (max-width: 1800px) 
     {  margin-right: 6vh;  }
     @media screen and (max-width: 1700px) {
@@ -112,11 +114,17 @@ export const ImgSection = styled.div`
         .SomeDay {  width: 33vh;  }
         margin-bottom: 2vh;
     }
+    @media screen and (max-width: 1350px) {
+        .Alert {  display: none;  }
+    }
     @media screen and (max-width: 1040px) 
     {  margin-right: 3vh;  }
     @media screen and (max-width: 1140px) {
       .Alert {  display: none  }
     }
+    /* @media screen and (max-width: 900px) {
+      .SomeDay {  width: 30vh;  }
+    } */
     @media screen and (max-width: 700px) {
       height: 40%;
       margin: 5vh 0 0 0;
@@ -140,6 +148,9 @@ export const AlertImgSection = styled.div`
       -ms-user-select: none;
       user-select: none;
       -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1770px) {
+      .Block-4{ display: none; }
     }
     @media screen and (max-width: 1400px) {
       margin-bottom: 23vh;
