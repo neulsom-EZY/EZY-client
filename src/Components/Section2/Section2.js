@@ -11,7 +11,7 @@ import Block4 from "../../Assets/Section2/Block-4.png";
 const Section2 = () => {
   return (
     <>
-      <S.MainSection className="#">
+      <S.MainSection>
         <S.TitleSection>
           <S.MainTitle>
             나를 위한 일정관리<br />
