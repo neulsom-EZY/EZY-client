@@ -1,126 +1,143 @@
 import styled from 'styled-components';
-import Bg01 from '../../Assets/Bg01.png';
+import M_Bg from "../../Assets/MobileBg.svg";
 
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
-    background-image: url(${Bg01});
     z-index:1;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         display: flex;
         justify-items: center;
         flex-direction: column;
         text-align: center;
-        /* background: none; */
+        background-image: url(${M_Bg});
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        .M-Bg {
+            margin-top: -10vh;
+        }
     }
 `;
 export const TitleSection = styled.div`
-    margin: 0 0 20vh 0;
     width: 100%;
     display:grid;
     justify-content:center;
     align-items:center;
-    .Mobile {
+    word-break: break-all;
+    .W-Logo {
+        margin-bottom: 5vh;
+        margin-left: -1vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+    .M-StoreBtn {
         display: none;
     }
-    .StoreBtn {
-        display: none;
+    .W-StoreBtn {
+        width: 22.6vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+        margin-bottom: 3.5vh;
     }
     @media screen and (max-width: 1550px) {
-        width: 40%;
-        margin-left: 8%;
+        width: 100%;
     }
-    @media screen and (max-width: 1400px) {
-        width: 37%;
-        margin-left: 10%;
-    }
-    @media screen and (max-width: 1350px) {
-        /* Reset */
+    @media screen and (max-width: 1450px) {
         width: 100%;
         margin-left: 5%;
-    }
-    @media screen and (max-width: 1300px) {
-        /* margin-right: -13vh; */
     }
     @media screen and (max-width: 1280px) {
         margin-left: 1%;
     }
     @media screen and (max-width: 1230px) {
-        width: 100%;
-        margin: 0 0 20vh 5vh;
+        margin: 10vh;
     }
-    @media screen and (max-width: 1130px) {
-        width: 100%;
+    @media screen and (max-width: 1150px) {
+        word-break: keep-all;
+        margin-left: 5%;
     }
-    @media screen and (max-width: 1070px) {
-        margin-left:0.2%;
+    @media screen and (max-width: 1115px) {
+        word-break: keep-all;
     }
-    @media screen and (max-width: 1066px) {
-        margin-left:0.1%;
-    }
-    @media screen and (max-width: 1055px) {
-        margin-left:0.1%;
-    }
-    @media screen and (max-width: 1040px) {
-        margin-left: 1%;
-    }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         width: 100%;
         margin: 0;
         display: flex;
         justify-content: center;
         flex-direction: column;
-        .Mobile {
-            display: block;
-            margin-top: -16vh;
+        margin-bottom: 8.5vh;
+        .W-StoreBtn {
+            display: none;
+            width: 18vh;
+            margin-top: 5.5vh;
         }
-        .StoreBtn {
+        .M-StoreBtn {
             display: block;
-            width: 30%;
-            margin-top: 4vh;
+            width: 18vh;
+            margin-top: 5.5vh;
+        }
+        .W-Logo {
+            display: none;
+        }
+    }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        .M-StoreBtn {
+            width: 133px;
+            height: 45px;
         }
     }
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
-    font-size: 40px;
-    /* 13inch Display */
-    @media screen and (max-width: 1680px) {
-        width: 80vh;
-    }
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 7.5vh;
+    background: #6B40FF;
+    background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 70%;
     @media screen and (max-width: 1350px) {
         width:120%;
     }
-    @media screen and (max-width: 1010px) {
-        width: 130%;
-    }
-    @media screen and (max-width: 980px) {
-        font-size: 35px;
-    }
-    @media screen and (max-width: 900px) {
-        margin-bottom: 4vh;
-        margin-top: 10vh;
-        font-size: 33px;
-        font-weight: 400;
-        width: 100%;
+    @media screen and (max-width: 700px) {
+        width: 80%;
+        font-size: 25px;
+        line-height: 5vh;
+        margin-bottom: -3vh;
     }
     @media screen and (max-width: 500px) {
+        margin-bottom: 0;
+        width: 100%;
         font-size: 17px;
-        font-weight: 400;
-        margin-top: 25px;
+        line-height: 3vh;
     }
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-left: 3vh;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    font-size: 20px;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-size: 22px;
     font-weight: 400;
-    line-height: 5vh;
+    line-height: 3.9vh;
+    color: #6A6A6A;
     @media screen and (max-width: 1350px) {
         width: 100%;
     }
@@ -128,31 +145,55 @@ export const SubTitle = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1130px) {
-        width: 200%;
-        margin-right: 40vh;
+        width: 100%;
+    }
+    @media screen and (max-width: 1071px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 1070px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 990px) {
+        width: 80%;
     }
     @media screen and (max-width: 900px) {
         width: 100%;
+    }
+    @media screen and (max-width: 720px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 700px) {
+        width: 80%;
         margin: 0;
-        margin-bottom: 4vh;
-        margin-top: 3vh;
-        font-size: 20px;
+        margin-top: 7vh;
+        margin-bottom: 2.2vh;
+        font-size: 15px;
         font-weight: lighter;
+        background: #6B40FF;
+        background: -webkit-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: -moz-linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        background: linear-gradient(to right, #6B40FF 0%, #1F1AFF 50%, #8099FD 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        opacity: 100%;
     }
     @media screen and (max-width: 500px) {
         font-size: 12px;
-        line-height: 4vh;
-        margin-bottom: 4vh;
+        line-height: 3vh;
     }
 `;
 export const WLogo = styled.div`
     width: 100%;
     height: 23vh;
     margin-left: 3vh;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
+        width: 66vh;
         margin: 0;
         margin-left: -1vh;
         margin-top: 6vh;
+    }
+    @media screen and (max-width: 500px) {
+        width: 67vh;
     }
 `;
 export const MainBg = styled.div`
@@ -164,74 +205,52 @@ export const MainBg = styled.div`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    .SubPhone {
-        display: none;
+    .W-Phone {
+        z-index: 100;
+        width: 90vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
-    .SubSubPhone {
+    .W-Phone-2 {
         display: none;
+        width: 60vh;
+        margin-left: 5vh;
     }
-    .ResponsivePhone {
+    .W-Phone-3 {
         display: none;
+        width: 30vh;
     }
-    @media screen and (max-width: 1350px) {
-        .MainPhone {
+    @media screen and (max-width: 1450px) {
+        .W-Phone {
             display: none;
         }
-        .SubPhone {
+        .W-Phone-2 {
             display: block;
-        }
-    }
-    @media screen and (max-width: 1260px) {
-        .SubPhone {
-            margin-right: 5vh;
+            margin-right: -40vh;
         }
     }
     @media screen and (max-width: 1230px) {
-        .SubPhone {
+        .W-Phone-2 {
             display: none;
         }
-        .SubSubPhone {
+        .W-Phone-3 {
             display: block;
-            margin-left: 15vh;
-        }
-    }
-    @media screen and (max-width: 1130px) {
-        .SubSubPhone {
-            /* margin-left: 5vh; */
-        }
-    }
-    @media screen and (max-width: 1070px) {
-        .SubSubPhone {
-            margin-left: 12vh;
+            margin: 0;
+            margin-left: 13vh;
         }
     }
     @media screen and (max-width: 1050px) {
-        .SubSubPhone {
-            margin-left: 8vh;
+        .W-Phone-3 {
+            margin-left: 3vh;
         }
     }
-    @media screen and (max-width: 1040px) {
-        .SubSubPhone {
-            margin-left: 15vh;
-        }
-    }
-    @media screen and (max-width: 1010px) {
-        .SubSubPhone {
-            margin-left: 20vh;
-        }
-    }
-    @media screen and (max-width: 980px) {
-        .SubSubPhone {
-            margin-left: 17vh;
-        }
-    }
-    @media screen and (max-width: 940px) {
-        .SubSubPhone {
-            margin-left: 15vh;
-        }
-    }
-    @media screen and (max-width: 900px) {
-        .SubSubPhone {
+    @media screen and (max-width: 700px) {
+        .W-Phone-3 {
             display: none;
         }
     }
@@ -252,23 +271,60 @@ export const Img2 = styled.button`
     -ms-user-select: none;
     user-select: none;
     -webkit-user-drag: none;
-    margin-left: 3vh;
+    margin-left: 2.4vh;
     width: 21vh;
     height: 7vh;
     background: none;
     border: none;
     cursor: pointer;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         display: none;
     }
 `;
-export const Img3 = styled.div`
-    svg{
-        max-width:100%;
+export const MobileSection = styled.div`
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: top;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15vh;
+    display: none;
+    @media screen and (max-width: 700px) {
+        display: block;
     }
 `;
-export const Img4 = styled.div`
-    svg{
-        max-width:100%;
+export const MobileLogoSection = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -8vh;
+    margin-bottom: 3vh;
+    .M-Logo {
+        display: block;
+        width: 11.5vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
+    }
+`;
+export const MobileImgSection = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .M-Phone {
+        width: 31vh;
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        -webkit-user-drag: none;
     }
 `;
