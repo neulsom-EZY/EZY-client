@@ -26,9 +26,12 @@ export const ImgSection = styled.div`
     width: 100%;
     height:100%;
     margin-top: 12vh;
-    margin-right: -20vh;
-    margin-left: 20vh;
+    margin-right: -15vh;
+    margin-left: 30vh;
     .Schedule {  width: 39vh;  }
+    @media screen and (max-width: 700px) {
+        .Schedule { display: none; }
+    }
 `;
 
 export const TitleSection = styled.div`
@@ -38,8 +41,16 @@ export const TitleSection = styled.div`
     align-items: center;
     flex-direction: column;
     word-break: keep-all;
-    @media screen and (max-width: 1680px) 
-    {  margin-left: 5vh; }
+    .Schedule2{
+        display: none;
+    }
+    @media screen and (max-width: 700px) {
+        .Schedule2 {  
+            width: 37vh;  
+            display: inline;
+            margin-left: 2vh;
+        }
+    }
 `;
 
 export const MainTitle = styled.div`
@@ -49,6 +60,9 @@ export const MainTitle = styled.div`
     line-height: 8vh;
     color: black;
     font-weight:bold;
+    @media screen and (max-width: 700px) {
+        margin: 15vh 0 15vh 0;
+    }
 `;
 
 export const SubTitle = styled.div`
@@ -59,26 +73,42 @@ export const SubTitle = styled.div`
     color: #656565;
     margin-top: 3vh;
     margin-bottom: 12vh;
+    @media screen and (max-width: 700px) {
+        display: none;
+    }
+`;
+
+export const SubTitle2 = styled.div`
+    width: 100%;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 5vh;
+    color: #656565;
+    margin-top: 3vh;
+    margin-bottom: 12vh;
+    display: none;
+    @media screen and (max-width: 700px) {
+        display: inline;
+        margin-top: 15vh;
+        margin-bottom: 0;
+    }
 `;
 
 export const IconSection = styled.div`
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 100%;
     margin-bottom: -11vh;
+    @media screen and (max-width: 700px) {
+        margin: 10vh 0 -5vh 0;
+    }
 `;
 
 export const IconTextSection = styled.div`
-    width: 100%;
     color: #656565;
     display: flex;
     justify-content: left;
     align-items: center;
     .Icon1, .Icon2, .Icon3
     { margin-right: 1vh; }
-`;
-
-export const IconWrapper = styled.div`
-    svg {  margin-right: 2vh;  }
 `;
