@@ -29,7 +29,7 @@ export const ImgSection = styled.div`
     margin-right: -15vh;
     margin-left: 30vh;
     .Schedule {  width: 39vh;  }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         .Schedule { display: none; }
     }
 `;
@@ -44,7 +44,7 @@ export const TitleSection = styled.div`
     .Schedule2{
         display: none;
     }
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         .Schedule2 {  
             width: 37vh;  
             display: inline;
@@ -60,7 +60,7 @@ export const MainTitle = styled.div`
     line-height: 8vh;
     color: black;
     font-weight:bold;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         margin: 15vh 0 15vh 0;
     }
 `;
@@ -73,7 +73,7 @@ export const SubTitle = styled.div`
     color: #656565;
     margin-top: 3vh;
     margin-bottom: 12vh;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         display: none;
     }
 `;
@@ -87,7 +87,7 @@ export const SubTitle2 = styled.div`
     margin-top: 3vh;
     margin-bottom: 12vh;
     display: none;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         display: inline;
         margin-top: 15vh;
         margin-bottom: 0;
@@ -100,7 +100,7 @@ export const IconSection = styled.div`
     justify-content: center;
     flex-direction: column;
     margin-bottom: -11vh;
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 900px) {
         width: 40%;
         margin: 10vh 0 -5vh 0;
     }
