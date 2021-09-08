@@ -51,6 +51,11 @@ export const TitleSection = styled.div`
             margin-left: 2vh;
         }
     }
+    @media screen and (max-width: 500px) {
+        .Schedule2 {  
+            width: 30vh;  
+        }
+    }
 `;
 
 export const MainTitle = styled.div`
@@ -63,6 +68,8 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 900px) {
         margin: 15vh 0 15vh 0;
     }
+    @media screen and (max-width: 500px)
+    { font-size: 25px }
 `;
 
 export const SubTitle = styled.div`
@@ -92,6 +99,8 @@ export const SubTitle2 = styled.div`
         margin-top: 15vh;
         margin-bottom: 0;
     }
+    @media screen and (max-width: 500px)
+        { font-size: 15px }
 `;
 
 export const IconSection = styled.div`
