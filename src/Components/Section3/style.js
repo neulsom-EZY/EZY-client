@@ -95,16 +95,19 @@ export const SubTitle2 = styled.div`
 `;
 
 export const IconSection = styled.div`
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: column;
     margin-bottom: -11vh;
     @media screen and (max-width: 700px) {
+        width: 40%;
         margin: 10vh 0 -5vh 0;
     }
 `;
 
 export const IconTextSection = styled.div`
+    width: 100%;
     color: #656565;
     display: flex;
     justify-content: left;
