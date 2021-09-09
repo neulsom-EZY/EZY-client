@@ -44,9 +44,9 @@ export const ImgSection = styled.div`
 `;
 
 export const FirstSection = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #BAC8FF;
     width: 100vh;
     height: 47vh;
@@ -56,12 +56,11 @@ export const FirstSection = styled.div`
 
 export const SecondSection = styled.div`
     display:flex;
-    align-items:center;
-    justify-content:center;
+    justify-content: center;
+    align-items: center;
     width: 100vh;
     height: 47vh;
-    margin-top: -5vh;
-    .Bottom { width: 40vh };
+    margin-top: -1vh;
 `;
 
 export const SubSection = styled.div`
@@ -69,6 +68,7 @@ export const SubSection = styled.div`
     height: 100%;
     background-color: #AFADFF;
     border-radius: 6vh;
+    .Bottom { width: 40vh };
 `;
 
 export const SubSection2 = styled.div`
