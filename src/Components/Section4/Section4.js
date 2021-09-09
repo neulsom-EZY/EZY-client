@@ -1,5 +1,6 @@
 import React from 'react';
 import * as S from './style';
+import Top from '../../Assets/Section4/Top.png';
 
 const Section4 = () => {
   return (
@@ -14,10 +15,8 @@ const Section4 = () => {
           </S.TitleSection>
           <S.ImgSection>
             <S.FirstSection>
-              <S.SubTitle>
-                언제든지 <br/>
-                간편한 일정관리
-              </S.SubTitle>
+              <S.SubTitle>언제든지 <br/>간편한 일정관리</S.SubTitle>
+              <img src={Top} className="Top" alt="SomeDay-Ui-Img" />
             </S.FirstSection>
             <S.SecondSection>
               <S.SubSection>
