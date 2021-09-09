@@ -8,7 +8,8 @@ const Section4 = () => {
           <S.TitleSection>
             <S.MainTitle>
               오직 당신만을 위한 <br/>
-              이런 TodoList 써보셨나요?
+              일정관리 서비스, <br />
+              처음일거에요
             </S.MainTitle>
           </S.TitleSection>
           <S.ImgSection>
