@@ -68,7 +68,7 @@ export const SubSection = styled.div`
     height: 100%;
     background-color: #AFADFF;
     border-radius: 6vh;
-    .Bottom { width: 40vh };
+    .Bottom { width: 40vh; margin-left: 19vh };
 `;
 
 export const SubSection2 = styled.div`
