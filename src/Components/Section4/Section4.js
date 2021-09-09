@@ -15,7 +15,7 @@ const Section4 = () => {
           <S.ImgSection>
             <S.FirstSection>
               <S.SubTitle>
-                언제던지 <br/>
+                언제든지 <br/>
                 간편한 일정관리
               </S.SubTitle>
             </S.FirstSection>
