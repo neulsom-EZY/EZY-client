@@ -20,7 +20,7 @@ export const MainTitle = styled.div`
     width: 100%;
     font-weight: bold;
     font-size: 44px;
-    line-height: 6vh;
+    line-height: 7vh;
     color: black;
 `;
 
