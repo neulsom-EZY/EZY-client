@@ -51,7 +51,7 @@ export const FirstSection = styled.div`
     width: 100vh;
     height: 47vh;
     border-radius: 6vh;
-    .Top { width: 40vh };
+    .Top { width: 40vh; margin-top: 3.2vh };
 `;
 
 export const SecondSection = styled.div`
