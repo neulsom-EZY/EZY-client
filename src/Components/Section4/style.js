@@ -51,6 +51,7 @@ export const FirstSection = styled.div`
     width: 100vh;
     height: 47vh;
     border-radius: 6vh;
+    .Top { width: 40vh };
 `;
 
 export const SecondSection = styled.div`
@@ -60,6 +61,7 @@ export const SecondSection = styled.div`
     width: 100vh;
     height: 47vh;
     margin-top: -5vh;
+    .Bottom { width: 40vh };
 `;
 
 export const SubSection = styled.div`
