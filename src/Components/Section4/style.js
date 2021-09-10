@@ -22,7 +22,9 @@ export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
-    { width: 50% }
+    { width: 50% } 
+    @media screen and (max-width: 960px)
+    { width: 100% }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -71,8 +73,13 @@ export const FirstSection = styled.div`
     .Top {width: 40vh; margin-top: 3.2vh};
     @media screen and (max-width: 960px)
     { width: 75vh }
-    @media screen and (max-width: 700px)
-    { flex-direction:column; width: 50vh }
+    @media screen and (max-width: 700px) {
+      width: 50vh;
+      flex-direction:column;
+      .Top { width: 30vh; margin-left: 3vh;
+        margin-top: 2.3vh;
+      }
+    }
 `;
 export const SecondSection = styled.div`
     width: 100vh;
@@ -96,8 +103,13 @@ export const SubSection = styled.div`
     @media screen and (max-width: 960px) {  
       .Bottom {margin-left: 8vh} width: 50vh;
     };
-    @media screen and (max-width: 700px)
-    { width: 50vh; }
+    @media screen and (max-width: 700px) {
+      width: 50vh; margin-top: 30vh;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      .Bottom { width: 30vh; margin-left: 12vh }
+    }
 `;
 export const SubSection2 = styled.div`
     width: 25vh;
@@ -106,7 +118,7 @@ export const SubSection2 = styled.div`
     @media screen and (max-width: 960px)
     { width: 20vh }
     @media screen and (max-width: 700px)
-    { width: 100%; margin: 0 }
+    { width: 100%; margin: 0; }
 `;
 export const SubSection3 = styled.div`
     display:grid;
