@@ -25,7 +25,7 @@ export const TitleSection = styled.div`
     word-break: keep-all;
     @media screen and (max-width: 960px)
     { width: 50% } 
-    @media screen and (max-width: 960px)
+    @media screen and (max-width: 700px)
     { width: 100% }
 `;
 export const MainTitle = styled.div`
@@ -34,6 +34,11 @@ export const MainTitle = styled.div`
     font-weight: bold;
     line-height: 7vh;
     color: black;
+    @media screen and (max-width: 500px) {
+      font-size: 35px;
+      line-height: 6vh;
+    }
+    
 `;
 export const SubTitle = styled.div`
     width: 100%;
