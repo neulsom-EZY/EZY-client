@@ -11,7 +11,7 @@ export const MainSection = styled.div`
     background-size: cover;
     @media screen and (max-width: 900px) {
         width: 100%;
-        height: 140vh;
+        height: 170vh;
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -87,6 +87,7 @@ export const SubTitle = styled.div`
 
 export const SubTitle2 = styled.div`
     width: 100%;
+    height: 50vh;
     font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
@@ -94,13 +95,16 @@ export const SubTitle2 = styled.div`
     margin-top: 3vh;
     margin-bottom: 12vh;
     display: none;
+    background-color: #FFFFFF;
     @media screen and (max-width: 900px) {
-        display: inline;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 15vh;
         margin-bottom: 0;
     }
-    @media screen and (max-width: 500px)
-        { font-size: 15px }
+    @media screen and (max-width: 500px) 
+    { font-size: 20px; font-weight: bold; color: black }
 `;
 
 export const IconSection = styled.div`
