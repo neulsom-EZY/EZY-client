@@ -53,7 +53,7 @@ export const SubTitle = styled.div`
       margin-top: 3vh;
     }
     @media screen and (max-width: 500px) {
-      font-size: 30px;
+      font-size: 28px;
     }
 `;
 export const SubTitle2 = styled.div`
@@ -66,21 +66,25 @@ export const SubTitle2 = styled.div`
     float: left;
     @media screen and (max-width: 700px)
     { margin: 0 }
-    @media screen and (max-width: 500px) {
-      font-size: 30px;
-    }
+    @media screen and (max-width: 700px)
+    { font-size: 23px }
 `;
 export const SubTitle4 = styled.div`
   width: 100%;
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   font-size: 35px;
   font-weight: bold;
   line-height: 6vh;
   color: black;
-  @media screen and (max-width: 700px) 
-  { margin-bottom: 3vh; }
+  @media screen and (max-width: 700px) {
+    margin-bottom: 3vh;
+  }
+  @media screen and (max-width: 500px) { 
+    line-height: 6vh;
+    font-size: 28px 
+  }
 `;
 export const SubTitle3 = styled.div`
     display:flex;
