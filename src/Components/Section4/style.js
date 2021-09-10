@@ -24,7 +24,7 @@ export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
-    { margin-left: 10vh }
+    { margin-left: 12vh }
 `;
 
 export const MainTitle = styled.div`
