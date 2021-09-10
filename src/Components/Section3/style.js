@@ -94,6 +94,7 @@ export const SubTitle2 = styled.div`
     margin-top: 3vh;
     margin-bottom: 12vh;
     display: none;
+    background-color: #FFFFFF;
     @media screen and (max-width: 900px) {
         display: inline;
         margin-top: 15vh;
