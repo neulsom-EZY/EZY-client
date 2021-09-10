@@ -23,6 +23,8 @@ export const ImgSection = styled.div`
 export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
+    @media screen and (max-width: 960px)
+    { margin-left: 10vh }
 `;
 
 export const MainTitle = styled.div`
@@ -54,7 +56,7 @@ export const FirstSection = styled.div`
     background-color: #BAC8FF;
     .Top {width: 40vh; margin-top: 3.2vh};
     @media screen and (max-width: 960px)
-    { width: 80vh }
+    { width: 75vh }
 `;
 
 export const SecondSection = styled.div`
@@ -74,7 +76,7 @@ export const SubSection = styled.div`
     margin-top: 1vh;
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) {  
-      .Bottom {margin-left: 11vh} width: 55vh;
+      .Bottom {margin-left: 11vh} width: 50vh;
     };
 `;
 
