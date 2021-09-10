@@ -79,6 +79,8 @@ export const SecondSection = styled.div`
     margin-top: 4vh;
     @media screen and (max-width: 960px)
     { width: 100% }
+    @media screen and (max-width: 700px)
+    { flex-direction: column }
 `;
 export const SubSection = styled.div`
     width: 75vh;
