@@ -49,6 +49,8 @@ export const SubTitle2 = styled.div`
     line-height: 4vh;
     color: black;
     float: left;
+    @media screen and (max-width: 700px)
+    { margin-left: 0 }
 `;
 export const SubTitle3 = styled.div`
     display:flex;
@@ -69,6 +71,8 @@ export const FirstSection = styled.div`
     .Top {width: 40vh; margin-top: 3.2vh};
     @media screen and (max-width: 960px)
     { width: 75vh }
+    @media screen and (max-width: 700px)
+    { flex-direction:column; width: 50vh }
 `;
 export const SecondSection = styled.div`
     width: 100vh;
@@ -93,7 +97,7 @@ export const SubSection = styled.div`
       .Bottom {margin-left: 8vh} width: 50vh;
     };
     @media screen and (max-width: 700px)
-    { width: 100% }
+    { width: 50vh; }
 `;
 export const SubSection2 = styled.div`
     width: 25vh;
@@ -112,7 +116,7 @@ export const SubSection3 = styled.div`
     background-color: #FFB5B5;
     margin-bottom: 1vh;
     @media screen and (max-width: 700px)
-    { width: 100% }
+    { width: 100%; text-align: center }
 `;
 export const SubSection4 = styled.div`
     width: 100%;
