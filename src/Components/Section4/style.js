@@ -161,6 +161,8 @@ export const SubSection4 = styled.div`
     height: 30%;
     border-radius: 5vh;
     background-color: #E2F6D7;
+    @media screen and (max-width: 700px) {
+    { height:35%; border-radius: 4vh}
 `;
 export const Emoji = styled.div`
     display:flex;
