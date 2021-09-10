@@ -65,7 +65,8 @@ export const SecondSection = styled.div`
 
 export const SubSection = styled.div`
     width: 75vh;
-    height: 100%;
+    height: 102%;
+    margin-top: 1vh;
     background-color: #AFADFF;
     border-radius: 6vh;
     .Bottom { width: 40vh; margin-left: 19vh };
