@@ -52,7 +52,9 @@ export const FirstSection = styled.div`
     align-items: center;
     border-radius: 6vh;
     background-color: #BAC8FF;
-    .Top { width: 40vh; margin-top: 3.2vh };
+    .Top {width: 40vh; margin-top: 3.2vh};
+    @media screen and (max-width: 960px)
+    { width: 80vh }
 `;
 
 export const SecondSection = styled.div`
@@ -70,13 +72,18 @@ export const SubSection = styled.div`
     border-radius: 6vh;
     background-color: #AFADFF;
     margin-top: 1vh;
-    .Bottom { width: 40vh; margin-left: 19vh };
+    .Bottom {width: 40vh; margin-left: 19vh};
+    @media screen and (max-width: 960px) {  
+      .Bottom {margin-left: 11vh} width: 55vh;
+    };
 `;
 
 export const SubSection2 = styled.div`
     width: 25vh;
     height: 100%;
     margin-left: 4vh;
+    @media screen and (max-width: 960px)
+    { width: 20vh }
 `;
 
 export const SubSection3 = styled.div`
