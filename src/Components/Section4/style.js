@@ -11,6 +11,15 @@ export const MainSection = styled.div`
     z-index: -100;
 `;
 
+export const ImgSection = styled.div`
+    width: 100%;
+    height:100%;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin-top: -15vh;
+`;
+
 export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
@@ -34,14 +43,6 @@ export const SubTitle = styled.div`
     line-height: 6vh;
     color: black;
 `;
-export const ImgSection = styled.div`
-    width: 100%;
-    height:100%;
-    display:grid;
-    align-items:center;
-    justify-content:center;
-    margin-top: -15vh;
-`;
 
 export const FirstSection = styled.div`
     width: 100vh;
@@ -60,7 +61,7 @@ export const SecondSection = styled.div`
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-top: -1vh;
+    margin-top: 4vh;
 `;
 
 export const SubSection = styled.div`
