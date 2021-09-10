@@ -22,7 +22,7 @@ export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
-    { margin-left: 12vh }
+    { margin-left: 12vh; width: 40% }
 `;
 export const MainTitle = styled.div`
     width: 100%;
