@@ -9,6 +9,8 @@ export const MainSection = styled.div`
     background-size: cover;
     background-position: center;
     z-index: -100;
+    @media screen and (max-width: 700px)
+    { height: 200vh }
 `;
 export const ImgSection = styled.div`
     width: 100%;
@@ -42,6 +44,9 @@ export const SubTitle = styled.div`
     font-weight: bold;
     line-height: 6vh;
     color: black;
+    @media screen and (max-width: 700px) {
+      margin-top: 3vh;
+    }
 `;
 export const SubTitle2 = styled.div`
     font-size: 35px;
@@ -51,8 +56,6 @@ export const SubTitle2 = styled.div`
     line-height: 4vh;
     color: black;
     float: left;
-    @media screen and (max-width: 700px)
-    { margin-left: 0 }
 `;
 export const SubTitle3 = styled.div`
     display:flex;
@@ -74,10 +77,13 @@ export const FirstSection = styled.div`
     @media screen and (max-width: 960px)
     { width: 75vh }
     @media screen and (max-width: 700px) {
-      width: 50vh;
+      width: 50vh; height: 50vh;
       flex-direction:column;
-      .Top { width: 30vh; margin-left: 3vh;
-        margin-top: 2.3vh;
+      margin-bottom: 15vh;
+      .Top {
+        width: 30vh;
+        margin-left: 3.9vh;
+        margin-top: 2.4vh;
       }
     }
 `;
@@ -100,11 +106,13 @@ export const SubSection = styled.div`
     background-color: #AFADFF;
     margin-top: 1vh;
     .Bottom {width: 40vh; margin-left: 19vh};
-    @media screen and (max-width: 960px) {  
-      .Bottom {margin-left: 8vh} width: 50vh;
+    @media screen and (max-width: 960px) { 
+      width: 50vh;
+      .Bottom {
+      {margin-left: 8vh}
     };
     @media screen and (max-width: 700px) {
-      width: 50vh; margin-top: 30vh;
+      width: 50vh;
       display: flex;
       justify-content: center;
       flex-direction: column;
@@ -127,8 +135,12 @@ export const SubSection3 = styled.div`
     border-radius: 5vh;
     background-color: #FFB5B5;
     margin-bottom: 1vh;
-    @media screen and (max-width: 700px)
-    { width: 100%; text-align: center }
+    @media screen and (max-width: 700px) { 
+      width: 100%; height: 60%; 
+      text-align: center; 
+      margin-top: 3vh; 
+      margin-bottom: 3vh 
+    }
 `;
 export const SubSection4 = styled.div`
     width: 100%;
