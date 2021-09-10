@@ -6,7 +6,7 @@ import Bottom from '../../Assets/Section4/Bottom.png';
 const Section4 = () => {
   return (
       <>
-        <S.MainSection className="">
+        <S.MainSection className="fade">
           <S.TitleSection>
             <S.MainTitle>오직 당신만을 위한 <br/>일정관리 서비스, <br/>처음일거에요</S.MainTitle>
           </S.TitleSection>
