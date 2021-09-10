@@ -76,7 +76,7 @@ export const SubSection = styled.div`
     margin-top: 1vh;
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) {  
-      .Bottom {margin-left: 11vh} width: 50vh;
+      .Bottom {margin-left: 8vh} width: 50vh;
     };
 `;
 
