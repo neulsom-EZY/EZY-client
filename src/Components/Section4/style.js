@@ -56,6 +56,8 @@ export const SubTitle2 = styled.div`
     line-height: 4vh;
     color: black;
     float: left;
+    @media screen and (max-width: 700px)
+    { margin: 0 }
 `;
 export const SubTitle3 = styled.div`
     display:flex;
@@ -66,6 +68,7 @@ export const SubTitle3 = styled.div`
     color: black;
 `;
 export const FirstSection = styled.div`
+  .Top {width: 40vh; margin-top: 3.2vh};
     width: 100vh;
     height: 47vh;
     display: flex;
@@ -73,7 +76,6 @@ export const FirstSection = styled.div`
     align-items: center;
     border-radius: 6vh;
     background-color: #BAC8FF;
-    .Top {width: 40vh; margin-top: 3.2vh};
     @media screen and (max-width: 960px)
     { width: 75vh }
     @media screen and (max-width: 700px) {
