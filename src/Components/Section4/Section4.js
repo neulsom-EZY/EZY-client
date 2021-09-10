@@ -18,7 +18,7 @@ const Section4 = () => {
             <S.SecondSection>
               <S.SubSection>
                 <img src={Bottom} className="Bottom" alt="SomeDay-Ui-Img"/>
-                <S.SubTitle>오늘의 일정을 <br/>간단하게 확인</S.SubTitle>
+                <S.SubTitle4>오늘의 일정을 <br/>간단하게 확인</S.SubTitle4>
               </S.SubSection>
               <S.SubSection2>
                 <S.SubSection3>

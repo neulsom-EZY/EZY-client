@@ -59,6 +59,18 @@ export const SubTitle2 = styled.div`
     @media screen and (max-width: 700px)
     { margin: 0 }
 `;
+export const SubTitle4 = styled.div`
+  width: 100%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 6vh;
+  color: black;
+  @media screen and (max-width: 700px) 
+  { margin-bottom: 3vh; }
+`;
 export const SubTitle3 = styled.div`
     display:flex;
     align-items:center;
