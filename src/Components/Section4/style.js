@@ -92,9 +92,9 @@ export const SubSection3 = styled.div`
     display:grid;
     width: 100%;
     height: 70%;
-    border-radius: 6vh;
+    border-radius: 5vh;
     background-color: #FFB5B5;
-  margin-bottom: 1vh;
+    margin-bottom: 1vh;
 `;
 
 export const Emoji = styled.div`
@@ -126,6 +126,6 @@ export const SubTitle3 = styled.div`
 export const SubSection4 = styled.div`
     width: 100%;
     height: 30%;
-    border-radius: 4vh;
+    border-radius: 5vh;
     background-color: #E2F6D7;
 `;
