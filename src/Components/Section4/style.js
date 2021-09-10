@@ -24,7 +24,7 @@ export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
-    { width: 50% } 
+    { width: 50%; margin-bottom: -20vh} 
     @media screen and (max-width: 700px)
     { width: 100% }
 `;
