@@ -22,7 +22,7 @@ export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
-    { margin-left: 12vh; width: 40% }
+    { width: 50% }
 `;
 export const MainTitle = styled.div`
     width: 100%;
@@ -77,6 +77,8 @@ export const SecondSection = styled.div`
     justify-content: center;
     align-items: center;
     margin-top: 4vh;
+    @media screen and (max-width: 960px)
+    { width: 100% }
 `;
 export const SubSection = styled.div`
     width: 75vh;
