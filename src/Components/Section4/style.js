@@ -67,7 +67,7 @@ export const SubTitle2 = styled.div`
     @media screen and (max-width: 700px)
     { margin: 0 }
     @media screen and (max-width: 700px)
-    { font-size: 23px }
+    { font-size: 25px }
 `;
 export const SubTitle4 = styled.div`
   width: 100%;
