@@ -80,7 +80,7 @@ export const SecondSection = styled.div`
     @media screen and (max-width: 960px)
     { width: 100% }
     @media screen and (max-width: 700px)
-    { flex-direction: column }
+    { flex-direction: column; }
 `;
 export const SubSection = styled.div`
     width: 75vh;
@@ -92,6 +92,8 @@ export const SubSection = styled.div`
     @media screen and (max-width: 960px) {  
       .Bottom {margin-left: 8vh} width: 50vh;
     };
+    @media screen and (max-width: 700px)
+    { width: 100% }
 `;
 export const SubSection2 = styled.div`
     width: 25vh;
@@ -99,6 +101,8 @@ export const SubSection2 = styled.div`
     margin-left: 4vh;
     @media screen and (max-width: 960px)
     { width: 20vh }
+    @media screen and (max-width: 700px)
+    { width: 100%; margin: 0 }
 `;
 export const SubSection3 = styled.div`
     display:grid;
@@ -107,6 +111,8 @@ export const SubSection3 = styled.div`
     border-radius: 5vh;
     background-color: #FFB5B5;
     margin-bottom: 1vh;
+    @media screen and (max-width: 700px)
+    { width: 100% }
 `;
 export const SubSection4 = styled.div`
     width: 100%;
