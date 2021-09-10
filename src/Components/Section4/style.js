@@ -93,7 +93,7 @@ export const FirstSection = styled.div`
     @media screen and (max-width: 700px) {
       width: 50vh; height: 50vh;
       flex-direction:column;
-      margin-bottom: 15vh;
+      margin-bottom: 14vh;
       .Top {
         width: 30vh;
         margin-left: 3.9vh;
