@@ -10,7 +10,6 @@ export const MainSection = styled.div`
     background-position: center;
     z-index: -100;
 `;
-
 export const ImgSection = styled.div`
     width: 100%;
     height:100%;
@@ -19,14 +18,12 @@ export const ImgSection = styled.div`
     flex-direction: column;
     margin-top: -15vh;
 `;
-
 export const TitleSection = styled.div`
     width: 100%;
     word-break: keep-all;
     @media screen and (max-width: 960px)
     { margin-left: 12vh }
 `;
-
 export const MainTitle = styled.div`
     width: 100%;
     font-size: 44px;
@@ -34,7 +31,6 @@ export const MainTitle = styled.div`
     line-height: 7vh;
     color: black;
 `;
-
 export const SubTitle = styled.div`
     width: 100%;
     display:flex;
@@ -45,7 +41,23 @@ export const SubTitle = styled.div`
     line-height: 6vh;
     color: black;
 `;
-
+export const SubTitle2 = styled.div`
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 3vh;
+    margin-top: 3vh;
+    line-height: 4vh;
+    color: black;
+    float: left;
+`;
+export const SubTitle3 = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+`;
 export const FirstSection = styled.div`
     width: 100vh;
     height: 47vh;
@@ -58,7 +70,6 @@ export const FirstSection = styled.div`
     @media screen and (max-width: 960px)
     { width: 75vh }
 `;
-
 export const SecondSection = styled.div`
     width: 100vh;
     height: 47vh;
@@ -67,7 +78,6 @@ export const SecondSection = styled.div`
     align-items: center;
     margin-top: 4vh;
 `;
-
 export const SubSection = styled.div`
     width: 75vh;
     height: 102%;
@@ -79,7 +89,6 @@ export const SubSection = styled.div`
       .Bottom {margin-left: 8vh} width: 50vh;
     };
 `;
-
 export const SubSection2 = styled.div`
     width: 25vh;
     height: 100%;
@@ -87,7 +96,6 @@ export const SubSection2 = styled.div`
     @media screen and (max-width: 960px)
     { width: 20vh }
 `;
-
 export const SubSection3 = styled.div`
     display:grid;
     width: 100%;
@@ -96,36 +104,15 @@ export const SubSection3 = styled.div`
     background-color: #FFB5B5;
     margin-bottom: 1vh;
 `;
-
-export const Emoji = styled.div`
-    display:flex;
-    justify-content:center;
-    align-items: center;
-    font-size: 7vh;
-`;
-
-export const SubTitle2 = styled.div`
-    font-size: 35px;
-    font-weight: bold;
-    margin-left: 3vh;
-    margin-top: 3vh;
-    line-height: 4vh;
-    color: black;
-    float: left;
-`;
-
-export const SubTitle3 = styled.div`
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-`;
-
 export const SubSection4 = styled.div`
     width: 100%;
     height: 30%;
     border-radius: 5vh;
     background-color: #E2F6D7;
+`;
+export const Emoji = styled.div`
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 7vh;
 `;
