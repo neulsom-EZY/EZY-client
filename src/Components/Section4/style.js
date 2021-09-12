@@ -27,6 +27,8 @@ export const TitleSection = styled.div`
     { width: 50%; } 
     @media screen and (max-width: 700px)
     { width: 100% }
+    @media screen and (max-width: 700px)
+    { margin-bottom: -20vh }
 `;
 export const MainTitle = styled.div`
     width: 100%;
