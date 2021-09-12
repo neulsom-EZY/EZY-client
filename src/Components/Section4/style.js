@@ -37,7 +37,7 @@ export const MainTitle = styled.div`
     line-height: 7vh;
     color: black;
     @media screen and (max-width: 500px) {
-      font-size: 35px;
+      font-size: 33px;
       line-height: 6vh;
     }
     
