@@ -19,6 +19,8 @@ export const ImgSection = styled.div`
     align-items:center;
     flex-direction: column;
     margin-top: -15vh;
+    @media screen and (max-width: 500px)
+    { margin-top: -30vh }
 `;
 export const TitleSection = styled.div`
     width: 100%;
