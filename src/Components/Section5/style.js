@@ -26,8 +26,8 @@ export const MainTitle = styled.div`
 
 export const ReviewSection = styled.div`
     width: 100%;
-    height:100%;
-    margin-top: 20vh;
+    height: 70vh;
+    margin-top: 30vh;
     display: grid;
     justify-content:center;
     align-items:center;
@@ -46,10 +46,11 @@ export const Review1 = styled.div`
     width: 40vh;
     height: 22vh;
     position: relative;
-    top: 1vh;
+    top: -15vh;
     right: 13vh;
+    border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 4vh #adb5bd;
+    box-shadow: 1vh 1vh 3vh #868e96;
     z-index: 3;
 `;
 
@@ -57,10 +58,11 @@ export const Review2 = styled.div`
     width: 43vh;
     height: 25vh;
     position: relative;
-    bottom: 13vh;
+    bottom: 25vh;
     left: 35vh;
+    border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 4vh #adb5bd;
+    box-shadow: 1vh 1vh 3vh #868e96;
     z-index: 1;
 `;
 
@@ -68,10 +70,11 @@ export const Review3 = styled.div`
     width: 45vh;
     height: 25vh;
     position: relative;
-    bottom: 35vh;
+    bottom: 42vh;
     right: 35vh;
+    border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 0.1vh 4vh #adb5bd;
+    box-shadow: 1vh 0.1vh 3vh #868e96;
     z-index: 2;
 `;
 
@@ -79,11 +82,12 @@ export const Review4 = styled.div`
     width: 45vh;
     height: 26vh;
     position: relative;
-    bottom: 40vh;
+    bottom: 45vh;
     right: 15vh;
+    border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 4vh #adb5bd;
-    z-index: 1;
+    box-shadow: 1vh 1vh 3vh #868e96;
+    z-index: 2;
 `;
 
 export const Review5 = styled.div`
@@ -92,8 +96,9 @@ export const Review5 = styled.div`
     position: relative;
     bottom: 55vh;
     left: 20vh;
+    border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 4vh #adb5bd;
+    box-shadow: 1vh 1vh 3vh #868e96;
     z-index: 2;
 `;
 
