@@ -138,7 +138,7 @@ export const SubSection = styled.div`
     height: 102%;
     border-radius: 6vh;
     background-color: #AFADFF;
-    margin-top: 1vh;
+    margin-top: -1vh;
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) { 
       width: 50vh;
@@ -150,7 +150,10 @@ export const SubSection = styled.div`
       display: flex;
       justify-content: center;
       flex-direction: column;
-      .Bottom { width: 30vh; margin-left: 12vh }
+      .Bottom {
+        width: 30vh; margin-left: 12vh;
+        margin-bottom: -1vh;
+      }
     }
       @media screen and (max-width: 500px) {
         width: 38vh;
@@ -178,7 +181,7 @@ export const SubSection3 = styled.div`
     @media screen and (max-width: 700px) { 
       width: 100%; height: 60%; 
       text-align: center; 
-      margin-top: 3vh; 
+      margin-top: 2.5vh; 
       margin-bottom: 3vh 
     }
 `;
