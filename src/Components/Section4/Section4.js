@@ -18,25 +18,19 @@ const Section4 = () => {
                 <img src={Top} className="Top" alt="SomeDay-Ui-Img"/>
               </S.FirstSection>
               <S.SecondSection>
-                <Fade bottom>
-                  <S.SubSection>
-                    <img src={Bottom} className="Bottom" alt="SomeDay-Ui-Img"/>
-                    <S.SubTitle4>오늘의 일정을 <br/>간단하게 확인</S.SubTitle4>
-                  </S.SubSection>
-                </Fade>
+                <S.SubSection>
+                  <img src={Bottom} className="Bottom" alt="SomeDay-Ui-Img"/>
+                  <S.SubTitle4>오늘의 일정을 <br/>간단하게 확인</S.SubTitle4>
+                </S.SubSection>
                 <S.SubSection2>
-                  <Fade right>
-                    <S.SubSection3>
-                      <S.Emoji>😑</S.Emoji>
-                      <S.SubTitle2>일정을<br/>눈감고도<br/>확인</S.SubTitle2>
-                    </S.SubSection3>
-                  </Fade>
-                  <Fade bottom>
-                    <S.SubSection4>
-                      <S.Emoji>👀</S.Emoji>
-                      <S.SubTitle3>이제 눈 떠요!</S.SubTitle3>
-                    </S.SubSection4>
-                  </Fade>
+                  <S.SubSection3>
+                    <S.Emoji>😑</S.Emoji>
+                    <S.SubTitle2>일정을<br/>눈감고도<br/>확인</S.SubTitle2>
+                  </S.SubSection3>
+                  <S.SubSection4>
+                    <S.Emoji>👀</S.Emoji>
+                    <S.SubTitle3>이제 눈 떠요!</S.SubTitle3>
+                  </S.SubSection4>
                 </S.SubSection2>
               </S.SecondSection>
             </S.ImgSection>
