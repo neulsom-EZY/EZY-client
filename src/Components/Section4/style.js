@@ -173,7 +173,7 @@ export const SubSection3 = styled.div`
     width: 100%;
     height: 70%;
     border-radius: 5vh;
-    background-color: #FFB5B5;
+    background-color: #AFD9FF;
     margin-bottom: 1vh;
     @media screen and (max-width: 700px) { 
       width: 100%; height: 60%; 
