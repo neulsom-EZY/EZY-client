@@ -7,7 +7,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Apple SD Gothic Neo', sans-serif;
+    font-family: 'Noto Sans CJK KR', sans-serif;
     background-color: #F9FAFB;
   }
 `;
@@ -18,7 +18,8 @@ const App = () => {
       <GlobalStyle />
         <C.Section1/>
         <C.Section2/>
-        {/*<C.Section3/>*/}
+        <C.Section3/>
+        <C.Section4/>
     </>
   );
 };

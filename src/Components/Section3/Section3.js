@@ -13,9 +13,10 @@ const Section3 = () => {
         <S.TitleSection>
           <S.MainTitle>그리고, 우리의 일정</S.MainTitle>
             <S.SubTitle>
-              그룹에 사람들을 추가하여 나와 함께한 일정, <br/>
+              그룹에 사람들을 추가하여 나와 함께할 일정, <br/>
               우리의 일정을 완성해봐요
             </S.SubTitle>
+            <img src={GroupSchedule} className="Schedule2" alt="GroupSchedule-Ui-Img" />
           <S.IconSection>
             <S.IconTextSection><I.S3Icon1 className="Icon1"/>
               2021. 05. 09 화요일
@@ -27,10 +28,15 @@ const Section3 = () => {
               송정역 이디야 카페
             </S.IconTextSection>
           </S.IconSection>
+          <S.SubTitle2>
+            그룹에 사람들을 추가하여 <br/>
+            나와 함께할 일정, <br/>
+            우리의 일정을 완성해봐요
+          </S.SubTitle2>
         </S.TitleSection>
       </S.MainSection>
     </>
-  )
+  );
 }
 
 export default Section3;
