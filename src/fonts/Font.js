@@ -29,8 +29,8 @@ export const Font = styled.div`
     font-family: 'Noto Sans CJK KR';
     font-style: normal;
     font-weight: bold;
-    src: url("styles/fonts/NotoSansKR-Bold.woff2") format('woff2'),
-    url("styles/fonts/NotoSansKR-Bold.woff") format('woff'),
-    url("styles/fonts/NotoSansKR-Bold.otf") format('truetype')
+    src: url("styles/fonts/NotoSansKR-DemiLight.woff2") format('woff2'),
+    url("styles/fonts/NotoSansKR-DemiLight.woff") format('woff'),
+    url("styles/fonts/NotoSansKR-DemiLight.otf") format('truetype')
   
 `;
