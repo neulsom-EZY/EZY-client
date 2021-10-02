@@ -137,7 +137,7 @@ export const SubSection = styled.div`
     width: 75vh;
     height: 102%;
     border-radius: 6vh;
-    background-color: #AFADFF;
+    background-color: #FFFFFF;
     margin-top: 1vh;
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) { 
@@ -173,7 +173,7 @@ export const SubSection3 = styled.div`
     width: 100%;
     height: 70%;
     border-radius: 5vh;
-    background-color: #AFD9FF;
+    background-color: #FFFFFF;
     margin-bottom: 1vh;
     @media screen and (max-width: 700px) { 
       width: 100%; height: 60%; 
@@ -186,7 +186,7 @@ export const SubSection4 = styled.div`
     width: 100%;
     height: 30%;
     border-radius: 5vh;
-    background-color: #E2F6D7;
+    background-color: #BAC8FF;
     @media screen and (max-width: 700px) {
     { height:35%; border-radius: 4vh}
 `;
