@@ -139,6 +139,7 @@ export const SubSection = styled.div`
     border-radius: 6vh;
     background-color: #FFFFFF;
     margin-top: 1vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) { 
       width: 50vh;
@@ -175,6 +176,7 @@ export const SubSection3 = styled.div`
     border-radius: 5vh;
     background-color: #FFFFFF;
     margin-bottom: 1vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 700px) { 
       width: 100%; height: 60%; 
       text-align: center; 
