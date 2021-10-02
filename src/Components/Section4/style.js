@@ -105,6 +105,7 @@ export const FirstSection = styled.div`
     align-items: center;
     border-radius: 6vh;
     background-color: #BAC8FF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 960px)
     { width: 75vh }
     @media screen and (max-width: 700px) {
@@ -137,8 +138,9 @@ export const SubSection = styled.div`
     width: 75vh;
     height: 102%;
     border-radius: 6vh;
-    background-color: #AFADFF;
+    background-color: #FFFFFF;
     margin-top: 1vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     .Bottom {width: 40vh; margin-left: 19vh};
     @media screen and (max-width: 960px) { 
       width: 50vh;
@@ -173,8 +175,9 @@ export const SubSection3 = styled.div`
     width: 100%;
     height: 70%;
     border-radius: 5vh;
-    background-color: #FFB5B5;
+    background-color: #FFFFFF;
     margin-bottom: 1vh;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 700px) { 
       width: 100%; height: 60%; 
       text-align: center; 
@@ -186,7 +189,8 @@ export const SubSection4 = styled.div`
     width: 100%;
     height: 30%;
     border-radius: 5vh;
-    background-color: #E2F6D7;
+    background-color: #BAC8FF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 700px) {
     { height:35%; border-radius: 4vh}
 `;
