@@ -105,6 +105,7 @@ export const FirstSection = styled.div`
     align-items: center;
     border-radius: 6vh;
     background-color: #BAC8FF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 960px)
     { width: 75vh }
     @media screen and (max-width: 700px) {
@@ -189,6 +190,7 @@ export const SubSection4 = styled.div`
     height: 30%;
     border-radius: 5vh;
     background-color: #BAC8FF;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     @media screen and (max-width: 700px) {
     { height:35%; border-radius: 4vh}
 `;
