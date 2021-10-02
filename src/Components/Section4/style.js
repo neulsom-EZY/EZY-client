@@ -33,7 +33,7 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     font-size: 44px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 7vh;
     color: black;
     @media screen and (max-width: 500px) {
@@ -48,7 +48,7 @@ export const SubTitle = styled.div`
     justify-content: center;
     align-items: center;
     font-size: 35px;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 6vh;
     color: black;
     @media screen and (max-width: 700px) {
@@ -59,11 +59,11 @@ export const SubTitle = styled.div`
     }
 `;
 export const SubTitle2 = styled.div`
-    font-size: 35px;
-    font-weight: bold;
+    font-size: 31px;
+    font-weight: 600;
     margin-left: 3vh;
     margin-top: 3vh;
-    line-height: 4vh;
+    line-height: 4.5vh;
     color: black;
     float: left;
     @media screen and (max-width: 700px)
@@ -77,7 +77,7 @@ export const SubTitle4 = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 35px;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 6vh;
   color: black;
   @media screen and (max-width: 700px) {
@@ -93,7 +93,7 @@ export const SubTitle3 = styled.div`
     align-items:center;
     justify-content:center;
     font-size: 25px;
-    font-weight: bold;
+    font-weight: 600;
     color: black;
 `;
 export const FirstSection = styled.div`

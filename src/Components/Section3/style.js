@@ -104,7 +104,7 @@ export const SubTitle2 = styled.div`
         margin-bottom: 0;
     }
     @media screen and (max-width: 500px) 
-    { font-size: 20px; font-weight: bold; color: black }
+    { font-size: 20px; font-weight: 600; color: black }
 `;
 
 export const IconSection = styled.div`
