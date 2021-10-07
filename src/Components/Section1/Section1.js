@@ -1,11 +1,17 @@
 import React from "react";
 import * as S from "./style";
-import Fade from "react-reveal/Fade";
 
 const Section1 = () => {
   return (
       <>
-
+        <S.MainSection>
+          <S.TitleSection>
+            여러분의<br/>라이프스타일을<br/>혁신합니다.
+          </S.TitleSection>
+          <video>
+            <source src={}></source>
+          </video>
+        </S.MainSection>
       </>
   );
 }
