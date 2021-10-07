@@ -32,7 +32,7 @@ export const SubTitle = styled.div`
     margin-top: 6vh;
     font-size: 3.5vh;
     font-weight: 400;
-    line-height: 5.5vh;
+    line-height: 6vh;
     color: #656565;
 `;
 
