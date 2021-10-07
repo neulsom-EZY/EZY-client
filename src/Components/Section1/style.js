@@ -14,6 +14,11 @@ export const TitleSection = styled.div`
   z-index: 1;
   margin-left: 15vh;
 `;
+export const LogoSection = styled.div`
+  top: -135%;
+  position: absolute;
+  z-index: 1;
+`;
 export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
