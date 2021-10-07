@@ -8,19 +8,23 @@ export const MainSection = styled.div`
   align-items: center;
 `;
 export const TitleSection = styled.div`
-  color: white;
   font-size: 65px;
   font-weight: bold;
-  z-index: 10000;
+  position: absolute;
+  z-index: 1;
+  margin-left: 15vh;
 `;
 export const VideoSection = styled.div`
   width: 100%;
   height: 100vh;
-  z-index: -1000;
+  z-index: -1;
   overflow: hidden;
+  display: flex;
+  justify-content: left;
+  align-items: center;
   video {
     width: 100%;
     opacity: 70%;
-    z-index: -1000;
+    z-index: -1;
   }
 `;
