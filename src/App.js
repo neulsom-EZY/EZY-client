@@ -16,10 +16,7 @@ const App = () => {
   return (
     <>
       <GlobalStyle />
-        <C.Section1/>
-        <C.Section2/>
-        <C.Section3/>
-        <C.Section4/>
+      <C.Section1_5/>
     </>
   );
 };
