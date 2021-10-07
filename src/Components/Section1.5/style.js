@@ -22,20 +22,17 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: bold;
-    font-size: 60px;
-    letter-spacing: 0.2vh;
-    word-spacing: 1vh;
+    font-size: 6.5vh;
+    letter-spacing: 0.1vh;
     color: black;
 `;
 
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 3vh;
-    font-size: 25px;
+    margin-top: 6vh;
+    font-size: 3.5vh;
     font-weight: 400;
-    letter-spacing: 0.1vh;
-    word-spacing: 0.2vh;
-    line-height: 4vh;
+    line-height: 5.5vh;
     color: #656565;
 `;
 
