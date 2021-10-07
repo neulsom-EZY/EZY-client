@@ -9,9 +9,7 @@ const Section1_5 = () => {
       <>
         <S.MainSection>
           <S.TitleSection>
-            <S.MainTitle>
-              하루의 시작과, 끝
-            </S.MainTitle>
+            <S.MainTitle>하루의 시작과, 끝</S.MainTitle>
             <S.SubTitle>
               처음 뵙겠습니다. <br/>
               세상에 없던 일정관리 서비스 <br/>
