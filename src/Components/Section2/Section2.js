@@ -24,7 +24,7 @@ const Section2 = () => {
           </S.SubTitle>
         </S.TitleSection>
         <S.ImgSection>
-          <Fade right>
+          <Fade top>
             <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
             <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
             <S.AlertImgSection>
