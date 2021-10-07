@@ -42,7 +42,7 @@ export const VideoSection = styled.div`
   align-items: center;
   video {
     width: 100%;
-    opacity: 70%;
+    opacity: 90%;
     z-index: -1;
   }
 `;
