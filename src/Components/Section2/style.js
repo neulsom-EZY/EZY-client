@@ -1,107 +1,161 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div `
+export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
-    z-index: 1;
+    z-index: -100;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center;
+    background-size: cover;
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 140vh;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
 `;
 export const TitleSection = styled.div`
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Noto Sans KR', sans-serif;
+    flex-direction: column;
+    margin-left: 20vh;
+    word-break: keep-all;
+    @media screen and (max-width: 1570px) 
+    {  margin-left: 12vh;  }
+    @media screen and (max-width: 1450px) 
+    {  margin-left: 6vh;  }
+    @media screen and (max-width: 700px) {
+      margin-top: 10vh;
+      margin-left: 0;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    color: lightgreen;
-    text-align: center;
-    margin-left: -10vh;
-    font-size: 35px;
     font-weight: bold;
-    text-shadow: 0px 5px 5px rgba(0,0,0,.25);
-    @media only screen and (max-width: 1500px) {
-        margin-left: -9vh;
-    }
-    @media only screen and (max-width: 1180px) {
-        margin-left: 5vh;
-    }
-    @media only screen and (max-width: 935px) {
-        font-size: 28px;
-    }
-    @media only screen and (max-width: 900px) {
-        margin-left: 1vh;
-    }
-    @media only screen and (max-width: 770px) {
-        font-size: 24px;
-    }
-    @media only screen and (max-width: 680px) {
-        font-size: 28px;
+    font-size: 44px;
+    line-height: 8vh;
+    color: black;
+    @media screen and (max-width: 700px)
+    {  line-height: 5rem;  }
+    @media screen and (max-width: 500px) { 
+      line-height: 2.5rem;
+      font-size: 25px 
     }
 `;
 export const SubTitle = styled.div`
     width: 100%;
-    margin-top: 11vh;
-    font-size: 20px;
+    margin-top: 3vh;
+    font-size: 22px;
     font-weight: 400;
-    color: white;
-    text-shadow: 0px 5px 5px rgba(0,0,0,.25);
+    line-height: 5vh;
+    color: #656565;
+    @media screen and (max-width: 700px) 
+    {  display: none;  }
 `;
-export const MainBg = styled.div`
-    .Bg11 {width: 75vh;margin-left: 22vh;}
-    .Bg12 {display: none;}
-    @media only screen and (max-width: 1500px) {
-        .Bg11 {
-            margin-left: 18vh;
-        }
-    }
-    @media only screen and (max-width: 1300px) {
-        .Bg11 {
-            margin-left: 9vh;
-        }
-    }
-    @media only screen and (max-width: 1180px) {
-        .Bg11 {
-            display: none;
-        }
-        .Bg12 {
-            display: block;
-            width: 39vh;
-            height: 74vh;
-            margin-left: 4vh;
-        }
-    }
-    @media only screen and (max-width: 935px) {
-        .Bg12 {
-            width: 37vh;
-        }
-    }
-    @media only screen and (max-width: 790px) {
-        .Bg12 {
-            width: 35vh;
-        }
-    }
-    @media only screen and (max-width: 770px) {
-        .Bg12 {
-            width: 31vh;
-            height: 58vh;
-        }
-    }
-    @media only screen and (max-width: 700px) {
-        .Bg12 {
-            width: 30vh;
-        }
-    }
-    @media only screen and (max-width: 680px) {
-        .Bg12 {
-            display: none;
-        }
-    }
-`;
-export const SelectText = styled.div`
+export const SubTitle2 = styled.div`
+    width: 100%;
+    height: 10vh;
+    display: none;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 5vh;
     color: black;
+    @media screen and (max-width: 700px) {
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2rem;
+        margin: 7vh 0 0 0;
+    }
+`;
+export const ImgSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6vh;
+    .Alert {
+      margin-right: -15vh;
+      margin-bottom: -8vh;
+      width: 33vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    .SomeDay {
+      width: 36vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1920px) 
+    {  margin-right: 6vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 4vh;  }
+    @media screen and (max-width: 1400px) {
+        .Alert {  width: 30vh;  }
+        .SomeDay {  width: 33vh;  }
+        margin-bottom: 2vh;
+    }
+    @media screen and (max-width: 1040px) 
+    {  margin-right: 3vh;  }
+    @media screen and (max-width: 1140px) {
+      .Alert {  display: none  }
+    }
+    @media screen and (max-width: 700px) {
+      height: 40%;
+      margin: 5vh 0 0 0;
+      flex-direction: column;
+      .SomeDay { width: 28vh; }
+    }
+`;
+export const AlertImgSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom:25vh;
+    margin-left: -33vh;
+    .Block-1, .Block-2, .Block-3, .Block-4 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1400px) {
+      margin-bottom: 23vh;
+      margin-left: -29vh;
+      .Block-1, .Block-2, .Block-3, .Block-4 
+      {  width: 13vh  }
+    }
+    @media screen and (max-width: 1300px)
+    {.Block-4 {  display: none  }}
+    @media screen and (max-width: 1050px) 
+    {.Block-3 {  display: none  }}
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      margin: 0;
+      margin-top: -45vh;
+      .Block-3, .Block-4 {display: block;}
+    }
+    @media screen and (max-width: 400px)
+    {.Block-4 {display: none}}
 `;

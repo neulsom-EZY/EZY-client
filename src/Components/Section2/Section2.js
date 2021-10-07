@@ -1,37 +1,48 @@
-import React from 'react';
+import React from "react";
+import Fade from "react-reveal/Fade";
 import * as S from "./style";
-import Bg11 from '../../Assets/bg11.png';
-import Bg12 from '../../Assets/bg12.png';
-import Zoom from 'react-reveal/Zoom';
-import Fade from 'react-reveal/Fade';
-import jquery from '../Section1/Jquery';
+import Alert from "../../Assets/Section2/Alert.png";
+import SomeDay from "../../Assets/Section2/SomeDay.png";
+import Block1 from "../../Assets/Section2/Block-1.png";
+import Block2 from "../../Assets/Section2/Block-2.png";
+import Block3 from "../../Assets/Section2/Block-3.png";
+import Block4 from "../../Assets/Section2/Block-4.png";
 
-const Section2 = () =>  {
+const Section2 = () => {
   return (
     <>
-      <S.MainSection>
-        <jquery/>
-        <S.MainBg className="fade">
-          <Fade top>
-            <img className="Bg11" src={Bg11} alt="bg11"/>
-            <img className="Bg12" src={Bg12} alt="bg12"/>
-          </Fade>
-        </S.MainBg>
+      <S.MainSection className="fade">
         <S.TitleSection>
           <S.MainTitle>
-            "소중한 시간을 계획적으로 쓰고싶다면"
-              <S.SubTitle>
-                <Zoom>
-                  우리는 EZY 입니다 🙋‍♀️<br/>
-                  오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
-                  효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
-                </Zoom>
-              </S.SubTitle>
+            나를 위한 일정관리<br />
+            그 처음과 끝
           </S.MainTitle>
+          <S.SubTitle>
+            밝은 하루를 계획<br />
+            수고한 오늘 하루의 끝을<br />
+            EZY와 함께
+          </S.SubTitle>
         </S.TitleSection>
+        <S.ImgSection>
+          <Fade top>
+            <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
+            <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
+            <S.AlertImgSection>
+              <img src={Block1} className="Block-1" alt="Block-Img" />
+              <img src={Block2} className="Block-2" alt="Block-Img" />
+              <img src={Block3} className="Block-3" alt="Block-Img" />
+              <img src={Block4} className="Block-4" alt="Block-Img" />
+            </S.AlertImgSection>
+          </Fade>
+        </S.ImgSection>
+        <S.SubTitle2>
+          밝은 하루를 계획<br />
+          수고한 오늘 하루의 끝을<br />
+          EZY와 함께
+        </S.SubTitle2>
       </S.MainSection>
     </>
-  )
-}
+  );
+};
 
 export default Section2;

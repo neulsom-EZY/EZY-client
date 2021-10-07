@@ -1,35 +1,48 @@
 import React from "react";
 import * as S from "./style";
-import Bg01 from "../../Assets/bg01-full.png"
-// import Bg01 from "../../Assets/bg001.svg";
-import Bg02 from "../../Assets/bg02-full.png";
-import Bg03 from "../../Assets/bg03.png";
-import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
-import jquery from "./Jquery";
+import fadeout from "../../Hooks/Fadeout";
+import W_Logo from "../../Assets/WebLogo.svg";
+import W_Phone from "../../Assets/WebPhone.svg";
+import W_Phone_2 from "../../Assets/WebPhone2.svg";
+import W_Phone_3 from "../../Assets/WebPhone3.svg";
+import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
+import M_Logo from "../../Assets/MobileLogo.svg";
+import M_Phone from "../../Assets/MobilePhone.png";
+import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
 
 const Section1 = () => {
   return (
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
+        <S.MobileSection>
+          <S.MobileLogoSection>
+            <img src={M_Logo} className="M-Logo" alt="Mobile-Logo" />
+          </S.MobileLogoSection>
+          <S.MobileImgSection>
+            <img src={M_Phone} className="M-Phone fade" alt="Mobile-Phone" />
+          </S.MobileImgSection>
+        </S.MobileSection>
         <S.TitleSection>
-          <S.MainTitle className="slider">
-            <Zoom>EZY</Zoom>
-            <S.SubTitle>
-              <div className="text-box">
-                <div>자신만의 라이프스타일 역사를 쓰고 있습니다.</div>
-                <div>여러분이 더 가치있는 삶을 살 수 있도록.</div>
-                <div>라이프스타일을 혁신하며 우리를 변화시켜갑니다.</div>
-              </div>
-            </S.SubTitle>
+          <img src={W_Logo} className="W-Logo" alt="Web-Logo" />
+          <S.MainTitle>
+            라이프스타일,<br/>
+            그 이상의 역사를 만들고 있습니다
           </S.MainTitle>
+          <S.SubTitle>
+            우리는 EZY입니다<br/>
+            오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
+            효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
+          </S.SubTitle>
+          <img src={W_StoreBtn} className="W-StoreBtn" alt="Web-Store-Button" />
+          <img src={M_StoreBtn} className="M-StoreBtn" alt="Mobile-Store-Button" />
         </S.TitleSection>
-        <jquery />
+        <fadeout />
         <S.MainBg className="fade">
           <Fade right>
-            <img className="Bg01" src={Bg01} alt="bg01" />
-            <img className="Bg02" src={Bg02} alt="bg02" />
-            <img className="Bg03" src={Bg03} alt="bg03" />
+            <img src={W_Phone} className="W-Phone" alt="Web-Phone" />
+            <img src={W_Phone_2} className="W-Phone-2" alt="Web-Phone" />
+            <img src={W_Phone_3} className="W-Phone-3" alt="Web-Phone" />
           </Fade>
         </S.MainBg>
       </S.MainSection>
