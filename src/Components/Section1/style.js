@@ -14,15 +14,23 @@ export const TitleSection = styled.div`
   z-index: 1;
   margin-left: 15vh;
 `;
+export const SubSection = styled.div`
+  width: 100%;
+  height: 50vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 8vh;
+`;
 export const LogoSection = styled.div`
   top: -135%;
   position: absolute;
   z-index: 1;
-`;
-export const SubSection = styled.div`
-  width: 100%;
-  height: 50vh;
-  background-color: #ffffff;
 `;
 export const VideoSection = styled.div`
   width: 100%;
