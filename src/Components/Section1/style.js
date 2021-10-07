@@ -14,6 +14,11 @@ export const TitleSection = styled.div`
   z-index: 1;
   margin-left: 15vh;
 `;
+export const SubSection = styled.div`
+  width: 100%;
+  height: 50vh;
+  background-color: #ffffff;
+`;
 export const VideoSection = styled.div`
   width: 100%;
   height: 100vh;

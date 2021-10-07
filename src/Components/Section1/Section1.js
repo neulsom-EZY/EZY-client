@@ -15,6 +15,9 @@ const Section1 = () => {
             </video>
           </S.VideoSection>
         </S.MainSection>
+        <S.SubSection>
+
+        </S.SubSection>
       </>
   );
 }
