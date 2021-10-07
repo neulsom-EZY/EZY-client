@@ -8,7 +8,7 @@ export const MainSection = styled.div`
     justify-content: center;
     align-items: center;
     z-index:1;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         display: flex;
         justify-items: center;
         flex-direction: column;
@@ -24,6 +24,7 @@ export const TitleSection = styled.div`
     display:grid;
     justify-content:center;
     align-items:center;
+    word-break: break-all;
     .W-Logo {
         margin-bottom: 5vh;
         margin-left: -1vh;
@@ -69,7 +70,7 @@ export const TitleSection = styled.div`
     @media screen and (max-width: 1115px) {
         word-break: keep-all;
     }
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         width: 100%;
         margin: 0;
         display: flex;
@@ -100,7 +101,7 @@ export const TitleSection = styled.div`
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 44px;
     line-height: 7.5vh;
     background: #6B40FF;
@@ -113,18 +114,7 @@ export const MainTitle = styled.div`
     @media screen and (max-width: 1350px) {
         width:120%;
     }
-    @media screen and (max-width: 1040px) {
-        width: 130%;
-    }
-    @media screen and (max-width: 1010px) {
-        width: 130%;
-        font-size: 42px;
-    }
-    @media screen and (max-width: 980px) {
-        font-size: 40px;
-    }
-    /* 여기야 여기 */
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         width: 80%;
         font-size: 25px;
         line-height: 5vh;
@@ -142,7 +132,7 @@ export const SubTitle = styled.div`
     margin-top: 5vh;
     margin-bottom: 5vh;
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 100;
     line-height: 3.9vh;
     color: #6A6A6A;
     @media screen and (max-width: 1350px) {
@@ -152,8 +142,7 @@ export const SubTitle = styled.div`
         width: 100%;
     }
     @media screen and (max-width: 1130px) {
-        width: 95%;
-        margin-right: 40vh;
+        width: 100%;
     }
     @media screen and (max-width: 1071px) {
         width: 100%;
@@ -161,19 +150,16 @@ export const SubTitle = styled.div`
     @media screen and (max-width: 1070px) {
         width: 100%;
     }
-    @media screen and (max-width: 1020px) {
-        width: 110%;
-    }
-    @media screen and (max-width: 1016px) {
-        width: 110%;
-    }
-    @media screen and (max-width: 985px) {
-        width: 110%;
-    }
-    @media screen and (max-width: 930px) {
-        width: 120%;
+    @media screen and (max-width: 990px) {
+        width: 80%;
     }
     @media screen and (max-width: 900px) {
+        width: 100%;
+    }
+    @media screen and (max-width: 720px) {
+        width: 110%;
+    }
+    @media screen and (max-width: 700px) {
         width: 80%;
         margin: 0;
         margin-top: 7vh;
@@ -197,7 +183,7 @@ export const WLogo = styled.div`
     width: 100%;
     height: 23vh;
     margin-left: 3vh;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         width: 66vh;
         margin: 0;
         margin-left: -1vh;
@@ -227,43 +213,41 @@ export const MainBg = styled.div`
         user-select: none;
         -webkit-user-drag: none;
     }
-    .SubPhone {
+    .W-Phone-2 {
         display: none;
+        width: 60vh;
+        margin-left: 5vh;
     }
-    .P2 {
+    .W-Phone-3 {
         display: none;
+        width: 30vh;
     }
     @media screen and (max-width: 1450px) {
         .W-Phone {
             display: none;
         }
-        .SubPhone {
+        .W-Phone-2 {
             display: block;
             margin-right: -40vh;
         }
     }
     @media screen and (max-width: 1230px) {
-        .SubPhone {
+        .W-Phone-2 {
             display: none;
         }
-        .P2 {
+        .W-Phone-3 {
             display: block;
             margin: 0;
             margin-left: 13vh;
         }
     }
     @media screen and (max-width: 1050px) {
-        .P2 {
+        .W-Phone-3 {
             margin-left: 3vh;
         }
     }
-    @media screen and (max-width: 940px) {
-        .P2 {
-            margin-left: -1vh;
-        }
-    }
-    @media screen and (max-width: 900px) {
-        .P2 {
+    @media screen and (max-width: 700px) {
+        .W-Phone-3 {
             display: none;
         }
     }
@@ -290,7 +274,7 @@ export const Img2 = styled.button`
     background: none;
     border: none;
     cursor: pointer;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         display: none;
     }
 `;
@@ -303,7 +287,7 @@ export const MobileSection = styled.div`
     text-align: center;
     margin-top: 15vh;
     display: none;
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
         display: block;
     }
 `;

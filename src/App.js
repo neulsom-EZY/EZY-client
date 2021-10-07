@@ -1,24 +1,26 @@
 import React from "react";
 import { createGlobalStyle } from "styled-components";
-import Section1 from './Components/Section1/Section1';
-import Section2 from './Components/Section2/Section2';
+import * as C from './Components/index';
 
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
     color: white;
-    font-family: 'Apple SD Gothic Neo', sans-serif;
+    font-family: 'Noto Sans CJK KR', sans-serif;
+    background-color: #F9FAFB;
   }
 `;
 
 const App = () => {
   return (
-    <>
-      <GlobalStyle />
-        <Section1/>
-        <Section2/>
-    </>
+      <>
+        <GlobalStyle />
+        <C.Section1/>
+        <C.Section2/>
+        <C.Section3/>
+        <C.Section4/>
+      </>
   );
 };
 

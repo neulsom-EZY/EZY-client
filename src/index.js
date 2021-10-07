@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import * as F from "./fonts/Font"
 
 ReactDOM.render(
   <React.StrictMode>
+    <F.Font />
     <App />
   </React.StrictMode>,
   document.getElementById('root')

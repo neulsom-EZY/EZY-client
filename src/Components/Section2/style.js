@@ -1,18 +1,19 @@
 import styled from 'styled-components';
-import Bg02 from '../../Assets/Bg02.png';
 
 export const MainSection = styled.div`
     width: 100%;
     height: 100vh;
-    display: flex;
-    align-items: center;
     z-index: -100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-position: center;
     background-size: cover;
-    background-image: url(${Bg02});
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 700px) {
+        width: 100%;
+        height: 140vh;
         display: flex;
-        justify-items: center;
+        justify-content: center;
         flex-direction: column;
         text-align: center;
     }
@@ -22,38 +23,139 @@ export const TitleSection = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: left;
+    flex-direction: column;
+    margin-left: 20vh;
+    word-break: keep-all;
+    @media screen and (max-width: 1570px) 
+    {  margin-left: 12vh;  }
+    @media screen and (max-width: 1450px) 
+    {  margin-left: 6vh;  }
+    @media screen and (max-width: 700px) {
+      margin-top: 10vh;
+      margin-left: 0;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 500;
-    font-size: 40px;
+    font-weight: bold;
+    font-size: 44px;
     line-height: 8vh;
-    text-align: left;
-    margin-left: 16vh;
+    color: black;
+    @media screen and (max-width: 700px)
+    {  line-height: 5rem;  }
+    @media screen and (max-width: 500px) { 
+      line-height: 2.5rem;
+      font-size: 25px 
+    }
 `;
 export const SubTitle = styled.div`
     width: 100%;
     margin-top: 3vh;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: 400;
     line-height: 5vh;
+    color: #656565;
+    @media screen and (max-width: 700px) 
+    {  display: none;  }
+`;
+export const SubTitle2 = styled.div`
+    width: 100%;
+    height: 10vh;
+    display: none;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 5vh;
+    color: black;
+    @media screen and (max-width: 700px) {
+        display: block;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2rem;
+        margin: 7vh 0 0 0;
+    }
 `;
 export const ImgSection = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 3vh;
-    margin-right: 15vh;
-    .SomeDay {
-        width: 330px;
-        height: 680px;
-    }
+    margin-right: 6vh;
     .Alert {
-        width: 300px;
-        height: 610px;
-        margin-right: -3vh;
-        margin-top: 15vh;
+      margin-right: -15vh;
+      margin-bottom: -8vh;
+      width: 33vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
     }
+    .SomeDay {
+      width: 36vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1920px) 
+    {  margin-right: 6vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 4vh;  }
+    @media screen and (max-width: 1400px) {
+        .Alert {  width: 30vh;  }
+        .SomeDay {  width: 33vh;  }
+        margin-bottom: 2vh;
+    }
+    @media screen and (max-width: 1040px) 
+    {  margin-right: 3vh;  }
+    @media screen and (max-width: 1140px) {
+      .Alert {  display: none  }
+    }
+    @media screen and (max-width: 700px) {
+      height: 40%;
+      margin: 5vh 0 0 0;
+      flex-direction: column;
+      .SomeDay { width: 28vh; }
+    }
+`;
+export const AlertImgSection = styled.div`
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom:25vh;
+    margin-left: -33vh;
+    .Block-1, .Block-2, .Block-3, .Block-4 {
+      width: 15vh;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      -webkit-user-drag: none;
+    }
+    @media screen and (max-width: 1400px) {
+      margin-bottom: 23vh;
+      margin-left: -29vh;
+      .Block-1, .Block-2, .Block-3, .Block-4 
+      {  width: 13vh  }
+    }
+    @media screen and (max-width: 1300px)
+    {.Block-4 {  display: none  }}
+    @media screen and (max-width: 1050px) 
+    {.Block-3 {  display: none  }}
+    @media screen and (max-width: 700px) {
+      width: 100%;
+      margin: 0;
+      margin-top: -45vh;
+      .Block-3, .Block-4 {display: block;}
+    }
+    @media screen and (max-width: 400px)
+    {.Block-4 {display: none}}
 `;
