@@ -23,8 +23,8 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #ffffff;
-  font-size: 40px;
-  font-weight: bold;
+  font-size: 35px;
+  font-weight: 400;
   line-height: 8vh;
 `;
 export const LogoSection = styled.div`
