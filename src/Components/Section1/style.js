@@ -36,7 +36,7 @@ export const SubSection = styled.div`
   text-align: center;
   background-color: #ffffff;
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 8vh;
   @media screen and (max-width: 1000px) {
     font-size: 30px;
