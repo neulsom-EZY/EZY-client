@@ -40,9 +40,10 @@ export const VideoSection = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-  video {
-    width: 100%;
-    opacity: 85%;
-    z-index: -1;
+  video { width: 100%;opacity: 85%;z-index: -1; }
+  .Video-1 { display: none }
+  @media screen and (max-width: 945px) {
+    .Video-1 { display: none; }
+    .Video-2 { display: block }
   }
 `;
