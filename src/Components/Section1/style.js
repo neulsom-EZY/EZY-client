@@ -13,7 +13,14 @@ export const TitleSection = styled.div`
   position: absolute;
   z-index: 1;
   margin-left: 15vh;
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 1000px) {
+    margin-left: 9vh;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 55px;
+    margin-left: 8vh;
+  }
+    @media screen and (max-width: 500px) {
     font-size: 33px;
     line-height: 2.8rem;
     margin-left: 5vh;
@@ -31,6 +38,8 @@ export const SubSection = styled.div`
   font-size: 35px;
   font-weight: 300;
   line-height: 8vh;
+  @media screen and (max-width: 500px) {
+  }
 `;
 export const LogoSection = styled.div`
   top: -135%;
