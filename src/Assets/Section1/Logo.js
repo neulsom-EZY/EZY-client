@@ -1,7 +1,7 @@
 import * as React from "react";
 
-function Logo(props) {
-  return (
+  function Logo(props) {
+    return (
     <svg width="9vh" height="9vh" viewBox="0 0 129 45" fill="none" {...props}>
       <path
         d="M64.638 12.649v7.419h9.928v4.706h-9.928v7.843h11.196v4.833H58.723V7.815h17.11v4.834H64.639zM87.25 32.447h13.267v5.003h-20.11v-4.579l13.18-20.01h-13.18V7.858h20.11v4.579l-13.266 20.01zM129 7.857l-9.971 19.291V37.45h-5.915V27.148l-10.013-19.29h6.676l6.337 13.524 6.295-13.524H129z"

@@ -20,7 +20,7 @@ export const TitleSection = styled.div`
     font-size: 55px;
     margin-left: 8vh;
   }
-    @media screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     font-size: 33px;
     line-height: 2.8rem;
     margin-left: 5vh;
@@ -58,6 +58,16 @@ export const LogoSection = styled.div`
   z-index: 1;
   @media screen and (max-width: 500px) {
     top: -38vh;
+    display: none;
+  }
+`;
+export const LogoSection2 = styled.div`
+  top: -35vh;
+  position: absolute;
+  z-index: 1;
+  display: none;
+  @media screen and (max-width: 500px) {
+    display: block;
   }
 `;
 export const VideoSection = styled.div`
@@ -68,11 +78,28 @@ export const VideoSection = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-  video { width: 100%;opacity: 85%;z-index: -1; }
-  .Video-1 {display: block}
-  .Video-2 { display: none }
+
+  video {
+    width: 100%;
+    opacity: 85%;
+    z-index: -1;
+  }
+
+  .Video-1 {
+    display: block
+  }
+
+  .Video-2 {
+    display: none
+  }
+
   @media screen and (max-width: 945px) {
-    .Video-1 { display: none; }
-    .Video-2 { display: block }
+    .Video-1 {
+      display: none;
+    }
+
+    .Video-2 {
+      display: block
+    }
   }
 `;
