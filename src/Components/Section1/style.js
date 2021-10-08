@@ -36,9 +36,19 @@ export const SubSection = styled.div`
   text-align: center;
   background-color: #ffffff;
   font-size: 35px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 8vh;
+  @media screen and (max-width: 1000px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+    line-height: 6.5vh;
+  }
   @media screen and (max-width: 500px) {
+    font-size: 17px;
+    font-weight: 500;
+    height: 40vh;
   }
 `;
 export const LogoSection = styled.div`
