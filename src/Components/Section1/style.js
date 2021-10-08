@@ -53,11 +53,11 @@ export const SubSection = styled.div`
   }
 `;
 export const LogoSection = styled.div`
-  top: -135%;
+  top: -33vh;
   position: absolute;
   z-index: 1;
   @media screen and (max-width: 500px) {
-    top: -240%;
+    top: -38vh;
   }
 `;
 export const VideoSection = styled.div`
