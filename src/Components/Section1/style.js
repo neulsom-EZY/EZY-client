@@ -13,6 +13,11 @@ export const TitleSection = styled.div`
   position: absolute;
   z-index: 1;
   margin-left: 15vh;
+  @media screen and (max-width: 500px) {
+    font-size: 33px;
+    line-height: 2.8rem;
+    margin-left: 5vh;
+  }
 `;
 export const SubSection = styled.div`
   width: 100%;
@@ -24,13 +29,16 @@ export const SubSection = styled.div`
   text-align: center;
   background-color: #ffffff;
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 8vh;
 `;
 export const LogoSection = styled.div`
   top: -135%;
   position: absolute;
   z-index: 1;
+  @media screen and (max-width: 500px) {
+    top: -240%;
+  }
 `;
 export const VideoSection = styled.div`
   width: 100%;
@@ -41,7 +49,8 @@ export const VideoSection = styled.div`
   justify-content: left;
   align-items: center;
   video { width: 100%;opacity: 85%;z-index: -1; }
-  .Video-1 { display: none }
+  .Video-1 {display: block}
+  .Video-2 { display: none }
   @media screen and (max-width: 945px) {
     .Video-1 { display: none; }
     .Video-2 { display: block }
