@@ -39,7 +39,7 @@ export const SubTitle = styled.div`
 export const ImgSection = styled.div`
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 
   .Phone {
