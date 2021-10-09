@@ -32,5 +32,5 @@ export const Font = styled.div`
     src: url("styles/fonts/NotoSansKR-Bold.woff2") format('woff2'),
     url("styles/fonts/NotoSansKR-Bold.woff") format('woff'),
     url("styles/fonts/NotoSansKR-Bold.otf") format('truetype')
-  
+  }
 `;
