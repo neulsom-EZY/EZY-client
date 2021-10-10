@@ -79,6 +79,10 @@ export const VideoSection = styled.div`
   video {
     width: 100%;
     opacity: 100%;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    -moz-filter: blur(10px);
+    -o-filter: blur(10px);
   }
 
   .Video-1 {
