@@ -78,7 +78,7 @@ export const VideoSection = styled.div`
 
   video {
     width: 100%;
-    opacity: 85%;
+    opacity: 100%;
   }
 
   .Video-1 {
@@ -93,6 +93,7 @@ export const VideoSection = styled.div`
     .Video-1 {
       display: none;
     }
+
     .Video-2 {
       display: block
     }
