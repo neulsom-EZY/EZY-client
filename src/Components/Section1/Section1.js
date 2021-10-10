@@ -15,10 +15,10 @@ const Section1 = () => {
               <S.LogoSection2><Logo2/></S.LogoSection2>
               여러분의<br/>라이프스타일을<br/>혁신합니다.
             </S.TitleSection>
-            <video muted autoPlay loop className="Video-1">
+            <video muted autoPlay loop playsInline className="Video-1">
               <source src={PC} type="video/mp4"/>
             </video>
-            <video muted autoPlay loop className="Video-2">
+            <video muted autoPlay loop playsInline className="Video-2">
               <source src={Mobile} type="video/mp4"/>
             </video>
           </S.VideoSection>

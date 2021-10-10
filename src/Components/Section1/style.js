@@ -55,7 +55,6 @@ export const SubSection = styled.div`
 export const LogoSection = styled.div`
   top: -31vh;
   position: absolute;
-  z-index: 1;
   @media screen and (max-width: 500px) {
     top: -38vh;
     display: none;
@@ -64,7 +63,6 @@ export const LogoSection = styled.div`
 export const LogoSection2 = styled.div`
   top: -35vh;
   position: absolute;
-  z-index: 1;
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
@@ -73,7 +71,6 @@ export const LogoSection2 = styled.div`
 export const VideoSection = styled.div`
   width: 100%;
   height: 100vh;
-  z-index: -1;
   overflow: hidden;
   display: flex;
   justify-content: left;
@@ -82,7 +79,6 @@ export const VideoSection = styled.div`
   video {
     width: 100%;
     opacity: 85%;
-    z-index: -1;
   }
 
   .Video-1 {
