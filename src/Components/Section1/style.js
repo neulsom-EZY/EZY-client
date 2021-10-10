@@ -93,7 +93,6 @@ export const VideoSection = styled.div`
     .Video-1 {
       display: none;
     }
-
     .Video-2 {
       display: block
     }
