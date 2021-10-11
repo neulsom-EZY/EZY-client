@@ -24,7 +24,7 @@ const Section1 = () => {
           </S.VideoSection>
         </S.MainSection>
         <S.SubSection>
-          일정관리, 그 이상의 경험을 제공합니다.<br/>
+          일정관리, 그 이상의 경험을 전달합니다.<br/>
           이지는 라이프스타일 혁신을 통한<br/>
           새로운 경험을 모두에게 전달하고 합니다.
         </S.SubSection>
