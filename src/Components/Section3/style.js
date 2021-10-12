@@ -98,6 +98,30 @@ export const SubTitle = styled.div`
   @media screen and (max-width: 900px) {
     display: none;
   }
+    width: 100%;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 8vh;
+    color: black;
+    font-weight:bold;
+    @media screen and (max-width: 900px) {
+        margin: 15vh 0 15vh 0;
+    }
+    @media screen and (max-width: 500px)
+    { font-size: 25px }
+`;
+
+export const SubTitle = styled.div`
+    width: 100%;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 6vh;
+    color: #656565;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    @media screen and (max-width: 900px) {
+        display: none;
+    }
 `;
 
 export const SubTitle2 = styled.div`
