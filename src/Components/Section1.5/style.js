@@ -34,18 +34,15 @@ export const MainTitle = styled.div`
   font-size: 55px;
   letter-spacing: 0.1vh;
   color: black;
-  @media screen and (max-width: 2000px) {
-    font-size: 6vh;  
+  @media screen and (max-width: 960px) {
+    font-size: 52px;
   }
-  @media screen and (max-width: 1230px) {
-    font-size: 5vh;  
+  @media screen and (max-width: 900px) {
+    font-size: 49px;
   }
-  @media screen and (max-width: 1020px) {
-    font-size: 4vh;  
-  }
-  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
     display: none;
-}
+  }
 `;
 
 export const MainTitle2 = styled.div`
@@ -84,19 +81,14 @@ export const SubTitle = styled.div`
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
-  @media screen and (max-width: 2000px) {
-    font-size: 3vh;
+  @media screen and (max-width: 1000px) {
+    font-size: 27px;
     line-height: 5vh;
   }
-  @media screen and (max-width: 1230px) {
-    font-size: 2.5vh;
-    line-height: 4vh;
+  @media screen and (max-width: 900px) {
+    font-size: 26px;
   }
-  @media screen and (max-width: 1020px) {
-    font-size: 2vh;
-    line-height: 3vh;
-  }
-  @media screen and (max-width: 800px) {
+    @media screen and (max-width: 800px) {
     display: none;
     margin: 0 0 0 0;
   }
@@ -127,6 +119,7 @@ export const ImgSection = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
   .Phone {
     width: 40vh;
     height: 80vh;
@@ -138,13 +131,15 @@ export const ImgSection = styled.div`
     height: 47vh;
     margin-top: 13vh;
   }
+
   @media screen and (max-width: 1470px) {
     .Phone {
       width: 35vh;
       height: 70vh;
       margin-right: -16vh;
     }
-    .Hand{
+
+    .Hand {
       margin-top: 7vh;
       width: 45vh;
       height: 37vh;
@@ -156,25 +151,27 @@ export const ImgSection = styled.div`
       height: 65vh;
       margin-right: -15vh;
     }
-    .Hand{
+
+    .Hand {
       margin-top: -3vh;
       width: 28vh;
       height: 22vh;
     }
   }
-  @media screen and (max-width: 940px) {
+  @media screen and (max-width: 960px) {
     .Phone {
       width: 30vh;
       height: 60vh;
       margin-right: -14vh;
     }
-    .Hand{
+
+    .Hand {
       margin-top: -3vh;
       width: 23vh;
       height: 20vh;
     }
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     display: grid;
     margin-top: -15vh;
     margin-bottom: -15vh;
@@ -184,7 +181,8 @@ export const ImgSection = styled.div`
       height: 50vh;
       margin-top: 0;
     }
-    .Hand{
+
+    .Hand {
       width: 23vh;
       height: 20vh;
       margin-top: -50vh;
@@ -201,7 +199,8 @@ export const ImgSection = styled.div`
       height: 50vh;
       margin-top: 0;
     }
-    .Hand{
+
+    .Hand {
       width: 23vh;
       height: 20vh;
       margin-top: -50vh;
