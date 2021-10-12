@@ -68,7 +68,7 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: 700;
-    font-size: 75px;
+    font-size: 55px;
     line-height: 8vh;
     color: black;
     font-weight:bold;
@@ -81,7 +81,7 @@ export const MainTitle = styled.div`
 
 export const SubTitle = styled.div`
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
     line-height: 6vh;
     color: #656565;
