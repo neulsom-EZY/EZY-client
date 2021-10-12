@@ -27,7 +27,7 @@ export const ImgSection = styled.div`
     height:100%;
     margin-left: -30vh;
     .Schedule {  
-        width: 39vh;
+        width: 39.5vh;
         margin-bottom: 25vh;
         margin-left: -15vh;
     }
@@ -47,7 +47,7 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     word-break: keep-all;
-    margin-bottom: 35vh;
+    margin-bottom: 30vh;
     .Schedule2{
         display: none;
     }
@@ -68,7 +68,7 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: 700;
-    font-size: 55px;
+    font-size: 75px;
     line-height: 8vh;
     color: black;
     font-weight:bold;
@@ -81,9 +81,9 @@ export const MainTitle = styled.div`
 
 export const SubTitle = styled.div`
     width: 100%;
-    font-size: 25px;
+    font-size: 40px;
     font-weight: 400;
-    line-height: 5vh;
+    line-height: 6vh;
     color: #656565;
     margin-top: 3vh;
     margin-bottom: 3vh;
