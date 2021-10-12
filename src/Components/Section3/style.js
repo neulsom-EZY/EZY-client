@@ -25,7 +25,7 @@ export const ImgSection = styled.div`
   justify-content: flex-end;
   width: 100%;
   height: 100%;
-  margin-left: -30vh;
+  margin-left: -54.5vh;
   .Schedule {
     width: 39.5vh;
     margin-bottom: 25vh;
