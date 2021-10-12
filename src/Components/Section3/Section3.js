@@ -5,47 +5,47 @@ import GroupSchedule from "../../Assets/Section3/GroupSchedule.png";
 import Hand from "../../Assets/Section3/Hand.png";
 
 const Section3 = () => {
-  return(
-    <>
-      <S.MainSection className="fade">
-        <S.ImgSection>
-          <img src={Hand} className="Hand" alt="Hand" />
-          <img src={GroupSchedule} className="Schedule" alt="GroupSchedule-Ui-Img" />          
-        </S.ImgSection>
-        <S.TitleSection>
-          <S.MainTitle>그리고, 우리의 일정</S.MainTitle>
+  return (
+      <>
+        <S.MainSection className="fade">
+          <S.ImgSection>
+            <img src={Hand} className="Hand" alt="Hand"/>
+            <img src={GroupSchedule} className="Schedule" alt="GroupSchedule-Ui-Img"/>
+          </S.ImgSection>
+          <S.TitleSection>
+            <S.MainTitle>그리고, 우리의 일정</S.MainTitle>
             <S.SubTitle>
               일정을 함께하는 사람을 추가해 보세요. <br/>
               자주 함께하는 사람들을 <br/>
               그룹으로 추가할 수도 있답니다.
             </S.SubTitle>
-            <img src={GroupSchedule} className="Schedule2" alt="GroupSchedule-Ui-Img" />
-          <S.IconSection>
-            <S.IconTextSection><I.S3Icon1 className="Icon1"/>
-              2021. 05. 09 화요일
-            </S.IconTextSection>
-            <S.IconTextSection><I.S3Icon2 className="Icon2"/>
-              11:00 AM - 1:00 PM
-            </S.IconTextSection>
-            <S.IconTextSection><I.S3Icon3 className="Icon3"/>
-              송정역 이디야 카페
-            </S.IconTextSection>
-          </S.IconSection>
-          <S.SubTitle2>
+            <img src={GroupSchedule} className="Schedule2" alt="GroupSchedule-Ui-Img"/>
+            <S.IconSection>
+              <S.IconTextSection className="Icon1"><I.S3Icon1/>
+                2021. 05. 09 화요일
+              </S.IconTextSection>
+              <S.IconTextSection className="Icon2"><I.S3Icon2/>
+                11:00 AM - 1:00 PM
+              </S.IconTextSection>
+              <S.IconTextSection className="Icon3"><I.S3Icon3/>
+                송정역 이디야 카페
+              </S.IconTextSection>
+            </S.IconSection>
+            <S.SubTitle2>
+              그룹에 사람들을 추가하여 <br/>
+              나와 함께할 일정, <br/>
+              우리의 일정을 완성해봐요
+            </S.SubTitle2>
+          </S.TitleSection>
+        </S.MainSection>
+        <S.SubSection>
+          <S.SubTitle3>
             그룹에 사람들을 추가하여 <br/>
             나와 함께할 일정, <br/>
-            우리의 일정을 완성해봐요
-          </S.SubTitle2>
-        </S.TitleSection>
-      </S.MainSection>
-      <S.SubSection>
-        <S.SubTitle3>
-          그룹에 사람들을 추가하여 <br/>
-          나와 함께할 일정, <br/>
-          우리의 일정을 완성해 봐요.
-        </S.SubTitle3>
-      </S.SubSection>
-    </>
+            우리의 일정을 완성해 봐요.
+          </S.SubTitle3>
+        </S.SubSection>
+      </>
   );
 }
 
