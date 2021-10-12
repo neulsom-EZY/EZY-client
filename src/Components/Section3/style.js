@@ -20,15 +20,22 @@ export const MainSection = styled.div`
 `;
 
 export const ImgSection = styled.div`
-    display:flex;
+    display: flex;
     align-items:center;
-    justify-content:center;
+    justify-content:flex-end;
     width: 100%;
     height:100%;
-    margin-top: 12vh;
-    margin-right: -15vh;
-    margin-left: 30vh;
-    .Schedule {  width: 39vh;  }
+    margin-left: -30vh;
+    .Schedule {  
+        width: 39vh;
+        margin-bottom: 25vh;
+        margin-left: -15vh;
+    }
+    .Hand { 
+        width: 50vh;
+        margin-bottom: -62.5vh;
+        z-index: 1;
+    }
     @media screen and (max-width: 900px) {
         .Schedule { display: none; }
     }
@@ -36,11 +43,11 @@ export const ImgSection = styled.div`
 
 export const TitleSection = styled.div`
     width: 100%;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     word-break: keep-all;
+    margin-bottom: 35vh;
     .Schedule2{
         display: none;
     }
@@ -60,8 +67,8 @@ export const TitleSection = styled.div`
 
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 600;
-    font-size: 44px;
+    font-weight: 700;
+    font-size: 55px;
     line-height: 8vh;
     color: black;
     font-weight:bold;
@@ -74,12 +81,12 @@ export const MainTitle = styled.div`
 
 export const SubTitle = styled.div`
     width: 100%;
-    font-size: 22px;
+    font-size: 25px;
     font-weight: 400;
     line-height: 5vh;
     color: #656565;
     margin-top: 3vh;
-    margin-bottom: 12vh;
+    margin-bottom: 3vh;
     @media screen and (max-width: 900px) {
         display: none;
     }
@@ -104,10 +111,19 @@ export const SubTitle2 = styled.div`
         { font-size: 15px }
 `;
 
+export const SubTitle3 = styled.div`
+  width: 100%;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 8vh;
+  color: black;
+`;
+
 export const IconSection = styled.div`
     width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     margin-bottom: -11vh;
     @media screen and (max-width: 900px) {
@@ -122,6 +138,20 @@ export const IconTextSection = styled.div`
     display: flex;
     justify-content: left;
     align-items: center;
-    .Icon1, .Icon2, .Icon3
-    { margin-right: 1vh; }
+    text-align: center;
+    vertical-align: baseline;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 1vh; 
+    margin-bottom: 3vh;
+`;
+
+export const SubSection = styled.div`
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
 `;
