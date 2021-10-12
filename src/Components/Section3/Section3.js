@@ -21,13 +21,13 @@ const Section3 = () => {
             </S.SubTitle>
             <img src={GroupSchedule} className="Schedule2" alt="GroupSchedule-Ui-Img"/>
             <S.IconSection>
-              <S.IconTextSection className="Icon1"><I.S3Icon1/>
+              <S.IconTextSection><I.S3Icon1 className="Icon1"/>
                 2021. 05. 09 화요일
               </S.IconTextSection>
-              <S.IconTextSection className="Icon2"><I.S3Icon2/>
+              <S.IconTextSection><I.S3Icon2 className="Icon2"/>
                 11:00 AM - 1:00 PM
               </S.IconTextSection>
-              <S.IconTextSection className="Icon3"><I.S3Icon3/>
+              <S.IconTextSection><I.S3Icon3 className="Icon3"/>
                 송정역 이디야 카페
               </S.IconTextSection>
             </S.IconSection>

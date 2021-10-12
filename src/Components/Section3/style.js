@@ -26,19 +26,16 @@ export const ImgSection = styled.div`
   width: 100%;
   height: 100%;
   margin-left: -30vh;
-
   .Schedule {
     width: 39.5vh;
     margin-bottom: 25vh;
     margin-left: -15vh;
   }
-
   .Hand {
     width: 50vh;
     margin-bottom: -62.5vh;
     z-index: 1;
   }
-
   @media screen and (max-width: 900px) {
     .Schedule {
       display: none;
@@ -53,11 +50,9 @@ export const TitleSection = styled.div`
   align-items: center;
   word-break: keep-all;
   margin-bottom: 30vh;
-
   .Schedule2 {
     display: none;
   }
-
   @media screen and (max-width: 900px) {
     .Schedule2 {
       width: 37vh;
@@ -98,30 +93,6 @@ export const SubTitle = styled.div`
   @media screen and (max-width: 900px) {
     display: none;
   }
-    width: 100%;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 8vh;
-    color: black;
-    font-weight:bold;
-    @media screen and (max-width: 900px) {
-        margin: 15vh 0 15vh 0;
-    }
-    @media screen and (max-width: 500px)
-    { font-size: 25px }
-`;
-
-export const SubTitle = styled.div`
-    width: 100%;
-    font-size: 30px;
-    font-weight: 400;
-    line-height: 6vh;
-    color: #656565;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    @media screen and (max-width: 900px) {
-        display: none;
-    }
 `;
 
 export const SubTitle2 = styled.div`
@@ -134,6 +105,7 @@ export const SubTitle2 = styled.div`
   margin-bottom: 12vh;
   display: none;
   background-color: #FFFFFF;
+  
   @media screen and (max-width: 900px) {
     display: inline;
     margin-top: 15vh;
@@ -159,6 +131,7 @@ export const IconSection = styled.div`
   align-items: center;
   flex-direction: column;
   margin-bottom: -11vh;
+
   
   @media screen and (max-width: 900px) {
     width: 40%;
@@ -178,6 +151,10 @@ export const IconTextSection = styled.div`
   font-size: 20px;
   margin-right: 1vh;
   margin-bottom: 1vh;
+
+  .Icon1, .Icon2, .Icon3 {
+    margin-right: 2vh;
+  }
 `;
 
 export const SubSection = styled.div`
