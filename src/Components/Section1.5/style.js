@@ -31,7 +31,7 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
   width: 100%;
   font-weight: bold;
-  font-size: 6.5vh;
+  font-size: 55px;
   letter-spacing: 0.1vh;
   color: black;
   @media screen and (max-width: 2000px) {
@@ -80,7 +80,7 @@ export const MainTitle3 = styled.div`
 export const SubTitle = styled.div`
   width: 100%;
   margin-top: 6vh;
-  font-size: 3.5vh;
+  font-size: 30px;
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
