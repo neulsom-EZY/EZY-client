@@ -6,7 +6,7 @@ export const MainSection = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     display: grid;
     justify-content: center;
     align-items: center;
@@ -22,7 +22,7 @@ export const TitleSection = styled.div`
   align-items: center;
   flex-direction: column;
   word-break: keep-all;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     margin: 0 0 0 0;
     justify-content: left;
   }
@@ -40,7 +40,7 @@ export const MainTitle = styled.div`
   @media screen and (max-width: 900px) {
     font-size: 49px;
   }
-    @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     display: none;
   }
 `;
@@ -52,9 +52,11 @@ export const MainTitle2 = styled.div`
   font-size: 6.5vh;
   letter-spacing: 0.1vh;
   color: black;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     display: block;
     font-size: 3.5vh;
+    margin-left: 5vh;
+    margin-bottom: 7.5vh;
   }
 `;
 
@@ -88,7 +90,7 @@ export const SubTitle = styled.div`
   @media screen and (max-width: 900px) {
     font-size: 26px;
   }
-    @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     display: none;
     margin: 0 0 0 0;
   }
@@ -102,15 +104,13 @@ export const SubTitle2 = styled.div`
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     display: block;
     margin: 0 0 0 0;
-    font-size: 2vh;
-    line-height: 3vh;
-  }
-  @media screen and (max-width: 500px) {
-    font-size: 2vh;
-    line-height: 3vh;
+    font-size: 20px;
+    line-height: 4.5vh;
+    margin-left: 5vh;
+    margin-top: 7.5vh;
   }
 `;
 
@@ -193,18 +193,19 @@ export const ImgSection = styled.div`
     display: grid;
     margin-top: -15vh;
     margin-bottom: -15vh;
-    margin-left: 2.1vh;
+    margin-left: 3.6vh;
     .Phone {
-      width: 25vh;
-      height: 50vh;
+      width: 27vh;
+      height: 53vh;
       margin-top: 0;
+      margin-left: 3vh;
     }
 
     .Hand {
-      width: 23vh;
-      height: 20vh;
+      width: 25vh;
+      height: 22vh;
       margin-top: -50vh;
-      margin-left: 13vh;
+      margin-left: 18vh;
     }
   }
 `;
@@ -217,11 +218,7 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 500px) {
     height: 35vh;
   }
-  @media screen and (max-width: 500px) {
-    height: 30vh;
-  }
 `;
-
