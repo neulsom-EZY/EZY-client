@@ -12,7 +12,7 @@ export const MainSection = styled.div`
 `;
 
 export const TitleSection = styled.div`
-    width: 58%;
+    width: 100%;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -48,17 +48,14 @@ export const ImgSection = styled.div`
     display:flex;
     align-items: flex-end;
     justify-content:center;
-    width: 42%;
-    height:100%;
     .Phone{
         width: 39.5vh;
-        margin-bottom: 10vh;
         margin-right: -15vh;
     }
     .Hand{
-        width: 50vh;
-        margin-bottom: -20vh;
-        /* margin-right: -14.3vh; */
+        width: 45vh;
+        margin-bottom: -28vh;
+        
     }
 `;
 
