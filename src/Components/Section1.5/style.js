@@ -7,7 +7,7 @@ export const MainSection = styled.div`
   justify-content: center;
   align-items: center;
   @media screen and (max-width: 500px) {
-    height: 110vh;
+    overflow-x: hidden;
     display: grid;
     justify-content: center;
     align-items: center;
@@ -58,7 +58,7 @@ export const MainTitle2 = styled.div`
     font-size: 3.5vh;
     margin-left: 5vh;
     margin-bottom: 7.5vh;
-    line-height: 5vh;
+    line-height: 2.5rem;
   }
 `;
 
@@ -108,8 +108,10 @@ export const SubTitle2 = styled.div`
   color: #656565;
   @media screen and (max-width: 500px) {
     display: block;
+    margin: 0 0 0 0;
     font-size: 20px;
     line-height: 4.5vh;
+    margin-left: 5vh;
     margin-top: 7.5vh;
   }
 `;
@@ -119,11 +121,6 @@ export const ImgSection = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
-
-  .Res {
-    width: 38.4vh;
-    display: none;
-  }
 
   .Phone {
     width: 40vh;
@@ -195,12 +192,22 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin-right: 1.5vh;
-    .Phone, .Hand {
-      display: none;
+    display: grid;
+    margin-top: -15vh;
+    margin-bottom: -15vh;
+    margin-left: 3.6vh;
+    .Phone {
+      width: 27vh;
+      height: 53vh;
+      margin-top: 0;
+      margin-left: 3vh;
     }
-    .Res {
-      display: block;
+
+    .Hand {
+      width: 25vh;
+      height: 22vh;
+      margin-top: -50vh;
+      margin-left: 18vh;
     }
   }
 `;
