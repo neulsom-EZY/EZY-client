@@ -23,14 +23,20 @@ const Section3_5 = () => {
           <img src={Phone} className="Phone" alt="phone"/>
           <img src={Hand} className="Hand" alt="hand" />
         </S.ImgSection>
+        <S.TitleSection className="Title">
+          <S.SubTitle className="Sub2">
+            이지를 사용하고 있다면 <br/>
+            서로 심부름을 요청할 수 있어요. <br/>
+            언제, 어디서, 어떤 심부름인지 <br/>
+            한눈에 확인해 봐요.
+          </S.SubTitle>
+        </S.TitleSection>
       </S.MainSection>
       <S.SubSection>
-        <S.TitleSection>
-          <S.MainTitle2>
-            혹시나, 깜빡할 걱정하지 말아요. <br/>
-            정해진 시간 전에 미리 알려줄게요.
-          </S.MainTitle2>
-        </S.TitleSection>
+        <S.MainTitle className="Main2">
+          혹시나, 깜빡할 걱정하지 말아요. <br/>
+          정해진 시간 전에 미리 알려줄게요.
+        </S.MainTitle>
       </S.SubSection>
     </>
   )

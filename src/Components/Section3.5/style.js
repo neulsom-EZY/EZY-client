@@ -9,6 +9,16 @@ export const MainSection = styled.div`
     align-items: center;
     background-position: center;
     background-size: cover;
+    .Title{
+        display: none;
+    }
+    @media screen and (max-width: 900px) {
+        display: grid;
+        height: 120vh;
+        .Title{
+            display: inline;
+        }
+    }
 `;
 
 export const TitleSection = styled.div`
@@ -17,6 +27,19 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     word-break: keep-all;
+    .Sub2{
+        display: none;
+    }
+    .Main2{
+        font-size: 35px;
+        line-height: 7vh;
+    }
+    @media screen and (max-width: 900px) {
+        justify-content: left;
+        .Sub2{
+            display: inline;
+        }
+    }
 `;
 
 export const MainTitle = styled.div`
@@ -25,16 +48,11 @@ export const MainTitle = styled.div`
     font-size: 55px;
     line-height: 8vh;
     color: black;
+    @media screen and (max-width: 900px) {
+        font-size: 35px;
+        line-height: 6vh;
+    }
 `;
-
-export const MainTitle2 = styled.div`
-  width: 100%;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 7vh;
-  color: black;
-`;
-
 export const SubTitle = styled.div`
     width: 100%;
     font-size: 30px;
@@ -42,6 +60,12 @@ export const SubTitle = styled.div`
     line-height: 5vh;
     color: #656565;
     margin-top: 5vh;
+    @media screen and (max-width: 900px) {
+        display: none;
+        font-size: 20px;
+        line-height: 4vh;
+        margin: 0;
+    }
 `;
 
 export const ImgSection = styled.div`
@@ -55,7 +79,19 @@ export const ImgSection = styled.div`
     .Hand{
         width: 45vh;
         margin-bottom: -28vh;
+    }
+    @media screen and (max-width: 900px) {
+        flex-direction: column;
+        align-items: center;
         
+        .Phone{
+            width: 35vh;
+            margin: 0;
+        }
+        .Hand{
+            width: 40vh;
+            margin: 0;
+        }
     }
 `;
 
@@ -67,4 +103,9 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
+  @media screen and (max-width: 900px) {
+    .Main2{
+        justify-content: center;
+    }
+  }
 `;
