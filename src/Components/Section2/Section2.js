@@ -21,6 +21,13 @@ const Section2 = () => {
           </S.SubTitle>
         </S.TitleSection>
       </S.MainSection>
+      <S.SubSection>
+        <S.SubSectionTitle>
+          일정추가, 하나도 어렵지 않아요.<br/>
+          시간과 장소.<br/>
+          그리고, 설명이면 충분해요.
+        </S.SubSectionTitle>
+      </S.SubSection>
     </>
   );
 };

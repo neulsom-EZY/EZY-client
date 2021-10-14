@@ -51,3 +51,30 @@ export const SubTitle = styled.div`
   line-height: 6vh;
   color: #656565;
 `;
+export const SubSection = styled.div`
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #FFFFFF;
+  @media screen and (max-width: 500px) {
+    height: 35vh;
+  }
+`;
+export const SubSectionTitle = styled.div`
+  width: 100%;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 8vh;
+  color: black;
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 4vh;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    line-height: 4vh;
+  }
+`;
