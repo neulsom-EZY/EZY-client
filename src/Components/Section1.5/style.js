@@ -108,12 +108,9 @@ export const SubTitle2 = styled.div`
   color: #656565;
   @media screen and (max-width: 500px) {
     display: block;
-    margin: 0 0 0 0;
     font-size: 20px;
     line-height: 4.5vh;
-    margin-left: 5vh;
     margin-top: 7.5vh;
-    width: 60%;
   }
 `;
 
@@ -122,6 +119,11 @@ export const ImgSection = styled.div`
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
+  .Res {
+    width: 38.4vh;
+    display: none;
+  }
 
   .Phone {
     width: 40vh;
@@ -193,7 +195,13 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    
+    margin-right: 1.5vh;
+    .Phone, .Hand {
+      display: none;
+    }
+    .Res {
+      display: block;
+    }
   }
 `;
 

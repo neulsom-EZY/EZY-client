@@ -3,6 +3,7 @@ import * as S from "./style";
 import Fade from "react-reveal/Fade";
 import Phone from "../../Assets/Section1.5/Phone.png";
 import Hand from "../../Assets/Section1.5/Hand.png";
+import Responsive from "../../Assets/Section1.5/Responsive.png"
 
 const Section1_5 = () => {
   return (
@@ -11,7 +12,7 @@ const Section1_5 = () => {
           <S.TitleSection>
             <S.MainTitle>하루의 시작과, 끝</S.MainTitle>
             <S.MainTitle2>
-              하루의 <br/> 
+              하루의 <br/>
               시작과, 끝
             </S.MainTitle2>
             <S.SubTitle>
@@ -23,6 +24,7 @@ const Section1_5 = () => {
           <S.ImgSection>
             <Fade top><img src={Phone} className="Phone" alt="phone"/></Fade>
             <Fade right><img src={Hand} className="Hand" alt="hand"/></Fade>
+            <Fade top><img src={Responsive} className="Res" alt="phone + hand"/></Fade>
           </S.ImgSection>
           <S.SubTitle2>
             처음 뵙겠습니다. <br/>
