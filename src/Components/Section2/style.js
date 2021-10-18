@@ -18,9 +18,10 @@ export const MainSection = styled.div`
 export const ImgSection = styled.div`
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  margin-left: -10vh;
+  margin-left: -21vh;
+  margin-right: 5vh;
   .Phone {
     width: 40vh;
     margin-left: -10vh;
@@ -31,9 +32,26 @@ export const ImgSection = styled.div`
     z-index: 0;
     margin-top: 25vh;
   }
+  @media screen and (max-width: 1100px) {
+    margin-left: -15vh;
+    margin-right: 2.5vh;
+    .Hand{
+      width: 50vh;
+      margin-top: 20vh;
+    }
+  }
+  @media screen and (max-width: 1010px) {
+    .Phone{
+      width: 35vh;
+    }
+    .Hand{
+      width: 40vh;
+      margin-top: 15vh;
+    }
+  }
   @media screen and (max-width: 800px) {
     justify-content: center;
-    margin: 7vh 21vh 5vh 0;
+    margin: 7vh 25vh 5vh 0;
     .Hand{
       width: 32.5vh;
       margin: 0;
@@ -54,13 +72,28 @@ export const ImgSection = styled.div`
 export const TitleSection = styled.div`
   width: 70%;
   display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  word-break: keep-all;
+  margin-left: 5vh;
+  @media screen and (max-width: 1100px) {
+    margin-left: 2.5vh;
+  }
+  @media screen and (max-width: 800px) {
+    justify-content: flex-start;
+  }
+`;
+export const TitleSection2 = styled.div`
+  display: none;
+  width: 70%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   word-break: keep-all;
   @media screen and (max-width: 800px) {
+    display: block;
     justify-content: flex-start;
-    
   }
 `;
 export const MainTitle = styled.div`
@@ -70,6 +103,10 @@ export const MainTitle = styled.div`
   letter-spacing: 0.1vh;
   line-height: 8.5vh;
   color: black;
+  @media screen and (max-width: 910px) {
+    font-size: 45px;
+    line-height: 8vh;
+  }
   @media screen and (max-width: 800px) {
     display: none;
   }
@@ -83,7 +120,7 @@ export const MainTitle2 = styled.div`
   line-height: 8.5vh;
   color: black;
   @media screen and (max-width: 800px) {
-    display: inline;
+    display: block;
     font-size: 45px;
     line-height: 7vh;
   }
@@ -99,6 +136,10 @@ export const SubTitle = styled.div`
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
+  @media screen and (max-width: 910px) {
+    font-size: 25px;
+    line-height: 5vh;
+  }
   @media screen and (max-width: 500px) {
     font-size: 20px;
     line-height: 4vh;
