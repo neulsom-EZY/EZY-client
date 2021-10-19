@@ -67,6 +67,9 @@ export const MainTitle2 = styled.div`
   @media screen and (max-width: 375px) {
     margin-left: 5vh;
   }
+  @media screen and (max-width: 320px) {
+    margin-left: 10vh;
+  }
 `;
 
 export const MainTitle3 = styled.div`
@@ -130,6 +133,10 @@ export const SubTitle2 = styled.div`
   @media screen and (max-width: 375px) {
     line-height: 5.5vh;
     margin-left: 5vh;
+  }
+  @media screen and (max-width: 320px) {
+    line-height: 5.5vh;
+    margin-left: 10vh;
   }
 `;
 
@@ -223,6 +230,7 @@ export const ImgSection = styled.div`
       height: 180px;
       margin-top: -43vh;
     }
+  }
   @media screen and (max-width: 375px) {
     display: flex;
     justify-content: center;
@@ -235,7 +243,6 @@ export const ImgSection = styled.div`
       margin-left: 4vh;
       margin-top: 0;
     }
-  }
   }
 `;
 
