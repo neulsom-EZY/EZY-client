@@ -8,7 +8,7 @@ import W_Phone_2 from "../../Assets/WebPhone2.svg";
 import W_Phone_3 from "../../Assets/WebPhone3.svg";
 import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
 import M_Logo from "../../Assets/MobileLogo.svg";
-import M_Phone from "../../Assets/MobilePhone.png";
+import M_Phone from "../../Assets/Mobil래ㅜePhone.png";
 import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
 
 const Section1 = () => {
