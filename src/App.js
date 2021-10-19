@@ -14,10 +14,20 @@ const GlobalStyle = createGlobalStyle`
 
 const App = () => {
   return (
+<<<<<<< HEAD
     <>
       <GlobalStyle />
       <C.Section1_5/>
     </>
+=======
+      <>
+        <GlobalStyle />
+        <C.Section1/>
+        {/*<C.Section2/>*/}
+        {/*<C.Section3/>*/}
+        {/*<C.Section4/>*/}
+      </>
+>>>>>>> 83d6c40cf1c33af53256921501de3aaf149995c0
   );
 };
 
