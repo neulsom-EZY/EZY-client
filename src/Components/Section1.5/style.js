@@ -74,8 +74,13 @@ export const MainTitle3 = styled.div`
     line-height: 4vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 20px;
-    line-height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    height: 40vh;
+    line-height: 6vh;
   }
 `;
 
