@@ -158,6 +158,9 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
+  @media screen and (max-width: 500px) {
+    height: 35vh;
+  }
 `;
 export const SubSectionTitle = styled.div`
   width: 100%;
