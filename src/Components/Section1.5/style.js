@@ -11,6 +11,9 @@ export const MainSection = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+  }
+  @media screen and (max-width: 375px) {
     height: 145vh;
   }
 `;
@@ -57,9 +60,12 @@ export const MainTitle2 = styled.div`
   @media screen and (max-width: 500px) {
     display: block;
     font-size: 30px;
-    margin-left: 5vh;
-    margin-bottom: 7.5vh;
+    margin-left: 3vh;
+    margin-bottom: 10vh;
     line-height: 2.5rem;
+  }
+  @media screen and (max-width: 375px) {
+    margin-left: 5vh;
   }
 `;
 
@@ -117,9 +123,13 @@ export const SubTitle2 = styled.div`
     margin: 0 0 0 0;
     font-size: 20px;
     font-weight: 400;
+    line-height: 4vh;
+    margin-left: 3vh;
+    margin-top: -15vh;
+  }
+  @media screen and (max-width: 375px) {
     line-height: 5.5vh;
     margin-left: 5vh;
-    margin-top: -15vh;
   }
 `;
 
@@ -201,7 +211,7 @@ export const ImgSection = styled.div`
   @media screen and (max-width: 500px) {
     margin-top: -22vh;
     margin-bottom: 3.5vh;
-    margin-left: 5.7vh;
+    margin-left: 3.1vh;
     .Phone {
       width: 240px;
       height: 475px;
@@ -211,9 +221,21 @@ export const ImgSection = styled.div`
     .Hand {
       width: 230px;
       height: 180px;
-      margin-top: -75vh;
-      margin-left: 18vh;
+      margin-top: -43vh;
     }
+  @media screen and (max-width: 375px) {
+    display: flex;
+    justify-content: center;
+    margin-left: 6.5vh;
+    .Phone{
+      margin-right: -20vh;
+    }
+    .Hand{
+      width: 200px;
+      margin-left: 4vh;
+      margin-top: 0;
+    }
+  }
   }
 `;
 
