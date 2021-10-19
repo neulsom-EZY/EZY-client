@@ -1,5 +1,5 @@
 import React from "react";
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from "styled-components";
 import * as C from './Components/index';
 
 const GlobalStyle = createGlobalStyle`
@@ -14,15 +14,13 @@ const GlobalStyle = createGlobalStyle`
 
 const App = () => {
   return (
-    <>
-      <GlobalStyle />
-        {/* <C.Section1/>
-        <C.Section2/>
-        <C.Section3/> */}
-        <C.Section3_5/>
-        {/* <C.Section4/> */}
-        
-    </>
+      <>
+        <GlobalStyle/>
+        <C.Section1/>
+        {/*<C.Section2/>*/}
+        {/*<C.Section3/>*/}
+        {/*<C.Section4/>*/}
+      </>
   );
 };
 
