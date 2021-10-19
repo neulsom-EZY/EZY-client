@@ -24,31 +24,29 @@ export const TitleSection = styled.div`
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 15vh;
+    margin-left: 20vh;
     word-break: keep-all;
-    @media screen and (max-width: 1920px) 
-    {  margin-left: 30vh;  }
-    @media screen and (max-width: 1800px) 
-    {  margin-left: 20vh;  }
     @media screen and (max-width: 1570px) 
     {  margin-left: 12vh;  }
     @media screen and (max-width: 1450px) 
     {  margin-left: 6vh;  }
-    @media screen and (max-width: 700px)
-    { margin: 0 }
+    @media screen and (max-width: 700px) {
+      margin-top: 10vh;
+      margin-left: 0;
+    }
 `;
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 44px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 700px) {
-      margin-bottom: -50vh;
-      line-height: 5vh;
+    @media screen and (max-width: 700px)
+    {  line-height: 5rem;  }
+    @media screen and (max-width: 500px) { 
+      line-height: 2.5rem;
+      font-size: 25px 
     }
-    @media screen and (max-width: 500px)
-    { font-size: 25px }
 `;
 export const SubTitle = styled.div`
     width: 100%;
@@ -67,26 +65,25 @@ export const SubTitle2 = styled.div`
     font-size: 22px;
     font-weight: 600;
     line-height: 5vh;
-    color: #656565;
+    color: black;
     @media screen and (max-width: 700px) {
-        text-align: center;
         display: block;
-        font-size: 15px;
-        line-height: 3vh;
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 2rem;
+        margin: 7vh 0 0 0;
     }
 `;
 export const ImgSection = styled.div`
     width: 100%;
-    height:100%;
-    margin-bottom: -5vh;
-    margin-right: 5vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 6vh;
     .Alert {
-      margin-right: -3vh;
+      margin-right: -15vh;
       margin-bottom: -8vh;
-      width: 36vh;
+      width: 33vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -96,7 +93,7 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     .SomeDay {
-      width: 39vh;
+      width: 36vh;
       -webkit-touch-callout: none;
       -webkit-user-select: none;
       -khtml-user-select: none;
@@ -106,9 +103,9 @@ export const ImgSection = styled.div`
       -webkit-user-drag: none;
     }
     @media screen and (max-width: 1920px) 
-    {  margin-right: 15vh;  }
-    @media screen and (max-width: 1800px) 
     {  margin-right: 6vh;  }
+    @media screen and (max-width: 1800px) 
+    {  margin-right: 4vh;  }
     @media screen and (max-width: 1400px) {
         .Alert {  width: 30vh;  }
         .SomeDay {  width: 33vh;  }
@@ -120,8 +117,9 @@ export const ImgSection = styled.div`
       .Alert {  display: none  }
     }
     @media screen and (max-width: 700px) {
-      margin: 0;
-      margin-bottom: -20vh;
+      height: 40%;
+      margin: 5vh 0 0 0;
+      flex-direction: column;
       .SomeDay { width: 28vh; }
     }
 `;
@@ -130,7 +128,7 @@ export const AlertImgSection = styled.div`
     display: flex;
     justify-items: center;
     align-items: center;
-    margin-bottom:27vh;
+    margin-bottom:25vh;
     margin-left: -33vh;
     .Block-1, .Block-2, .Block-3, .Block-4 {
       width: 15vh;
@@ -148,24 +146,16 @@ export const AlertImgSection = styled.div`
       .Block-1, .Block-2, .Block-3, .Block-4 
       {  width: 13vh  }
     }
-    @media screen and (max-width: 1300px) {
-      .Block-4 {  display: none  }
-    }
-    @media screen and (max-width: 1050px) {
-      .Block-3 {  display: none  }
-    }
+    @media screen and (max-width: 1300px)
+    {.Block-4 {  display: none  }}
+    @media screen and (max-width: 1050px) 
+    {.Block-3 {  display: none  }}
     @media screen and (max-width: 700px) {
       width: 100%;
-      .Block-3, .Block-4 { 
-          display: block;
-      }
+      margin: 0;
+      margin-top: -45vh;
+      .Block-3, .Block-4 {display: block;}
     }
-`;
-export const PhoneImgSection = styled.div`
-    width: 100%;
-    height: 100vh;
-    margin-left: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;  
+    @media screen and (max-width: 400px)
+    {.Block-4 {display: none}}
 `;
