@@ -144,12 +144,19 @@ export const ImgSection2 = styled.div`
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
+    margin-left:7vh;
     .Phone {
-      width: 30vh;
+      width: 27vh;
+      height: 53vh;
+      margin-top: 0;
+      margin-left: 3vh;
     }
 
     .Hand {
-      width: 17vh;
+      width: 25vh;
+      height: 22vh;
+      margin-top: -50vh;
+      margin-left: 18vh;
     }
   }
 `;
