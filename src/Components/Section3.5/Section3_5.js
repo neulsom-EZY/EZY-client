@@ -12,6 +12,10 @@ const Section3_5 = () => {
               세상에서 가장 공손한 <br/>
               심부름 요청
             </S.MainTitle>
+            <S.ImgSection2>
+              <img src={Phone} className="Phone" alt="phone"/>
+              <img src={Hand} className="Hand" alt="hand"/>
+            </S.ImgSection2>
             <S.SubTitle>
               이지를 사용하고 있다면 <br/>
               서로 심부름을 요청할 수 있어요. <br/>
@@ -25,7 +29,7 @@ const Section3_5 = () => {
           </S.ImgSection>
         </S.MainSection>
         <S.SubSection>
-          <S.TitleSection>
+          <S.TitleSection className="T2">
             <S.MainTitle2>
               혹시나, 깜빡할 걱정하지 말아요. <br/>
               정해진 시간 전에 미리 알려줄게요.

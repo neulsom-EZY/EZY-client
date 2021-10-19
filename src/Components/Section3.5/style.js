@@ -46,6 +46,10 @@ export const MainTitle = styled.div`
     width: 60%;
     font-size: 43px;
   }
+  @media screen and (max-width: 500px) {
+    width: 100%;
+    font-size: 30px;
+  }
 `;
 
 export const MainTitle2 = styled.div`
@@ -54,6 +58,9 @@ export const MainTitle2 = styled.div`
   font-size: 35px;
   line-height: 7vh;
   color: black;
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+  }
 `;
 
 export const SubTitle = styled.div`
@@ -112,6 +119,7 @@ export const ImgSection = styled.div`
     .Phone {
       width: 30vh;
     }
+
     .Hand {
       width: 37vh;
       margin-bottom: -25vh;
@@ -122,15 +130,29 @@ export const ImgSection = styled.div`
     .Hand {
       display: none;
     }
+
     .Phone {
       width: 25vh;
     }
   }
-  @media screen and (max-width: 660px) {
-    margin-right: 16vh;
+  @media screen and (max-width: 500px) {
+    display: none;
   }
 `;
 
+export const ImgSection2 = styled.div`
+  display: none;
+  @media screen and (max-width: 500px) {
+    display: block;
+    .Phone {
+      width: 30vh;
+    }
+
+    .Hand {
+      width: 17vh;
+    }
+  }
+`;
 export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
