@@ -11,6 +11,10 @@ export const MainSection = styled.div`
   background-size: cover;
   overflow-x: hidden;
   overflow-y: hidden;
+  @media screen and (max-width: 500px ) {
+    flex-direction: column;
+    height: 145vh;
+  }
 `;
 
 export const TitleSection = styled.div`
@@ -24,6 +28,9 @@ export const TitleSection = styled.div`
   }
   @media screen and (max-width: 780px) {
     margin-left: 3vh;
+  }
+  @media screen and (max-width: 500px) {
+    margin: 0;
   }
 `;
 
@@ -47,8 +54,10 @@ export const MainTitle = styled.div`
     font-size: 43px;
   }
   @media screen and (max-width: 500px) {
-    width: 100%;
+    width: 120%;
     font-size: 30px;
+    margin-left: -4vh;
+    line-height: 3.5rem;
   }
 `;
 
@@ -79,6 +88,10 @@ export const SubTitle = styled.div`
   }
   @media screen and (max-width: 660px) {
     font-size: 20px;
+  }
+  @media screen and (max-width: 500px) {
+    width: 200%;
+    margin-left: -4vh;
   }
 `;
 
@@ -144,19 +157,21 @@ export const ImgSection2 = styled.div`
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
-    margin-left:7vh;
+    margin-right: -16vh;
     .Phone {
-      width: 27vh;
-      height: 53vh;
-      margin-top: 0;
-      margin-left: 3vh;
+      width: 240px;
+      height: 475px;
+      z-index: -1;
+      margin-top: 7vh;
+      margin-bottom: 3.5vh;
     }
 
     .Hand {
-      width: 25vh;
-      height: 22vh;
-      margin-top: -50vh;
-      margin-left: 18vh;
+      z-index: 1;
+      width: 200px;
+      height: 180px;
+      margin-bottom: -8.5vh;
+      margin-left: -15vh;
     }
   }
 `;
