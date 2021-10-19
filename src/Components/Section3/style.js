@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const MainSection = styled.div `
   width: 100%;
-  height: 100vh;
+  height: 1300px;
   z-index: -100;
   display: flex;
   justify-content: center;
@@ -25,48 +25,65 @@ export const MainSection = styled.div `
 `;
 
 export const ImgSection = styled.div `
+
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
   height: 100%;
   margin-left: -54.5vh;
+  
+  margin-left: -75vh;
+    /* margin-right: 5vh; */
+
   .Schedule {
-    width: 39.5vh;
-    margin-bottom: 25vh;
-    margin-left: -15vh;
+    width: 40vh;
+    margin-left: -10vh;
   }
   .Hand {
-    width: 50vh;
-    margin-bottom: -62.5vh;
+    width: 60vh;
+    margin-bottom: -95.5vh;
     z-index: 1;
+  }
+  @media screen and (max-width: 1010px){
+    .Schedule {
+      width: 35vh;
+    }
+    .Hand {
+      width: 50vh;
+      margin-bottom: -85.5vh;
+    }
   }
   @media screen and (max-width: 900px) {
     .Schedule {
       display: none;
     }
-
+  }
     @media screen and (max-width: 800px) {
       margin: 7vh 25vh 5vh -15vh;
+      justify-content: center;
       align-items: flex-end;
     .Hand{
       width: 32.5vh;
       margin-bottom: -135.5vh;
     }
   }
-}
 `;
 
 export const TitleSection = styled.div `
-  width: 100%;
+  width: 70%;
+  height: 500px;
   display: grid;
   justify-content: center;
   align-items: center;
   word-break: keep-all;
-  margin-bottom: 30vh;
+  margin-bottom: 15vh;
   .Schedule2 {
     display: none;
   }
+
   @media screen and (max-width: 900px) {
+    width : 70%;
     .Schedule2 {
       width: 37vh;
       display: inline;
@@ -87,6 +104,10 @@ export const MainTitle = styled.div `
   line-height: 8vh;
   color: black;
   font-weight: bold;
+  @media screen and (max-width: 910px){
+    font-size: 45px;
+    line-height: 8vh;
+  }
   @media screen and (max-width: 900px) {
     margin: 15vh 0 15vh 0;
   }
@@ -111,6 +132,10 @@ export const SubTitle = styled.div `
   color: #656565;
   margin-top: 3vh;
   margin-bottom: 3vh;
+  @media screen and (max-width: 910px){
+    font-size: 25px;
+    line-height: 5vh;
+  }
   @media screen and (max-width: 900px) {
     display: none;
   }
@@ -125,7 +150,6 @@ export const SubTitle2 = styled.div `
   margin-top: 3vh;
   margin-bottom: 12vh;
   display: none;
-  background-color: #FFFFFF;
   
   @media screen and (max-width: 900px) {
     display: inline;
