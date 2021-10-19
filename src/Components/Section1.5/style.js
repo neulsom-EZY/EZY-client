@@ -11,6 +11,7 @@ export const MainSection = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
+    height: 145vh;
   }
 `;
 
@@ -55,7 +56,7 @@ export const MainTitle2 = styled.div`
   color: black;
   @media screen and (max-width: 500px) {
     display: block;
-    font-size: 3.5vh;
+    font-size: 30px;
     margin-left: 5vh;
     margin-bottom: 7.5vh;
     line-height: 2.5rem;
@@ -110,9 +111,10 @@ export const SubTitle2 = styled.div`
     display: block;
     margin: 0 0 0 0;
     font-size: 20px;
-    line-height: 4.5vh;
+    font-weight: 400;
+    line-height: 5.5vh;
     margin-left: 5vh;
-    margin-top: 7.5vh;
+    margin-top: -15vh;
   }
 `;
 
@@ -192,21 +194,19 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    display: grid;
-    margin-top: -15vh;
-    margin-bottom: -15vh;
-    margin-left: 3.6vh;
+    margin-top: -22vh;
+    margin-bottom: 3.5vh;
+    margin-left: 5.7vh;
     .Phone {
-      width: 27vh;
-      height: 53vh;
+      width: 240px;
+      height: 475px;
       margin-top: 0;
-      margin-left: 3vh;
     }
 
     .Hand {
-      width: 25vh;
-      height: 22vh;
-      margin-top: -50vh;
+      width: 230px;
+      height: 180px;
+      margin-top: -75vh;
       margin-left: 18vh;
     }
   }
