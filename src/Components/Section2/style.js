@@ -11,7 +11,7 @@ export const MainSection = styled.div`
     flex-direction: column;
   }
   @media screen and (max-width: 500px) {
-    height: 120vh;
+    height: 145vh;
     flex-direction: column;
   }
 `;
@@ -58,13 +58,15 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 5vh 19vh 5vh 0;
+    margin: 7vh 26vh 5vh 0;
     .Phone{
-      width: 30vh;
+      width: 240px;
+      height: 475px;
       margin-left: -8vh;
     }
     .Hand{
-      width: 25vh;
+      width: 230px;
+      height: 180px;
     }
   }
 `;
@@ -126,7 +128,8 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 5vh;
+    line-height: 7vh;
+    margin-left: -3vh;
   }
 `;
 export const SubTitle = styled.div`
@@ -141,8 +144,10 @@ export const SubTitle = styled.div`
     line-height: 5vh;
   }
   @media screen and (max-width: 500px) {
+    width: 120%;
     font-size: 20px;
-    line-height: 4vh;
+    line-height: 5vh;
+    margin-left: -3vh;
   }
 `;
 export const SubSection = styled.div`
@@ -153,9 +158,6 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
-  @media screen and (max-width: 500px) {
-    height: 35vh;
-  }
 `;
 export const SubSectionTitle = styled.div`
   width: 100%;
@@ -168,7 +170,12 @@ export const SubSectionTitle = styled.div`
     line-height: 4vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 20px;
-    line-height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+    font-weight: 500;
+    height: 40vh;
+    line-height: 6vh;
   }
 `;
