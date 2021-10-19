@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div`
+export const MainSection = styled.div `
   width: 100%;
   height: 100vh;
   z-index: -100;
@@ -17,12 +17,16 @@ export const MainSection = styled.div`
     flex-direction: column;
     text-align: center;
   }
+
+  @media screen and (max-width: 800px) {
+    height: 150vh;
+    flex-direction: column;
+  }
 `;
 
-export const ImgSection = styled.div`
+export const ImgSection = styled.div `
   display: flex;
-  align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   width: 100%;
   height: 100%;
   margin-left: -54.5vh;
@@ -40,10 +44,19 @@ export const ImgSection = styled.div`
     .Schedule {
       display: none;
     }
+
+    @media screen and (max-width: 800px) {
+      margin: 7vh 25vh 5vh -15vh;
+      align-items: flex-end;
+    .Hand{
+      width: 32.5vh;
+      margin-bottom: -135.5vh;
+    }
   }
+}
 `;
 
-export const TitleSection = styled.div`
+export const TitleSection = styled.div `
   width: 100%;
   display: grid;
   justify-content: center;
@@ -67,7 +80,7 @@ export const TitleSection = styled.div`
   }
 `;
 
-export const MainTitle = styled.div`
+export const MainTitle = styled.div `
   width: 100%;
   font-weight: 700;
   font-size: 55px;
@@ -77,12 +90,20 @@ export const MainTitle = styled.div`
   @media screen and (max-width: 900px) {
     margin: 15vh 0 15vh 0;
   }
+
+  @media screen and (max-width: 800px) {
+    display: block;
+    font-size: 45px;
+    line-height: 7vh;
+    width: 220px;
+    text-align: start;
+  }
   @media screen and (max-width: 500px) {
     font-size: 25px
   }
 `;
 
-export const SubTitle = styled.div`
+export const SubTitle = styled.div `
   width: 100%;
   font-size: 27px;
   font-weight: 400;
@@ -95,7 +116,7 @@ export const SubTitle = styled.div`
   }
 `;
 
-export const SubTitle2 = styled.div`
+export const SubTitle2 = styled.div `
   width: 100%;
   font-size: 22px;
   font-weight: 400;
@@ -116,7 +137,7 @@ export const SubTitle2 = styled.div`
   }
 `;
 
-export const SubTitle3 = styled.div`
+export const SubTitle3 = styled.div `
   width: 100%;
   font-weight: 400;
   font-size: 35px;
@@ -124,7 +145,7 @@ export const SubTitle3 = styled.div`
   color: black;
 `;
 
-export const IconSection = styled.div`
+export const IconSection = styled.div `
   width: 100%;
   display: flex;
   justify-content: center;
@@ -134,12 +155,16 @@ export const IconSection = styled.div`
 
   
   @media screen and (max-width: 900px) {
-    width: 40%;
+    /* width: 40%; */
     margin: 10vh 0 -5vh 0;
+  }
+
+  @media screen and (max-width:500px){
+      display: none;
   }
 `;
 
-export const IconTextSection = styled.div`
+export const IconTextSection = styled.div `
   width: 100%;
   color: #656565;
   display: flex;
@@ -157,7 +182,7 @@ export const IconTextSection = styled.div`
   }
 `;
 
-export const SubSection = styled.div`
+export const SubSection = styled.div `
   width: 100%;
   height: 50vh;
   display: flex;
