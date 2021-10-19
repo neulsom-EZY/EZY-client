@@ -19,15 +19,15 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     width: 100%;
     font-weight: bold;
-    font-size: 44px;
-    line-height: 6vh;
+    font-size: 55px;
+    line-height: 8vh;
     color: black;
 `;
 
 export const ReviewSection = styled.div`
     width: 100%;
     height: 70vh;
-    margin-top: 30vh;
+    margin-top: 25vh;
     display: grid;
     justify-content:center;
     align-items:center;
@@ -39,7 +39,7 @@ export const BgCircle = styled.div`
     position: relative;
     bottom: 120vh;
     border-radius: 50%;
-    background-color: #AFADFF;
+    background: linear-gradient(180deg, rgba(107, 64, 255, 0.5) 0%, rgba(34, 30, 255, 0.289062) 51.04%, rgba(128, 153, 255, 0) 100%);
 `;
 
 export const Review1 = styled.div`
@@ -50,7 +50,7 @@ export const Review1 = styled.div`
     right: 13vh;
     border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 3vh #868e96;
+    box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 3;
 `;
 
@@ -62,7 +62,7 @@ export const Review2 = styled.div`
     left: 35vh;
     border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 3vh #868e96;
+    box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
 `;
 
@@ -74,7 +74,7 @@ export const Review3 = styled.div`
     right: 35vh;
     border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 0.1vh 3vh #868e96;
+    box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
 `;
 
@@ -86,7 +86,7 @@ export const Review4 = styled.div`
     right: 15vh;
     border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 3vh #868e96;
+    box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
 `;
 
@@ -98,7 +98,7 @@ export const Review5 = styled.div`
     left: 20vh;
     border-radius: 1vh;
     background-color: white;
-    box-shadow: 1vh 1vh 3vh #868e96;
+    box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
 `;
 
