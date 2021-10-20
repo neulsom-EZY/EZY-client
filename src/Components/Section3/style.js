@@ -9,14 +9,14 @@ export const MainSection = styled.div `
   align-items: center;
   background-position: center;
   background-size: cover;
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     width: 100%;
     height: 140vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
-  }
+  } */
 
   @media screen and (max-width: 800px) {
     height: 150vh;
@@ -26,28 +26,12 @@ export const MainSection = styled.div `
 
 export const ImgSection = styled.div `
 
-  /* display: flex;
-  justify-content: flex-end;
+width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
-  width: 100%;
-  height: 100%;
-  margin-left: -75vh;
-  margin-right: 5vh; */
-  width: 100%;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    margin-left: -21vh;
-    margin-right: 5vh;
+  margin-left: -21vh;
+  margin-right: 5vh;
 
   .Schedule {
     width: 40vh;
@@ -80,11 +64,11 @@ export const ImgSection = styled.div `
       margin-bottom: -75.5vh;
     }
   } */
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     .Schedule {
       display: none;
     }
-  }
+  } */
     @media screen and (max-width: 800px) {
       margin: 7vh 25vh 5vh -15vh;
       justify-content: center;
@@ -106,35 +90,29 @@ export const TitleSection = styled.div `
   margin-bottom: 15vh;
   margin-left: 5vh; */
   width: 70%;
-    display: grid;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-align-items: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    word-break: keep-all;
-    margin-left: 5vh;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  word-break: keep-all;
+  margin-left: 5vh;
+  margin-bottom: 10vh;
   .Schedule2 {
     display: none;
   }
 
   @media screen and (max-width: 1100px){
     margin-left: 2.5vh;
+    margin-bottom: 0;
   }
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     width : 70%;
     .Schedule2 {
       width: 37vh;
       display: inline;
       margin-left: 2vh;
     }
-  }
+  } */
   @media screen and (max-width: 500px) {
     .Schedule2 {
       width: 30vh;
@@ -152,13 +130,13 @@ export const MainTitle = styled.div `
     width: 270px;
     margin-right: 2.5vh;
   }
-  @media screen and (max-width: 910px){
+  @media screen and (max-width: 1100px){
     font-size: 45px;
     line-height: 8vh;
   }
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     margin: 15vh 0 15vh 0;
-  }
+  } */
 
   @media screen and (max-width: 800px) {
     display: block;
@@ -173,25 +151,25 @@ export const MainTitle = styled.div `
 `;
 
 export const SubTitle = styled.div `
-  width: 100%;
+  width: 500px;
   font-size: 30px;
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
   margin-top: 3vh;
   margin-bottom: 3vh;
-  @media screen and (max-width: 1300px){
+  /* @media screen and (max-width: 1300px){
     font-size: 25px;
     margin-right: 2.5vh;
     margin-top: 0;
-  }
-  @media screen and (max-width: 910px){
+  } */
+  @media screen and (max-width: 1100px){
     font-size: 20px;
     line-height: 5vh;
   }
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     display: none;
-  }
+  } */
 `;
 
 export const SubTitle2 = styled.div `
@@ -204,11 +182,12 @@ export const SubTitle2 = styled.div `
   margin-bottom: 12vh;
   display: none;
   
-  @media screen and (max-width: 900px) {
+  /* @media screen and (max-width: 900px) {
     display: inline;
     margin-top: 15vh;
     margin-bottom: 0;
-  }
+  } */
+
   @media screen and (max-width: 500px) {
     font-size: 15px
   }
@@ -234,10 +213,10 @@ export const IconSection = styled.div `
     margin-bottom: 0;
   }
   
-  @media screen and (max-width: 900px) {
-    /* width: 40%; */
+  /* @media screen and (max-width: 900px) {
+    width: 40%;
     margin: 10vh 0 -5vh 0;
-  }
+  } */
 
   @media screen and (max-width:500px){
       display: none;
@@ -262,6 +241,7 @@ export const IconTextSection = styled.div `
   }
 
   @media screen and (max-width: 1100px){
+    font-size: 18px;
     margin-bottom: 0;
   }
 
