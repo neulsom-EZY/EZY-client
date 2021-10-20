@@ -9,7 +9,7 @@ const Section3 = () => {
       <>
         <S.MainSection className="fade">
           <S.TitleSection2>
-            <S.MainTitle2>그리고,<br/>우리의 일정</S.MainTitle2>
+            <S.MainTitle2>그리고, <br/>우리의 일정</S.MainTitle2>
           </S.TitleSection2>
           <S.ImgSection>
             <img src={Hand} className="Hand" alt="Hand"/>
@@ -34,19 +34,14 @@ const Section3 = () => {
                 송정역 이디야 카페
               </S.IconTextSection>
             </S.IconSection>
-            <S.SubTitle2>
-              그룹에 사람들을 추가하여 <br/>
-              나와 함께할 일정, <br/>
-              우리의 일정을 완성해봐요
-            </S.SubTitle2>
           </S.TitleSection>
         </S.MainSection>
         <S.SubSection>
-          <S.SubTitle3>
+          <S.SubTitle2>
             그룹에 사람들을 추가하여 <br/>
             나와 함께할 일정, <br/>
             우리의 일정을 완성해 봐요.
-          </S.SubTitle3>
+          </S.SubTitle2>
         </S.SubSection>
       </>
   );
