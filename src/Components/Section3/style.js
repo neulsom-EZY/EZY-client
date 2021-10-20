@@ -26,13 +26,28 @@ export const MainSection = styled.div `
 
 export const ImgSection = styled.div `
 
-  display: flex;
+  /* display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
   height: 100%;
   margin-left: -75vh;
-  margin-right: 5vh;
+  margin-right: 5vh; */
+  width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-left: -21vh;
+    margin-right: 5vh;
 
   .Schedule {
     width: 40vh;
@@ -43,18 +58,20 @@ export const ImgSection = styled.div `
     margin-bottom: -95.5vh;
     z-index: 1;
   }
-  @media screen and (max-width: 1300px){
-    margin-left : -70vh;
-    .Hand {
-      width: 50vh;
-      margin-bottom: -85.5vh;
-    }
-  }
+
   @media screen and (max-width: 1100px){
     margin-left: -15vh;
     margin-right: 2.5vh;
+    .Schedule{
+      width: 35vh;
+    }
+    .Hand{
+      width: 40vh;
+      margin-bottom: -75vh;
+    }
   }
-  @media screen and (max-width: 1010px) {
+  
+  /* @media screen and (max-width: 1010px) {
     .Schedule {
       width: 35vh;
     }
@@ -62,7 +79,7 @@ export const ImgSection = styled.div `
       width: 40vh;
       margin-bottom: -75.5vh;
     }
-  }
+  } */
   @media screen and (max-width: 900px) {
     .Schedule {
       display: none;
@@ -80,18 +97,36 @@ export const ImgSection = styled.div `
 `;
 
 export const TitleSection = styled.div `
-  width: 70%;
+  /* width: 70%;
   height: 500px;
   display: grid;
   justify-content: center;
   align-items: center;
   word-break: keep-all;
   margin-bottom: 15vh;
-  margin-left: 5vh;
+  margin-left: 5vh; */
+  width: 70%;
+    display: grid;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    word-break: keep-all;
+    margin-left: 5vh;
   .Schedule2 {
     display: none;
   }
 
+  @media screen and (max-width: 1100px){
+    margin-left: 2.5vh;
+  }
   @media screen and (max-width: 900px) {
     width : 70%;
     .Schedule2 {
@@ -113,7 +148,7 @@ export const MainTitle = styled.div `
   font-size: 55px;
   line-height: 8vh;
   color: black;
-  @media screen and (max-width: 1100px){
+  @media screen and (max-width: 1300px){
     width: 270px;
     margin-right: 2.5vh;
   }
@@ -139,18 +174,19 @@ export const MainTitle = styled.div `
 
 export const SubTitle = styled.div `
   width: 100%;
-  font-size: 27px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 6vh;
   color: #656565;
   margin-top: 3vh;
   margin-bottom: 3vh;
-  @media screen and (max-width: 1100px){
+  @media screen and (max-width: 1300px){
     font-size: 25px;
     margin-right: 2.5vh;
+    margin-top: 0;
   }
   @media screen and (max-width: 910px){
-    font-size: 25px;
+    font-size: 20px;
     line-height: 5vh;
   }
   @media screen and (max-width: 900px) {
@@ -194,6 +230,9 @@ export const IconSection = styled.div `
   flex-direction: column;
   margin-bottom: -11vh;
 
+  @media screen and (max-width: 1100px){
+    margin-bottom: 0;
+  }
   
   @media screen and (max-width: 900px) {
     /* width: 40%; */
@@ -221,6 +260,11 @@ export const IconTextSection = styled.div `
   .Icon1, .Icon2, .Icon3 {
     margin-right: 2vh;
   }
+
+  @media screen and (max-width: 1100px){
+    margin-bottom: 0;
+  }
+
 `;
 
 export const SubSection = styled.div `
