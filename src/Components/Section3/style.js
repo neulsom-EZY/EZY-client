@@ -21,6 +21,8 @@ export const MainSection = styled.div `
   @media screen and (max-width: 800px) {
     height: 150vh;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 `;
 
@@ -54,40 +56,16 @@ width: 100%;
       margin-bottom: -75vh;
     }
   }
-
-  
-  
-  /* @media screen and (max-width: 1010px) {
-    .Schedule {
-      width: 35vh;
-    }
-    .Hand {
-      width: 40vh;
-      margin-bottom: -75.5vh;
-    }
-  } */
-  /* @media screen and (max-width: 900px) {
-    .Schedule {
-      display: none;
-    }
-  } */
-    @media screen and (max-width: 800px) {
-      margin: 7vh 25vh 5vh -15vh;
-      justify-content: center;
-      align-items: flex-end;
-    .Hand{
-      width: 32.5vh;
-      margin-bottom: -135.5vh;
-    }
-  }
   @media screen and (max-width: 800px) {
     justify-content: center;
     margin: 7vh 25vh 5vh 0;
     .Hand{
       width: 32.5vh;
       margin: 0;
+      margin-bottom: -72vh;
     }
   }
+
 `;
 
 export const TitleSection = styled.div `
@@ -123,6 +101,9 @@ export const TitleSection = styled.div `
       margin-left: 2vh;
     }
   } */
+  @media screen and (max-width: 800px) {
+    justify-content: flex-start;
+  }
   @media screen and (max-width: 500px) {
     .Schedule2 {
       width: 30vh;
@@ -205,6 +186,10 @@ export const SubTitle3 = styled.div `
   font-size: 35px;
   line-height: 8vh;
   color: black;
+  @media screen and (max-width: 800px) {
+    font-size: 20px;
+    line-height: 4vh;
+  }
 `;
 
 export const IconSection = styled.div `
@@ -261,6 +246,7 @@ export const SubSection = styled.div `
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
+  
 `;
 
 export const TitleSection2 = styled.div`
