@@ -29,7 +29,7 @@ export const ImgSection = styled.div`
   }
   .Hand {
     width: 60vh;
-    z-index: 0;
+    z-index: 1;
     margin-top: 25vh;
   }
   @media screen and (max-width: 1100px) {
@@ -58,7 +58,7 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 26vh 5vh 0;
+    margin: 7vh 21vh 5vh 0;
     .Phone{
       width: 240px;
       height: 475px;
@@ -67,6 +67,8 @@ export const ImgSection = styled.div`
     .Hand{
       width: 230px;
       height: 180px;
+      margin-right: -4vh;
+      margin-bottom: -5vh;
     }
   }
 `;
