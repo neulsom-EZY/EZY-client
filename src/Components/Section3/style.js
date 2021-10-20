@@ -24,6 +24,10 @@ export const MainSection = styled.div `
     justify-content: center;
     align-items: center;
   }
+  @media screen and (max-width: 500px) {
+    height: 145vh;
+    flex-direction: column;
+  }
 `;
 
 export const ImgSection = styled.div `
@@ -63,6 +67,20 @@ width: 100%;
       width: 32.5vh;
       margin: 0;
       margin-bottom: -72vh;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    margin: 7vh 21vh 5vh 0;
+    .Schedule{
+      width: 240px;
+      height: 475px;
+      margin-left: -8vh;
+    }
+    .Hand{
+      width: 230px;
+      height: 180px;
+      margin-right: -4vh;
+      margin-bottom: -53vh;
     }
   }
 
@@ -152,6 +170,13 @@ export const SubTitle = styled.div `
   @media screen and (max-width: 1100px){
     font-size: 25px;
     line-height: 5vh;
+  }
+
+  @media screen and (max-width: 500px) {
+    width: 120%;
+    font-size: 20px;
+    line-height: 5vh;
+    margin-left: -3vh;
   }
 
   /* @media screen and (max-width: 900px) {
@@ -247,9 +272,12 @@ export const SubSection = styled.div `
   text-align: center;
   background-color: #FFFFFF;
   
+  @media screen and (max-width: 500px) {
+    height: 35vh;
+  }
 `;
 
-export const TitleSection2 = styled.div`
+export const TitleSection2 = styled.div `
   display: none;
   width: 70%;
   justify-content: center;
@@ -262,7 +290,7 @@ export const TitleSection2 = styled.div`
   }
 `;
 
-export const MainTitle2 = styled.div`
+export const MainTitle2 = styled.div `
   display: none;
   width: 100%;
   font-weight: bold;
@@ -280,4 +308,5 @@ export const MainTitle2 = styled.div`
     line-height: 7vh;
     margin-left: -3vh;
   }
+  
 `;
