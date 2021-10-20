@@ -8,6 +8,9 @@ const Section3 = () => {
   return (
       <>
         <S.MainSection className="fade">
+          <S.TitleSection2>
+            <S.MainTitle2>그리고,<br/>우리의 일정</S.MainTitle2>
+          </S.TitleSection2>
           <S.ImgSection>
             <img src={Hand} className="Hand" alt="Hand"/>
             <img src={GroupSchedule} className="Schedule" alt="GroupSchedule-Ui-Img"/>

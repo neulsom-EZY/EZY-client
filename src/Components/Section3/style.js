@@ -54,6 +54,8 @@ width: 100%;
       margin-bottom: -75vh;
     }
   }
+
+  
   
   /* @media screen and (max-width: 1010px) {
     .Schedule {
@@ -76,6 +78,14 @@ width: 100%;
     .Hand{
       width: 32.5vh;
       margin-bottom: -135.5vh;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    justify-content: center;
+    margin: 7vh 25vh 5vh 0;
+    .Hand{
+      width: 32.5vh;
+      margin: 0;
     }
   }
 `;
@@ -137,13 +147,8 @@ export const MainTitle = styled.div `
   /* @media screen and (max-width: 900px) {
     margin: 15vh 0 15vh 0;
   } */
-
   @media screen and (max-width: 800px) {
-    display: block;
-    font-size: 45px;
-    line-height: 7vh;
-    width: 220px;
-    text-align: start;
+    display: none;
   }
   @media screen and (max-width: 500px) {
     font-size: 25px
@@ -164,9 +169,10 @@ export const SubTitle = styled.div `
     margin-top: 0;
   } */
   @media screen and (max-width: 1100px){
-    font-size: 20px;
+    font-size: 25px;
     line-height: 5vh;
   }
+
   /* @media screen and (max-width: 900px) {
     display: none;
   } */
@@ -218,7 +224,7 @@ export const IconSection = styled.div `
     margin: 10vh 0 -5vh 0;
   } */
 
-  @media screen and (max-width:500px){
+  @media screen and (max-width:800px){
       display: none;
   }
 `;
@@ -255,4 +261,37 @@ export const SubSection = styled.div `
   align-items: center;
   text-align: center;
   background-color: #FFFFFF;
+`;
+
+export const TitleSection2 = styled.div`
+  display: none;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  word-break: keep-all;
+  @media screen and (max-width: 800px) {
+    display: block;
+    justify-content: flex-start;
+  }
+`;
+
+export const MainTitle2 = styled.div`
+  display: none;
+  width: 100%;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 0.1vh;
+  line-height: 8.5vh;
+  color: black;
+  @media screen and (max-width: 800px) {
+    display: block;
+    font-size: 45px;
+    line-height: 7vh;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+    line-height: 7vh;
+    margin-left: -3vh;
+  }
 `;
