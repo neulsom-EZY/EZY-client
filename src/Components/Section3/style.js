@@ -31,10 +31,8 @@ export const ImgSection = styled.div `
   align-items: center;
   width: 100%;
   height: 100%;
-  margin-left: -54.5vh;
-  
   margin-left: -75vh;
-    /* margin-right: 5vh; */
+  margin-right: 5vh;
 
   .Schedule {
     width: 40vh;
@@ -45,13 +43,24 @@ export const ImgSection = styled.div `
     margin-bottom: -95.5vh;
     z-index: 1;
   }
-  @media screen and (max-width: 1010px){
+  @media screen and (max-width: 1300px){
+    margin-left : -70vh;
+    .Hand {
+      width: 50vh;
+      margin-bottom: -85.5vh;
+    }
+  }
+  @media screen and (max-width: 1100px){
+    margin-left: -15vh;
+    margin-right: 2.5vh;
+  }
+  @media screen and (max-width: 1010px) {
     .Schedule {
       width: 35vh;
     }
     .Hand {
-      width: 50vh;
-      margin-bottom: -85.5vh;
+      width: 40vh;
+      margin-bottom: -75.5vh;
     }
   }
   @media screen and (max-width: 900px) {
@@ -78,6 +87,7 @@ export const TitleSection = styled.div `
   align-items: center;
   word-break: keep-all;
   margin-bottom: 15vh;
+  margin-left: 5vh;
   .Schedule2 {
     display: none;
   }
@@ -103,7 +113,10 @@ export const MainTitle = styled.div `
   font-size: 55px;
   line-height: 8vh;
   color: black;
-  font-weight: bold;
+  @media screen and (max-width: 1100px){
+    width: 270px;
+    margin-right: 2.5vh;
+  }
   @media screen and (max-width: 910px){
     font-size: 45px;
     line-height: 8vh;
@@ -132,6 +145,10 @@ export const SubTitle = styled.div `
   color: #656565;
   margin-top: 3vh;
   margin-bottom: 3vh;
+  @media screen and (max-width: 1100px){
+    font-size: 25px;
+    margin-right: 2.5vh;
+  }
   @media screen and (max-width: 910px){
     font-size: 25px;
     line-height: 5vh;
