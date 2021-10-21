@@ -11,13 +11,13 @@ export const MainSection = styled.div `
   background-size: cover;
 
   @media screen and (max-width: 800px) {
-    height: 150vh;
+    height: 140vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   @media screen and (max-width: 500px) {
-    height: 145vh;
+    height: 100vh;
     flex-direction: column;
   }
 `;
@@ -53,7 +53,7 @@ export const ImgSection = styled.div `
   }
   @media screen and (max-width: 800px) {
     justify-content: center;
-    margin: 7vh 25vh 5vh 0;
+    margin: 7vh 25vh 15vh 0;
     .Hand{
       width: 32.5vh;
       margin: 0;
@@ -61,17 +61,18 @@ export const ImgSection = styled.div `
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 21vh 5vh 0;
+    margin: 7vh 21vh 15vh 0;
     .Schedule{
       width: 240px;
       height: 475px;
-      margin-left: -8vh;
+      margin-left: -9vh;
     }
     .Hand{
       width: 230px;
       height: 180px;
-      margin-right: -4vh;
-      margin-bottom: -53vh;
+      margin-left: 9vh;
+      margin-right: 0;
+      margin-bottom: -45vh;
     }
   }
 `;
@@ -157,7 +158,7 @@ export const MainTitle2 = styled.div `
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 7vh;
+    line-height: 5vh;
     margin-left: -3vh;
   }
 `;
