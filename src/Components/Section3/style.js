@@ -65,14 +65,15 @@ export const ImgSection = styled.div `
     .Schedule{
       width: 240px;
       height: 475px;
-      margin-left: -9vh;
+      margin-left: -12vh;
+      z-index: -1;
     }
     .Hand{
       width: 230px;
       height: 180px;
-      margin-left: 9vh;
-      margin-right: 0;
-      margin-bottom: -45vh;
+      margin-left: 6.5vh;
+      margin-bottom: -62vh;
+      z-index: 1;
     }
   }
 `;
