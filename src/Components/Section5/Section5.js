@@ -8,9 +8,14 @@ const Section5 = () => {
             <S.MainSection className="fade">
                 <S.TitleSection>
                     <S.MainTitle>
-                        자신만의 라이프스타일<br/>
+                        자신만의 라이프스타일 <br/>
                         역사를 쓰고 있습니다.
                     </S.MainTitle>
+                    <S.MainTitle2>
+                      자신만의, <br/>
+                      라이프스타일 <br/>
+                      역사를 쓰고 있습니다.
+                    </S.MainTitle2>
                 </S.TitleSection>
                 <S.ReviewSection>
                   <S.LeftSection>
@@ -74,6 +79,8 @@ const Section5 = () => {
                   </S.RightSection>
                 </S.ReviewSection>
                 <S.BgCircle />
+                <S.BgCircle2 />
+                <S.BgCircle3 />
             </S.MainSection>
         </>
     )

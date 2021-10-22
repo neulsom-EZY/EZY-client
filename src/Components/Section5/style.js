@@ -14,17 +14,48 @@ export const MainSection = styled.div`
 
 export const TitleSection = styled.div`
     width: 100%;
+    margin-left: -15vh;
     word-break: keep-all;
+    @media screen and (max-width: 1500px) {
+        margin-left: -10vh;
+    }
+    @media screen and (max-width: 1050px) {
+        margin-top: -25vh;
+        margin-right: 40vh;
+        margin-left: 5vh;
+    }
+    @media screen and (max-width: 800px) {
+        margin-left: 10vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-left: 15vh;
+    }
 `;
 
 export const MainTitle = styled.div`
     width: 100%;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 55px;
     line-height: 8vh;
     color: black;
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1050px) {
         display: none;
+    }
+`;
+
+export const MainTitle2 = styled.div`
+    display: none;
+    width: 100%;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 6vh;
+    color: black;
+    @media screen and (max-width: 1050px) {
+        display: block;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 30px;
+        line-height: 4vh;
     }
 `;
 
@@ -33,6 +64,12 @@ export const ReviewSection = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-left: 5vh;
+    @media screen and (max-width: 1050px) {
+        display: grid;
+        margin-left: 0;
+        margin-top: -15vh;
+    }
 `;
 
 export const LeftSection = styled.div`
@@ -41,7 +78,7 @@ export const LeftSection = styled.div`
     justify-content: flex-end;
     align-items: center;
     width: 100%;
-    margin-left: -10vh;
+    margin-left: -25vh;
     margin-bottom: 8vh;
 `;
 
@@ -50,6 +87,7 @@ export const RightSection = styled.div`
     justify-content: center;
     align-items: center;
     width: 100%;
+    margin-right: -10vh;
     margin-bottom: 23vh;
 `;
 
@@ -62,16 +100,95 @@ export const BgCircle = styled.div`
     left: 50%;
     border-radius: 50%;
     background: linear-gradient(180deg, rgba(107, 64, 255, 0.5) 0%, rgba(34, 30, 255, 0.289062) 51.04%, rgba(128, 153, 255, 0) 100%);
+    transform: rotate(25deg);
     z-index: -1;
+    @media screen and (max-width: 1050px) {
+        top: 19%;
+        left: 20%;
+    }
+    @media screen and (max-width: 800px) {
+        width: 45vh;
+        height: 45vh;
+        top: 20%;
+        left: 20%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 40vh;
+        height: 40vh;
+        top: 22%;
+    }
+`;
+export const BgCircle2 = styled.div`
+    display: none;
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    margin: -10vh 0 0 -25vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(107, 64, 255, 0.5) 0%, rgba(34, 30, 255, 0.289062) 51.04%, rgba(128, 153, 255, 0) 100%);
+    transform: rotate(-25deg);
+    z-index: -1;
+    @media screen and (max-width: 1050px) {
+        display: block;
+        left: 90%;
+    }
+    @media screen and (max-width: 800px) {
+        top: 52%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 35vh;
+        height: 35vh;
+        top: 53%;
+    }
+`;
+
+export const BgCircle3 = styled.div`
+    display: none;
+    width: 40vh;
+    height: 40vh;
+    position: absolute;
+    margin: -10vh 0 0 -25vh;
+    top: 50%;
+    left: 50%;
+    border-radius: 50%;
+    background: linear-gradient(180deg, rgba(107, 64, 255, 0.2) 0%, rgba(34, 30, 255, 0.115625) 51.04%, rgba(128, 153, 255, 0) 100%);
+    z-index: -1;
+    @media screen and (max-width: 1050px) {
+        display: block;
+        top: 80%;
+        left: 25%;
+    }
+    @media screen and (max-width: 800px) {
+        top: 85%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 35vh;
+        height: 35vh;
+        top: 85%;
+        left: 50%;
+    }
 `;
 
 export const Review1 = styled.div`
-    width: 39.3vh;
+    width: 39vh;
     height: 19.78vh;
     margin-left: 15vh;
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
+    @media screen and (max-width: 1500px) {
+        margin-top: -10vh;
+        margin-bottom: 10vh;
+    }
+    @media screen and (max-width: 1050px) {
+        margin: -5vh -50vh 3vh 0;
+    }
+    @media screen and (max-width: 500px) {
+        width: 30vh;
+        margin-left: 15vh;
+    }
 `;
 
 export const Review2 = styled.div`
@@ -82,6 +199,9 @@ export const Review2 = styled.div`
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
+    @media screen and (max-width: 1500px) {
+        display: none;
+    }
 `;
 
 export const Review3 = styled.div`
@@ -93,6 +213,13 @@ export const Review3 = styled.div`
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
+    @media screen and (max-width: 1500px) {
+        margin-left: 5vh;
+        margin-right: 0;
+    }
+    @media screen and (max-width: 1050px) {
+        display: none;
+    }
 `;
 
 export const Review4 = styled.div`
@@ -100,7 +227,20 @@ export const Review4 = styled.div`
     height: 23.3vh;
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
-    z-index: 1;
+    z-index: 2;
+    @media screen and (max-width: 1050px) {
+        margin: 0 0 0 0;
+    }
+    @media screen and (max-width: 800px) {
+        margin: 5vh 0 0 10vh;
+        text-align: right;
+        width: 39vh;
+        height: 20vh;
+    }
+    @media screen and (max-width: 500px) {
+        width: 30vh;
+        margin-left: -1vh;
+    }
 `;
 
 export const Review5 = styled.div`
@@ -111,10 +251,23 @@ export const Review5 = styled.div`
     margin-left: -10vh;
     margin-bottom: -60vh;
     z-index: 1;
+    @media screen and (max-width: 1500px) {
+        margin-left: 0;
+        margin-bottom: -45vh;
+    }
+    @media screen and (max-width: 1050px) {   
+        margin-left: 3.5vh;
+    }
+    @media screen and (max-width: 800px) {
+        margin-bottom: -60vh;
+    }
+    @media screen and (max-width: 500px) {
+        width: 30vh;
+        margin-left: 13vh;
+    }
 `;
 
 export const ReviewTitle = styled.div`
-    width: 100%;
     color: #333333;
     font-style: normal;
     font-weight: 500;
@@ -133,7 +286,15 @@ export const BtnWrapper = styled.div`
     padding: 4vh 0 0 2.5vh;
     .ReviewBtn2{ margin-top: 1.5vh; }
     .ReviewBtn3{ margin-top: 6.5vh; }
-    .ReviewBtn4{ margin-top: 3.5vh; }
+    .ReviewBtn4{ 
+        margin-top: 3.5vh; 
+        @media screen and (max-width: 800px) {
+            margin-top: 0;
+        }
+        @media screen and (max-width: 500px) {
+            margin-top: -2vh;
+        }
+    }
     .ReviewBtn5{ margin-top: 2.5vh; }
 `;
 
@@ -174,4 +335,13 @@ export const ReviewBtn3 = styled.div`
     font-weight: 600;
     background: #E2F6D7;
     border-radius: 31.5px;
+    @media screen and (max-width: 1050px) {
+        margin-left: 28vh;
+    }
+    @media screen and (max-width: 800px) {
+        margin-left: 21vh;
+    }
+    @media screen and (max-width: 500px) {
+        margin-left: 12vh;
+    }
 `;
