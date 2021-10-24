@@ -14,6 +14,10 @@ const Section1 = () => {
         </S.MainSection>
         <S.SubSection>
             <S.Line></S.Line>
+            <S.LineText>
+                © neulsom EZY team. <br />
+                @ officialneulsom@gmail.com
+            </S.LineText>
         </S.SubSection>
       </>
   );
