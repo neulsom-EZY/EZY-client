@@ -20,6 +20,9 @@ const App = () => {
         {/*<C.Section2/>*/}
         {/*<C.Section3/>*/}
         {/*<C.Section4/>*/}
+
+
+        <C.Footer/>
       </>
   );
 };

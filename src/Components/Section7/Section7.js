@@ -1,0 +1,22 @@
+import React from "react";
+import * as S from "./style";
+
+
+const Section1 = () => {
+  return (
+      <>
+        <S.MainSection>
+            <S.TitleSection>
+                <S.MainTitle>
+                    세상에 없던 일정관리, EZY를 만나보세요.
+                </S.MainTitle>
+            </S.TitleSection>
+        </S.MainSection>
+        <S.SubSection>
+            <S.Line></S.Line>
+        </S.SubSection>
+      </>
+  );
+}
+
+export default Section1;
