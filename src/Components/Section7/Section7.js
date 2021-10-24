@@ -2,7 +2,7 @@ import React from "react";
 import * as S from "./style";
 import StoreBtn from "../../Assets/Section7/StoreBtn.png";
 
-const Section1 = () => {
+const Section7 = () => {
   return (
       <>
         <S.MainSection>
@@ -26,4 +26,4 @@ const Section1 = () => {
   );
 }
 
-export default Section1;
+export default Section7;
