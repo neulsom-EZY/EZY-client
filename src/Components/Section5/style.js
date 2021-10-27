@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const MainSection = styled.div `
     width: 100%;
-    height: 120vh;
+    height: 150vh;
     z-index: -100;
     display: grid;
     justify-content: center;
@@ -204,10 +204,10 @@ export const Review1 = styled.div `
 `;
 
 export const Review2 = styled.div `
-    width: 48vh;
+    width: 56vh;
     height: 24vh;
     margin-top: -2.5vh;
-    margin-right: 28vh;
+    margin-left: -40vh;
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
@@ -217,7 +217,7 @@ export const Review2 = styled.div `
 `;
 
 export const Review3 = styled.div `
-    width: 50vh;
+    width: 53vh;
     height: 26.3vh;
     margin-top: -1vh;
     margin-left: 15vh;
