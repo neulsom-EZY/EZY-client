@@ -34,7 +34,7 @@ const Section5 = () => {
                       <S.ReviewTitle>
                         친구 생일 파티할 때 <br/>
                         케이크를 깜빡한 적이 있는데, <br/>
-                        약속 장소로 오던 다른 친구에게 부탁할 수 있었어요
+                        약속 장소로 오던 다른 친구에게 부탁할 수 있었어요.
                       </S.ReviewTitle>
                       <S.BtnWrapper>
                         <S.ReviewBtn2 className="ReviewBtn2">
@@ -58,7 +58,7 @@ const Section5 = () => {
                     <S.Review4>
                       <S.ReviewTitle>
                         알아서 시간에 맞춰서 일정을 알려주니까 <br/>
-                        깜빡하지 않아서 좋아요
+                        깜빡하지 않아서 좋아요.
                       </S.ReviewTitle>
                       <S.BtnWrapper>
                         <S.ReviewBtn3 className="ReviewBtn4">
