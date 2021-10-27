@@ -65,10 +65,9 @@ export const ImgSection = styled.div`
       margin-left: -8vh;
     }
     .Hand{
-      width: 230px;
-      height: 180px;
-      margin-right: -4vh;
-      margin-bottom: -5vh;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 3vh;
     }
   }
 `;
