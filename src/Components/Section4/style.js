@@ -117,17 +117,16 @@ export const FirstSection = styled.div`
     width: 50vh;
     height: 50vh;
     flex-direction: column;
-    margin-bottom: 14vh;
+    margin-bottom: 15vh;
     .Top {
       width: 30vh;
       margin-left: 3.9vh;
-      margin-top: 2.4vh;
+      margin-top: 4vh;
     }
   }
   @media screen and (max-width: 500px) {
     width: 38vh;
     margin: 0;
-    margin-bottom: 16vh;
   }
 `;
 export const SecondSection = styled.div`
