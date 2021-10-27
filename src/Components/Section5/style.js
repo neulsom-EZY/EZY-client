@@ -17,6 +17,7 @@ export const MainSection = styled.div `
 `;
 
 export const TitleSection = styled.div `
+    padding-top: 100px;
     width: 100%;
     margin-left: -15vh;
     word-break: keep-all;
@@ -69,6 +70,7 @@ export const ReviewSection = styled.div `
     align-items: center;
     width: 100%;
     margin-left: 5vh;
+    padding-bottom: ;
     @media screen and (max-width: 1050px) {
         display: grid;
         margin-left: 0;
@@ -186,7 +188,7 @@ export const BgCircle3 = styled.div `
 export const Review1 = styled.div `
     width: 39vh;
     height: 19.78vh;
-    margin-left: 15vh;
+    margin-left: 20vh;
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
@@ -205,9 +207,9 @@ export const Review1 = styled.div `
 
 export const Review2 = styled.div `
     width: 56vh;
-    height: 24vh;
-    margin-top: -2.5vh;
-    margin-left: -40vh;
+    height: 25vh;
+    margin-top: -3vh;
+    margin-left: -25vh;
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
@@ -219,12 +221,13 @@ export const Review2 = styled.div `
 export const Review3 = styled.div `
     width: 53vh;
     height: 26.3vh;
-    margin-top: -1vh;
     margin-left: 15vh;
     margin-right: -10vh;
     background-color: white;
+    margin-top: -2vh;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 1;
+    margin-bottom: 15vh;
     @media screen and (max-width: 1500px) {
         margin-left: 5vh;
         margin-right: 0;
@@ -240,6 +243,8 @@ export const Review4 = styled.div `
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
+    margin-bottom: 8vh;
+    margin-top: -5vh;
     @media screen and (max-width: 1050px) {
         margin: 0 0 0 0;
     }
@@ -262,7 +267,7 @@ export const Review5 = styled.div `
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     margin-left: -10vh;
-    margin-bottom: -60vh;
+    margin-bottom: -35vh;
     z-index: 1;
     @media screen and (max-width: 1500px) {
         margin-left: 0;
