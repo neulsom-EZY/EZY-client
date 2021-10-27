@@ -21,6 +21,7 @@ const App = () => {
         <C.Section3/>
         <C.Section4/>
         <C.Section5/>
+        <C.Section6/>
     </>
   );
 };
