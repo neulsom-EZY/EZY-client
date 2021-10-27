@@ -25,6 +25,7 @@ export const TitleSection = styled.div `
         margin-left: -10vh;
     }
     @media screen and (max-width: 1050px) {
+        padding: 0;
         margin-top: -25vh;
         margin-right: 40vh;
         margin-left: 5vh;
@@ -86,9 +87,7 @@ export const LeftSection = styled.div `
     width: 100%;
     margin-left: -25vh;
     margin-bottom: 8vh;
-    @media screen and (max-width : 800px) {
-        margin-bottom: 0;
-    }
+
 `;
 
 export const RightSection = styled.div `
@@ -132,8 +131,8 @@ export const BgCircle = styled.div `
 `;
 export const BgCircle2 = styled.div `
     display: none;
-    width: 50vh;
-    height: 50vh;
+    width: 60vh;
+    height:60vh;
     position: absolute;
     margin: -10vh 0 0 -25vh;
     top: 50%;
@@ -160,8 +159,8 @@ export const BgCircle2 = styled.div `
 
 export const BgCircle3 = styled.div `
     display: none;
-    width: 50vh;
-    height: 50vh;
+    width: 60vh;
+    height:60vh;
     position: absolute;
     margin: -10vh 0 0 -25vh;
     top: 50%;
@@ -171,8 +170,8 @@ export const BgCircle3 = styled.div `
     z-index: -1;
     @media screen and (max-width: 1050px) {
         display: block;
-        top: 80%;
-        left: 25%;
+        top: 70%;
+        left: 10%;
     }
     @media screen and (max-width: 800px) {
         top: 80%;
@@ -245,15 +244,7 @@ export const Review4 = styled.div `
     z-index: 2;
     margin-bottom: 8vh;
     margin-top: -5vh;
-    @media screen and (max-width: 1050px) {
-        margin: 0 0 0 0;
-    }
-    @media screen and (max-width: 800px) {
-        margin: 5vh 0 0 10vh;
-        text-align: right;
-        width: 39vh;
-        height: 20vh;
-    }
+
     @media screen and (max-width: 500px) {
         width: 35vh;
         margin-left: 0vh;
@@ -271,10 +262,11 @@ export const Review5 = styled.div `
     z-index: 1;
     @media screen and (max-width: 1500px) {
         margin-left: 0;
-        margin-bottom: -45vh;
+        margin-top: -10vh;
     }
     @media screen and (max-width: 1050px) {   
         margin-left: 3.5vh;
+        margin-top: -18vh;
     }
     @media screen and (max-width: 800px) {
     }
@@ -307,9 +299,6 @@ export const BtnWrapper = styled.div `
     .ReviewBtn3{ margin-top: 6.5vh; }
     .ReviewBtn4{ 
         margin-top: 3.5vh; 
-        @media screen and (max-width: 800px) {
-            margin-top: 0;
-        }
         @media screen and (max-width: 500px) {
             margin-top: -2vh;
         }
@@ -357,9 +346,7 @@ export const ReviewBtn3 = styled.div `
     @media screen and (max-width: 1050px) {
         margin-left: 28vh;
     }
-    @media screen and (max-width: 800px) {
-        margin-left: 21vh;
-    }
+
     @media screen and (max-width: 500px) {
         margin-left: 12vh;
     }
