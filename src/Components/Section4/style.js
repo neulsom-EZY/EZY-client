@@ -40,7 +40,6 @@ export const MainTitle = styled.div`
     font-size: 30px;
     line-height: 7.5vh;
   }
-
 `;
 export const SubTitle = styled.div`
   width: 100%;
@@ -99,7 +98,7 @@ export const SubTitle3 = styled.div`
 export const FirstSection = styled.div`
   .Top {
     width: 40vh;
-    margin-top: 5.5vh
+    margin-top: 3.2vh
   }
 ;
   width: 100vh;
@@ -117,16 +116,17 @@ export const FirstSection = styled.div`
     width: 50vh;
     height: 50vh;
     flex-direction: column;
-    margin-bottom: 15vh;
+    margin-bottom: 14.5vh;
     .Top {
       width: 30vh;
       margin-left: 3.9vh;
-      margin-top: 4vh;
+      margin-top: 3.9vh;
     }
   }
   @media screen and (max-width: 500px) {
     width: 38vh;
     margin: 0;
+    margin-bottom: 16vh;
   }
 `;
 export const SecondSection = styled.div`
@@ -149,12 +149,10 @@ export const SubSection = styled.div`
   border-radius: 6vh;
   background-color: #FFFFFF;
   margin-top: 1vh;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   .Bottom {
     width: 40vh;
-    margin-left: 18vh;
-    margin-bottom: 1vh;
+    margin-left: 19vh
   }
 ;
   @media screen and (max-width: 960px) {
@@ -162,7 +160,6 @@ export const SubSection = styled.div`
     .Bottom {
       margin-left: 8vh
     }
-
     @media screen and (max-width: 700px) {
       width: 50vh;
       display: flex;
@@ -171,6 +168,12 @@ export const SubSection = styled.div`
       .Bottom {
         width: 30vh;
         margin-left: 11.4vh
+      }
+    }
+    @media screen and (max-width: 500px) {
+      width: 38vh;
+      .Bottom {
+        margin-left: 6vh
       }
     }
   }
@@ -194,7 +197,7 @@ export const SubSection3 = styled.div`
   border-radius: 5vh;
   background-color: #FFFFFF;
   margin-bottom: 1vh;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   @media screen and (max-width: 700px) {
     width: 100%;
     height: 60%;
@@ -208,7 +211,7 @@ export const SubSection4 = styled.div`
   height: 30%;
   border-radius: 5vh;
   background-color: #BAC8FF;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   @media screen and (max-width: 700px) { {
     height: 35%;
     border-radius: 4vh
