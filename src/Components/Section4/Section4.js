@@ -1,8 +1,8 @@
 import React from 'react';
 import * as S from './style';
 import Fade from 'react-reveal/Fade';
-// import Top from '../../Assets/Section4/Top.png';
-// import Bottom from '../../Assets/Section4/Bottom.png';
+import Top from '../../Assets/Section4/Top.png';
+import Bottom from '../../Assets/Section4/Bottom.png';
 
 const Section4 = () => {
   return (
