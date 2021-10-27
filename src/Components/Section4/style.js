@@ -171,13 +171,7 @@ export const SubSection = styled.div`
       flex-direction: column;
       .Bottom {
         width: 30vh;
-        margin-left: 11.5vh
-      }
-    }
-    @media screen and (max-width: 500px) {
-      width: 38vh;
-      .Bottom {
-        margin-left: 6vh
+        margin-left: 11.4vh
       }
     }
   }
