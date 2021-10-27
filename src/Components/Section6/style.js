@@ -16,7 +16,7 @@ export const TitleSection = styled.div`
 `;
 
 export const MainTitle = styled.div`
-    margin-left: 20vh;
+    margin-left: 25vh;
     font-weight: 700;
     font-size: 60px;
     line-height: 8.5vh;
@@ -29,19 +29,20 @@ export const MainTitle2 = styled.div`
   font-size: 45px;
   line-height: 7vh;
   color: #656565;
-  margin-left: 20vh;
+  margin-left: 25vh;
 `;
 
 export const ImgSection = styled.div`
+    width: 100%;
     display: flex;
     align-items:center;
-    justify-content: center;
-    margin-left: 25vh;
+    justify-content: flex-end;
+    margin: 0 10vh 0 10vh;
     .Phone{
-        width: 70vh;
+        width: 75vh;
     }
     .Hand{
-        width: 82.5vh;
+        width: 70vh;
         margin-top: 25vh;
         margin-bottom: -20vh;
     }
