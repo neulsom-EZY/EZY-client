@@ -111,7 +111,7 @@ export const BgCircle = styled.div `
     transform: rotate(25deg);
     z-index: -1;
     @media screen and (max-width: 1050px) {
-        top: 22%;
+        top: 30%;
         left: 20%;
         width: 60vh;
         height:60vh;
@@ -125,8 +125,8 @@ export const BgCircle = styled.div `
     @media screen and (max-width: 500px) {
         width: 45vh;
         height: 45vh;
-        top: 22%;
-        left: 10%;
+        top: 17%;
+        left: 15%;
     }
 `;
 export const BgCircle2 = styled.div `
@@ -150,8 +150,8 @@ export const BgCircle2 = styled.div `
         left: 100%;
     }
     @media screen and (max-width: 500px) {
-        width: 40vh;
-        height: 40vh;
+        width: 45vh;
+        height: 45vh;
         top: 55%;
         left: 100%;
     }
@@ -177,8 +177,8 @@ export const BgCircle3 = styled.div `
         top: 80%;
     }
     @media screen and (max-width: 500px) {
-        width: 40vh;
-        height: 40vh;
+        width: 45vh;
+        height: 45vh;
         top: 85%;
         left: 30%;
     }
@@ -199,8 +199,9 @@ export const Review1 = styled.div `
         margin: -5vh -50vh 3vh 0;
     }
     @media screen and (max-width: 500px) {
-        width: 30vh;
+        width: 35vh;
         margin-left: 15vh;
+        margin-bottom: -2vh;
     }
 `;
 
@@ -300,7 +301,8 @@ export const BtnWrapper = styled.div `
     .ReviewBtn4{ 
         margin-top: 3.5vh; 
         @media screen and (max-width: 500px) {
-            margin-top: -2vh;
+            margin-top: 1vh;
+            margin-left: 15vh;
         }
     }
     .ReviewBtn5{ margin-top: 2.5vh; }
