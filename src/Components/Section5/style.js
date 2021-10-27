@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div`
+export const MainSection = styled.div `
     width: 100%;
     height: 120vh;
     z-index: -100;
@@ -10,9 +10,13 @@ export const MainSection = styled.div`
     position: relative;
     background-position: center;
     background-size: cover;
+
+    @media screen and (max-width : 800px) {
+        height: 100vh;
+    }
 `;
 
-export const TitleSection = styled.div`
+export const TitleSection = styled.div `
     width: 100%;
     margin-left: -15vh;
     word-break: keep-all;
@@ -32,7 +36,7 @@ export const TitleSection = styled.div`
     }
 `;
 
-export const MainTitle = styled.div`
+export const MainTitle = styled.div `
     width: 100%;
     font-weight: 700;
     font-size: 55px;
@@ -43,7 +47,7 @@ export const MainTitle = styled.div`
     }
 `;
 
-export const MainTitle2 = styled.div`
+export const MainTitle2 = styled.div `
     display: none;
     width: 100%;
     font-weight: 700;
@@ -59,7 +63,7 @@ export const MainTitle2 = styled.div`
     }
 `;
 
-export const ReviewSection = styled.div`
+export const ReviewSection = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
@@ -72,7 +76,7 @@ export const ReviewSection = styled.div`
     }
 `;
 
-export const LeftSection = styled.div`
+export const LeftSection = styled.div `
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -80,9 +84,12 @@ export const LeftSection = styled.div`
     width: 100%;
     margin-left: -25vh;
     margin-bottom: 8vh;
+    @media screen and (max-width : 800px) {
+        margin-bottom: 0;
+    }
 `;
 
-export const RightSection = styled.div`
+export const RightSection = styled.div `
     display: grid;
     justify-content: center;
     align-items: center;
@@ -91,7 +98,7 @@ export const RightSection = styled.div`
     margin-bottom: 23vh;
 `;
 
-export const BgCircle = styled.div`
+export const BgCircle = styled.div `
     width: 50vh;
     height: 50vh;
     position: absolute;
@@ -103,8 +110,10 @@ export const BgCircle = styled.div`
     transform: rotate(25deg);
     z-index: -1;
     @media screen and (max-width: 1050px) {
-        top: 19%;
+        top: 22%;
         left: 20%;
+        width: 60vh;
+        height:60vh;
     }
     @media screen and (max-width: 800px) {
         width: 45vh;
@@ -113,15 +122,16 @@ export const BgCircle = styled.div`
         left: 20%;
     }
     @media screen and (max-width: 500px) {
-        width: 40vh;
-        height: 40vh;
+        width: 45vh;
+        height: 45vh;
         top: 22%;
+        left: 10%;
     }
 `;
-export const BgCircle2 = styled.div`
+export const BgCircle2 = styled.div `
     display: none;
-    width: 40vh;
-    height: 40vh;
+    width: 50vh;
+    height: 50vh;
     position: absolute;
     margin: -10vh 0 0 -25vh;
     top: 50%;
@@ -136,18 +146,20 @@ export const BgCircle2 = styled.div`
     }
     @media screen and (max-width: 800px) {
         top: 52%;
+        left: 100%;
     }
     @media screen and (max-width: 500px) {
-        width: 35vh;
-        height: 35vh;
-        top: 53%;
+        width: 40vh;
+        height: 40vh;
+        top: 55%;
+        left: 100%;
     }
 `;
 
-export const BgCircle3 = styled.div`
+export const BgCircle3 = styled.div `
     display: none;
-    width: 40vh;
-    height: 40vh;
+    width: 50vh;
+    height: 50vh;
     position: absolute;
     margin: -10vh 0 0 -25vh;
     top: 50%;
@@ -161,17 +173,17 @@ export const BgCircle3 = styled.div`
         left: 25%;
     }
     @media screen and (max-width: 800px) {
-        top: 85%;
+        top: 80%;
     }
     @media screen and (max-width: 500px) {
-        width: 35vh;
-        height: 35vh;
+        width: 40vh;
+        height: 40vh;
         top: 85%;
-        left: 50%;
+        left: 30%;
     }
 `;
 
-export const Review1 = styled.div`
+export const Review1 = styled.div `
     width: 39vh;
     height: 19.78vh;
     margin-left: 15vh;
@@ -191,7 +203,7 @@ export const Review1 = styled.div`
     }
 `;
 
-export const Review2 = styled.div`
+export const Review2 = styled.div `
     width: 48vh;
     height: 24vh;
     margin-top: -2.5vh;
@@ -204,7 +216,7 @@ export const Review2 = styled.div`
     }
 `;
 
-export const Review3 = styled.div`
+export const Review3 = styled.div `
     width: 50vh;
     height: 26.3vh;
     margin-top: -1vh;
@@ -222,7 +234,7 @@ export const Review3 = styled.div`
     }
 `;
 
-export const Review4 = styled.div`
+export const Review4 = styled.div `
     width: 46.3vh;
     height: 23.3vh;
     background-color: white;
@@ -238,12 +250,13 @@ export const Review4 = styled.div`
         height: 20vh;
     }
     @media screen and (max-width: 500px) {
-        width: 30vh;
-        margin-left: -1vh;
+        width: 35vh;
+        margin-left: 0vh;
+        margin-top: 1vh;
     }
 `;
 
-export const Review5 = styled.div`
+export const Review5 = styled.div `
     width: 39vh;
     height: 19.78vh;
     background-color: white;
@@ -259,31 +272,32 @@ export const Review5 = styled.div`
         margin-left: 3.5vh;
     }
     @media screen and (max-width: 800px) {
-        margin-bottom: -60vh;
     }
     @media screen and (max-width: 500px) {
-        width: 30vh;
+        width: 35vh;
         margin-left: 13vh;
+        margin-top: -15vh;
     }
 `;
 
-export const ReviewTitle = styled.div`
+export const ReviewTitle = styled.div `
     color: #333333;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 2.5vh;
-    padding: 2.5vh;
+    padding: 2.5vh 2.5vh 0 2.5vh;
+    line-height: 2.7vh;
 `;
 
-export const BtnWrapper = styled.div`
+export const BtnWrapper = styled.div `
     width: 100%;
     color: #333333;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 2.5vh;
-    padding: 4vh 0 0 2.5vh;
+    padding: 3vh 0 0 2.5vh;
     .ReviewBtn2{ margin-top: 1.5vh; }
     .ReviewBtn3{ margin-top: 6.5vh; }
     .ReviewBtn4{ 
@@ -298,7 +312,7 @@ export const BtnWrapper = styled.div`
     .ReviewBtn5{ margin-top: 2.5vh; }
 `;
 
-export const ReviewBtn1 = styled.div`
+export const ReviewBtn1 = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
@@ -311,7 +325,7 @@ export const ReviewBtn1 = styled.div`
     border-radius: 31.5px;
 `;
 
-export const ReviewBtn2 = styled.div`
+export const ReviewBtn2 = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
@@ -324,7 +338,7 @@ export const ReviewBtn2 = styled.div`
     border-radius: 31.5px;
 `;
 
-export const ReviewBtn3 = styled.div`
+export const ReviewBtn3 = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
