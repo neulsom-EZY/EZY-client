@@ -15,11 +15,11 @@ const Section4 = () => {
             <S.ImgSection>
               <S.FirstSection>
                 <S.SubTitle>언제든지 <br/>간편한 일정관리</S.SubTitle>
-                {/*<img src={Top} className="Top" alt="SomeDay-Ui-Img"/>*/}
+                <img src={Top} className="Top" alt="SomeDay-Ui-Img"/>
               </S.FirstSection>
               <S.SecondSection>
                 <S.SubSection>
-                  {/*<img src={Bottom} className="Bottom" alt="SomeDay-Ui-Img"/>*/}
+                  <img src={Bottom} className="Bottom" alt="SomeDay-Ui-Img"/>
                   <S.SubTitle4>오늘의 일정을 <br/>간단하게 확인</S.SubTitle4>
                 </S.SubSection>
                 <S.SubSection2>
