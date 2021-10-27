@@ -99,7 +99,7 @@ export const SubTitle3 = styled.div`
 export const FirstSection = styled.div`
   .Top {
     width: 40vh;
-    margin-top: 1vh
+    margin-top: 5.5vh
   }
 ;
   width: 100vh;
@@ -153,8 +153,8 @@ export const SubSection = styled.div`
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
   .Bottom {
-    width: 38vh;
-    margin-left: 16vh;
+    width: 40vh;
+    margin-left: 18vh;
     margin-bottom: 1vh;
   }
 ;
