@@ -72,7 +72,7 @@ export const ImgSection = styled.div `
       width: 230px;
       height: 180px;
       margin-left: 6.5vh;
-      margin-bottom: -62vh;
+      margin-bottom: -54vh;
       z-index: 1;
     }
   }
