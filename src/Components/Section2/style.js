@@ -58,16 +58,15 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 21vh 5vh 0;
+    margin: 7vh 22vh 5vh 0;
     .Phone{
-      width: 240px;
-      height: 475px;
-      margin-left: -8vh;
+      width: 30vh;
+      height: auto;
     }
     .Hand{
-      width: 200px;
-      height: 200px;
-      margin-bottom: 3vh;
+      width: 24vh;
+      height: auto;
+      margin-left: 8vh;
     }
   }
 `;
@@ -129,7 +128,7 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 7vh;
+    line-height: 5vh;
     margin-left: -3vh;
   }
 `;
