@@ -27,52 +27,53 @@ export const ImgSection = styled.div `
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -21vh;
-  margin-right: 5vh;
+  margin-left:  -194.67px;
+  margin-right: 46.35px;
 
   .Schedule {
-    width: 40vh;
-    margin-left: -10vh;
+    width: 370.8px;
+    margin-left: -92.7px
   }
+;
   .Hand {
-    width: 60vh;
-    margin-bottom: -95.5vh;
+    width:  556.2px;
+    margin-bottom: -885.285px;
     z-index: 1;
   }
 
   @media screen and (max-width: 1100px){
-    margin-left: -15vh;
-    margin-right: 2.5vh;
+    margin-left: -139.05px;
+    margin-right:23.175px;
     .Schedule{
-      width: 35vh;
+      width: 324.45px;
     }
     .Hand{
-      width: 40vh;
-      margin-bottom: -75vh;
+      width: 370.8px;
+      margin-bottom: -695.25px;
     }
   }
   @media screen and (max-width: 800px) {
     justify-content: center;
-    margin: 7vh 25vh 15vh 0;
+    margin: 64.89px 231.75px 139.05px 0;
     .Hand{
-      width: 32.5vh;
+      width: 301.275px;
       margin: 0;
-      margin-bottom: -72vh;
+      margin-bottom: -667.44px;
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 21vh 15vh 0;
+    margin: 64.89px 194.67px 139.05px 0;
     .Schedule{
       width: 240px;
       height: 475px;
-      margin-left: -12vh;
+      margin-left: -111.24px;
       z-index: -1;
     }
     .Hand{
       width: 230px;
       height: 180px;
-      margin-left: 6.5vh;
-      margin-bottom: -54vh;
+      margin-left: 65.255px;
+      margin-bottom: -500px;
       z-index: 1;
     }
   }
@@ -85,15 +86,15 @@ export const TitleSection = styled.div `
   align-items: center;
   flex-direction: column;
   word-break: keep-all;
-  margin-left: 5vh;
-  margin-bottom: 10vh;
+  margin-left: 46.35px;
+  margin-bottom: 92.7px;
 
   .Schedule2 {
     display: none;
   }
 
   @media screen and (max-width: 1100px){
-    margin-left: 2.5vh;
+    margin-left: 23.175px;
     margin-bottom: 0;
   }
   @media screen and (max-width: 800px) {
@@ -101,7 +102,7 @@ export const TitleSection = styled.div `
   }
   @media screen and (max-width: 500px) {
     .Schedule2 {
-      width: 30vh;
+      width: 278.1px;
     }
   }
 `;
@@ -124,16 +125,16 @@ export const MainTitle = styled.div `
   width: 100%;
   font-weight: 700;
   font-size: 55px;
-  line-height: 8vh;
+  line-height: 74.16px;
   color: black;
 
   @media screen and (max-width: 1300px){
     width: 270px;
-    margin-right: 2.5vh;
+    margin-right: 23.175px;
   }
   @media screen and (max-width: 1100px){
     font-size: 45px;
-    line-height: 8vh;
+    line-height: 74.16px;
   }
   @media screen and (max-width: 800px) {
     display: none;
@@ -148,19 +149,19 @@ export const MainTitle2 = styled.div `
   width: 100%;
   font-weight: bold;
   font-size: 55px;
-  letter-spacing: 0.1vh;
-  line-height: 8.5vh;
+  letter-spacing: 0.927px;
+  line-height: 78.795px;
   color: black;
 
   @media screen and (max-width: 800px) {
     display: block;
     font-size: 45px;
-    line-height: 7vh;
+    line-height: 64.89px;
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 5vh;
-    margin-left: -3vh;
+    line-height: 46.35px;
+    margin-left: -27.81px;
   }
 `;
 
@@ -168,20 +169,20 @@ export const SubTitle = styled.div `
   width: 500px;
   font-size: 30px;
   font-weight: 400;
-  line-height: 6vh;
+  line-height: 55.62px;
   color: #656565;
-  margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-top: 27.81px;
+  margin-bottom: 27.81px;
 
   @media screen and (max-width: 1100px){
     font-size: 25px;
-    line-height: 5vh;
+    line-height: 46.35px;
   }
   @media screen and (max-width: 500px) {
     width: 120%;
     font-size: 20px;
-    line-height: 5vh;
-    margin-left: -3vh;
+    line-height: 46.35px;
+    margin-left: -27.81px;
   }
 `;
 
@@ -189,12 +190,12 @@ export const SubTitle2 = styled.div `
   width: 100%;
   font-weight: 400;
   font-size: 35px;
-  line-height: 8vh;
+  line-height: 74.16px;
   color: black;
   
   @media screen and (max-width: 800px) {
     font-size: 20px;
-    line-height: 4vh;
+    line-height: 37.08px;
   }
 `;
 
@@ -204,7 +205,7 @@ export const IconSection = styled.div `
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-bottom: -11vh;
+  margin-bottom: -101.97px;
 
   @media screen and (max-width: 1100px){
     margin-bottom: 0;
@@ -225,11 +226,11 @@ export const IconTextSection = styled.div `
   vertical-align: baseline;
   font-weight: 400;
   font-size: 20px;
-  margin-right: 1vh;
-  margin-bottom: 1vh;
+  margin-right: 9.27px;
+  margin-bottom: 9.27px;
 
   .Icon1, .Icon2, .Icon3 {
-    margin-right: 2vh;
+    margin-right: 18.54px;
   }
 
   @media screen and (max-width: 1100px){
