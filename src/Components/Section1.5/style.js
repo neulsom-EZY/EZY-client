@@ -216,18 +216,18 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin-top: -22vh;
-    margin-bottom: 3.5vh;
-    margin-left: 3.1vh;
+    margin-top: -17vh;
+    margin-bottom: 7vh;
+    margin-left: 5vh;
     .Phone {
-      width: 240px;
-      height: 475px;
+      width: 30vh;
+      height: auto;
       margin-top: 0;
     }
 
     .Hand {
-      width: 230px;
-      height: 180px;
+      width: 30vh;
+      height: auto;
       margin-top: -43vh;
     }
   }
