@@ -17,14 +17,14 @@ const Section6 = () => {
           <img src={Phone} className="Phone" alt="Phone" />
           <img src={Hand} className="Hand" alt="Hand" />
         </S.ImgSection>
+        <S.TitleSection>
+          <S.SubTitle>
+            이지는 여러분 모두의 <br/>
+            라이프스타일을 혁신하게 되는 그날까지. <br/>
+            끝 없이 성장하고, 한 없이 도전합니다.
+          </S.SubTitle>
+        </S.TitleSection>
       </S.MainSection>
-      <S.SubSection>
-        <S.SubTitle>
-          이지는 여러분 모두의 <br/>
-          라이프스타일을 혁신하게 되는 그날까지. <br/>
-          끝 없이 성장하고, 한 없이 도전합니다.
-        </S.SubTitle>
-      </S.SubSection>
     </>
   )
 }
