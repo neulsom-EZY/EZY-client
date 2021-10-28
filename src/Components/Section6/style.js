@@ -18,12 +18,12 @@ export const TitleSection = styled.div`
 export const MainTitle = styled.div`
     margin-left: 25vh;
     font-weight: 700;
-    font-size: 60px;
+    font-size: 55px;
     line-height: 8.5vh;
     color: black;
 `;
 
-export const MainTitle2 = styled.div`
+export const SubTitle = styled.div`
   width: 100%;
   font-weight: 500;
   font-size: 45px;
@@ -36,15 +36,20 @@ export const ImgSection = styled.div`
     width: 100%;
     display: flex;
     align-items:center;
-    justify-content: flex-end;
+    justify-content: space-between;
     margin: 0 10vh 0 10vh;
     .Phone{
         width: 75vh;
+        margin-left: 200px;
     }
     .Hand{
         width: 70vh;
         margin-top: 25vh;
         margin-bottom: -20vh;
+    }
+
+    @media screen and (max-width : 1500px){
+        
     }
 `;
 

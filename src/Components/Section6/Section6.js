@@ -19,11 +19,11 @@ const Section6 = () => {
         </S.ImgSection>
       </S.MainSection>
       <S.SubSection>
-        <S.MainTitle2>
+        <S.SubTitle>
           이지는 여러분 모두의 <br/>
           라이프스타일을 혁신하게 되는 그날까지. <br/>
           끝 없이 성장하고, 한 없이 도전합니다.
-        </S.MainTitle2>
+        </S.SubTitle>
       </S.SubSection>
     </>
   )
