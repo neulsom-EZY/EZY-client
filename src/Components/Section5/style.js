@@ -10,7 +10,6 @@ export const MainSection = styled.div`
   position: relative;
   background-position: center;
   background-size: cover;
-    overflow-x: hidden;
   @media screen and (max-width: 800px) {
     height: 100vh;
   }
@@ -130,7 +129,6 @@ export const BgCircle = styled.div`
         left: 20%;
     }
     @media screen and (max-width: 500px) {
-        overflow-x: hidden;
         width: 996px;
         height: 120vh;
         left: -190px;
