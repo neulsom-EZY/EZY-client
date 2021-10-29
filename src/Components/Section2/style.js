@@ -30,14 +30,14 @@ export const ImgSection = styled.div`
   .Hand {
     width: 60vh;
     z-index: 1;
-    margin-top: 25vh;
+    margin-top: 100px;
   }
   @media screen and (max-width: 1100px) {
     margin-left: -15vh;
     margin-right: 2.5vh;
     .Hand{
       width: 50vh;
-      margin-top: 20vh;
+      margin-top: 100px;
     }
   }
   @media screen and (max-width: 1010px) {
@@ -46,7 +46,7 @@ export const ImgSection = styled.div`
     }
     .Hand{
       width: 40vh;
-      margin-top: 15vh;
+      margin-top: 60px;
     }
   }
   @media screen and (max-width: 800px) {
@@ -55,7 +55,7 @@ export const ImgSection = styled.div`
     .Hand{
       width: 47vh;
       margin: 0;
-      margin-top: 5vh;
+      margin-top: 100px;
     }
     .Phone {
       margin-left: -8vh;
