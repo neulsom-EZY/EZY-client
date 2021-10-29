@@ -76,24 +76,19 @@ export const VideoSection = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-
   video {
     width: 100%;
   }
-
   .Video-1 {
     display: block
   }
-
   .Video-2 {
     display: none
   }
-
   @media screen and (max-width: 945px) {
     .Video-1 {
       display: none;
     }
-
     .Video-2 {
       display: block
     }
