@@ -112,7 +112,7 @@ export const SubTitle3 = styled.div`
 export const FirstSection = styled.div`
   .Top {
     width: 40vh;
-    margin-top: 3.2vh
+    margin-top: 5.5vh
   }
 ;
   width: 100vh;
@@ -130,17 +130,17 @@ export const FirstSection = styled.div`
     width: 50vh;
     height: 50vh;
     flex-direction: column;
-    margin-bottom: 14.5vh;
+    margin-bottom: 17.9vh;
     .Top {
       width: 30vh;
       margin-left: 3.9vh;
-      margin-top: 3.9vh;
+      margin-top: 4vh;
     }
   }
   @media screen and (max-width: 500px) {
     width: 38vh;
     margin: 0;
-    margin-bottom: 14.7vh;
+    margin-bottom: 17.2vh;
     .Top {
       margin-top: 3.8vh;
     }
@@ -165,11 +165,11 @@ export const SubSection = styled.div`
   height: 102%;
   border-radius: 6vh;
   background-color: #FFFFFF;
-  margin-top: 1vh;
+  margin-top: -4vh;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   .Bottom {
     width: 40vh;
-    margin-left: 19vh
+    margin-left: 19vh;
   }
 ;
   @media screen and (max-width: 960px) {
@@ -184,6 +184,7 @@ export const SubSection = styled.div`
       flex-direction: column;
       .Bottom {
         width: 30vh;
+        margin-top: 1.6vh;
         margin-left: 11.4vh
       }
     }
@@ -210,22 +211,25 @@ export const SubSection2 = styled.div`
 export const SubSection3 = styled.div`
   display: grid;
   width: 100%;
-  height: 70%;
+  height: 28vh;
   border-radius: 5vh;
   background-color: #FFFFFF;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   @media screen and (max-width: 700px) {
     width: 100%;
     height: 60%;
     text-align: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh
+    margin-top: 0.5vh;
+    margin-bottom: 3.5vh
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 0.1vh;
   }
 `;
 export const SubSection4 = styled.div`
   width: 100%;
-  height: 30%;
+  height: 13.4vh;
   border-radius: 5vh;
   background-color: #BAC8FF;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
