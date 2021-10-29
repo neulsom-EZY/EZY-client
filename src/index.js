@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import * as F from "./fonts/Font"
+import * as F from "../src/Assets/fonts/Font"
 
 ReactDOM.render(
   <React.StrictMode>
