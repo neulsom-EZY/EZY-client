@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div `
+export const MainSection = styled.div`
   width: 100%;
   height: 1300px;
   z-index: -100;
@@ -17,12 +17,12 @@ export const MainSection = styled.div `
     align-items: center;
   }
   @media screen and (max-width: 500px) {
-    height: 140vh;
+    height: 100vh;
     flex-direction: column;
   }
 `;
 
-export const ImgSection = styled.div `
+export const ImgSection = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -79,7 +79,7 @@ export const ImgSection = styled.div `
   }
 `;
 
-export const TitleSection = styled.div `
+export const TitleSection = styled.div`
   width: 70%;
   display: grid;
   justify-content: flex-start;
@@ -107,7 +107,7 @@ export const TitleSection = styled.div `
   }
 `;
 
-export const TitleSection2 = styled.div `
+export const TitleSection2 = styled.div`
   display: none;
   width: 70%;
   justify-content: center;
@@ -121,7 +121,7 @@ export const TitleSection2 = styled.div `
   }
 `;
 
-export const MainTitle = styled.div `
+export const MainTitle = styled.div`
   width: 100%;
   font-weight: 700;
   font-size: 55px;
@@ -144,7 +144,7 @@ export const MainTitle = styled.div `
   }
 `;
 
-export const MainTitle2 = styled.div `
+export const MainTitle2 = styled.div`
   display: none;
   width: 100%;
   font-weight: bold;
@@ -165,7 +165,7 @@ export const MainTitle2 = styled.div `
   }
 `;
 
-export const SubTitle = styled.div `
+export const SubTitle = styled.div`
   width: 500px;
   font-size: 30px;
   font-weight: 400;
@@ -190,7 +190,7 @@ export const SubTitle = styled.div `
   }
 `;
 
-export const SubTitle2 = styled.div `
+export const SubTitle2 = styled.div`
   width: 100%;
   font-weight: 400;
   font-size: 35px;
@@ -203,7 +203,7 @@ export const SubTitle2 = styled.div `
   }
 `;
 
-export const IconSection = styled.div `
+export const IconSection = styled.div`
   width: 100%;
   display: flex;
   justify-content: center;
@@ -220,7 +220,7 @@ export const IconSection = styled.div `
   }
 `;
 
-export const IconTextSection = styled.div `
+export const IconTextSection = styled.div`
   width: 100%;
   color: #656565;
   display: flex;
@@ -243,7 +243,7 @@ export const IconTextSection = styled.div `
   }
 `;
 
-export const SubSection = styled.div `
+export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
   display: flex;
