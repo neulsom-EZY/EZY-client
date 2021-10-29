@@ -43,11 +43,9 @@ const Section3 = () => {
           </S.TitleSection>
         </S.MainSection>
         <S.SubSection>
-          <S.SubTitle2>
-            그룹에 사람들을 추가하여 <br/>
-            나와 함께할 일정, <br/>
-            우리의 일정을 완성해 봐요.
-          </S.SubTitle2>
+          그룹에 사람들을 추가하여 <br/>
+          나와 함께할 일정, <br/>
+          우리의 일정을 완성해 봐요.
         </S.SubSection>
       </>
   );
