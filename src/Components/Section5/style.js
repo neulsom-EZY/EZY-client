@@ -1,90 +1,92 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div `
-    width: 100%;
-    height: 150vh;
-    z-index: -100;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-position: center;
-    background-size: cover;
+export const MainSection = styled.div`
+  width: 100%;
+  height: 150vh;
+  z-index: -100;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-position: center;
+  background-size: cover;
 
-    @media screen and (max-width : 800px) {
-        height: 100vh;
-    }
+  @media screen and (max-width: 800px) {
+    height: 100vh;
+  }
 `;
 
-export const TitleSection = styled.div `
-    padding-top: 100px;
-    width: 100%;
-    margin-left: -15vh;
-    word-break: keep-all;
-    @media screen and (max-width: 1500px) {
-        margin-left: -10vh;
-    }
-    @media screen and (max-width: 1050px) {
-        padding: 0;
-        margin-top: -25vh;
-        margin-right: 40vh;
-        margin-left: 5vh;
-    }
-    @media screen and (max-width: 800px) {
-        margin-left: 10vh;
-    }
-    @media screen and (max-width: 500px) {
-        margin-left: 15vh;
-    }
-`;
-
-export const MainTitle = styled.div `
-    width: 100%;
-    font-weight: 700;
-    font-size: 55px;
-    line-height: 8vh;
-    color: black;
-    @media screen and (max-width: 1050px) {
-        display: none;
-    }
-
-`;
-
-export const MainTitle2 = styled.div `
-    display: none;
-    width: 100%;
-    font-weight: 700;
-    font-size: 45px;
-    line-height: 6vh;
-    color: black;
-    @media screen and (max-width: 1050px) {
-        display: block;
-    }
-    @media screen and (max-width: 500px) {
-        font-size: 30px;
-        line-height: 2.5rem;
-        margin-bottom: 50vh;
-    }
-    @media screen and (max-width: 400px) {
-        line-height: 6.5vh;
-    }
-`;
-
-export const ReviewSection = styled.div `
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+export const TitleSection = styled.div`
+  padding-top: 100px;
+  width: 100%;
+  margin-left: -15vh;
+  word-break: keep-all;
+  @media screen and (max-width: 1500px) {
+    margin-left: -10vh;
+  }
+  @media screen and (max-width: 1050px) {
+    padding: 0;
+    margin-top: -25vh;
+    margin-right: 40vh;
     margin-left: 5vh;
-    padding-bottom: ;
-    @media screen and (max-width: 1050px) {
-        display: grid;
-        margin-left: 0;
-        margin-top: -15vh;
-    }
+  }
+  @media screen and (max-width: 800px) {
+    margin-left: 10vh;
+  }
+  @media screen and (max-width: 500px) {
+    margin-left: 15vh;
+  }
 `;
 
-export const LeftSection = styled.div `
+export const MainTitle = styled.div`
+  width: 100%;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 8vh;
+  color: black;
+  margin-bottom: 10vh;
+  @media screen and (max-width: 1050px) {
+    display: none;
+  }
+
+`;
+
+export const MainTitle2 = styled.div`
+  display: none;
+  width: 100%;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 6vh;
+  color: black;
+  margin-bottom: 20vh;
+  @media screen and (max-width: 1050px) {
+    display: block;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+    line-height: 2.5rem;
+    margin-bottom: 50vh;
+  }
+  @media screen and (max-width: 400px) {
+    line-height: 6.5vh;
+  }
+`;
+
+export const ReviewSection = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-left: 5vh;
+  padding-bottom: ;
+  @media screen and (max-width: 1050px) {
+    display: grid;
+    margin-left: 0;
+    margin-top: -15vh;
+  }
+`;
+
+export const LeftSection = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -95,7 +97,7 @@ export const LeftSection = styled.div `
 
 `;
 
-export const RightSection = styled.div `
+export const RightSection = styled.div`
     display: grid;
     justify-content: center;
     align-items: center;
@@ -104,7 +106,7 @@ export const RightSection = styled.div `
     margin-bottom: 23vh;
 `;
 
-export const BgCircle = styled.div `
+export const BgCircle = styled.div`
     width: 50vh;
     height: 50vh;
     position: absolute;
@@ -134,7 +136,7 @@ export const BgCircle = styled.div `
         top: 100px;
     }
 `;
-export const BgCircle2 = styled.div `
+export const BgCircle2 = styled.div`
     display: none;
     width: 60vh;
     height:60vh;
@@ -159,7 +161,7 @@ export const BgCircle2 = styled.div `
     }
 `;
 
-export const BgCircle3 = styled.div `
+export const BgCircle3 = styled.div`
     display: none;
     width: 60vh;
     height:60vh;
@@ -183,7 +185,7 @@ export const BgCircle3 = styled.div `
     }
 `;
 
-export const Review1 = styled.div `
+export const Review1 = styled.div`
     width: 39vh;
     height: 19.78vh;
     margin-left: 20vh;
@@ -208,7 +210,7 @@ export const Review1 = styled.div `
     }
 `;
 
-export const Review2 = styled.div `
+export const Review2 = styled.div`
     width: 56.5vh;
     height: 25vh;
     margin-top: -3vh;
@@ -221,7 +223,7 @@ export const Review2 = styled.div `
     }
 `;
 
-export const Review3 = styled.div `
+export const Review3 = styled.div`
     width: 53vh;
     height: 26.3vh;
     margin-left: 15vh;
@@ -240,7 +242,7 @@ export const Review3 = styled.div `
     }
 `;
 
-export const Review4 = styled.div `
+export const Review4 = styled.div`
     width: 46.3vh;
     height: 23.3vh;
     background-color: white;
@@ -260,7 +262,7 @@ export const Review4 = styled.div `
     }
 `;
 
-export const Review5 = styled.div `
+export const Review5 = styled.div`
     width: 39vh;
     height: 19.78vh;
     background-color: white;
@@ -281,14 +283,14 @@ export const Review5 = styled.div `
     @media screen and (max-width: 500px) {
         width: 37vh;
         margin-left: 13vh;
-        margin-top: -15vh;
+        margin-top: -1vh;
     }
     @media screen and (max-width: 400px) {
         width: 42vh;
     }
 `;
 
-export const ReviewTitle = styled.div `
+export const ReviewTitle = styled.div`
     color: #333333;
     font-style: normal;
     font-weight: 500;
@@ -301,7 +303,7 @@ export const ReviewTitle = styled.div `
     }
 `;
 
-export const BtnWrapper = styled.div `
+export const BtnWrapper = styled.div`
     width: 100%;
     color: #333333;
     font-style: normal;
@@ -327,7 +329,7 @@ export const BtnWrapper = styled.div `
     }
 `;
 
-export const ReviewBtn1 = styled.div `
+export const ReviewBtn1 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -341,7 +343,7 @@ export const ReviewBtn1 = styled.div `
     font-size: 15px;
 `;
 
-export const ReviewBtn2 = styled.div `
+export const ReviewBtn2 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -356,7 +358,7 @@ export const ReviewBtn2 = styled.div `
 
 `;
 
-export const ReviewBtn3 = styled.div `
+export const ReviewBtn3 = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
