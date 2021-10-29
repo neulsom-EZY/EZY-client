@@ -8,8 +8,8 @@ import fadeout from "../../Hooks/Fadeout";
 const Section1_5 = () => {
   return (
       <>
-        <S.MainSection>
-          <S.TitleSection className="fade">
+        <S.MainSection className="fade">
+          <S.TitleSection>
             <S.MainTitle>하루의 시작과, 끝</S.MainTitle>
             <S.MainTitle2>
               하루의 <br/>
