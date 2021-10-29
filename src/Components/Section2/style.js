@@ -51,22 +51,27 @@ export const ImgSection = styled.div`
   }
   @media screen and (max-width: 800px) {
     justify-content: center;
-    margin: 7vh 25vh 5vh 0;
+    margin: 7vh 40vh 5vh 0;
     .Hand{
-      width: 32.5vh;
+      width: 47vh;
       margin: 0;
+      margin-top: 5vh;
+    }
+    .Phone {
+      margin-left: -8vh;
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 22vh 5vh 0;
+    margin: 7vh 27vh 5vh 0;
     .Phone{
       width: 30vh;
       height: auto;
     }
     .Hand{
-      width: 24vh;
+      width: 26vh;
       height: auto;
       margin-left: 8vh;
+      margin-top: -3vh;
     }
   }
 `;
