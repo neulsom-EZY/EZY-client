@@ -50,7 +50,7 @@ export const MainTitle = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 7.5vh;
+    line-height: 5.5vh;
   }
 `;
 export const SubTitle = styled.div`
