@@ -21,6 +21,8 @@ export const MainTitle = styled.div`
   font-size: 50px;
   color: white;
   font-weight: bold;
+  text-align: center;
+  line-height: 8vh;
 
   @media screen and (max-width: 1024px) {
     width: 500px;
