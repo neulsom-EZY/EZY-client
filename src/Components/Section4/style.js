@@ -112,7 +112,7 @@ export const SubTitle3 = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 24px;
+  font-size: 23px;
   font-weight: bold;
   color: black;
 `;
