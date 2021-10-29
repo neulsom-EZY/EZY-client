@@ -64,8 +64,8 @@ export const ImgSection = styled.div`
   @media screen and (max-width: 500px) {
     margin: 7vh 15vh 15vh 0;
     .Schedule{
-      width: 240px;
-      height: 475px;
+      width: 28vh;
+      height: auto;
       margin-left: -11vh;
       z-index: -1;
     }
