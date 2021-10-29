@@ -3,11 +3,12 @@ import Fade from "react-reveal/Fade";
 import * as S from "./style";
 import Hand from "../../Assets/Section2/hand.png";
 import Phone from "../../Assets/Section2/Phone.png";
+import fadeout from "../../Hooks/Fadeout";
 
 const Section2 = () => {
   return (
     <>
-      <S.MainSection>
+      <S.MainSection className="fade">
         <S.TitleSection2>
           <S.MainTitle2>어떤 하루를<br/>보내실 건가요?</S.MainTitle2>
         </S.TitleSection2>
