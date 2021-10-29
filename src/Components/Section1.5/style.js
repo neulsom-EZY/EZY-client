@@ -134,6 +134,7 @@ export const ImgSection = styled.div`
     width: 60vh;
     height: 47vh;
     margin-top: 13vh;
+    margin-right: -1.3vh;
   }
 
   @media screen and (max-width: 1470px) {

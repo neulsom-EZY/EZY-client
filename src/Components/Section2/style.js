@@ -31,6 +31,7 @@ export const ImgSection = styled.div`
     width: 60vh;
     z-index: 1;
     margin-top: 100px;
+    margin-left: -11.5vh;
   }
   @media screen and (max-width: 1100px) {
     margin-left: -15vh;
