@@ -14,7 +14,7 @@ export const MainSection = styled.div`
     height: 100vh;
   }
   @media screen and (max-width: 375px) {
-    height: 145vh;
+    height: 115vh;
   }
 `;
 
@@ -65,10 +65,10 @@ export const MainTitle2 = styled.div`
     line-height: 2.5rem;
   }
   @media screen and (max-width: 375px) {
-    margin-left: 5vh;
+    margin-left: 2vh;
   }
-  @media screen and (max-width: 320px) {
-    margin-left: 10vh;
+  @media screen and (max-width: 330px) {
+    margin-left: 4vh;
   }
 `;
 
@@ -132,11 +132,10 @@ export const SubTitle2 = styled.div`
   }
   @media screen and (max-width: 375px) {
     line-height: 5.5vh;
-    margin-left: 5vh;
+    margin-left: 3vh;
   }
-  @media screen and (max-width: 320px) {
-    line-height: 5.5vh;
-    margin-left: 10vh;
+  @media screen and (max-width: 330px) {
+    margin-left: 4vh;
   }
 `;
 
@@ -234,7 +233,7 @@ export const ImgSection = styled.div`
   @media screen and (max-width: 375px) {
     display: flex;
     justify-content: center;
-    margin-left: 6.5vh;
+    margin-left: 4.5vh;
     .Phone{
       margin-right: -20vh;
     }
