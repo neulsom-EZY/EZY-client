@@ -35,12 +35,8 @@ const Section3_5 = () => {
           </S.ImgSection>
         </S.MainSection>
         <S.SubSection>
-          <S.TitleSection className="T2">
-            <S.MainTitle2>
-              혹시나, 깜빡할 걱정하지 말아요. <br/>
-              정해진 시간 전에 미리 알려줄게요.
-            </S.MainTitle2>
-          </S.TitleSection>
+          혹시나, 깜빡할 걱정하지 말아요. <br/>
+          정해진 시간 전에 미리 알려줄게요.
         </S.SubSection>
       </>
   )

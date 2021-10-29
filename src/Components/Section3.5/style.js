@@ -195,9 +195,27 @@ export const ImgSection2 = styled.div`
 export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 8vh;
+  @media screen and (max-width: 1000px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+    line-height: 6.5vh;
+    height: 43vh;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    font-weight: 500;
+    height: 40vh;
+    line-height: 5vh;
+  }
 `;
