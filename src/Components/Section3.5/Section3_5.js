@@ -2,6 +2,7 @@ import React from 'react';
 import * as S from './style';
 import Phone from "../../Assets/Section3.5/phone.png";
 import Hand from "../../Assets/Section3.5/hand.png";
+import Fade from "react-reveal/Fade";
 
 const Section3_5 = () => {
   return (
@@ -13,8 +14,12 @@ const Section3_5 = () => {
               심부름 요청
             </S.MainTitle>
             <S.ImgSection2>
-              <img src={Phone} className="Phone" alt="phone"/>
-              <img src={Hand} className="Hand" alt="hand"/>
+              <Fade left>
+                <img src={Phone} className="Phone" alt="phone"/>
+              </Fade>
+              <Fade right>
+                <img src={Hand} className="Hand" alt="hand"/>
+              </Fade>
             </S.ImgSection2>
             <S.SubTitle>
               이지를 사용하고 있다면 <br/>
