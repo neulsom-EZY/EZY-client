@@ -7,6 +7,7 @@ export const MainSection = styled.div `
     flex-direction: column;
     justify-content: center;
     align-content: center;
+    overflow: hidden;
     @media screen and (max-width: 500px){
         height: 100vh;
     }
@@ -111,7 +112,7 @@ export const ImgSection = styled.div `
     .Phone{
         width: 70vh;
         /* margin-right: 10vh; */
-        margin-left: 40vh;
+        margin-left: 20vh;
     }
     .Hand{
         width: 70vh;
