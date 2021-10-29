@@ -6,6 +6,9 @@ export const MainSection = styled.div`
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
   @media screen and (max-width: 500px) {
     height: 80vh;
   }
@@ -47,6 +50,9 @@ export const SubSection = styled.div`
   font-size: 35px;
   font-weight: 500;
   line-height: 8vh;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 3s ease infinite;
 `;
 
 export const Line = styled.div`
