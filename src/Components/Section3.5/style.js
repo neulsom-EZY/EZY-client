@@ -177,8 +177,8 @@ export const ImgSection2 = styled.div`
     display: block;
     margin-right: -14vh;
     .Phone {
-      width: 240px;
-      height: 475px;
+      width: 28vh;
+      height: auto;
       z-index: -1;
       margin-top: 7vh;
       margin-bottom: 3.5vh;
