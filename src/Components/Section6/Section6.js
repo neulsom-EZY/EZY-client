@@ -12,6 +12,11 @@ const Section6 = () => {
             라이프스타일 혁신을 위해 <br/>
             끝 없이 성장하고, 한 없이 도전합니다.
           </S.MainTitle>
+          <S.MainTitle2>
+            라이프스타일 혁신을 위해 <br/>
+            끝 없이 성장하고, <br />
+            한 없이 도전합니다.
+          </S.MainTitle2>
         </S.TitleSection>
         <S.ImgSection>
           <img src={Phone} className="Phone" alt="Phone" />
