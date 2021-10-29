@@ -17,7 +17,7 @@ export const MainSection = styled.div`
     align-items: center;
   }
   @media screen and (max-width: 500px) {
-    height: 100vh;
+    height: 140vh;
     flex-direction: column;
   }
 `;
@@ -75,6 +75,12 @@ export const ImgSection = styled.div`
       margin-left: -6.5vh;
       margin-bottom: -550px;
       z-index: 1;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .Hand{
+      margin-bottom: -490px;
     }
   }
 `;
