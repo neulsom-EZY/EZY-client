@@ -1,26 +1,28 @@
 import styled from 'styled-components';
 
 export const MainSection = styled.div`
-    width: 100%;
-    height: 150vh;
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    background-size: cover;
-    background-position: center;
-    z-index: -100;
-    @media screen and (max-width: 700px)
-    { height: 200vh }
+  width: 100%;
+  height: 150vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  z-index: -100;
+  @media screen and (max-width: 700px) {
+    height: 200vh
+  }
 `;
 export const ImgSection = styled.div`
-    width: 100%;
-    height:100%;
-    display: flex;
-    align-items:center;
-    flex-direction: column;
-    margin-top: -15vh;
-    @media screen and (max-width: 500px)
-    { margin-top: -30vh }
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: -15vh;
+  @media screen and (max-width: 500px) {
+    margin-top: -30vh
+  }
 `;
 export const TitleSection = styled.div`
     width: 100%;
@@ -36,6 +38,16 @@ export const MainTitle = styled.div`
   font-weight: bold;
   line-height: 7vh;
   color: black;
+  @media screen and (max-width: 1920px) {
+    width: 200%;
+    line-height: 8.5vh;
+  }
+  @media screen and (max-width: 1000px) {
+    width: 200%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 200%;
+  }
   @media screen and (max-width: 500px) {
     font-size: 30px;
     line-height: 7.5vh;
