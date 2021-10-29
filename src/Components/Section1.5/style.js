@@ -219,7 +219,7 @@ export const ImgSection = styled.div`
     margin-bottom: 7vh;
     margin-left: 5vh;
     .Phone {
-      width: 30vh;
+      width: 28vh;
       height: auto;
     }
 
