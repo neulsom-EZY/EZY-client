@@ -20,8 +20,12 @@ const Section6 = () => {
             </S.MainTitle2>
           </S.TitleSection>
           <S.ImgSection>
-            <img src={Phone} className="Phone" alt="Phone"/>
-            <img src={Hand} className="Hand" alt="Hand"/>
+            <Fade left>
+              <img src={Phone} className="Phone" alt="Phone"/>
+            </Fade>
+            <Fade right>
+              <img src={Hand} className="Hand" alt="Hand"/>
+            </Fade>
           </S.ImgSection>
           <S.TitleSection>
             <S.SubTitle>
