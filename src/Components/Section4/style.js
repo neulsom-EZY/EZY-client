@@ -9,6 +9,7 @@ export const MainSection = styled.div`
   background-size: cover;
   background-position: center;
   z-index: -100;
+  overflow-x: hidden;
   @media screen and (max-width: 700px) {
     height: 200vh
   }
@@ -51,6 +52,12 @@ export const MainTitle = styled.div`
   @media screen and (max-width: 500px) {
     font-size: 30px;
     line-height: 5.5vh;
+  }
+  @media screen  and (max-height: 700px) {
+    line-height: 6.5vh;
+  }  
+  @media screen  and (max-height: 600px) {
+    line-height: 7.5vh;
   }
 `;
 export const SubTitle = styled.div`
@@ -145,6 +152,10 @@ export const FirstSection = styled.div`
       margin-top: 3.8vh;
     }
   }
+
+  @media screen  and (max-width: 330px) {
+    width: 35vh;
+  }
 `;
 export const SecondSection = styled.div`
   width: 100vh;
@@ -194,6 +205,13 @@ export const SubSection = styled.div`
         margin-left: 6vh
       }
     }
+    @media screen  and (max-width: 330px) {
+      width: 35vh;
+      .Bottom {
+        margin-left: 4vh;
+        margin-top: 1.8vh;
+      }
+    }
   }
 `;
 export const SubSection2 = styled.div`
@@ -206,6 +224,9 @@ export const SubSection2 = styled.div`
   @media screen and (max-width: 700px) {
     width: 100%;
     margin: 0;
+  }
+  @media screen  and (max-width: 330px) {
+    width: 35vh;
   }
 `;
 export const SubSection3 = styled.div`
@@ -225,6 +246,9 @@ export const SubSection3 = styled.div`
   }
   @media screen and (max-width: 500px) {
     margin-top: 0.1vh;
+  }
+  @media screen  and (max-width: 330px) {
+    width: 35vh;
   }
 `;
 export const SubSection4 = styled.div`
