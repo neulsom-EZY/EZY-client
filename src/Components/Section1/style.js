@@ -35,7 +35,7 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #ffffff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 8vh;
   @media screen and (max-width: 1000px) {
@@ -47,9 +47,10 @@ export const SubSection = styled.div`
     height: 43vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     height: 40vh;
+    line-height: 5vh;
   }
 `;
 export const LogoSection = styled.div`
@@ -75,24 +76,19 @@ export const VideoSection = styled.div`
   display: flex;
   justify-content: left;
   align-items: center;
-
   video {
     width: 100%;
   }
-
   .Video-1 {
     display: block
   }
-
   .Video-2 {
     display: none
   }
-
   @media screen and (max-width: 945px) {
     .Video-1 {
       display: none;
     }
-
     .Video-2 {
       display: block
     }

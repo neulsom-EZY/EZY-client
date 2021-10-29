@@ -152,7 +152,6 @@ export const FirstSection = styled.div`
       margin-top: 3.8vh;
     }
   }
-
   @media screen  and (max-width: 330px) {
     width: 35vh;
   }
