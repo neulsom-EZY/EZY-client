@@ -7,7 +7,7 @@ export const MainSection = styled.div`
   align-items: center;
   overflow-x: hidden;
   @media screen and (max-width: 500px) {
-    height: 60vh;
+    height: 80vh;
   }
 `;
 
@@ -29,6 +29,7 @@ export const MainTitle = styled.div`
   @media screen and (max-width: 500px) {
     font-size: 40px;
     width: 400px;
+      line-height: 7.5vh;
   }
 `;
 
