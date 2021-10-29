@@ -33,6 +33,12 @@ export const MainTitle = styled.div`
     width: 400px;
     line-height: 7.5vh;
   }
+  @media screen and (max-width: 400px) {
+    font-size: 35px;
+  }
+  @media screen and (max-width: 330px) {
+    font-size: 32px;
+  }
 `;
 
 export const SubSection = styled.div`
@@ -55,9 +61,17 @@ export const LineText = styled.div`
   margin-top: 50px;
   color: white;
 
+  
+  
   @media screen and (max-width: 500px) {
     margin-left: 15vw;
     font-size: 15px;
     line-height: 28px;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: 11vw;
+  }
+  @media screen and (max-width: 330px) {
+    margin-left: 7vw;
   }
 `;

@@ -7,7 +7,7 @@ const Section7 = () => {
         <S.MainSection>
           <S.TitleSection>
             <S.MainTitle>
-              세상에 없던 일정관리, <br/>EZY를 만나보세요.
+              세상에 없던 일정관리, <br/>EZY를 만나보세요 !
             </S.MainTitle>
           </S.TitleSection>
         </S.MainSection>
