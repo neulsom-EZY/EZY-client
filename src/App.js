@@ -5,6 +5,7 @@ import * as C from './Components/index';
 const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
+    margin-right: -1.7vh;
     padding: 0;
     color: white;
     font-family: 'Noto Sans CJK KR', sans-serif;

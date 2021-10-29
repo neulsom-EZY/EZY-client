@@ -12,6 +12,9 @@ export const MainSection = styled.div`
   @media screen and (max-width: 500px) {
     height: 80vh;
   }
+  @media screen and (max-width: 1050px) {
+    margin-top: 30vh;
+  }
 `;
 
 export const TitleSection = styled.div`
@@ -67,8 +70,7 @@ export const LineText = styled.div`
   margin-top: 50px;
   color: white;
 
-  
-  
+
   @media screen and (max-width: 500px) {
     margin-left: 15vw;
     font-size: 15px;

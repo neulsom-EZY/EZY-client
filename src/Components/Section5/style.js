@@ -11,6 +11,7 @@ export const MainSection = styled.div`
   background-position: center;
   background-size: cover;
   @media screen and (max-width: 800px) {
+    margin-top: 30vh;
     height: 100vh;
   }
 `;
@@ -30,11 +31,15 @@ export const TitleSection = styled.div`
     margin-left: 5vh;
   }
   @media screen and (max-width: 800px) {
-    margin-left: 10vh;
+    margin-left: 22vh;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 15vh;
+    margin-left: 18vh;
   }
+  @media screen and (max-width: 330px) {
+    margin-left: 30vh;
+  }
+  
 `;
 
 export const MainTitle = styled.div`
@@ -63,7 +68,7 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 2.5rem;
+    line-height: 3rem;
     margin-bottom: 50vh;
   }
   @media screen and (max-width: 400px) {
@@ -137,52 +142,56 @@ export const BgCircle = styled.div`
   }
 `;
 export const BgCircle2 = styled.div`
-    display: none;
-    width: 60vh;
-    height:60vh;
-    position: absolute;
-    margin: -10vh 0 0 -25vh;
-    top: 50%;
+  display: none;
+  width: 60vh;
+  height: 60vh;
+  position: absolute;
+  margin: -10vh 0 0 -25vh;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  z-index: -1;
+  @media screen and (max-width: 1050px) {
+    display: block;
     left: 50%;
-    border-radius: 50%;
-    background: linear-gradient(180deg, rgba(107, 64, 255, 0.5) 0%, rgba(34, 30, 255, 0.289062) 51.04%, rgba(128, 153, 255, 0) 100%);
-    transform: rotate(-25deg);
-    z-index: -1;
-    @media screen and (max-width: 1050px) {
-        display: block;
-        left: 90%;
-    }
-    @media screen and (max-width: 800px) {
-        top: 52%;
-        left: 100%;
-    }
-    @media screen and (max-width: 500px) {
-        display: none;
-    }
+  }
+  @media screen and (max-width: 800px) {
+    top: 52%;
+    left: 100%;
+  }
+  @media screen and (max-width: 500px) {
+    display: none;
+  }
 `;
 
 export const BgCircle3 = styled.div`
+  display: none;
+  width: 60vh;
+  height: 60vh;
+  position: absolute;
+  margin: -10vh 0 0 -25vh;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  z-index: -1;
+  
+  @media screen and (max-width: 1050px) {
+    display: block;
+    top: 70%;
+    left: 10%;
+  }
+  @media screen and (max-width: 800px) {
+    top: 80%;
+  }
+  @media screen and (max-width: 500px) {
     display: none;
-    width: 60vh;
-    height:60vh;
-    position: absolute;
-    margin: -10vh 0 0 -25vh;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    background: linear-gradient(180deg, rgba(107, 64, 255, 0.2) 0%, rgba(34, 30, 255, 0.115625) 51.04%, rgba(128, 153, 255, 0) 100%);
-    z-index: -1;
-    @media screen and (max-width: 1050px) {
-        display: block;
-        top: 70%;
-        left: 10%;
-    }
-    @media screen and (max-width: 800px) {
-        top: 80%;
-    }
-    @media screen and (max-width: 500px) {
-        display: none;
-    }
+  }
 `;
 
 export const Review1 = styled.div`

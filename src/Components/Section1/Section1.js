@@ -1,7 +1,7 @@
 import React from "react";
 import * as S from "./style";
-import PC from "../../Assets/Section1/PC.mp4";
-import Mobile from "../../Assets/Section1/Mobile.mp4";
+// import PC from "../../Assets/Section1/PC.mp4";
+// import Mobile from "../../Assets/Section1/Mobile.mp4";
 import Logo from "../../Assets/Section1/Logo"
 import Logo2 from "../../Assets/Section1/Logo2"
 

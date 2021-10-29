@@ -1,5 +1,4 @@
 import React from 'react';
-import * as I from "../../Assets/index"
 import * as S from './style';
 import Fade from "react-reveal/Fade";
 
