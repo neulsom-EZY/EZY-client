@@ -17,7 +17,7 @@ export const MainSection = styled.div `
     align-items: center;
   }
   @media screen and (max-width: 500px) {
-    height: 100vh;
+    height: 140vh;
     flex-direction: column;
   }
 `;
