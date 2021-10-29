@@ -159,32 +159,27 @@ export const SubTitle = styled.div`
 export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #FFFFFF;
-  @media screen and (max-width: 500px) {
-    height: 35vh;
-  }
-`;
-export const SubSectionTitle = styled.div`
-  width: 100%;
-  font-weight: 400;
-  font-size: 35px;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
   line-height: 8vh;
-  color: black;
+  @media screen and (max-width: 1000px) {
+    font-size: 30px;
+  }
   @media screen and (max-width: 800px) {
-    font-size: 20px;
-    line-height: 4vh;
+    font-size: 25px;
+    line-height: 6.5vh;
+    height: 43vh;
   }
   @media screen and (max-width: 500px) {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     height: 40vh;
-    line-height: 6vh;
+    line-height: 5vh;
   }
 `;
