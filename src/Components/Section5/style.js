@@ -10,7 +10,7 @@ export const MainSection = styled.div`
   position: relative;
   background-position: center;
   background-size: cover;
-
+    overflow-x: hidden;
   @media screen and (max-width: 800px) {
     height: 100vh;
   }
@@ -130,6 +130,7 @@ export const BgCircle = styled.div`
         left: 20%;
     }
     @media screen and (max-width: 500px) {
+        overflow-x: hidden;
         width: 996px;
         height: 120vh;
         left: -190px;
@@ -197,7 +198,7 @@ export const Review1 = styled.div`
         margin-bottom: 10vh;
     }
     @media screen and (max-width: 1050px) {
-        margin: -5vh -50vh 3vh 0;
+        margin: -5vh -50vh 3vh -5vh;
     }
     @media screen and (max-width: 500px) {
         width: 35vh;
@@ -248,7 +249,7 @@ export const Review4 = styled.div`
     background-color: white;
     box-shadow: 0.3vh 0.3vh 3vh #868e96;
     z-index: 2;
-    margin-bottom: 8vh;
+    margin-bottom: 20vh;
     margin-top: -5vh;
 
     @media screen and (max-width: 500px) {
@@ -275,15 +276,13 @@ export const Review5 = styled.div`
         margin-top: -10vh;
     }
     @media screen and (max-width: 1050px) {   
-        margin-left: 3.5vh;
-        margin-top: -18vh;
-    }
-    @media screen and (max-width: 800px) {
+        margin-left: 12.5vh;
+        margin-top: -13vh;
     }
     @media screen and (max-width: 500px) {
         width: 37vh;
         margin-left: 13vh;
-        margin-top: -1vh;
+        margin-top: -12vh;
     }
     @media screen and (max-width: 400px) {
         width: 42vh;
