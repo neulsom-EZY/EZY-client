@@ -1,171 +1,185 @@
 import styled from 'styled-components';
 
 export const MainSection = styled.div`
-    width: 100%;
-    height: 100vh;
-    z-index: -100;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-position: center;
-    background-size: cover;
-    @media screen and (max-width: 700px) {
-        width: 100%;
-        height: 140vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-    }
-`;
-export const TitleSection = styled.div`
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 800px) {
+    height: 150vh;
     flex-direction: column;
-    margin-left: 15vh;
-    word-break: keep-all;
-    @media screen and (max-width: 1920px) 
-    {  margin-left: 30vh;  }
-    @media screen and (max-width: 1800px) 
-    {  margin-left: 20vh;  }
-    @media screen and (max-width: 1570px) 
-    {  margin-left: 12vh;  }
-    @media screen and (max-width: 1450px) 
-    {  margin-left: 6vh;  }
-    @media screen and (max-width: 700px)
-    { margin: 0 }
-`;
-export const MainTitle = styled.div`
-    width: 100%;
-    font-weight: 600;
-    font-size: 44px;
-    line-height: 8vh;
-    color: black;
-    @media screen and (max-width: 700px) {
-      margin-bottom: -50vh;
-      line-height: 5vh;
-    }
-    @media screen and (max-width: 500px)
-    { font-size: 25px }
-`;
-export const SubTitle = styled.div`
-    width: 100%;
-    margin-top: 3vh;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 5vh;
-    color: #656565;
-    @media screen and (max-width: 700px) 
-    {  display: none;  }
-`;
-export const SubTitle2 = styled.div`
-    width: 100%;
-    height: 10vh;
-    display: none;
-    font-size: 22px;
-    font-weight: 600;
-    line-height: 5vh;
-    color: #656565;
-    @media screen and (max-width: 700px) {
-        text-align: center;
-        display: block;
-        font-size: 15px;
-        line-height: 3vh;
-    }
+  }
+  @media screen and (max-width: 500px) {
+    height: 145vh;
+    flex-direction: column;
+  }
 `;
 export const ImgSection = styled.div`
-    width: 100%;
-    height:100%;
-    margin-bottom: -5vh;
-    margin-right: 5vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    .Alert {
-      margin-right: -3vh;
-      margin-bottom: -8vh;
-      width: 36vh;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-user-drag: none;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -21vh;
+  margin-right: 5vh;
+  .Phone {
+    width: 40vh;
+    margin-left: -10vh;
+    z-index: -1;
+  }
+  .Hand {
+    width: 60vh;
+    z-index: 1;
+    margin-top: 100px;
+  }
+  @media screen and (max-width: 1100px) {
+    margin-left: -15vh;
+    margin-right: 2.5vh;
+    .Hand{
+      width: 50vh;
+      margin-top: 100px;
     }
-    .SomeDay {
-      width: 39vh;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-user-drag: none;
+  }
+  @media screen and (max-width: 1010px) {
+    .Phone{
+      width: 35vh;
     }
-    @media screen and (max-width: 1920px) 
-    {  margin-right: 15vh;  }
-    @media screen and (max-width: 1800px) 
-    {  margin-right: 6vh;  }
-    @media screen and (max-width: 1400px) {
-        .Alert {  width: 30vh;  }
-        .SomeDay {  width: 33vh;  }
-        margin-bottom: 2vh;
+    .Hand{
+      width: 40vh;
+      margin-top: 60px;
     }
-    @media screen and (max-width: 1040px) 
-    {  margin-right: 3vh;  }
-    @media screen and (max-width: 1140px) {
-      .Alert {  display: none  }
-    }
-    @media screen and (max-width: 700px) {
-      margin: 0;
-      margin-bottom: -20vh;
-      .SomeDay { width: 28vh; }
-    }
-`;
-export const AlertImgSection = styled.div`
-    width: 100%;
-    display: flex;
-    justify-items: center;
-    align-items: center;
-    margin-bottom:27vh;
-    margin-left: -33vh;
-    .Block-1, .Block-2, .Block-3, .Block-4 {
-      width: 15vh;
-      -webkit-touch-callout: none;
-      -webkit-user-select: none;
-      -khtml-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-      -webkit-user-drag: none;
-    }
-    @media screen and (max-width: 1400px) {
-      margin-bottom: 23vh;
-      margin-left: -29vh;
-      .Block-1, .Block-2, .Block-3, .Block-4 
-      {  width: 13vh  }
-    }
-    @media screen and (max-width: 1300px) {
-      .Block-4 {  display: none  }
-    }
-    @media screen and (max-width: 1050px) {
-      .Block-3 {  display: none  }
-    }
-    @media screen and (max-width: 700px) {
-      width: 100%;
-      .Block-3, .Block-4 { 
-          display: block;
-      }
-    }
-`;
-export const PhoneImgSection = styled.div`
-    width: 100%;
-    height: 100vh;
-    margin-left: 10vh;
-    display: flex;
+  }
+  @media screen and (max-width: 800px) {
     justify-content: center;
-    align-items: center;  
+    margin: 7vh 40vh 5vh 0;
+    .Hand{
+      width: 47vh;
+      margin: 0;
+      margin-top: 100px;
+    }
+    .Phone {
+      margin-left: -8vh;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    margin: 8vh 25vh 5vh 0;
+    .Phone{
+      width: 28vh;
+      height: auto;
+    }
+    .Hand{
+      width: 26vh;
+      height: auto;
+      margin-left: 8vh;
+      margin-top: -3vh;
+    }
+  }
+`;
+
+export const TitleSection = styled.div`
+  width: 70%;
+  display: grid;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  word-break: keep-all;
+  margin-left: 5vh;
+  @media screen and (max-width: 1100px) {
+    margin-left: 2.5vh;
+  }
+  @media screen and (max-width: 800px) {
+    justify-content: flex-start;
+  }
+`;
+export const TitleSection2 = styled.div`
+  display: none;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  word-break: keep-all;
+  @media screen and (max-width: 800px) {
+    display: block;
+    justify-content: flex-start;
+  }
+`;
+export const MainTitle = styled.div`
+  width: 100%;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 0.1vh;
+  line-height: 8.5vh;
+  color: black;
+  @media screen and (max-width: 910px) {
+    font-size: 45px;
+    line-height: 8vh;
+  }
+  @media screen and (max-width: 800px) {
+    display: none;
+  }
+`;
+export const MainTitle2 = styled.div`
+  display: none;
+  width: 100%;
+  font-weight: bold;
+  font-size: 55px;
+  letter-spacing: 0.1vh;
+  line-height: 8.5vh;
+  color: black;
+  @media screen and (max-width: 800px) {
+    display: block;
+    font-size: 45px;
+    line-height: 7vh;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 30px;
+    line-height: 2.9rem;
+    margin-left: -3vh;
+  }
+`;
+export const SubTitle = styled.div`
+  width: 100%;
+  margin-top: 6vh;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 6vh;
+  color: #656565;
+  @media screen and (max-width: 910px) {
+    font-size: 25px;
+    line-height: 5vh;
+  }
+  @media screen and (max-width: 500px) {
+    margin-top: 3.5vh;
+    width: 120%;
+    font-size: 20px;
+    line-height: 5.3vh;
+    margin-left: -3vh;
+  }
+`;
+export const SubSection = styled.div`
+  width: 100%;
+  height: 50vh;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 8vh;
+  @media screen and (max-width: 1000px) {
+    font-size: 30px;
+  }
+  @media screen and (max-width: 800px) {
+    font-size: 25px;
+    line-height: 6.5vh;
+    height: 43vh;
+  }
+  @media screen and (max-width: 500px) {
+    font-size: 20px;
+    font-weight: 500;
+    height: 40vh;
+    line-height: 5vh;
+  }
 `;

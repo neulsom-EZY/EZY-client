@@ -9,7 +9,6 @@ export const MainSection = styled.div`
   align-items: center;
   background-position: center;
   background-size: cover;
-
   @media screen and (max-width: 800px) {
     height: 140vh;
     flex-direction: column;
@@ -29,7 +28,6 @@ export const ImgSection = styled.div`
   align-items: center;
   margin-left: -21vh;
   margin-right: 5vh;
-
   .Schedule {
     width: 40vh;
     margin-left: -10vh;
@@ -39,7 +37,6 @@ export const ImgSection = styled.div`
     margin-bottom: -95.5vh;
     z-index: 1;
   }
-
   @media screen and (max-width: 1100px){
     margin-left: -15vh;
     margin-right: 2.5vh;
@@ -77,7 +74,6 @@ export const ImgSection = styled.div`
       z-index: 1;
     }
   }
-
   @media screen and (max-width: 330px) {
     .Hand{
       margin-bottom: -460px;
@@ -94,11 +90,9 @@ export const TitleSection = styled.div`
   word-break: keep-all;
   margin-left: 5vh;
   margin-bottom: 10vh;
-
   .Schedule2 {
     display: none;
   }
-
   @media screen and (max-width: 1100px){
     margin-left: 2.5vh;
     margin-bottom: 0;
@@ -120,7 +114,6 @@ export const TitleSection2 = styled.div`
   align-items: center;
   flex-direction: column;
   word-break: keep-all;
-
   @media screen and (max-width: 800px) {
     display: block;
     justify-content: flex-start;
@@ -133,7 +126,6 @@ export const MainTitle = styled.div`
   font-size: 55px;
   line-height: 8vh;
   color: black;
-
   @media screen and (max-width: 1300px){
     width: 270px;
     margin-right: 2.5vh;
@@ -158,7 +150,6 @@ export const MainTitle2 = styled.div`
   letter-spacing: 0.1vh;
   line-height: 8.5vh;
   color: black;
-
   @media screen and (max-width: 800px) {
     display: block;
     font-size: 45px;
@@ -179,7 +170,6 @@ export const SubTitle = styled.div`
   color: #656565;
   margin-top: 3vh;
   margin-bottom: 3vh;
-
   @media screen and (max-width: 1100px){
     margin-left: -1.5vh;
     font-size: 25px;
@@ -203,11 +193,9 @@ export const IconSection = styled.div`
   align-items: center;
   flex-direction: column;
   margin-bottom: -11vh;
-
   @media screen and (max-width: 1100px){
     margin-bottom: 0;
   }
-
   @media screen and (max-width:800px){
       display: none;
   }
@@ -225,11 +213,9 @@ export const IconTextSection = styled.div`
   font-size: 20px;
   margin-right: 1vh;
   margin-bottom: 1vh;
-
   .Icon1, .Icon2, .Icon3 {
     margin-right: 2vh;
   }
-
   @media screen and (max-width: 1100px){
     font-size: 18px;
     margin-bottom: 0;
