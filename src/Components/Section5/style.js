@@ -106,34 +106,35 @@ export const RightSection = styled.div`
 `;
 
 export const BgCircle = styled.div`
-    width: 50vh;
-    height: 50vh;
-    position: absolute;
-    margin: -10vh 0 0 -25vh;
-    top: 50%;
-    left: 50%;
-    border-radius: 50%;
-    background: linear-gradient(180deg, rgba(107, 64, 255, 0.5) 0%, rgba(34, 30, 255, 0.289062) 51.04%, rgba(128, 153, 255, 0) 100%);
-    transform: rotate(25deg);
-    z-index: -1;
-    @media screen and (max-width: 1050px) {
-        top: 30%;
-        left: 20%;
-        width: 60vh;
-        height:60vh;
-    }
-    @media screen and (max-width: 800px) {
-        width: 45vh;
-        height: 45vh;
-        top: 20%;
-        left: 20%;
-    }
-    @media screen and (max-width: 500px) {
-        width: 996px;
-        height: 120vh;
-        left: -190px;
-        top: 100px;
-    }
+  width: 50vh;
+  height: 50vh;
+  position: absolute;
+  margin: -10vh 0 0 -25vh;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  animation: gradient 2s ease infinite;
+  z-index: -1;
+  @media screen and (max-width: 1050px) {
+    top: 30%;
+    left: 20%;
+    width: 60vh;
+    height: 60vh;
+  }
+  @media screen and (max-width: 800px) {
+    width: 45vh;
+    height: 45vh;
+    top: 20%;
+    left: 20%;
+  }
+  @media screen and (max-width: 500px) {
+    width: 996px;
+    height: 120vh;
+    left: -190px;
+    top: 100px;
+  }
 `;
 export const BgCircle2 = styled.div`
     display: none;
@@ -210,16 +211,16 @@ export const Review1 = styled.div`
 `;
 
 export const Review2 = styled.div`
-    width: 56.5vh;
-    height: 25vh;
-    margin-top: -3vh;
-    margin-left: -25vh;
-    background-color: white;
-    box-shadow: 0.3vh 0.3vh 3vh #868e96;
-    z-index: 1;
-    @media screen and (max-width: 1500px) {
-        display: none;
-    }
+  width: 56.5vh;
+  height: 25vh;
+  margin-top: -3vh;
+  margin-left: -25vh;
+  background-color: white;
+  box-shadow: 0.3vh 0.3vh 3vh #868e96;
+  z-index: 1;
+  @media screen and (max-width: 1500px) {
+    display: none;
+  }
 `;
 
 export const Review3 = styled.div`
@@ -262,29 +263,29 @@ export const Review4 = styled.div`
 `;
 
 export const Review5 = styled.div`
-    width: 39vh;
-    height: 19.78vh;
-    background-color: white;
-    box-shadow: 0.3vh 0.3vh 3vh #868e96;
-    margin-left: -10vh;
-    margin-bottom: -35vh;
-    z-index: 1;
-    @media screen and (max-width: 1500px) {
-        margin-left: 0;
-        margin-top: -10vh;
-    }
-    @media screen and (max-width: 1050px) {   
-        margin-left: 12.5vh;
-        margin-top: -13vh;
-    }
-    @media screen and (max-width: 500px) {
-        width: 37vh;
-        margin-left: 13vh;
-        margin-top: -12vh;
-    }
-    @media screen and (max-width: 400px) {
-        width: 42vh;
-    }
+  width: 39vh;
+  height: 19.78vh;
+  background-color: white;
+  box-shadow: 0.3vh 0.3vh 3vh #868e96;
+  margin-left: -10vh;
+  margin-bottom: -35vh;
+  z-index: 1;
+  @media screen and (max-width: 1500px) {
+    margin-left: 0;
+    margin-top: -10vh;
+  }
+  @media screen and (max-width: 1050px) {
+    margin-left: 12.5vh;
+    margin-top: -13vh;
+  }
+  @media screen and (max-width: 500px) {
+    width: 37vh;
+    margin-left: 13vh;
+    margin-top: -12vh;
+  }
+  @media screen and (max-width: 400px) {
+    width: 42vh;
+  }
 `;
 
 export const ReviewTitle = styled.div`
