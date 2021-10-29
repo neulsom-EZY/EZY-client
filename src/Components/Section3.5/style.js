@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const MainSection = styled.div `
+export const MainSection = styled.div`
   width: 100%;
   height: 100vh;
   z-index: -100;
@@ -17,7 +17,7 @@ export const MainSection = styled.div `
   }
 `;
 
-export const TitleSection = styled.div `
+export const TitleSection = styled.div`
   width: 100%;
   display: grid;
   justify-content: center;
@@ -34,7 +34,7 @@ export const TitleSection = styled.div `
   }
 `;
 
-export const MainTitle = styled.div `
+export const MainTitle = styled.div`
   width: 100%;
   font-weight: 700;
   font-size: 55px;
@@ -54,14 +54,17 @@ export const MainTitle = styled.div `
     font-size: 43px;
   }
   @media screen and (max-width: 500px) {
-    width: 120%;
+    width: 100%;
     font-size: 30px;
     margin-left: -4vh;
-    line-height: 3.5rem;
+    line-height: 2.7rem;
+  }
+  @media screen and (max-width: 330px) {
+    margin-left: -2.5vh;
   }
 `;
 
-export const MainTitle2 = styled.div `
+export const MainTitle2 = styled.div`
   width: 100%;
   font-weight: 700;
   font-size: 35px;
@@ -72,7 +75,7 @@ export const MainTitle2 = styled.div `
   }
 `;
 
-export const SubTitle = styled.div `
+export const SubTitle = styled.div`
   width: 100%;
   font-size: 30px;
   font-weight: 400;
@@ -93,10 +96,14 @@ export const SubTitle = styled.div `
   @media screen and (max-width: 500px) {
     width: 200%;
     margin-left: -4vh;
+    line-height: 5vh;
+  }
+  @media screen and (max-width: 330px) {
+    margin-left: -2.5vh;
   }
 `;
 
-export const ImgSection = styled.div `
+export const ImgSection = styled.div`
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -114,16 +121,16 @@ export const ImgSection = styled.div `
   @media screen and (max-width: 1135px) {
     margin-right: -13vh;
   }
-  
-    @media screen and (max-width : 1290px) {
-      .Phone {
-        width: 37vh;
-      }
-  
-      .Hand {
-        width: 43vh;
-      }
+
+  @media screen and (max-width: 1290px) {
+    .Phone {
+      width: 37vh;
     }
+
+    .Hand {
+      width: 43vh;
+    }
+  }
   @media screen and (max-width: 1030px) {
     .Phone {
       width: 35.5vh;
@@ -164,13 +171,14 @@ export const ImgSection = styled.div `
   }
 `;
 
-export const ImgSection2 = styled.div `
+export const ImgSection2 = styled.div`
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
     margin-right: -14vh;
     .Phone {
-      width: 30vh;
+      width: 240px;
+      height: 475px;
       z-index: -1;
       margin-top: 7vh;
       margin-bottom: 3.5vh;
@@ -184,7 +192,7 @@ export const ImgSection2 = styled.div `
     }
   }
 `;
-export const SubSection = styled.div `
+export const SubSection = styled.div`
   width: 100%;
   height: 50vh;
   display: flex;
