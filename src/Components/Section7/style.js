@@ -12,9 +12,9 @@ export const MainSection = styled.div`
 `;
 
 export const TitleSection = styled.div`
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const MainTitle = styled.div`
@@ -29,33 +29,33 @@ export const MainTitle = styled.div`
   @media screen and (max-width: 500px) {
     font-size: 40px;
     width: 400px;
-      line-height: 7.5vh;
+    line-height: 7.5vh;
   }
 `;
 
 export const SubSection = styled.div`
-    height: 20vh;
-    color: black;
-    font-size: 35px;
-    font-weight: 500;
-    line-height: 8vh;
-    `;
+  height: 20vh;
+  color: black;
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 8vh;
+`;
 
 export const Line = styled.div`
-    height: 2px;
-    background-color: white;
+  height: 2px;
+  background-color: white;
 `;
 
 export const LineText = styled.div`
-    font-size: 20px;
-    line-height: 36px;
-    margin-left: 25vw;
-    margin-top: 50px;
-    color: white;
+  font-size: 20px;
+  line-height: 36px;
+  margin-left: 25vw;
+  margin-top: 50px;
+  color: white;
 
-    @media screen and (max-width : 500px){
-        margin-left: 15vw;
-        font-size: 15px;
-        line-height: 28px;
-    }
+  @media screen and (max-width: 500px) {
+    margin-left: 15vw;
+    font-size: 15px;
+    line-height: 28px;
+  }
 `;
