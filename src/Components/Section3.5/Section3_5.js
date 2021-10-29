@@ -3,11 +3,12 @@ import * as S from './style';
 import Phone from "../../Assets/Section3.5/phone.png";
 import Hand from "../../Assets/Section3.5/hand.png";
 import Fade from "react-reveal/Fade";
+import fadeout from "../../Hooks/Fadeout";
 
 const Section3_5 = () => {
   return (
       <>
-        <S.MainSection>
+        <S.MainSection className="fade">
           <S.TitleSection>
             <S.MainTitle>
               세상에서 가장 공손한 <br/>
