@@ -74,7 +74,7 @@ export const ImgSection = styled.div`
       z-index: 1;
     }
   }
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 400px) {
     .Hand{
       margin-bottom: -460px;
     }
@@ -182,7 +182,7 @@ export const SubTitle = styled.div`
     line-height: 5vh;
     margin-left: -4.5vh;
   }
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 400px) {
     width: 100%;
   }
 `;

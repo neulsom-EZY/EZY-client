@@ -59,8 +59,8 @@ export const MainTitle = styled.div`
     margin-left: -4vh;
     line-height: 2.7rem;
   }
-  @media screen and (max-width: 330px) {
-    margin-left: -2.5vh;
+  @media screen and (max-width: 400px) {
+    margin-left: 5vh;
   }
 `;
 
@@ -98,8 +98,8 @@ export const SubTitle = styled.div`
     margin-left: -4vh;
     line-height: 5vh;
   }
-  @media screen and (max-width: 330px) {
-    margin-left: -2.5vh;
+  @media screen and (max-width: 400px) {
+    margin-left: 5vh;
   }
 `;
 
@@ -175,20 +175,22 @@ export const ImgSection2 = styled.div`
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
-    margin-right: -14vh;
+    margin: 0;
+    margin-left: 15.5vh;
     .Phone {
       width: 28vh;
       height: auto;
       z-index: -1;
       margin-top: 7vh;
       margin-bottom: 3.5vh;
+      margin-right: -3vh;
     }
 
     .Hand {
       z-index: 1;
       width: 26vh;
       margin-bottom: -10vh;
-      margin-left: -13vh;
+      margin-left: -9vh;
     }
   }
 `;

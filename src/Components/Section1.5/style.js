@@ -13,7 +13,7 @@ export const MainSection = styled.div`
     align-items: center;
     height: 100vh;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 400px) {
     height: 115vh;
   }
 `;
@@ -65,7 +65,7 @@ export const MainTitle2 = styled.div`
     line-height: 2.5rem;
   }
   @media screen and (max-width: 375px) {
-    margin-left: 2vh;
+    margin-left: 0vh;
   }
   @media screen and (max-width: 330px) {
     margin-left: 4vh;
@@ -111,7 +111,7 @@ export const SubTitle2 = styled.div`
   }
   @media screen and (max-width: 375px) {
     line-height: 5.5vh;
-    margin-left: 3vh;
+    margin-left: 0vh;
   }
   @media screen and (max-width: 330px) {
     margin-left: 4vh;
@@ -210,7 +210,7 @@ export const ImgSection = styled.div`
       margin-left: 16vh;
     }
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 400px) {
     display: flex;
     justify-content: center;
     margin-left: 4.5vh;
@@ -221,6 +221,12 @@ export const ImgSection = styled.div`
       width: 200px;
       margin-left: 4vh;
       margin-top: 0;
+    }
+  }
+  @media screen and (max-height: 700px) {
+    .Hand {
+      margin-right: -7vh;
+      margin-left: 5.5vh;
     }
   }
 `;

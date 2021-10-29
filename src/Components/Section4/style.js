@@ -152,7 +152,7 @@ export const FirstSection = styled.div`
       margin-top: 3.8vh;
     }
   }
-  @media screen  and (max-width: 330px) {
+  @media screen  and (max-width: 400px) {
     width: 35vh;
   }
 `;
@@ -204,7 +204,7 @@ export const SubSection = styled.div`
         margin-left: 6vh
       }
     }
-    @media screen  and (max-width: 330px) {
+    @media screen  and (max-width: 400px) {
       width: 35vh;
       .Bottom {
         margin-left: 4vh;
@@ -224,7 +224,7 @@ export const SubSection2 = styled.div`
     width: 100%;
     margin: 0;
   }
-  @media screen  and (max-width: 330px) {
+  @media screen  and (max-width: 400px) {
     width: 35vh;
   }
 `;
@@ -246,7 +246,7 @@ export const SubSection3 = styled.div`
   @media screen and (max-width: 500px) {
     margin-top: 0.1vh;
   }
-  @media screen  and (max-width: 330px) {
+  @media screen  and (max-width: 400px) {
     width: 35vh;
   }
 `;
