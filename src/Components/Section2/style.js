@@ -133,7 +133,7 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 2.5rem;
+    line-height: 2.9rem;
     margin-left: -3vh;
   }
 `;
@@ -152,7 +152,7 @@ export const SubTitle = styled.div`
     margin-top: 3.5vh;
     width: 120%;
     font-size: 20px;
-    line-height: 5.5vh;
+    line-height: 5.3vh;
     margin-left: -3vh;
   }
 `;
