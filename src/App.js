@@ -17,7 +17,7 @@ const App = () => {
       <>
         <GlobalStyle />
         <C.Section1_5/>
-        <C.Section2/>
+        {/*<C.Section2/>*/}
         {/*<C.Section3/>*/}
         {/*<C.Section4/>*/}
       </>

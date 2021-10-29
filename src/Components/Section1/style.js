@@ -35,7 +35,7 @@ export const SubSection = styled.div`
   align-items: center;
   text-align: center;
   background-color: #ffffff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 8vh;
   @media screen and (max-width: 1000px) {
@@ -47,15 +47,15 @@ export const SubSection = styled.div`
     height: 43vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 17px;
+    font-size: 20px;
     font-weight: 500;
     height: 40vh;
+    line-height: 5vh;
   }
 `;
 export const LogoSection = styled.div`
   top: -31vh;
   position: absolute;
-  z-index: 1;
   @media screen and (max-width: 500px) {
     top: -38vh;
     display: none;
@@ -64,7 +64,6 @@ export const LogoSection = styled.div`
 export const LogoSection2 = styled.div`
   top: -35vh;
   position: absolute;
-  z-index: 1;
   display: none;
   @media screen and (max-width: 500px) {
     display: block;
@@ -73,7 +72,6 @@ export const LogoSection2 = styled.div`
 export const VideoSection = styled.div`
   width: 100%;
   height: 100vh;
-  z-index: -1;
   overflow: hidden;
   display: flex;
   justify-content: left;
@@ -81,8 +79,6 @@ export const VideoSection = styled.div`
 
   video {
     width: 100%;
-    opacity: 85%;
-    z-index: -1;
   }
 
   .Video-1 {
