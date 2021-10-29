@@ -47,6 +47,7 @@ export const MainTitle = styled.div `
     @media screen and (max-width: 1050px) {
         display: none;
     }
+
 `;
 
 export const MainTitle2 = styled.div `
@@ -62,6 +63,9 @@ export const MainTitle2 = styled.div `
     @media screen and (max-width: 500px) {
         font-size: 30px;
         line-height: 5vh;
+    }
+    @media screen and (max-width: 400px) {
+        line-height: 6.5vh;
     }
 `;
 
@@ -205,10 +209,14 @@ export const Review1 = styled.div `
         margin-left: 15vh;
         margin-bottom: -2vh;
     }
+
+    @media screen and (max-width: 400px) {
+        width: 40vh;
+    }
 `;
 
 export const Review2 = styled.div `
-    width: 56vh;
+    width: 56.5vh;
     height: 25vh;
     margin-top: -3vh;
     margin-left: -25vh;
@@ -253,6 +261,10 @@ export const Review4 = styled.div `
         margin-left: 0vh;
         margin-top: 1vh;
     }
+    @media screen and (max-width: 400px) {
+        width: 47vh;
+        margin-left: 1vh;
+    }
 `;
 
 export const Review5 = styled.div `
@@ -278,6 +290,9 @@ export const Review5 = styled.div `
         margin-left: 13vh;
         margin-top: -15vh;
     }
+    @media screen and (max-width: 400px) {
+        width: 42vh;
+    }
 `;
 
 export const ReviewTitle = styled.div `
@@ -286,7 +301,11 @@ export const ReviewTitle = styled.div `
     font-weight: 500;
     font-size: 20px;
     padding: 2.5vh 2.5vh 0 2.5vh;
-    line-height: 3vh;
+    line-height: 3.2vh;
+
+    @media screen and (max-width: 400px) {
+        font-size: 17px;
+    }
 `;
 
 export const BtnWrapper = styled.div `
@@ -296,7 +315,7 @@ export const BtnWrapper = styled.div `
     font-weight: 500;
     font-size: 20px;
     line-height: 2.5vh;
-    padding: 3vh 0 0 2.5vh;
+    padding: 2vh 0 0 2.5vh;
     .ReviewBtn2{ margin-top: 1.5vh; }
     .ReviewBtn3{ margin-top: 6.5vh; }
     .ReviewBtn4{ 
@@ -307,6 +326,12 @@ export const BtnWrapper = styled.div `
         }
     }
     .ReviewBtn5{ margin-top: 2.5vh; }
+
+    @media screen and (max-width: 400px) {
+        .ReviewBtn4 {
+            margin-left: 25vh;
+        }
+    }
 `;
 
 export const ReviewBtn1 = styled.div `
@@ -320,6 +345,7 @@ export const ReviewBtn1 = styled.div `
     font-weight: 600;
     background: #BAC8FF;
     border-radius: 31.5px;
+    font-size: 15px;
 `;
 
 export const ReviewBtn2 = styled.div `
@@ -333,6 +359,8 @@ export const ReviewBtn2 = styled.div `
     font-weight: 600;
     background: #FFB5B5;
     border-radius: 31.5px;
+    font-size: 15px;
+
 `;
 
 export const ReviewBtn3 = styled.div `
@@ -346,6 +374,7 @@ export const ReviewBtn3 = styled.div `
     font-weight: 600;
     background: #E2F6D7;
     border-radius: 31.5px;
+    font-size: 15px;
     @media screen and (max-width: 1050px) {
         margin-left: 28vh;
     }
@@ -353,4 +382,6 @@ export const ReviewBtn3 = styled.div `
     @media screen and (max-width: 500px) {
         margin-left: 12vh;
     }
+
+
 `;
