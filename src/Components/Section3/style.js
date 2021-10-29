@@ -53,26 +53,27 @@ export const ImgSection = styled.div `
   }
   @media screen and (max-width: 800px) {
     justify-content: center;
-    margin: 7vh 25vh 15vh 0;
+    margin: 7vh 20vh 15vh 0;
     .Hand{
-      width: 32.5vh;
+      width: 43vh;
       margin: 0;
-      margin-bottom: -72vh;
+      margin-bottom: -78vh;
+      margin-left: -11.5vh;
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 21vh 15vh 0;
+    margin: 7vh 15vh 15vh 0;
     .Schedule{
       width: 240px;
       height: 475px;
-      margin-left: -12vh;
+      margin-left: -11vh;
       z-index: -1;
     }
     .Hand{
-      width: 230px;
-      height: 180px;
-      margin-left: 6.5vh;
-      margin-bottom: -500px;
+      width: 33vh;
+      height: auto;
+      margin-left: -6.5vh;
+      margin-bottom: -550px;
       z-index: 1;
     }
   }
@@ -174,6 +175,7 @@ export const SubTitle = styled.div `
   margin-bottom: 3vh;
 
   @media screen and (max-width: 1100px){
+    margin-left: -1.5vh;
     font-size: 25px;
     line-height: 5vh;
   }
@@ -181,7 +183,10 @@ export const SubTitle = styled.div `
     width: 120%;
     font-size: 20px;
     line-height: 5vh;
-    margin-left: -3vh;
+    margin-left: -4.5vh;
+  }
+  @media screen and (max-width: 330px) {
+    width: 100%;
   }
 `;
 
