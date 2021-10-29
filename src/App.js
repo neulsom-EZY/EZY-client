@@ -34,6 +34,7 @@ const App = () => {
         <C.Section3/>
         <C.Section3_5/>
         <C.Section4/>
+        <C.Section5/>
         <C.Footer/>
       </>
   );

@@ -5,3 +5,4 @@ export {default as Section4} from "./Section4/Section4";
 export {default as Footer} from './Section7/Section7';
 export {default as Section3_5} from './Section3.5/Section3_5';
 export {default as Section1_5} from './Section1.5/Section1_5';
+export {default as Section5} from './Section5/Section5';
