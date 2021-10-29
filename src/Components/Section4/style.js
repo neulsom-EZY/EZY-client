@@ -67,6 +67,8 @@ export const SubTitle = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 25px;
+    line-height: 5vh;
+    margin-top: 5vh;
   }
 `;
 export const SubTitle2 = styled.div`
@@ -138,7 +140,10 @@ export const FirstSection = styled.div`
   @media screen and (max-width: 500px) {
     width: 38vh;
     margin: 0;
-    margin-bottom: 16vh;
+    margin-bottom: 14.7vh;
+    .Top {
+      margin-top: 3.8vh;
+    }
   }
 `;
 export const SecondSection = styled.div`
