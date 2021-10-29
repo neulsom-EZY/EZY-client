@@ -1,5 +1,5 @@
 import React from "react";
-import { createGlobalStyle } from "styled-components";
+import {createGlobalStyle} from "styled-components";
 import * as C from './Components/index';
 
 const GlobalStyle = createGlobalStyle`
@@ -10,6 +10,16 @@ const GlobalStyle = createGlobalStyle`
     font-family: 'Noto Sans CJK KR', sans-serif;
     background-color: #F9FAFB;
     overflow-x: hidden;
+  }
+
+  img {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
   }
 
   @keyframes gradient {
@@ -28,7 +38,7 @@ const GlobalStyle = createGlobalStyle`
 const App = () => {
   return (
       <>
-        <GlobalStyle />
+        <GlobalStyle/>
         <C.Section1/>
         <C.Section1_5/>
         <C.Section2/>
