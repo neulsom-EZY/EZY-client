@@ -39,14 +39,14 @@ export const MainTitle = styled.div`
   line-height: 7vh;
   color: black;
   @media screen and (max-width: 1920px) {
-    width: 200%;
+    width: 120%;
     line-height: 8.5vh;
   }
   @media screen and (max-width: 1000px) {
-    width: 200%;
+    width: 120%;
   }
   @media screen and (max-width: 800px) {
-    width: 200%;
+    width: 120%;
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
