@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
     color: white;
     font-family: 'Noto Sans CJK KR', sans-serif;
     background-color: #F9FAFB;
+    overflow-x: hidden;
   }
 `;
 
@@ -16,10 +17,9 @@ const App = () => {
   return (
       <>
         <GlobalStyle />
-        <C.Section1_5/>
         {/*<C.Section2/>*/}
         {/*<C.Section3/>*/}
-        {/*<C.Section4/>*/}
+        <C.Section4/>
       </>
   );
 };
