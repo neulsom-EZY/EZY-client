@@ -221,13 +221,13 @@ export const ImgSection = styled.div`
     .Phone {
       width: 30vh;
       height: auto;
-      margin-top: 0;
     }
 
     .Hand {
       width: 30vh;
       height: auto;
-      margin-top: -43vh;
+      margin-top: -55vh;
+      margin-left: 16vh;
     }
   }
   @media screen and (max-width: 375px) {
