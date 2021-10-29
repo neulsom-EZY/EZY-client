@@ -3,6 +3,7 @@ import * as I from "../../Assets/index"
 import * as S from './style';
 import GroupSchedule from "../../Assets/Section3/GroupSchedule.png";
 import Hand from "../../Assets/Section3/Hand.png";
+import Fade from "react-reveal/Fade";
 
 const Section3 = () => {
   return (
@@ -12,8 +13,12 @@ const Section3 = () => {
             <S.MainTitle2>그리고, <br/>우리의 일정</S.MainTitle2>
           </S.TitleSection2>
           <S.ImgSection>
-            <img src={Hand} className="Hand" alt="Hand"/>
-            <img src={GroupSchedule} className="Schedule" alt="GroupSchedule-Ui-Img"/>
+            <Fade left>
+              <img src={Hand} className="Hand" alt="Hand"/>
+            </Fade>
+            <Fade right>
+              <img src={GroupSchedule} className="Schedule" alt="GroupSchedule-Ui-Img"/>
+            </Fade>
           </S.ImgSection>
           <S.TitleSection>
             <S.MainTitle>그리고, 우리의 일정</S.MainTitle>
