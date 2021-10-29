@@ -50,7 +50,7 @@ export const SubSection = styled.div`
     height: 43vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     height: 40vh;
     line-height: 5vh;

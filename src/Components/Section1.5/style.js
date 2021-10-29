@@ -134,7 +134,7 @@ export const ImgSection = styled.div`
     width: 60vh;
     height: 47vh;
     margin-top: 13vh;
-    margin-right: -1.3vh;
+    margin-right: -1.6vh;
   }
 
   @media screen and (max-width: 1470px) {
@@ -246,7 +246,7 @@ export const SubSection = styled.div`
     height: 43vh;
   }
   @media screen and (max-width: 500px) {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     height: 40vh;
     line-height: 5vh;
