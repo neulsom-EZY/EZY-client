@@ -64,7 +64,7 @@ export const ImgSection = styled.div`
   @media screen and (max-width: 500px) {
     margin: 8vh 25vh 5vh 0;
     .Phone{
-      width: 30vh;
+      width: 28vh;
       height: auto;
     }
     .Hand{
