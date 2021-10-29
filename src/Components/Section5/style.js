@@ -61,7 +61,7 @@ export const MainTitle2 = styled.div `
     }
     @media screen and (max-width: 500px) {
         font-size: 30px;
-        line-height: 4vh;
+        line-height: 5vh;
     }
 `;
 
@@ -123,10 +123,10 @@ export const BgCircle = styled.div `
         left: 20%;
     }
     @media screen and (max-width: 500px) {
-        width: 45vh;
-        height: 45vh;
-        top: 17%;
-        left: 15%;
+        width: 996px;
+        height: 1653px;
+        left: -190px;
+        top: 100px;
     }
 `;
 export const BgCircle2 = styled.div `
@@ -150,6 +150,7 @@ export const BgCircle2 = styled.div `
         left: 100%;
     }
     @media screen and (max-width: 500px) {
+        display: none;
         width: 45vh;
         height: 45vh;
         top: 55%;
@@ -177,6 +178,7 @@ export const BgCircle3 = styled.div `
         top: 80%;
     }
     @media screen and (max-width: 500px) {
+        display: none;
         width: 45vh;
         height: 45vh;
         top: 85%;
@@ -283,9 +285,8 @@ export const ReviewTitle = styled.div `
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
-    line-height: 2.5vh;
     padding: 2.5vh 2.5vh 0 2.5vh;
-    line-height: 2.7vh;
+    line-height: 3vh;
 `;
 
 export const BtnWrapper = styled.div `
