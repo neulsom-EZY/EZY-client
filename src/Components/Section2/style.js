@@ -62,7 +62,7 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 27vh 5vh 0;
+    margin: 8vh 25vh 5vh 0;
     .Phone{
       width: 30vh;
       height: auto;
@@ -133,7 +133,7 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 500px) {
     font-size: 30px;
-    line-height: 5vh;
+    line-height: 2.5rem;
     margin-left: -3vh;
   }
 `;
@@ -149,9 +149,10 @@ export const SubTitle = styled.div`
     line-height: 5vh;
   }
   @media screen and (max-width: 500px) {
+    margin-top: 3.5vh;
     width: 120%;
     font-size: 20px;
-    line-height: 5vh;
+    line-height: 5.5vh;
     margin-left: -3vh;
   }
 `;
