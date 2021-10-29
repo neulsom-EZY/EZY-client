@@ -32,11 +32,9 @@ const Section1_5 = () => {
           </S.SubTitle2>
         </S.MainSection>
         <S.SubSection>
-          <S.MainTitle3>
-            이지는 나의 일정 뿐만 아니라, <br/>
-            나와 함께하는 우리의 일정과, 심부름 같은 <br/>
-            세상에 없던 일정관리 경험을 제공합니다.
-          </S.MainTitle3>
+          이지는 나의 일정 뿐만 아니라, <br/>
+          나와 함께하는 우리의 일정과, 심부름 같은 <br/>
+          세상에 없던 일정관리 경험을 제공합니다.
         </S.SubSection>
       </>
   )
