@@ -4,6 +4,7 @@ import * as S from './style';
 import GroupSchedule from "../../Assets/Section3/GroupSchedule.png";
 import Hand from "../../Assets/Section3/Hand.png";
 import Fade from "react-reveal/Fade";
+import fadeout from "../../Hooks/Fadeout";
 
 const Section3 = () => {
   return (
