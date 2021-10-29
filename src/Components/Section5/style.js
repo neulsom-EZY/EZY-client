@@ -62,7 +62,8 @@ export const MainTitle2 = styled.div `
     }
     @media screen and (max-width: 500px) {
         font-size: 30px;
-        line-height: 5vh;
+        line-height: 2.5rem;
+        margin-bottom: 50vh;
     }
     @media screen and (max-width: 400px) {
         line-height: 6.5vh;
@@ -128,7 +129,7 @@ export const BgCircle = styled.div `
     }
     @media screen and (max-width: 500px) {
         width: 996px;
-        height: 1653px;
+        height: 120vh;
         left: -190px;
         top: 100px;
     }
@@ -155,10 +156,6 @@ export const BgCircle2 = styled.div `
     }
     @media screen and (max-width: 500px) {
         display: none;
-        width: 45vh;
-        height: 45vh;
-        top: 55%;
-        left: 100%;
     }
 `;
 
@@ -183,10 +180,6 @@ export const BgCircle3 = styled.div `
     }
     @media screen and (max-width: 500px) {
         display: none;
-        width: 45vh;
-        height: 45vh;
-        top: 85%;
-        left: 30%;
     }
 `;
 
@@ -262,7 +255,7 @@ export const Review4 = styled.div `
         margin-top: 1vh;
     }
     @media screen and (max-width: 400px) {
-        width: 47vh;
+        width: 48vh;
         margin-left: 1vh;
     }
 `;
@@ -286,7 +279,7 @@ export const Review5 = styled.div `
     @media screen and (max-width: 800px) {
     }
     @media screen and (max-width: 500px) {
-        width: 35vh;
+        width: 37vh;
         margin-left: 13vh;
         margin-top: -15vh;
     }
