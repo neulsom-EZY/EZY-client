@@ -3,6 +3,10 @@ import {createGlobalStyle} from "styled-components";
 import * as C from './Components/index';
 
 const GlobalStyle = createGlobalStyle`
+  html {
+    overflow-x: hidden;
+  }
+
   body {
     margin: 0;
     margin-right: -1.7vh;
@@ -47,6 +51,7 @@ const App = () => {
         <C.Section3_5/>
         <C.Section4/>
         <C.Section5/>
+        <C.Section6/>
         <C.Footer/>
       </>
   );

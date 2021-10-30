@@ -59,15 +59,19 @@ export const SubSection = styled.div`
 `;
 
 export const Line = styled.div`
-  height: 2px;
+  height: 1px;
   background-color: white;
 `;
 
 export const LineText = styled.div`
   font-size: 20px;
   line-height: 36px;
-  margin-left: 25vw;
   margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  margin-left: -20vh;
   color: white;
 
 
