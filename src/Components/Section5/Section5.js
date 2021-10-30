@@ -64,7 +64,7 @@ const Section5 = () => {
               <Fade top>
                 <S.Review4>
                   <S.ReviewTitle>
-                    알아서 시간에 맞춰서 일정을 알려주니까 <br/>
+                    알아서 시간에 맞춰서<br /> 일정을 알려주니까 <br/>
                     깜빡하지 않아서 좋아요.
                   </S.ReviewTitle>
                   <S.BtnWrapper>

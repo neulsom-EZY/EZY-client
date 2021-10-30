@@ -301,7 +301,7 @@ export const ReviewTitle = styled.div`
     font-weight: 500;
     font-size: 20px;
     padding: 2.5vh 2.5vh 0 2.5vh;
-    line-height: 3.2vh;
+    line-height: 4vh;
 
     @media screen and (max-width: 400px) {
         font-size: 17px;
