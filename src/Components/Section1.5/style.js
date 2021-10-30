@@ -64,7 +64,7 @@ export const MainTitle2 = styled.div`
     margin-bottom: 10vh;
     line-height: 2.5rem;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 400px) {
     margin-left: 0vh;
   }
   @media screen and (max-width: 330px) {
@@ -109,7 +109,7 @@ export const SubTitle2 = styled.div`
     margin-left: 3vh;
     margin-top: -15vh;
   }
-  @media screen and (max-width: 375px) {
+  @media screen and (max-width: 400px) {
     line-height: 5.5vh;
     margin-left: 0vh;
   }

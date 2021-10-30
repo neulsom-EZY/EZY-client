@@ -137,6 +137,11 @@ export const MainTitle2 = styled.div`
     line-height: 2.9rem;
     margin-left: -3vh;
   }
+  @media screen and (max-width: 400px) {
+    font-size: 30px;
+    line-height: 2.9rem;
+    margin-left: -1vh;
+  }
 `;
 export const SubTitle = styled.div`
   width: 100%;
@@ -155,6 +160,9 @@ export const SubTitle = styled.div`
     font-size: 20px;
     line-height: 5.3vh;
     margin-left: -3vh;
+  }
+  @media screen and (max-width: 400px) {
+    margin-left: -1vh;
   }
 `;
 export const SubSection = styled.div`

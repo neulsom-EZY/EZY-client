@@ -60,18 +60,8 @@ export const MainTitle = styled.div`
     line-height: 2.7rem;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 5vh;
-  }
-`;
-
-export const MainTitle2 = styled.div`
-  width: 100%;
-  font-weight: 700;
-  font-size: 35px;
-  line-height: 7vh;
-  color: black;
-  @media screen and (max-width: 500px) {
-    font-size: 20px;
+    width: 110%;
+    margin-left: -1vh;
   }
 `;
 
@@ -99,7 +89,7 @@ export const SubTitle = styled.div`
     line-height: 5vh;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 5vh;
+    margin-left: -1vh;
   }
 `;
 
@@ -176,7 +166,7 @@ export const ImgSection2 = styled.div`
   @media screen and (max-width: 500px) {
     display: block;
     margin: 0;
-    margin-left: 0vh;
+    margin-left: 5.5vh;
     .Phone {
       width: 28vh;
       height: auto;

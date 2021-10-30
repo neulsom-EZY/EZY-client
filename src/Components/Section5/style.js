@@ -73,6 +73,8 @@ export const MainTitle2 = styled.div`
   }
   @media screen and (max-width: 400px) {
     line-height: 6.5vh;
+    margin-left: -7vh;
+    font-size: 27px;
   }
 `;
 

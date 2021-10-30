@@ -69,7 +69,7 @@ export const ImgSection = styled.div`
     .Hand{
       width: 33vh;
       height: auto;
-      margin-left: -6.5vh;
+      margin-left: -9vh;
       margin-bottom: -62vh;
       z-index: 1;
     }
@@ -160,6 +160,9 @@ export const MainTitle2 = styled.div`
     line-height: 5vh;
     margin-left: -3vh;
   }
+  @media screen and (max-width: 400px) {
+    margin-left: -1vh;
+  }
 `;
 
 export const SubTitle = styled.div`
@@ -181,9 +184,12 @@ export const SubTitle = styled.div`
     font-size: 20px;
     line-height: 5vh;
     margin-left: -4.5vh;
+    margin-top: 10vh;
   }
   @media screen and (max-width: 400px) {
-    width: 100%;
+    margin-left: -1vh;
+    font-size: 18px;
+    margin-top: 15vh;
   }
 `;
 
