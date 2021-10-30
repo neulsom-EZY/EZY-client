@@ -12,10 +12,7 @@ const Section7 = () => {
           </S.TitleSection>
           <S.TitleSection2>
             <S.SubTitle>
-              © neulsom EZY team. <br/>
-            </S.SubTitle>
-            <S.SubTitle className="Sub2">
-              @ officialneulsom@gmail.com
+              Copyright 2021. EZY All pictures cannot be copied without permission. <br/>
             </S.SubTitle>
           </S.TitleSection2>
         </S.MainSection>
