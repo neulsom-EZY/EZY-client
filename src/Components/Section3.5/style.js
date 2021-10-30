@@ -169,7 +169,7 @@ export const ImgSection2 = styled.div`
     }
     display: block;
     margin: 0;
-    margin-left: 5.5vh;
+    margin-left: 0vh;
     .Phone {
       width: 28vh;
       height: auto;

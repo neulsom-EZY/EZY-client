@@ -59,7 +59,7 @@ export const ImgSection = styled.div`
     }
   }
   @media screen and (max-width: 500px) {
-    margin: 7vh 15vh 15vh 0;
+    margin: 7vh 13vh 15vh 0;
     .Schedule{
       width: 28vh;
       height: auto;

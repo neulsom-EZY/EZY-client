@@ -46,7 +46,7 @@ export const MainTitle = styled.div`
     text-align: center;
   }
   @media screen and (max-width: 500px) {
-    font-size: 40px;
+    font-size: 37px;
     width: 400px;
     line-height: 7.5vh;
   }
