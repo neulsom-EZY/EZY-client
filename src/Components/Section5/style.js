@@ -317,15 +317,15 @@ export const BtnWrapper = styled.div`
     line-height: 2.5vh;
     padding: 2vh 0 0 2.5vh;
     .ReviewBtn2{ margin-top: 1.5vh; }
-    .ReviewBtn3{ margin-top: 6.5vh; }
+    .ReviewBtn3{ margin-top: 7vh; }
     .ReviewBtn4{ 
-        margin-top: 3.5vh; 
+        margin-top: 1vh; 
         @media screen and (max-width: 500px) {
             margin-top: 1vh;
             margin-left: 15vh;
         }
     }
-    .ReviewBtn5{ margin-top: 2.5vh; }
+    .ReviewBtn5{ margin-top: 5vh; }
 
     @media screen and (max-width: 400px) {
         .ReviewBtn4 {
