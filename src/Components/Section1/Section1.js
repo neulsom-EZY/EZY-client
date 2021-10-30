@@ -1,7 +1,5 @@
 import React from "react";
 import * as S from "./style";
-// import PC from "../../Assets/Section1/PC.mp4";
-// import Mobile from "../../Assets/Section1/Mobile.mp4";
 import Logo from "../../Assets/Section1/Logo"
 import Logo2 from "../../Assets/Section1/Logo2"
 
@@ -15,12 +13,6 @@ const Section1 = () => {
               <S.LogoSection2><Logo2/></S.LogoSection2>
               여러분의<br/>라이프스타일을<br/>혁신합니다.
             </S.TitleSection>
-            {/*<video muted autoPlay loop playsInline className="Video-1">*/}
-            {/*  <source src={PC} type="video/mp4"/>*/}
-            {/*</video>*/}
-            {/*<video muted autoPlay loop playsInline className="Video-2">*/}
-            {/*  <source src={Mobile} type="video/mp4"/>*/}
-            {/*</video>*/}
           </S.VideoSection>
         </S.MainSection>
         <S.SubSection>
