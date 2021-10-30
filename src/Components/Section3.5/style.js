@@ -164,6 +164,9 @@ export const ImgSection = styled.div`
 export const ImgSection2 = styled.div`
   display: none;
   @media screen and (max-width: 500px) {
+    @media screen and (max-height: 600px) {
+      margin-left: 9vh;
+    }
     display: block;
     margin: 0;
     margin-left: 5.5vh;
@@ -173,7 +176,7 @@ export const ImgSection2 = styled.div`
       z-index: -1;
       margin-top: 7vh;
       margin-bottom: 3.5vh;
-      margin-right:  -10vh;
+      margin-right: -10vh;
     }
 
     .Hand {
