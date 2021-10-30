@@ -34,7 +34,7 @@ export const TitleSection = styled.div`
     margin-left: 22vh;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 13vh;
+    margin-left: 18vh;
   }
   @media screen and (max-width: 400px) {
     margin-left: 26vh;
