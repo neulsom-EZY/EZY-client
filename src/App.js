@@ -45,10 +45,10 @@ const App = () => {
       <>
         <GlobalStyle/>
         <C.Section1/>
-        <C.Section1_5/>
+        <C.Section15/>
         <C.Section2/>
         <C.Section3/>
-        <C.Section3_5/>
+        <C.Section35/>
         <C.Section4/>
         <C.Section5/>
         <C.Section6/>
