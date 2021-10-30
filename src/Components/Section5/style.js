@@ -34,9 +34,9 @@ export const TitleSection = styled.div`
     margin-left: 22vh;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 18vh;
+    margin-left: 30vh;
   }
-  @media screen and (max-width: 330px) {
+  @media screen and (max-width: 400px) {
     margin-left: 30vh;
   }
   
@@ -211,13 +211,9 @@ export const Review1 = styled.div`
         margin: -5vh -50vh 3vh -5vh;
     }
     @media screen and (max-width: 500px) {
-        width: 35vh;
+        width: 50vh;
         margin-left: 15vh;
         margin-bottom: -2vh;
-    }
-
-    @media screen and (max-width: 400px) {
-        width: 40vh;
     }
 `;
 
