@@ -18,10 +18,21 @@ export const TitleSection = styled.div`
   display: flex;
   justify-content: center;
   flex-direction: column;
-  vertical-align: middle;
   margin-bottom: -180px;
 `;
 
+export const TitleSection2 = styled.div`
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: -180px;
+  @media screen and (max-width: 500px) {
+    .Sub2 {
+      display: none;
+    }
+  }
+
+`;
 
 export const MainTitle = styled.div`
   font-size: 50px;
@@ -51,7 +62,10 @@ export const SubTitle = styled.div`
   text-align: left;
   line-height: 1.5rem;
   margin-bottom: -10vh;
+  text-align: center;
+  height: 13.5vh;
   @media screen and (max-width: 500px) {
-    font-size: 15px;
+    font-size: 18px;
+    margin-bottom: -20vh;
   }
 `;

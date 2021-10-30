@@ -10,12 +10,14 @@ const Section7 = () => {
               세상에 없던 일정관리, <br/>EZY를 만나보세요 !
             </S.MainTitle>
           </S.TitleSection>
-          <S.TitleSection>
+          <S.TitleSection2>
             <S.SubTitle>
               © neulsom EZY team. <br/>
+            </S.SubTitle>
+            <S.SubTitle className="Sub2">
               @ officialneulsom@gmail.com
             </S.SubTitle>
-          </S.TitleSection>
+          </S.TitleSection2>
         </S.MainSection>
 
 
