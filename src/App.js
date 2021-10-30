@@ -14,7 +14,11 @@ const GlobalStyle = createGlobalStyle`
     color: white;
     font-family: 'Noto Sans CJK KR', sans-serif;
     background-color: #F9FAFB;
-    overflow-x: hidden;
+    overflow: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 
   img {
