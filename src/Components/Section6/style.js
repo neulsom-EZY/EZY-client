@@ -7,7 +7,7 @@ export const MainSection = styled.div`
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  overflow-x: hidden;
+  overflow: hidden;
   @media screen and (max-width: 1400px) {
     height: 140vh;
   }
@@ -28,7 +28,6 @@ export const MainTitle = styled.div`
   font-size: 50px;
   line-height: 8.5vh;
   color: black;
-  margin-top: 30vh;
 
 
   @media screen and (max-width: 1400px) {
@@ -58,6 +57,7 @@ export const MainTitle = styled.div`
 
   @media screen and (max-width: 500px) {
     display: none;
+
   }
 
 `;
@@ -73,7 +73,7 @@ export const MainTitle2 = styled.div`
     font-size: 30px;
     margin-left: 3vh;
     line-height: 2.9rem;
-    margin-top: 15vh;
+    margin-top: 30vh;
   }
   @media screen and (max-width: 330px) {
     margin-top: 0vh;
