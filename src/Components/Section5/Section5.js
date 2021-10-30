@@ -19,7 +19,7 @@ const Section5 = () => {
           </S.TitleSection>
           <S.ReviewSection>
             <S.LeftSection>
-              <Fade right>
+              <Fade bottom>
                 <S.Review1>
                   <S.ReviewTitle>
                     팀 일정을 팀원 모두가 <br/>
