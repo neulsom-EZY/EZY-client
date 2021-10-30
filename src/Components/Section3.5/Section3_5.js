@@ -30,8 +30,12 @@ const Section3_5 = () => {
             </S.SubTitle>
           </S.TitleSection>
           <S.ImgSection>
-            <img src={Phone} className="Phone" alt="phone"/>
-            <img src={Hand} className="Hand" alt="hand"/>
+            <Fade left>
+              <img src={Phone} className="Phone" alt="phone"/>
+            </Fade>
+            <Fade right>
+              <img src={Hand} className="Hand" alt="hand"/>
+            </Fade>
           </S.ImgSection>
         </S.MainSection>
         <S.SubSection>
