@@ -1,53 +1,35 @@
 import React from "react";
 import * as S from "./style";
-import Fade from "react-reveal/Fade";
-import fadeout from "../../Hooks/Fadeout";
-import W_Logo from "../../Assets/WebLogo.svg";
-import W_Phone from "../../Assets/WebPhone.svg";
-import W_Phone_2 from "../../Assets/WebPhone2.svg";
-import W_Phone_3 from "../../Assets/WebPhone3.svg";
-import W_StoreBtn from "../../Assets/WebStoreBtn.svg";
-import M_Logo from "../../Assets/MobileLogo.svg";
-import M_Phone from "../../Assets/MobilePhone.png";
-import M_StoreBtn from "../../Assets/MobileStoreBtn.svg";
+// import PC from "../../Assets/Section1/PC.mp4";
+// import Mobile from "../../Assets/Section1/Mobile.mp4";
+import Logo from "../../Assets/Section1/Logo"
+import Logo2 from "../../Assets/Section1/Logo2"
 
 const Section1 = () => {
   return (
-    <>
-      <S.MainSection className="fade">
-        <S.MobileSection>
-          <S.MobileLogoSection>
-            <img src={M_Logo} className="M-Logo" alt="Mobile-Logo" />
-          </S.MobileLogoSection>
-          <S.MobileImgSection>
-            <img src={M_Phone} className="M-Phone fade" alt="Mobile-Phone" />
-          </S.MobileImgSection>
-        </S.MobileSection>
-        <S.TitleSection>
-          <img src={W_Logo} className="W-Logo" alt="Web-Logo" />
-          <S.MainTitle>
-            라이프스타일,<br/>
-            그 이상의 역사를 만들고 있습니다
-          </S.MainTitle>
-          <S.SubTitle>
-            우리는 EZY입니다<br/>
-            오직 여러분만을 위한 개인 맞춤형 일정관리 서비스를 이용하여<br/>
-            효율적으로, 효과적으로 계획한 일정을 진행해보세요 !
-          </S.SubTitle>
-          <img src={W_StoreBtn} className="W-StoreBtn" alt="Web-Store-Button" />
-          <img src={M_StoreBtn} className="M-StoreBtn" alt="Mobile-Store-Button" />
-        </S.TitleSection>
-        <fadeout />
-        <S.MainBg className="fade">
-          <Fade right>
-            <img src={W_Phone} className="W-Phone" alt="Web-Phone" />
-            <img src={W_Phone_2} className="W-Phone-2" alt="Web-Phone" />
-            <img src={W_Phone_3} className="W-Phone-3" alt="Web-Phone" />
-          </Fade>
-        </S.MainBg>
-      </S.MainSection>
-    </>
+      <>
+        <S.MainSection>
+          <S.VideoSection>
+            <S.TitleSection>
+              <S.LogoSection><Logo/></S.LogoSection>
+              <S.LogoSection2><Logo2/></S.LogoSection2>
+              여러분의<br/>라이프스타일을<br/>혁신합니다.
+            </S.TitleSection>
+            {/*<video muted autoPlay loop playsInline className="Video-1">*/}
+            {/*  <source src={PC} type="video/mp4"/>*/}
+            {/*</video>*/}
+            {/*<video muted autoPlay loop playsInline className="Video-2">*/}
+            {/*  <source src={Mobile} type="video/mp4"/>*/}
+            {/*</video>*/}
+          </S.VideoSection>
+        </S.MainSection>
+        <S.SubSection>
+          일정관리, 그 이상의 경험을 전달합니다.<br/>
+          이지는 라이프스타일 혁신을 통한<br/>
+          새로운 경험을 모두에게 전달하고 합니다.
+        </S.SubSection>
+      </>
   );
-};
+}
 
 export default Section1;

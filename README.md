@@ -3,17 +3,6 @@
 > EZY is writing its own lifestyle history.
 <br>
 
-## 🦑 Contributors
-
-|![yejun](https://cdn.discordapp.com/attachments/805017750548381696/863949033700589598/yejun.png)|![gihong](https://cdn.discordapp.com/attachments/805017750548381696/863949037921370123/gihong.png)|
-|---|:---|
-|나예준|김기홍|
-| [Github](https://github.com/Nayejun)|[Github](https://github.com/kimgihong)|
-
-
-
-
-
 ### 🤙 Cool 한 프론트엔드 개발을 위한 협업 규칙 
 ```
 1. Commit message 한글로 작성 

@@ -1,47 +1,37 @@
-import React from 'react';
-import * as I from "../../Assets/index"
-import * as S from './style';
-import Fade from 'react-reveal/Fade';
-import {PhoneImgSection} from "./style";
+import React from "react";
+import Fade from "react-reveal/Fade";
+import * as S from "./style";
+import Hand from "../../Assets/Section2/hand.png";
+import Phone from "../../Assets/Section2/Phone.png";
+import fadeout from "../../Hooks/Fadeout";
 
 const Section2 = () => {
   return (
     <>
       <S.MainSection className="fade">
-        <S.TitleSection>
-          <S.MainTitle>
-            나를 위한 일정관리<br />
-            그 처음과 끝
-            <S.SubTitle>
-              밝은 하루를 계획<br />
-              수고한 오늘 하루의 끝을<br />
-              EZY와 함께
-            </S.SubTitle>
-          </S.MainTitle>
-        </S.TitleSection>
-        <S.ImgSection className="fade">
-          <Fade right>
-            <PhoneImgSection>
-              <I.WebAlert className="W-Alert"/>
-              <I.WebSomeDay className="W-SomeDay"/>
-               <S.AlertImgSection>
-                 <I.Content1 />
-                 <I.Content2 />
-                 <I.Content3 />
-                 <I.Content4 />
-               </S.AlertImgSection>
-            </PhoneImgSection>
-            <I.WebAlertPhone className="W-Alert-Phone" />
-          </Fade>
+        <S.TitleSection2>
+          <S.MainTitle2>어떤 하루를<br/>보내실 건가요?</S.MainTitle2>
+        </S.TitleSection2>
+        <S.ImgSection>
+          <Fade left><img src={Hand} className="Hand" alt="hand"/></Fade>
+          <Fade top><img src={Phone} className="Phone" alt="phone"/></Fade>
         </S.ImgSection>
-          <S.SubTitle2>
-            밝은 하루를 계획,<br />
-            수고한 오늘 하루의 끝,<br />
-            EZY와 함께.
-          </S.SubTitle2>
+        <S.TitleSection>
+          <S.MainTitle>어떤 하루를<br/>보내실 건가요?</S.MainTitle>
+          <S.SubTitle>
+            일정을 추가해보세요.<br/>
+            약속된 일정에 늦지 않도록,<br/>
+            저희가 미리 알려줄게요.
+          </S.SubTitle>
+        </S.TitleSection>
       </S.MainSection>
+      <S.SubSection>
+          일정추가, 하나도 어렵지 않아요.<br/>
+          시간과 장소.<br/>
+          그리고, 설명이면 충분해요.
+      </S.SubSection>
     </>
   );
-}
+};
 
 export default Section2;
