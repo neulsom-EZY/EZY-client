@@ -47,6 +47,7 @@ const App = () => {
         <C.Section3_5/>
         <C.Section4/>
         <C.Section5/>
+        <C.Section6/>
         <C.Footer/>
       </>
   );
