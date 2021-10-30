@@ -1,48 +1,37 @@
-// import React from "react";
-// import Fade from "react-reveal/Fade";
-// import * as S from "./style";
-// // import Alert from "../../Assets/Section2/Alert.png";
-// // import SomeDay from "../../Assets/Section2/SomeDay.png";
-// // import Block1 from "../../Assets/Section2/Block-1.png";
-// // import Block2 from "../../Assets/Section2/Block-2.png";
-// // import Block3 from "../../Assets/Section2/Block-3.png";
-// // import Block4 from "../../Assets/Section2/Block-4.png";
-//
-// const Section2 = () => {
-//   return (
-//     <>
-//       <S.MainSection className="fade">
-//         <S.TitleSection>
-//           <S.MainTitle>
-//             나를 위한 일정관리<br />
-//             그 처음과 끝
-//           </S.MainTitle>
-//           <S.SubTitle>
-//             밝은 하루를 계획<br />
-//             수고한 오늘 하루의 끝을<br />
-//             EZY와 함께
-//           </S.SubTitle>
-//         </S.TitleSection>
-//         <S.ImgSection>
-//           <Fade top>
-//             <img src={Alert} className="Alert" alt="Alert-Ui-Img" />
-//             <img src={SomeDay} className="SomeDay" alt="SomeDay-Ui-Img" />
-//             <S.AlertImgSection>
-//               <img src={Block1} className="Block-1" alt="Block-Img" />
-//               <img src={Block2} className="Block-2" alt="Block-Img" />
-//               <img src={Block3} className="Block-3" alt="Block-Img" />
-//               <img src={Block4} className="Block-4" alt="Block-Img" />
-//             </S.AlertImgSection>
-//           </Fade>
-//         </S.ImgSection>
-//         <S.SubTitle2>
-//           밝은 하루를 계획<br />
-//           수고한 오늘 하루의 끝을<br />
-//           EZY와 함께
-//         </S.SubTitle2>
-//       </S.MainSection>
-//     </>
-//   );
-// };
-//
-// export default Section2;
+import React from "react";
+import Fade from "react-reveal/Fade";
+import * as S from "./style";
+import Hand from "../../Assets/Section2/hand.png";
+import Phone from "../../Assets/Section2/Phone.png";
+import fadeout from "../../Hooks/Fadeout";
+
+const Section2 = () => {
+  return (
+    <>
+      <S.MainSection className="fade">
+        <S.TitleSection2>
+          <S.MainTitle2>어떤 하루를<br/>보내실 건가요?</S.MainTitle2>
+        </S.TitleSection2>
+        <S.ImgSection>
+          <Fade left><img src={Hand} className="Hand" alt="hand"/></Fade>
+          <Fade top><img src={Phone} className="Phone" alt="phone"/></Fade>
+        </S.ImgSection>
+        <S.TitleSection>
+          <S.MainTitle>어떤 하루를<br/>보내실 건가요?</S.MainTitle>
+          <S.SubTitle>
+            일정을 추가해보세요.<br/>
+            약속된 일정에 늦지 않도록,<br/>
+            저희가 미리 알려줄게요.
+          </S.SubTitle>
+        </S.TitleSection>
+      </S.MainSection>
+      <S.SubSection>
+          일정추가, 하나도 어렵지 않아요.<br/>
+          시간과 장소.<br/>
+          그리고, 설명이면 충분해요.
+      </S.SubSection>
+    </>
+  );
+};
+
+export default Section2;
