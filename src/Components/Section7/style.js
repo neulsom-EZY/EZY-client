@@ -15,8 +15,10 @@ export const MainSection = styled.div`
 `;
 
 export const TitleSection = styled.div`
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   margin-bottom: -30vh;
   @media screen and (max-width: 500px) {
@@ -32,6 +34,7 @@ export const TitleSection2 = styled.div`
 `;
 
 export const MainTitle = styled.div`
+  width: 100%;
   font-size: 50px;
   color: white;
   font-weight: bold;
@@ -57,7 +60,6 @@ export const MainTitle = styled.div`
 `;
 export const SubTitle = styled.div`
   font-size: 20px;
-  text-align: left;
   line-height: 1.5rem;
   margin-bottom: -10vh;
   text-align: center;
