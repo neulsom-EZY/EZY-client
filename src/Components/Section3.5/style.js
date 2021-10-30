@@ -176,21 +176,21 @@ export const ImgSection2 = styled.div`
   @media screen and (max-width: 500px) {
     display: block;
     margin: 0;
-    margin-left: 15.5vh;
+    margin-left: 0vh;
     .Phone {
       width: 28vh;
       height: auto;
       z-index: -1;
       margin-top: 7vh;
       margin-bottom: 3.5vh;
-      margin-right: -3vh;
+      margin-right:  -10vh;
     }
 
     .Hand {
       z-index: 1;
       width: 26vh;
       margin-bottom: -10vh;
-      margin-left: -9vh;
+      margin-right: -16vh;
     }
   }
 `;

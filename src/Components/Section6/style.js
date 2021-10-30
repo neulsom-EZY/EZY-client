@@ -15,7 +15,7 @@ export const MainSection = styled.div`
     height: 110vh;
   }
     @media screen and (max-width: 500px) {
-    height: 100vh;
+    height: 120vh;
   }
 `;
 
@@ -60,7 +60,6 @@ export const MainTitle = styled.div`
 
   @media screen and (max-width: 500px) {
     display: none;
-
   }
 
 `;
@@ -73,10 +72,11 @@ export const MainTitle2 = styled.div`
 
   @media screen and (max-width: 500px) {
     display: block;
-    font-size: 30px;
+    font-size: 27px;
     margin-left: 3vh;
-    line-height: 2.9rem;
+    line-height: 2.5rem;
     margin-top: 30vh;
+    margin-left: 6vh;
   }
   @media screen and (max-width: 330px) {
     margin-top: 0vh;
@@ -114,8 +114,8 @@ export const SubTitle = styled.div`
     margin-left: 6vh;
   }
   @media screen and (max-width: 500px) {
-    line-height: 4vh;
-    margin-left: 3vh;
+    line-height: 5.5vh;
+    margin-left: 6vh;
   }
   @media screen and (max-width: 330px) {
     font-size: 17px;
