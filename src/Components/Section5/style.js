@@ -34,10 +34,10 @@ export const TitleSection = styled.div`
     margin-left: 22vh;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 30vh;
+    margin-left: 13vh;
   }
   @media screen and (max-width: 400px) {
-    margin-left: 25vh;
+    margin-left: 26vh;
   }
   
 `;
