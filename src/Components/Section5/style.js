@@ -34,7 +34,7 @@ export const TitleSection = styled.div`
     margin-left: 22vh;
   }
   @media screen and (max-width: 500px) {
-    margin-left: 18vh;
+    margin-left: 19vh;
   }
   @media screen and (max-width: 400px) {
     margin-left: 26vh;
@@ -72,7 +72,7 @@ export const MainTitle2 = styled.div`
     margin-bottom: 50vh;
   }
   @media screen and (max-width: 400px) {
-    line-height: 6.5vh;
+    line-height: 5.5vh;
     margin-left: -7vh;
     font-size: 27px;
   }
