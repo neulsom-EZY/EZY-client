@@ -11,6 +11,9 @@ export const MainSection = styled.div`
   @media screen and (max-width: 1400px) {
     height: 140vh;
   }
+  @media screen and (max-width: 800px) {
+    height: 120vh;
+  }
     @media screen and (max-width: 500px) {
     height: 100vh;
   }
