@@ -1,4 +1,5 @@
-## <p align="center"> <img src="./src/Assets/Logo.png" width="130px"> </p>
+## <p align="center"> <img alt="Logo" src="https://user-images.githubusercontent.com/67637706/139532901-04d1f98f-dac5-44c0-85d7-0b3e8560511f.png" width="130px"> </p>
+
 🔥 &nbsp;EZY는 자신만의 라이프스타일 역사를 쓰고 있습니다.
 > EZY is writing its own lifestyle history.
 <br>
