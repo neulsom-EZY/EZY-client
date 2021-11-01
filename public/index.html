@@ -1,16 +1,36 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8" />
-  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="여러분의 라이프스타일을 혁신합니다." />
-  <meta name="viewport" content="width=device-width">
-  <meta content="yes" name="apple-mobile-web-app-capable" />
-  <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-  <meta name="HandheldFriendly" content="true">
-  <title>EZY</title>
+    <meta charset="utf-8"/>
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="여러분의 라이프스타일을 혁신합니다."/>
+    <meta name="viewport" content="width=device-width">
+    <meta content="yes" name="apple-mobile-web-app-capable"/>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport"/>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png"/>
+    <meta name="HandheldFriendly" content="true">
+    <title>EZY</title>
 </head>
-<body><div id="root"></div></body>
+<body>
+<div id="root">
+    <script>
+      (function (j, en, ni, fer) {
+        j['dmndata'] = [];
+        j['jenniferFront'] = function (args) {
+          window.dmndata.push(args)
+        };
+        j['dmnaid'] = fer;
+        j['dmnatime'] = new Date();
+        j['dmnanocookie'] = false;
+        j['dmnajennifer'] = 'JENNIFER_FRONT@INTG';
+        var b = Math.floor(new Date().getTime() / 60000) * 60000;
+        var a = en.createElement(ni);
+        a.src = 'https://d-collect.jennifersoft.com/' + fer + '/demian.js?' + b;
+        a.async = true;
+        en.getElementsByTagName(ni)[0].parentNode.appendChild(a);
+      }(window, document, 'script', '686a8a73'));
+    </script>
+</div>
+</body>
 </html>
